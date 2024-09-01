@@ -30,12 +30,7 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
-    - name: Move HTML and CSV files to docs folder
-      run: |
-        mv scraped_table_en.html docs/scraped_table_en.html
-        mv scraped_table_fr.html docs/scraped_table_fr.html
-        mv scraped_content_eng.html docs/scraped_content_eng.html
-        mv scraped_content_fra.html docs/scraped_content_fra.html
+    
 
     - name: Commit and Push Result
       id: git_commit
