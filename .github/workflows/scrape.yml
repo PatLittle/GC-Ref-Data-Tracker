@@ -3,6 +3,7 @@ name: Scrape Website
 on:
   schedule:
     - cron: '0 0 * * *' # This cron job runs daily at midnight UTC
+  workflow_dispatch:
 
 permissions:
   contents: write  # Grant write permissions to the repository contents
