@@ -3,7 +3,7 @@ name: Scrape Website
 on:
   schedule:
     - cron: '0 0 * * *' # This cron job runs daily at midnight UTC
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 permissions:
   contents: write  # Grant write permissions to the repository contents
@@ -52,10 +52,11 @@ jobs:
       id: check_changes
       run: |
         COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-        if [[ "$COMMIT_MESSAGE" == "Update scraped table data" ]]; then
+        if [ "$COMMIT_MESSAGE" = "Update scraped table data" ]; then
           echo "changed=true" >> $GITHUB_ENV
         else
           echo "changed=false" >> $GITHUB_ENV
+        fi
 
     - name: Take Screenshot if Changed
       if: env.changed == 'true'
