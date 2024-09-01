@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Reference Data Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>GC Reference Data Tracker</h1>
+    <p>This page displays the latest scraped data from the Government of Canada reference data standards pages.</p>
+    
+    <h2>English Version</h2>
+    <table id="table-en">
+        <!-- Table content will be inserted here -->
+    </table>
+
+    <h2>French Version</h2>
+    <table id="table-fr">
+        <!-- Table content will be inserted here -->
+    </table>
+
+    <script>
+        // Function to load CSV data into a table
+        function loadCSVToTable(csvFile, tableId) {
+            fetch(csvFile)
+                .then(response => response.text())
+                .then(data => {
+                    const rows = data.split('\n').filter(row => row.trim().length > 0);
+                    const table = document.getElementById(tableId);
+                    rows.forEach((row, index) => {
+                        const cells = row.split(',');
+                        const tr = document.createElement('tr');
+                        cells.forEach(cell => {
+                            const td = document.createElement(index === 0 ? 'th' : 'td');
+                            td.textContent = cell;
+                            tr.appendChild(td);
+                        });
+                        table.appendChild(tr);
+                    });
+                });
+        }
+
+        // Load the CSV files into their respective tables
+        loadCSVToTable('scraped_table_en.csv', 'table-en');
+        loadCSVToTable('scraped_table_fr.csv', 'table-fr');
+    </script>
+</body>
+</html>
