@@ -2,9 +2,12 @@ name: Scrape Website
 
 on:
   schedule:
-    - cron: '0 12 * * *' 
-  workflow_dispatch:
-  
+    - cron: '0 0 * * *' # This cron job runs daily at midnight UTC
+
+permissions:
+  contents: write  # Grant write permissions to the repository contents
+  issues: write    # Grant write permissions to create issues
+
 jobs:
   scrape_job:
     runs-on: ubuntu-latest
@@ -18,18 +21,71 @@ jobs:
       with:
         python-version: '3.x'  # Use the version of Python you need
 
+    - name: Install Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Use the version of Node.js you need
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
+        npm install puppeteer
 
     - name: Run scraper
       run: python scrape-main-page.py
 
     - name: Commit and Push Result
+      id: git_commit
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the automatically provided GITHUB_TOKEN
       run: |
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git config --global user.name 'github-actions[bot]'
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
         git add scraped_table_en.csv scraped_table_fr.csv
         git commit --allow-empty -m "Update scraped table data"
         git push
+      continue-on-error: true
+
+    - name: Check for Changes
+      id: check_changes
+      run: |
+        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+        if [[ "$COMMIT_MESSAGE" == "Update scraped table data" ]]; then
+          echo "changed=true" >> $GITHUB_ENV
+        else
+          echo "changed=false" >> $GITHUB_ENV
+
+    - name: Take Screenshot if Changed
+      if: env.changed == 'true'
+      run: |
+        node -e "
+        const puppeteer = require('puppeteer');
+        (async () => {
+          const browser = await puppeteer.launch();
+          const page = await browser.newPage();
+          await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html');
+          await page.screenshot({ path: 'screenshot_en.png' });
+          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
+          await page.screenshot({ path: 'screenshot_fr.png' });
+          await browser.close();
+        })();
+        "
+
+    - name: Create Issue if Changes Detected
+      if: env.changed == 'true'
+      uses: peter-evans/create-issue-from-file@v4
+      with:
+        title: "Data Change Detected on Website"
+        content-filepath: issue_body.md
+        labels: update, screenshot
+        assignees: your-github-username
+
+    - name: Upload Screenshots as Artifacts
+      if: env.changed == 'true'
+      uses: actions/upload-artifact@v3
+      with:
+        name: screenshots
+        path: |
+          screenshot_en.png
+          screenshot_fr.png
