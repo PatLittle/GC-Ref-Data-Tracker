@@ -24,6 +24,9 @@
         th {
             background-color: #f2f2f2;
         }
+        .content-section {
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
@@ -40,6 +43,20 @@
         <!-- Table content will be inserted here -->
     </table>
 
+    <div class="content-section">
+        <h2>Additional Content - English</h2>
+        <div id="content-eng">
+            <!-- HTML content will be inserted here -->
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Additional Content - French</h2>
+        <div id="content-fra">
+            <!-- HTML content will be inserted here -->
+        </div>
+    </div>
+
     <script>
         // Function to parse CSV content
         function parseCSV(csvContent) {
@@ -53,7 +70,6 @@
 
                 if (char === '"' && insideQuotes) {
                     if (csvContent[i + 1] === '"') {
-                        // Handle escaped double quote within quoted field
                         currentValue += '"';
                         i++;
                     } else {
@@ -74,7 +90,6 @@
                 }
             }
 
-            // Add the last row if it exists
             if (currentValue) {
                 currentRow.push(currentValue.trim());
                 rows.push(currentRow);
@@ -103,9 +118,22 @@
                 });
         }
 
+        // Function to load HTML content
+        function loadHTMLContent(htmlFile, elementId) {
+            fetch(htmlFile)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                });
+        }
+
         // Load the CSV files into their respective tables
         loadCSVToTable('scraped_table_en.csv', 'table-en');
         loadCSVToTable('scraped_table_fr.csv', 'table-fr');
+
+        // Load the HTML content into the respective sections
+        loadHTMLContent('scraped_content_eng.html', 'content-eng');
+        loadHTMLContent('scraped_content_fra.html', 'content-fra');
     </script>
 </body>
 </html>
