@@ -41,17 +41,59 @@
     </table>
 
     <script>
+        // Function to parse CSV content
+        function parseCSV(csvContent) {
+            const rows = [];
+            let currentRow = [];
+            let currentValue = '';
+            let insideQuotes = false;
+
+            for (let i = 0; i < csvContent.length; i++) {
+                const char = csvContent[i];
+
+                if (char === '"' && insideQuotes) {
+                    if (csvContent[i + 1] === '"') {
+                        // Handle escaped double quote within quoted field
+                        currentValue += '"';
+                        i++;
+                    } else {
+                        insideQuotes = false;
+                    }
+                } else if (char === '"' && !insideQuotes) {
+                    insideQuotes = true;
+                } else if (char === ',' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    currentValue = '';
+                } else if (char === '\n' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    rows.push(currentRow);
+                    currentRow = [];
+                    currentValue = '';
+                } else {
+                    currentValue += char;
+                }
+            }
+
+            // Add the last row if it exists
+            if (currentValue) {
+                currentRow.push(currentValue.trim());
+                rows.push(currentRow);
+            }
+
+            return rows;
+        }
+
         // Function to load CSV data into a table
         function loadCSVToTable(csvFile, tableId) {
             fetch(csvFile)
                 .then(response => response.text())
                 .then(data => {
-                    const rows = data.split('\n').filter(row => row.trim().length > 0);
+                    const rows = parseCSV(data);
                     const table = document.getElementById(tableId);
+
                     rows.forEach((row, index) => {
-                        const cells = row.split(',');
                         const tr = document.createElement('tr');
-                        cells.forEach(cell => {
+                        row.forEach(cell => {
                             const td = document.createElement(index === 0 ? 'th' : 'td');
                             td.textContent = cell;
                             tr.appendChild(td);
