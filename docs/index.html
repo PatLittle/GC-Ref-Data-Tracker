@@ -27,6 +27,14 @@
         .content-section {
             margin-top: 40px;
         }
+        canvas {
+            display: block;
+            margin: 20px auto;
+            max-width: 800px;
+            max-height: 400px;
+            width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -57,6 +65,21 @@
         </div>
     </div>
 
+    <!-- Section for Charts -->
+    <div class="content-section">
+        <h2>Chart 1: Reference Data Tracking</h2>
+        <canvas id="myChart1"></canvas>
+        <table id="table1"></table>
+    </div>
+
+    <div class="content-section">
+        <h2>Chart 2: Downloads Tracking</h2>
+        <canvas id="myChart2"></canvas>
+        <table id="table2"></table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Function to parse CSV content
         function parseCSV(csvContent) {
@@ -134,6 +157,121 @@
         // Load the HTML content into the respective sections
         loadHTMLContent('scraped_content_eng.html', 'content-eng');
         loadHTMLContent('scraped_content_fra.html', 'content-fra');
+
+        // Function to render charts and tables
+        function renderChartAndTable(apiURL, canvasId, tableId, dataField) {
+            $.getJSON(apiURL)
+            .done(function(data) {
+                var labels = [];
+                var datasets = {};
+                var datasetKeys = {};
+
+                data.result.records.forEach(function(record) {
+                    var label = record.month_mois + "/" + record.year_annee;
+                    if (!labels.includes(label)) {
+                        labels.push(label);
+                    }
+
+                    if (!datasetKeys[record.id]) {
+                        datasetKeys[record.id] = {
+                            label: record.title || record.titre || record.id,
+                            data: Array(labels.length).fill(null)
+                        };
+                    }
+
+                    datasetKeys[record.id].data[labels.indexOf(label)] = record[dataField];
+                });
+
+                Object.keys(datasetKeys).forEach(function(key) {
+                    datasets[key] = {
+                        label: datasetKeys[key].label,
+                        data: datasetKeys[key].data,
+                        borderColor: getRandomColor(),
+                        borderWidth: 2,
+                        yAxisID: 'y-axis-1'
+                    };
+                });
+
+                var ctx = document.getElementById(canvasId).getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels,
+                        datasets: Object.values(datasets)
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: true,
+                        layout: {
+                            padding: {
+                                left: 10,
+                                right: 10,
+                                top: 10,
+                                bottom: 20
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                            },
+                            x: {
+                                ticks: {
+                                    autoSkip: false,
+                                    maxRotation: 90,
+                                    minRotation: 45
+                                }
+                            }
+                        }
+                    }
+                });
+
+                var tableHtml = "<tr><th>Month/Year</th>";
+                Object.keys(datasetKeys).forEach(function(key) {
+                    tableHtml += "<th>" + datasetKeys[key].label + "</th>";
+                });
+                tableHtml += "</tr>";
+
+                labels.forEach(function(label, index) {
+                    tableHtml += "<tr><td>" + label + "</td>";
+                    Object.keys(datasetKeys).forEach(function(key) {
+                        tableHtml += "<td>" + (datasetKeys[key].data[index] !== null ? datasetKeys[key].data[index] : '-') + "</td>";
+                    });
+                    tableHtml += "</tr>";
+                });
+
+                document.getElementById(tableId).innerHTML = tableHtml;
+            })
+            .fail(function(jqxhr, textStatus, error) {
+                console.error("Request Failed: " + textStatus + ", " + error);
+                document.getElementById(tableId).innerHTML = "<tr><td colspan='4'>Failed to load data</td></tr>";
+            });
+        }
+
+        // Helper function to generate random colors for the datasets
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Render the first chart and table
+        renderChartAndTable(
+            "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db&filters=%7B%22id%22%3A%5B%22cd8fad92-b276-4250-972f-2d6c40ca04fa%22%2C%22cac6fd9f-594a-4bcd-bf17-10295812d4c5%22%2C%22980d598c-73c9-4003-b6e1-78a9a3081b6c%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
+            "myChart1",
+            "table1",
+            "visits_visites"
+        );
+
+        // Render the second chart and table with a different resource_id and field name
+        renderChartAndTable(
+            "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=4ebc050f-6c3c-4dfd-817e-875b2caf3ec6&filters=%7B%22id%22%3A%5B%2290fed587-1364-4f33-a9ee-208181dc0b97%22%2C%22dfa4daf1-669e-4514-82cd-982f27707ed0%22%2C%22f7e5498e-0ad8-4417-85c9-9b8aff9b9eda%22%2C%2290115b00-f9b8-49e8-afa3-b4cff8facaee%22%2C%22360024f2-17e9-4558-bfc1-3616485d65b9%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
+            "myChart2",
+            "table2",
+            "downloads_telechargements"
+        );
     </script>
 </body>
 </html>
