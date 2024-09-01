@@ -30,8 +30,6 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
-    
-
     - name: Commit and Push Result
       id: git_commit
       env:
@@ -39,12 +37,43 @@ jobs:
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git add docs/scraped_table_en.html docs/scraped_table_fr.html docs/scraped_content_eng.html docs/scraped_content_fra.html
+        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html
         git commit --allow-empty -m "Update scraped data and content"
         git push
       continue-on-error: true
 
-    - name: Check for Changes
-      id: check_changes
+    - name: Check Commit Message
+      id: check_commit_message
       run: |
-        COMMIT_MESSAGE=$(
+        COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+        echo "Last commit message: $COMMIT_MESSAGE"
+        if [[ "$COMMIT_MESSAGE" == *"Update scraped data and content"* ]]; then
+          echo "changed=true" >> $GITHUB_ENV
+        else
+          echo "changed=false" >> $GITHUB_ENV
+        fi
+
+    - name: Take Screenshot if Changes Detected
+      if: env.changed == 'true'
+      run: |
+        node -e "
+        const puppeteer = require('puppeteer');
+        (async () => {
+          const browser = await puppeteer.launch();
+          const page = await browser.newPage();
+          await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html');
+          await page.screenshot({ path: 'docs/screenshot_en.png' });
+          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
+          await page.screenshot({ path: 'docs/screenshot_fr.png' });
+          await browser.close();
+        })();
+        "
+
+    - name: Create Issue if Changes Detected
+      if: env.changed == 'true'
+      uses: peter-evans/create-issue-from-file@v4
+      with:
+        title: "Data Change Detected on Website"
+        content-filepath: issue_body.md
+        labels: update, screenshot
+        assignees: your-github-username
