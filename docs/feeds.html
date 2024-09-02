@@ -9,6 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 40px;
         }
+        .breadcrumb {
+            margin-bottom: 20px;
+        }
+        .breadcrumb a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
         .feed-container {
             margin-bottom: 30px;
         }
@@ -24,6 +34,11 @@
     </style>
 </head>
 <body>
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb">
+        <a href="index.html">GC Reference Data Tracker</a>
+    </div>
+
     <h1>GC Reference Data Tracker - Atom Feeds</h1>
     <p>This page displays Atom feeds for specific datasets based on their IDs from the dataset_ids.txt file.</p>
 
