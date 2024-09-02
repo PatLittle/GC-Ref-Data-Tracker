@@ -257,21 +257,26 @@
             return color;
         }
 
-        // Render the first chart and table
-        renderChartAndTable(
-            "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db&filters=%7B%22id%22%3A%5B%22cd8fad92-b276-4250-972f-2d6c40ca04fa%22%2C%22cac6fd9f-594a-4bcd-bf17-10295812d4c5%22%2C%22980d598c-73c9-4003-b6e1-78a9a3081b6c%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
-            "myChart1",
-            "table1",
-            "visits_visites"
-        );
+        $(document).ready(function() {
+            var chart1, chart2;
+            const corsProxy = "https://cors-anywhere.herokuapp.com/";
 
-        // Render the second chart and table with a different resource_id and field name
-        renderChartAndTable(
-            "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=4ebc050f-6c3c-4dfd-817e-875b2caf3ec6&filters=%7B%22id%22%3A%5B%2290fed587-1364-4f33-a9ee-208181dc0b97%22%2C%22dfa4daf1-669e-4514-82cd-982f27707ed0%22%2C%22f7e5498e-0ad8-4417-85c9-9b8aff9b9eda%22%2C%2290115b00-f9b8-49e8-afa3-b4cff8facaee%22%2C%22360024f2-17e9-4558-bfc1-3616485d65b9%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
-            "myChart2",
-            "table2",
-            "downloads_telechargements"
-        );
+            // Render the first chart and table
+            renderChartAndTable(
+                corsProxy + "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db&filters=%7B%22id%22%3A%5B%22cd8fad92-b276-4250-972f-2d6c40ca04fa%22%2C%22cac6fd9f-594a-4bcd-bf17-10295812d4c5%22%2C%22980d598c-73c9-4003-b6e1-78a9a3081b6c%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
+                "myChart1",
+                "table1",
+                "visits_visites"
+            );
+
+            // Render the second chart and table with a different resource_id and field name
+            renderChartAndTable(
+                corsProxy + "https://open.canada.ca/data/en/api/action/datastore_search?resource_id=4ebc050f-6c3c-4dfd-817e-875b2caf3ec6&filters=%7B%22id%22%3A%5B%2290fed587-1364-4f33-a9ee-208181dc0b97%22%2C%22dfa4daf1-669e-4514-82cd-982f27707ed0%22%2C%22f7e5498e-0ad8-4417-85c9-9b8aff9b9eda%22%2C%2290115b00-f9b8-49e8-afa3-b4cff8facaee%22%2C%22360024f2-17e9-4558-bfc1-3616485d65b9%22%5D%7D&limit=500&sort=year_annee,month_mois%20asc",
+                "myChart2",
+                "table2",
+                "downloads_telechargements"
+            );
+        });
     </script>
 </body>
 </html>
