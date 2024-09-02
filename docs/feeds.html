@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Reference Data Tracker - Atom Feeds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .feed-container {
+            margin-bottom: 30px;
+        }
+        .feed-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        .feed-box h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>GC Reference Data Tracker - Atom Feeds</h1>
+    <p>This page displays Atom feeds for specific datasets based on their IDs from the dataset_ids.txt file.</p>
+
+    <div id="feeds">
+        <!-- Atom feeds will be rendered here -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        const datasetIdsUrl = "https://raw.githubusercontent.com/PatLittle/GC-Ref-Data-Tracker/main/dataset_ids.txt";
+
+        // Fetch the dataset IDs from the provided URL
+        fetch(datasetIdsUrl)
+            .then(response => response.text())
+            .then(text => {
+                const datasetIds = text.split('\n').map(id => id.trim()).filter(id => id !== '');
+
+                datasetIds.forEach(id => {
+                    const feedUrl = `https://open.canada.ca/data/en/feeds/dataset/${id}.atom`;
+
+                    // Fetch and render each Atom feed
+                    fetch(feedUrl)
+                        .then(response => response.text())
+                        .then(data => {
+                            const parser = new DOMParser();
+                            const xmlDoc = parser.parseFromString(data, "application/xml");
+                            const entries = xmlDoc.getElementsByTagName("entry");
+
+                            const feedBox = document.createElement("div");
+                            feedBox.classList.add("feed-box");
+
+                            const feedTitle = xmlDoc.getElementsByTagName("title")[0].textContent;
+                            const feedLink = xmlDoc.getElementsByTagName("link")[0].getAttribute("href");
+
+                            feedBox.innerHTML = `<h3><a href="${feedLink}" target="_blank">${feedTitle}</a></h3>`;
+
+                            Array.from(entries).forEach(entry => {
+                                const entryTitle = entry.getElementsByTagName("title")[0].textContent;
+                                const entryLink = entry.getElementsByTagName("link")[0].getAttribute("href");
+                                const entryUpdated = entry.getElementsByTagName("updated")[0].textContent;
+
+                                const entryHtml = `
+                                    <div class="entry">
+                                        <h4><a href="${entryLink}" target="_blank">${entryTitle}</a></h4>
+                                        <p><small>Updated: ${entryUpdated}</small></p>
+                                    </div>
+                                `;
+                                feedBox.innerHTML += entryHtml;
+                            });
+
+                            document.getElementById("feeds").appendChild(feedBox);
+                        })
+                        .catch(error => {
+                            console.error("Error fetching the Atom feed:", error);
+                        });
+                });
+            })
+            .catch(error => {
+                console.error("Error fetching the dataset IDs:", error);
+            });
+    </script>
+</body>
+</html>
