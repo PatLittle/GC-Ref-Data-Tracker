@@ -80,11 +80,12 @@
                                 const entryTitle = entry.getElementsByTagName("title")[0].textContent;
                                 const entryLink = entry.getElementsByTagName("link")[0].getAttribute("href");
                                 const entryUpdated = entry.getElementsByTagName("updated")[0].textContent;
+                                const entryPublished = entry.getElementsByTagName("published")[0].textContent;
 
                                 const entryHtml = `
                                     <div class="entry">
                                         <h4><a href="${entryLink}" target="_blank">${entryTitle}</a></h4>
-                                        <p><small>Updated: ${entryUpdated}</small></p>
+                                        <p><small>Published: ${entryPublished} | <strong>Updated: ${entryUpdated}</strong></small></p>
                                     </div>
                                 `;
                                 feedBox.innerHTML += entryHtml;
