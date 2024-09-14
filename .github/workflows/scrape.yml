@@ -80,6 +80,15 @@ jobs:
         })();
         "
 
+    - name: Create Issue Body
+      if: env.changed == 'true'
+      run: |
+          echo "# Data Change Detected" > issue_body.md
+          echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
+          echo "![Screenshot EN](docs/screenshot_en.png)" >> issue_body.md
+          echo "![Screenshot FR](docs/screenshot_fr.png)" >> issue_body.md
+      
+
     - name: Create Issue if Changes Detected
       if: env.changed == 'true'
       uses: peter-evans/create-issue-from-file@v4
