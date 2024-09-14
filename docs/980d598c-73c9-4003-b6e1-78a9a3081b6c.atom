@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>
+  <title>Open Government Portal - Dataset: "North American Industry Classification System (NAICS) Canada 2022 Version 1.0"</title>
+  <updated>2024-09-14T12:25:54.881125+00:00</updated>
+  <author>
+    <name>https://open.canada.ca</name>
+  </author>
+  <link href="https://open.canada.ca/data/en/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom" rel="self"/>
+  <link href="https://open.canada.ca/data/en/api/3/action/package_show?id=980d598c-73c9-4003-b6e1-78a9a3081b6c" rel="enclosure"/>
+  <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Recently created or updated resources on Open Government Portal for dataset: North American Industry Classification System (NAICS) Canada 2022 Version 1.0</subtitle>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/06ad0d90-1965-478e-891e-2a7266bc5bab</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0 - Elements</title>
+    <updated>2024-01-31T13:50:50.540161+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/06ad0d90-1965-478e-891e-2a7266bc5bab" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=06ad0d90-1965-478e-891e-2a7266bc5bab" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890668+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/bfd485d6-2d1e-4167-9835-7ed62494daf9</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0 - Elements</title>
+    <updated>2024-01-31T13:50:50.539972+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/bfd485d6-2d1e-4167-9835-7ed62494daf9" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=bfd485d6-2d1e-4167-9835-7ed62494daf9" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890666+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/77a2553d-7438-489f-bec9-b46021226945</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0 - Classification structure</title>
+    <updated>2024-01-31T13:50:50.539793+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/77a2553d-7438-489f-bec9-b46021226945" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=77a2553d-7438-489f-bec9-b46021226945" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890664+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/857f8d71-d066-424d-9239-27390d904353</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0 - Classification structure</title>
+    <updated>2024-01-31T13:50:50.539593+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/857f8d71-d066-424d-9239-27390d904353" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=857f8d71-d066-424d-9239-27390d904353" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890662+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/06ed0658-3451-477b-ba4e-9ff41f247bec</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0</title>
+    <updated>2024-01-31T13:50:50.539398+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/06ed0658-3451-477b-ba4e-9ff41f247bec" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=06ed0658-3451-477b-ba4e-9ff41f247bec" rel="enclosure"/>
+    <published>2024-01-29T14:01:08.077434+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/b972868b-e1d9-4453-b186-f50f8e8b1499</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0</title>
+    <updated>2024-01-31T13:50:50.539156+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/b972868b-e1d9-4453-b186-f50f8e8b1499" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=b972868b-e1d9-4453-b186-f50f8e8b1499" rel="enclosure"/>
+    <published>2024-01-29T14:01:08.077424+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/774e74eb-91c0-49a5-8509-52bae5531387</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0</title>
+    <updated>2024-01-31T13:50:50.538923+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/774e74eb-91c0-49a5-8509-52bae5531387" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=774e74eb-91c0-49a5-8509-52bae5531387" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890659+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/54a84f78-bb3c-429e-8f00-36f204f6ec03</id>
+    <title>North American Industry Classification System (NAICS) Canada 2022 Version 1.0</title>
+    <updated>2024-01-31T13:50:50.538529+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/54a84f78-bb3c-429e-8f00-36f204f6ec03" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=54a84f78-bb3c-429e-8f00-36f204f6ec03" rel="enclosure"/>
+    <published>2022-05-19T21:09:36.890651+00:00</published>
+  </entry>
+</feed>

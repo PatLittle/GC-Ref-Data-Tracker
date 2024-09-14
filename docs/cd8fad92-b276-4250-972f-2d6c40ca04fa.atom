@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>
+  <title>Open Government Portal - Dataset: "Data reference standard on Canadian Provinces and Territories"</title>
+  <updated>2024-09-14T12:25:54.760467+00:00</updated>
+  <author>
+    <name>https://open.canada.ca</name>
+  </author>
+  <link href="https://open.canada.ca/data/en/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom" rel="self"/>
+  <link href="https://open.canada.ca/data/en/api/3/action/package_show?id=cd8fad92-b276-4250-972f-2d6c40ca04fa" rel="enclosure"/>
+  <link href="https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Recently created or updated resources on Open Government Portal for dataset: Data reference standard on Canadian Provinces and Territories</subtitle>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c</id>
+    <title>Schema - Reference data on Canadian Provinces and Territories</title>
+    <updated>2023-10-25T15:41:12.209940+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c" rel="enclosure"/>
+    <published>2021-08-11T19:41:29.796815+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931</id>
+    <title>Reference data on Canadian Provinces and Territories</title>
+    <updated>2023-10-25T15:41:12.209720+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=4cb827a6-a313-4d97-a66b-26fe23984931" rel="enclosure"/>
+    <published>2021-08-11T19:41:29.796799+00:00</published>
+  </entry>
+</feed>
