@@ -38,6 +38,9 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
+    - name: Run Feed Fetcher
+      run: python atom_feed_fetcher.py
+
     - name: Commit and Push Result
       id: git_commit
       env:
@@ -45,7 +48,7 @@ jobs:
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html
+        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom
         git commit --allow-empty -m "Update scraped data and content"
         git push
       continue-on-error: true
