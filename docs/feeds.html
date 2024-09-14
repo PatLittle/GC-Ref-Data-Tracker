@@ -49,7 +49,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const datasetIdsUrl = "https://raw.githubusercontent.com/PatLittle/GC-Ref-Data-Tracker/main/dataset_ids.txt";
-        const corsProxy = "https://cors-anywhere.herokuapp.com/";
+        const baseFeedUrl = "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/main/docs/";
 
         // Fetch the dataset IDs from the provided URL
         fetch(datasetIdsUrl)
@@ -58,7 +58,7 @@
                 const datasetIds = text.split('\n').map(id => id.trim()).filter(id => id !== '');
 
                 datasetIds.forEach(id => {
-                    const feedUrl = `${corsProxy}https://open.canada.ca/data/en/feeds/dataset/${id}.atom`;
+                    const feedUrl = `${baseFeedUrl}${id}.atom`;
 
                     // Fetch and render each Atom feed
                     fetch(feedUrl)
