@@ -17,6 +17,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Configure Git
+      run: |
+        git config --global user.email "your-email@example.com"
+        git config --global user.name "Your Name"
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -38,16 +43,11 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
-    - name: Run Feed Fetcher
-      run: python atom_feed_fetcher.py
-
     - name: Commit and Push Result
       id: git_commit
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the automatically provided GITHUB_TOKEN
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
         git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom
         git commit --allow-empty -m "Update scraped data and content"
         git push
@@ -73,21 +73,27 @@ jobs:
           const browser = await puppeteer.launch();
           const page = await browser.newPage();
           await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html');
-          await page.screenshot({ path: './docs/screenshot_en.png' });
-          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
-          await page.screenshot({ path: './docs/screenshot_fr.png' });
+          await page.screenshot({ path: 'docs/screenshot_en.png' });
+          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
+          await page.screenshot({ path: 'docs/screenshot_fr.png' });
           await browser.close();
         })();
         "
 
+    - name: Commit and Push Screenshots
+      if: env.changed == 'true'
+      run: |
+        git add docs/screenshot_en.png docs/screenshot_fr.png
+        git commit -m "Add updated screenshots for data change detection"
+        git push
+
     - name: Create Issue Body
       if: env.changed == 'true'
       run: |
-          echo "# Data Change Detected" > issue_body.md
-          echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
-          echo "![Screenshot EN](docs/screenshot_en.png)" >> issue_body.md
-          echo "![Screenshot FR](docs/screenshot_fr.png)" >> issue_body.md
-      
+        echo "# Data Change Detected" > issue_body.md
+        echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
+        echo "![Screenshot EN](docs/screenshot_en.png)" >> issue_body.md
+        echo "![Screenshot FR](docs/screenshot_fr.png)" >> issue_body.md
 
     - name: Create Issue if Changes Detected
       if: env.changed == 'true'
@@ -97,3 +103,12 @@ jobs:
         content-filepath: issue_body.md
         labels: update, screenshot
         assignees: your-github-username
+
+    - name: Run Feed Fetcher
+      run: python atom_feed_fetcher.py
+
+    - name: Commit and Push Feed Fetcher Result
+      run: |
+        git add *.atom
+        git commit --allow-empty -m "Update fetched feeds"
+        git push
