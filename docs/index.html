@@ -152,6 +152,12 @@
                 datasets[record.id].data[labels.indexOf(label)] = record.visits_visites;
             });
 
+            // Reverse the labels and dataset values for chronological order
+            labels.reverse();
+            Object.values(datasets).forEach(dataset => {
+                dataset.data.reverse();
+            });
+
             const ctx = document.getElementById('visitsChart').getContext('2d');
             new Chart(ctx, {
                 type: 'line',
@@ -191,6 +197,12 @@
                 }
 
                 datasets[record.id].data[labels.indexOf(label)] = record.downloads_telechargements;
+            });
+
+            // Reverse the labels and dataset values for chronological order
+            labels.reverse();
+            Object.values(datasets).forEach(dataset => {
+                dataset.data.reverse();
             });
 
             const ctx = document.getElementById('downloadsChart').getContext('2d');
