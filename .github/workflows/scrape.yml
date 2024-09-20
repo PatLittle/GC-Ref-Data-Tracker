@@ -91,6 +91,7 @@ jobs:
       if: env.changed == 'true'
       run: |
         echo "# Data Change Detected" > issue_body.md
+        git log --stat --pretty=fuller HEAD~2..HEAD > issue_body.md
         echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
         echo "![Screenshot EN](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_en.png?raw=true)" >> issue_body.md
         echo "![Screenshot FR](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_fr.png?raw=true)" >> issue_body.md
