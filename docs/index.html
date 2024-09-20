@@ -128,6 +128,11 @@
             });
         }
 
+        // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
+        function getMonthYearLabel(month, year) {
+            return `${month.toString().padStart(2, '0')}/${year}`;
+        }
+
         // Function to render the Visits chart
         function renderVisitsChart(data) {
             const labels = [];
@@ -135,7 +140,7 @@
 
             // Organize data by dataset ID
             data.records.forEach(record => {
-                const label = `${record.month_mois}/${record.year_annee}`;
+                const label = getMonthYearLabel(record.month_mois, record.year_annee);
                 if (!labels.includes(label)) {
                     labels.push(label);
                 }
@@ -150,6 +155,11 @@
                 }
 
                 datasets[record.id].data[labels.indexOf(label)] = record.visits_visites;
+            });
+
+            // Fill missing data points for labels
+            Object.values(datasets).forEach(dataset => {
+                dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);
             });
 
             // Reverse the labels and dataset values for chronological order
@@ -182,7 +192,7 @@
 
             // Organize data by dataset ID
             data.records.forEach(record => {
-                const label = `${record.month_mois}/${record.year_annee}`;
+                const label = getMonthYearLabel(record.month_mois, record.year_annee);
                 if (!labels.includes(label)) {
                     labels.push(label);
                 }
@@ -197,6 +207,11 @@
                 }
 
                 datasets[record.id].data[labels.indexOf(label)] = record.downloads_telechargements;
+            });
+
+            // Fill missing data points for labels
+            Object.values(datasets).forEach(dataset => {
+                dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);
             });
 
             // Reverse the labels and dataset values for chronological order
