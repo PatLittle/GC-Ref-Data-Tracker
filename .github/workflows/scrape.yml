@@ -30,7 +30,7 @@ jobs:
     - name: Install Python Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4
+        pip install requests beautifulsoup4 ckanapi
 
     - name: Install Node.js
       uses: actions/setup-node@v3
