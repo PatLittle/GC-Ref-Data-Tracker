@@ -112,6 +112,6 @@ jobs:
 
     - name: Commit and Push Feed Fetcher Result
       run: |
-        git add *.atom *.json
+        git add -A
         git commit --allow-empty -m "Update fetched feeds"
         git push
