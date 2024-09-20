@@ -106,10 +106,12 @@ jobs:
         assignees: your-github-username
 
     - name: Run Feed Fetcher
-      run: python atom_feed_fetcher.py
+      run: |
+        python atom_feed_fetcher.py
+        python portal_usage_fetcher.py
 
     - name: Commit and Push Feed Fetcher Result
       run: |
-        git add *.atom
+        git add *.atom *.json
         git commit --allow-empty -m "Update fetched feeds"
         git push
