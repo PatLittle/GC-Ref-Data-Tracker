@@ -131,25 +131,33 @@
         // Function to render the Visits chart
         function renderVisitsChart(data) {
             const labels = [];
-            const visitsData = [];
-            
+            const datasets = {};
+
+            // Organize data by dataset ID
             data.records.forEach(record => {
                 const label = `${record.month_mois}/${record.year_annee}`;
-                labels.push(label);
-                visitsData.push(record.visits_visites);
+                if (!labels.includes(label)) {
+                    labels.push(label);
+                }
+
+                if (!datasets[record.id]) {
+                    datasets[record.id] = {
+                        label: record.title,
+                        data: Array(labels.length).fill(null), // Fill with null values initially
+                        borderColor: getRandomColor(),
+                        borderWidth: 2
+                    };
+                }
+
+                datasets[record.id].data[labels.indexOf(label)] = record.visits_visites;
             });
-            
+
             const ctx = document.getElementById('visitsChart').getContext('2d');
             new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: labels,
-                    datasets: [{
-                        label: 'Visits',
-                        data: visitsData,
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 2
-                    }]
+                    datasets: Object.values(datasets)
                 },
                 options: {
                     scales: {
@@ -164,25 +172,33 @@
         // Function to render the Downloads chart
         function renderDownloadsChart(data) {
             const labels = [];
-            const downloadsData = [];
-            
+            const datasets = {};
+
+            // Organize data by dataset ID
             data.records.forEach(record => {
                 const label = `${record.month_mois}/${record.year_annee}`;
-                labels.push(label);
-                downloadsData.push(record.downloads_telechargements);
+                if (!labels.includes(label)) {
+                    labels.push(label);
+                }
+
+                if (!datasets[record.id]) {
+                    datasets[record.id] = {
+                        label: record.title,
+                        data: Array(labels.length).fill(null), // Fill with null values initially
+                        borderColor: getRandomColor(),
+                        borderWidth: 2
+                    };
+                }
+
+                datasets[record.id].data[labels.indexOf(label)] = record.downloads_telechargements;
             });
-            
+
             const ctx = document.getElementById('downloadsChart').getContext('2d');
             new Chart(ctx, {
                 type: 'line',
                 data: {
                     labels: labels,
-                    datasets: [{
-                        label: 'Downloads',
-                        data: downloadsData,
-                        borderColor: 'rgba(153, 102, 255, 1)',
-                        borderWidth: 2
-                    }]
+                    datasets: Object.values(datasets)
                 },
                 options: {
                     scales: {
@@ -192,6 +208,16 @@
                     }
                 }
             });
+        }
+
+        // Helper function to generate random colors for chart lines
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
         }
 
         // Fetch JSON data for Visits and render table and chart
