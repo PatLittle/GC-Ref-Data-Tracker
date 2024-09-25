@@ -178,20 +178,22 @@
 
         <section class="content-section">
             <h2>Visits Data</h2>
+            <h3>Visits Over Time</h3>
+            <canvas id="visitsChart"></canvas>
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
-            <h2>Visits Over Time</h2>
-            <canvas id="visitsChart"></canvas>
+            
         </section>
 
         <section class="content-section">
             <h2>Downloads Data</h2>
+            <h3>Downloads Over Time</h3>
+            <canvas id="downloadsChart"></canvas>
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
-            <h2>Downloads Over Time</h2>
-            <canvas id="downloadsChart"></canvas>
+          
         </section>
     </div>
 
@@ -294,13 +296,17 @@
     
     <script>
         
-        // Function to render the Visits table
-        function renderVisitsTable(data, tableId) {
-            const table = document.getElementById(tableId);
-            const records = data.records;
-            
-            // Create table header
-            let headerRow = `<tr>
+        
+    // Function to render the Visits table with collapsible rows
+    function renderVisitsTable(data, tableId) {
+        const table = document.getElementById(tableId);
+        const records = data.records;
+
+        let tableContent = '';
+        
+        // Create table header
+        tableContent += `<thead>
+            <tr>
                 <th>Title (EN)</th>
                 <th>Title (FR)</th>
                 <th>Department (EN)</th>
@@ -308,32 +314,60 @@
                 <th>Visits</th>
                 <th>Month</th>
                 <th>Year</th>
-            </tr>`;
-            
-            table.innerHTML = headerRow;
-            
-            // Add rows
-            records.forEach(record => {
-                const row = `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.visits_visites}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
-                table.innerHTML += row;
-            });
-        }
+            </tr>
+        </thead>`;
 
-        // Function to render the Downloads table
-        function renderDownloadsTable(data, tableId) {
-            const table = document.getElementById(tableId);
-            const records = data.records;
-            
-            // Create table header
-            let headerRow = `<tr>
+        // Create top 10 rows in the visible tbody
+        tableContent += '<tbody>';
+        records.slice(0, 10).forEach(record => {
+            tableContent += `<tr>
+                <td>${record.title}</td>
+                <td>${record.titre}</td>
+                <td>${record.department}</td>
+                <td>${record.ministere}</td>
+                <td>${record.visits_visites}</td>
+                <td>${record.month_mois}</td>
+                <td>${record.year_annee}</td>
+            </tr>`;
+        });
+        tableContent += '</tbody>';
+
+        // Create remaining rows in a collapsible tbody
+        tableContent += '<tbody id="visits-collapsible" class="collapsible">';
+        records.slice(10).forEach(record => {
+            tableContent += `<tr>
+                <td>${record.title}</td>
+                <td>${record.titre}</td>
+                <td>${record.department}</td>
+                <td>${record.ministere}</td>
+                <td>${record.visits_visites}</td>
+                <td>${record.month_mois}</td>
+                <td>${record.year_annee}</td>
+            </tr>`;
+        });
+        tableContent += '</tbody>';
+
+        table.innerHTML = tableContent;
+
+        // Add collapsible button
+        const btn = document.createElement('div');
+        btn.className = 'collapse-btn';
+        btn.id = 'toggle-visits-btn';
+        btn.innerHTML = 'Show More';
+        btn.onclick = () => toggleCollapse('visits');
+        table.parentNode.appendChild(btn);
+    }
+
+    // Function to render the Downloads table with collapsible rows
+    function renderDownloadsTable(data, tableId) {
+        const table = document.getElementById(tableId);
+        const records = data.records;
+
+        let tableContent = '';
+
+        // Create table header
+        tableContent += `<thead>
+            <tr>
                 <th>Title (EN)</th>
                 <th>Title (FR)</th>
                 <th>Department (EN)</th>
@@ -341,29 +375,65 @@
                 <th>Downloads</th>
                 <th>Month</th>
                 <th>Year</th>
-            </tr>`;
-            
-            table.innerHTML = headerRow;
-            
-            // Add rows
-            records.forEach(record => {
-                const row = `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.downloads_telechargements}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
-                table.innerHTML += row;
-            });
-        }
+            </tr>
+        </thead>`;
 
-        // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
-        function getMonthYearLabel(month, year) {
-            return `${month.toString().padStart(2, '0')}/${year}`;
+        // Create top 10 rows in the visible tbody
+        tableContent += '<tbody>';
+        records.slice(0, 10).forEach(record => {
+            tableContent += `<tr>
+                <td>${record.title}</td>
+                <td>${record.titre}</td>
+                <td>${record.department}</td>
+                <td>${record.ministere}</td>
+                <td>${record.downloads_telechargements}</td>
+                <td>${record.month_mois}</td>
+                <td>${record.year_annee}</td>
+            </tr>`;
+        });
+        tableContent += '</tbody>';
+
+        // Create remaining rows in a collapsible tbody
+        tableContent += '<tbody id="downloads-collapsible" class="collapsible">';
+        records.slice(10).forEach(record => {
+            tableContent += `<tr>
+                <td>${record.title}</td>
+                <td>${record.titre}</td>
+                <td>${record.department}</td>
+                <td>${record.ministere}</td>
+                <td>${record.downloads_telechargements}</td>
+                <td>${record.month_mois}</td>
+                <td>${record.year_annee}</td>
+            </tr>`;
+        });
+        tableContent += '</tbody>';
+
+        table.innerHTML = tableContent;
+
+        // Add collapsible button
+        const btn = document.createElement('div');
+        btn.className = 'collapse-btn';
+        btn.id = 'toggle-downloads-btn';
+        btn.innerHTML = 'Show More';
+        btn.onclick = () => toggleCollapse('downloads');
+        table.parentNode.appendChild(btn);
+    }
+
+    // Toggle function to collapse/expand the rows
+    function toggleCollapse(type) {
+        const collapsible = document.getElementById(`${type}-collapsible`);
+        const toggleButton = document.getElementById(`toggle-${type}-btn`);
+
+        if (collapsible.classList.contains('open')) {
+            collapsible.classList.remove('open');
+            toggleButton.textContent = 'Show More';
+        } else {
+            collapsible.classList.add('open');
+            toggleButton.textContent = 'Show Less';
         }
+    }
+</script>
+
 
         // Function to render the Visits chart
         function renderVisitsChart(data) {
