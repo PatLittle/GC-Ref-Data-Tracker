@@ -21,7 +21,7 @@
             <table id="table-en">
                 <!-- English data will be inserted here -->
             </table>
-            <div class="collapse-btn" id="toggle-en-btn" onclick="toggleCollapse('en')">Show More</div>
+            <button class="collapse-btn" id="toggle-en-btn" onclick="toggleCollapse('table-en')">Show More</button>
         </section>
 
         <!-- French Version Table -->
@@ -30,7 +30,7 @@
             <table id="table-fr">
                 <!-- French data will be inserted here -->
             </table>
-            <div class="collapse-btn" id="toggle-fr-btn" onclick="toggleCollapse('fr')">Show More</div>
+            <button class="collapse-btn" id="toggle-fr-btn" onclick="toggleCollapse('table-fr')">Show More</button>
         </section>
 
         <!-- Visits Data and Chart -->
@@ -39,8 +39,8 @@
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
-            <div class="collapse-btn" id="toggle-visits-btn" onclick="toggleCollapse('visits')">Show More</div>
-            
+            <button class="collapse-btn" id="toggle-visits-btn" onclick="toggleCollapse('visits-table-id')">Show More</button>
+
             <h2>Visits Over Time</h2>
             <div class="chart-container">
                 <canvas id="visitsChart"></canvas>
@@ -53,8 +53,8 @@
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
-            <div class="collapse-btn" id="toggle-downloads-btn" onclick="toggleCollapse('downloads')">Show More</div>
-            
+            <button class="collapse-btn" id="toggle-downloads-btn" onclick="toggleCollapse('downloads-table-id')">Show More</button>
+
             <h3>Downloads Over Time</h3>
             <div class="chart-container">
                 <canvas id="downloadsChart"></canvas>
@@ -199,12 +199,12 @@
         }
 
         // Toggle function to collapse/expand the rows
-        function toggleCollapse(type) {
-            const collapsible = document.getElementById(`${type}-collapsible`);
-            const toggleButton = document.getElementById(`toggle-${type}-btn`);
+        function toggleCollapse(tableId) {
+            const collapsible = document.getElementById(`${tableId}-collapsible`);
+            const toggleButton = document.getElementById(`toggle-${tableId}-btn`);
 
             if (!collapsible || !toggleButton) {
-                console.error("Collapsible element or button not found for:", type);
+                console.error("Collapsible element or button not found for ID:", tableId);
                 return;
             }
 
@@ -286,7 +286,6 @@
             });
         }
 
-        // Helper function to create a consistent label for month/year (e.g., "
         // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
         function getMonthYearLabel(month, year) {
             return `${month.toString().padStart(2, '0')}/${year}`;
@@ -302,7 +301,7 @@
             return color;
         }
 
-        // Fetch data and render tables and charts
+        // Fetch data and render all tables and charts
         fetch('filtered_data_visits.json')
             .then(response => response.json())
             .then(data => {
