@@ -110,7 +110,7 @@
             return rows;
         }
 
-        // Function to render tables with collapsible rows
+        // Function to render CSV tables with collapsible rows
         function renderTableFromCSV(csvContent, tableId) {
             const table = document.getElementById(tableId);
 
@@ -152,6 +152,49 @@
             });
             tableContent += '</tbody>';
 
+            table.innerHTML = tableContent;
+        }
+
+        // Function to render JSON data tables
+        function renderTableFromJSON(jsonData, tableId) {
+            const table = document.getElementById(tableId);
+            const records = jsonData.records;
+
+            if (!records || !table) {
+                console.error("Table or JSON content not found for ID:", tableId);
+                return;
+            }
+
+            let tableContent = '<thead><tr>';
+
+            // Assuming each record has the same fields, we can use the first record to create the header
+            Object.keys(records[0]).forEach(key => {
+                tableContent += `<th>${key}</th>`;
+            });
+
+            tableContent += '</tr></thead><tbody>';
+
+            // Loop over records and add rows
+            records.slice(0, 10).forEach(record => {
+                tableContent += '<tr>';
+                Object.values(record).forEach(value => {
+                    tableContent += `<td>${value}</td>`;
+                });
+                tableContent += '</tr>';
+            });
+
+            tableContent += '</tbody><tbody id="' + tableId + '-collapsible" class="collapsible">';
+
+            // Add collapsible rows for remaining records
+            records.slice(10).forEach(record => {
+                tableContent += '<tr>';
+                Object.values(record).forEach(value => {
+                    tableContent += `<td>${value}</td>`;
+                });
+                tableContent += '</tr>';
+            });
+
+            tableContent += '</tbody>';
             table.innerHTML = tableContent;
         }
 
@@ -243,6 +286,7 @@
             });
         }
 
+        // Helper function to create a consistent label for month/year (e.g., "
         // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
         function getMonthYearLabel(month, year) {
             return `${month.toString().padStart(2, '0')}/${year}`;
@@ -258,11 +302,11 @@
             return color;
         }
 
-        // Fetch data and render all tables and charts
+        // Fetch data and render tables and charts
         fetch('filtered_data_visits.json')
             .then(response => response.json())
             .then(data => {
-                renderTableFromCSV(data, 'visits-table-id');
+                renderTableFromJSON(data, 'visits-table-id');
                 renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');
             })
             .catch(error => console.error("Error fetching visits data:", error));
@@ -270,7 +314,7 @@
         fetch('filtered_data_downloads.json')
             .then(response => response.json())
             .then(data => {
-                renderTableFromCSV(data, 'downloads-table-id');
+                renderTableFromJSON(data, 'downloads-table-id');
                 renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');
             })
             .catch(error => console.error("Error fetching downloads data:", error));
@@ -282,13 +326,13 @@
             })
             .catch(error => console.error("Error fetching English table data:", error));
 
-fetch('scraped_table_fr.csv')
-    .then(response => response.text())
-    .then(data => {
-        renderTableFromCSV(data, 'table-fr');
-    })
-    .catch(error => console.error("Error fetching French table data:", error));
-</script>
+        fetch('scraped_table_fr.csv')
+            .then(response => response.text())
+            .then(data => {
+                renderTableFromCSV(data, 'table-fr');
+            })
+            .catch(error => console.error("Error fetching French table data:", error));
+    </script>
+
 </body>
 </html>
-
