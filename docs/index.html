@@ -176,6 +176,25 @@
     </header>
 
     <div class="container">
+        <!-- English Version Table -->
+        <section class="content-section">
+            <h2>English Version</h2>
+            <table id="table-en">
+                <!-- English data will be inserted here -->
+            </table>
+            <div class="collapse-btn" id="toggle-en-btn" onclick="toggleCollapse('en')">Show More</div>
+        </section>
+
+        <!-- French Version Table -->
+        <section class="content-section">
+            <h2>French Version</h2>
+            <table id="table-fr">
+                <!-- French data will be inserted here -->
+            </table>
+            <div class="collapse-btn" id="toggle-fr-btn" onclick="toggleCollapse('fr')">Show More</div>
+        </section>
+
+        <!-- Visits Data and Chart -->
         <section class="content-section">
             <h2>Visits Data</h2>
             <table id="visits-table-id">
@@ -189,16 +208,18 @@
             </div>
         </section>
 
+        <!-- Downloads Data and Chart -->
         <section class="content-section">
             <h2>Downloads Data</h2>
-            <h3>Downloads Over Time</h3>
-            <div class="chart-container">
-                <canvas id="downloadsChart"></canvas>
-            </div>
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
             <div class="collapse-btn" id="toggle-downloads-btn" onclick="toggleCollapse('downloads')">Show More</div>
+            
+            <h3>Downloads Over Time</h3>
+            <div class="chart-container">
+                <canvas id="downloadsChart"></canvas>
+            </div>
         </section>
     </div>
 
@@ -210,8 +231,8 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script>
-        // Function to render the Visits table with collapsible rows
-        function renderVisitsTable(data, tableId) {
+        // Function to render tables with collapsible rows
+        function renderTable(data, tableId) {
             const table = document.getElementById(tableId);
             const records = data.records;
 
@@ -224,7 +245,7 @@
                     <th>Title (FR)</th>
                     <th>Department (EN)</th>
                     <th>Department (FR)</th>
-                    <th>Visits</th>
+                    <th>Count</th>
                     <th>Month</th>
                     <th>Year</th>
                 </tr>
@@ -238,7 +259,7 @@
                     <td>${record.titre}</td>
                     <td>${record.department}</td>
                     <td>${record.ministere}</td>
-                    <td>${record.visits_visites}</td>
+                    <td>${record.count}</td>
                     <td>${record.month_mois}</td>
                     <td>${record.year_annee}</td>
                 </tr>`;
@@ -246,67 +267,14 @@
             tableContent += '</tbody>';
 
             // Create remaining rows in a collapsible tbody
-            tableContent += '<tbody id="visits-collapsible" class="collapsible">';
+            tableContent += `<tbody id="${tableId}-collapsible" class="collapsible">`;
             records.slice(10).forEach(record => {
                 tableContent += `<tr>
                     <td>${record.title}</td>
                     <td>${record.titre}</td>
                     <td>${record.department}</td>
                     <td>${record.ministere}</td>
-                    <td>${record.visits_visites}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
-            });
-            tableContent += '</tbody>';
-
-            table.innerHTML = tableContent;
-        }
-
-        // Function to render the Downloads table with collapsible rows
-        function renderDownloadsTable(data, tableId) {
-            const table = document.getElementById(tableId);
-            const records = data.records;
-
-            let tableContent = '';
-
-            // Create table header
-            tableContent += `<thead>
-                <tr>
-                    <th>Title (EN)</th>
-                    <th>Title (FR)</th>
-                    <th>Department (EN)</th>
-                    <th>Department (FR)</th>
-                    <th>Downloads</th>
-                    <th>Month</th>
-                    <th>Year</th>
-                </tr>
-            </thead>`;
-
-            // Create top 10 rows in the visible tbody
-            tableContent += '<tbody>';
-            records.slice(0, 10).forEach(record => {
-                tableContent += `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.downloads_telechargements}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
-            });
-            tableContent += '</tbody>';
-
-            // Create remaining rows in a collapsible tbody
-            tableContent += '<tbody id="downloads-collapsible" class="collapsible">';
-            records.slice(10).forEach(record => {
-                tableContent += `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.downloads_telechargements}</td>
+                    <td>${record.count}</td>
                     <td>${record.month_mois}</td>
                     <td>${record.year_annee}</td>
                 </tr>`;
@@ -330,16 +298,16 @@
             }
         }
 
-        // Function to render the Visits chart
-        function renderVisitsChart(data) {
+        // Function to render charts
+        function renderChart(data, chartId, label, yAxisLabel) {
             const labels = [];
             const datasets = {};
 
             // Organize data by dataset ID
             data.records.forEach(record => {
-                const label = getMonthYearLabel(record.month_mois, record.year_annee);
-                if (!labels.includes(label)) {
-                    labels.push(label);
+                const chartLabel = getMonthYearLabel(record.month_mois, record.year_annee);
+                if (!labels.includes(chartLabel)) {
+                    labels.push(chartLabel);
                 }
 
                 if (!datasets[record.id]) {
@@ -351,7 +319,7 @@
                     };
                 }
 
-                datasets[record.id].data[labels.indexOf(label)] = record.visits_visites;
+                datasets[record.id].data[labels.indexOf(chartLabel)] = record.count;
             });
 
             // Fill missing data points for labels
@@ -365,7 +333,7 @@
                 dataset.data.reverse();
             });
 
-            const ctx = document.getElementById('visitsChart').getContext('2d');
+            const ctx = document.getElementById(chartId).getContext('2d');
             new Chart(ctx, {
                 type: 'line',
                 data: {
@@ -379,7 +347,7 @@
                             beginAtZero: true,
                             title: {
                                 display: true,
-                                text: 'Visits'
+                                text: yAxisLabel
                             }
                         },
                         x: {
@@ -404,75 +372,6 @@
             return `${month.toString().padStart(2, '0')}/${year}`;
         }
 
-        // Function to render the Downloads chart
-        function renderDownloadsChart(data) {
-            const labels = [];
-            const datasets = {};
-
-            // Organize data by dataset ID
-            data.records.forEach(record => {
-                const label = getMonthYearLabel(record.month_mois, record.year_annee);
-                if (!labels.includes(label)) {
-                    labels.push(label);
-                }
-
-                if (!datasets[record.id]) {
-                    datasets[record.id] = {
-                        label: record.title,
-                        data: Array(labels.length).fill(null), // Fill with null values initially
-                        borderColor: getRandomColor(),
-                        borderWidth: 2
-                    };
-                }
-
-                datasets[record.id].data[labels.indexOf(label)] = record.downloads_telechargements;
-            });
-
-            // Fill missing data points for labels
-            Object.values(datasets).forEach(dataset => {
-                dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);
-            });
-
-            // Reverse the labels and dataset values for chronological order
-            labels.reverse();
-            Object.values(datasets).forEach(dataset => {
-                dataset.data.reverse();
-            });
-
-            const ctx = document.getElementById('downloadsChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: Object.values(datasets)
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'Downloads'
-                            }
-                        },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Time (MM/YYYY)'
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: true,
-                            position: 'bottom'
-                        }
-                    }
-                }
-            });
-        }
-
         // Helper function to generate random colors for chart lines
         function getRandomColor() {
             const letters = '0123456789ABCDEF';
@@ -483,20 +382,31 @@
             return color;
         }
 
-        // Fetch JSON data for Visits and render table and chart
+        // Fetch data and render all tables and charts
         fetch('filtered_data_visits.json')
             .then(response => response.json())
             .then(data => {
-                renderVisitsTable(data, 'visits-table-id');
-                renderVisitsChart(data);
+                renderTable(data, 'visits-table-id');
+                renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');
             });
 
-        // Fetch JSON data for Downloads and render table and chart
         fetch('filtered_data_downloads.json')
             .then(response => response.json())
             .then(data => {
-                renderDownloadsTable(data, 'downloads-table-id');
-                renderDownloadsChart(data);
+                renderTable(data, 'downloads-table-id');
+                renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');
+            });
+
+        fetch('scraped_table_en.json')
+            .then(response => response.json())
+            .then(data => {
+                renderTable(data, 'table-en');
+            });
+
+        fetch('scraped_table_fr.json')
+            .then(response => response.json())
+            .then(data => {
+                renderTable(data, 'table-fr');
             });
     </script>
 </body>
