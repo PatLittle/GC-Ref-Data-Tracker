@@ -230,54 +230,80 @@
     <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    <!-- Function to parse CSV content -->
     <script>
+        function parseCSV(csvContent) {
+            const rows = [];
+            let currentRow = [];
+            let currentValue = '';
+            let insideQuotes = false;
+
+            for (let i = 0; i < csvContent.length; i++) {
+                const char = csvContent[i];
+
+                if (char === '"' && insideQuotes) {
+                    if (csvContent[i + 1] === '"') {
+                        currentValue += '"';
+                        i++;
+                    } else {
+                        insideQuotes = false;
+                    }
+                } else if (char === '"' && !insideQuotes) {
+                    insideQuotes = true;
+                } else if (char === ',' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    currentValue = '';
+                } else if (char === '\n' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    rows.push(currentRow);
+                    currentRow = [];
+                    currentValue = '';
+                } else {
+                    currentValue += char;
+                }
+            }
+
+            if (currentValue) {
+                currentRow.push(currentValue.trim());
+                rows.push(currentRow);
+            }
+
+            return rows;
+        }
+
         // Function to render tables with collapsible rows
-        function renderTable(data, tableId) {
+        function renderTableFromCSV(csvContent, tableId) {
             const table = document.getElementById(tableId);
-            const records = data.records;
+            const rows = parseCSV(csvContent);
 
             let tableContent = '';
             
             // Create table header
-            tableContent += `<thead>
-                <tr>
-                    <th>Title (EN)</th>
-                    <th>Title (FR)</th>
-                    <th>Department (EN)</th>
-                    <th>Department (FR)</th>
-                    <th>Count</th>
-                    <th>Month</th>
-                    <th>Year</th>
-                </tr>
-            </thead>`;
+            tableContent += '<thead><tr>';
+            rows[0].forEach(header => {
+                tableContent += `<th>${header}</th>`;
+            });
+            tableContent += '</tr></thead>';
 
             // Create top 10 rows in the visible tbody
             tableContent += '<tbody>';
-            records.slice(0, 10).forEach(record => {
-                tableContent += `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.count}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
+            rows.slice(1, 11).forEach(row => {
+                tableContent += '<tr>';
+                row.forEach(cell => {
+                    tableContent += `<td>${cell}</td>`;
+                });
+                tableContent += '</tr>';
             });
             tableContent += '</tbody>';
 
             // Create remaining rows in a collapsible tbody
             tableContent += `<tbody id="${tableId}-collapsible" class="collapsible">`;
-            records.slice(10).forEach(record => {
-                tableContent += `<tr>
-                    <td>${record.title}</td>
-                    <td>${record.titre}</td>
-                    <td>${record.department}</td>
-                    <td>${record.ministere}</td>
-                    <td>${record.count}</td>
-                    <td>${record.month_mois}</td>
-                    <td>${record.year_annee}</td>
-                </tr>`;
+            rows.slice(11).forEach(row => {
+                tableContent += '<tr>';
+                row.forEach(cell => {
+                    tableContent += `<td>${cell}</td>`;
+                });
+                tableContent += '</tr>';
             });
             tableContent += '</tbody>';
 
@@ -319,7 +345,7 @@
                     };
                 }
 
-                datasets[record.id].data[labels.indexOf(chartLabel)] = record.count;
+                datasets[record.id].data[labels.indexOf(chartLabel)] = record.count || record.visits_visites || record.downloads_telechargements;
             });
 
             // Fill missing data points for labels
@@ -386,28 +412,42 @@
         fetch('filtered_data_visits.json')
             .then(response => response.json())
             .then(data => {
-                renderTable(data, 'visits-table-id');
+                renderTableFromCSV(data, 'visits-table-id');
                 renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');
             });
 
         fetch('filtered_data_downloads.json')
             .then(response => response.json())
             .then(data => {
-                renderTable(data, 'downloads-table-id');
+                renderTableFromCSV(data, 'downloads-table-id');
                 renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');
             });
 
-        fetch('scraped_table_en.json')
-            .then(response => response.json())
+        fetch('scraped_table_en.csv')
+            .then(response => response.text())
             .then(data => {
-                renderTable(data, 'table-en');
+                renderTableFromCSV(data, 'table-en');
             });
 
-        fetch('scraped_table_fr.json')
-            .then(response => response.json())
+        fetch('scraped_table_fr.csv')
+            .then(response => response.text())
             .then(data => {
-                renderTable(data, 'table-fr');
+                renderTableFromCSV(data, 'table-fr');
+            });
+
+        // Load English and French content
+        fetch('scraped_content_eng.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('content-eng').innerHTML = data;
+            });
+
+        fetch('scraped_content_fra.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('content-fra').innerHTML = data;
             });
     </script>
 </body>
 </html>
+
