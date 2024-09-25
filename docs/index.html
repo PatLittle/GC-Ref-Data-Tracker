@@ -1,90 +1,211 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GC Reference Data Tracker</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Header and main layout */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Table styles */
         table {
             width: 100%;
-            max-width: 800px;
-            border-collapse: collapse;
             margin: 20px 0;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-        table, th, td {
-            border: 1px solid black;
-        }
+
         th, td {
-            padding: 10px;
+            padding: 12px 15px;
             text-align: left;
+            border-bottom: 1px solid #ddd;
         }
+
         th {
-            background-color: #f2f2f2;
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
         }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        td {
+            color: #555;
+        }
+
+        /* Content section */
         .content-section {
             margin-top: 40px;
         }
+
+        /* Responsive Chart Canvas */
         canvas {
             display: block;
             margin: 20px auto;
-            max-width: 800px;
-            max-height: 400px;
             width: 100%;
+            max-width: 800px;
             height: auto;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
         }
     </style>
 </head>
+
+
 <body>
-    <h1>GC Reference Data Tracker</h1>
-    <p>This page displays the latest scraped data from the Government of Canada reference data standards pages.</p>
-       <p>
-        View the Atom feeds for specific datasets: 
-        <a href="feeds.html">Go to Feeds Page</a>
-    </p>
+    <header>
+        <h1>GC Reference Data Tracker</h1>
+        <p>Tracking the latest reference data standards from the Government of Canada.</p>
+        <a href="feeds.html" class="btn">Go to Feeds Page</a>
+    </header>
 
-    <h2>English Version</h2>
-    <table id="table-en">
-        <!-- Table content will be inserted here -->
-    </table>
+    <div class="container">
+        <section class="content-section">
+            <h2>English Version</h2>
+            <table id="table-en">
+                <!-- Table content will be inserted here -->
+            </table>
+        </section>
 
-    <h2>French Version</h2>
-    <table id="table-fr">
-        <!-- Table content will be inserted here -->
-    </table>
+        <section class="content-section">
+            <h2>French Version</h2>
+            <table id="table-fr">
+                <!-- Table content will be inserted here -->
+            </table>
+        </section>
 
-    <div class="content-section">
-        <h2>English - Directive on Service and Digital Reference Data Appendix</h2>
-        <div id="content-eng">
-            <!-- HTML content will be inserted here -->
-        </div>
+        <section class="content-section">
+            <h2>English - Directive on Service and Digital Reference Data Appendix</h2>
+            <div id="content-eng">
+                <!-- HTML content will be inserted here -->
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>French - Directive on Service and Digital Reference Data Appendix</h2>
+            <div id="content-fra">
+                <!-- HTML content will be inserted here -->
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Visits Data</h2>
+            <table id="visits-table-id">
+                <!-- Visits data will be inserted here -->
+            </table>
+            <h2>Visits Over Time</h2>
+            <canvas id="visitsChart"></canvas>
+        </section>
+
+        <section class="content-section">
+            <h2>Downloads Data</h2>
+            <table id="downloads-table-id">
+                <!-- Downloads data will be inserted here -->
+            </table>
+            <h2>Downloads Over Time</h2>
+            <canvas id="downloadsChart"></canvas>
+        </section>
     </div>
 
-    <div class="content-section">
-        <h2>French - Directive on Service and Digital Reference Data Appendix</h2>
-        <div id="content-fra">
-            <!-- HTML content will be inserted here -->
-        </div>
-    </div>
+</body>
 
-    <!-- Visits Data Section -->
-    <h2>Visits Data</h2>
-    <table id="visits-table-id">
-        <!-- Visits data will be inserted here -->
-    </table>
-    <h2>Visits Over Time</h2>
-    <canvas id="visitsChart"></canvas>
+    <footer>
+        <p>&copy; 2024 GC Reference Data Tracker. All rights reserved.</p>
+    </footer>
 
-    <!-- Downloads Data Section -->
-    <h2>Downloads Data</h2>
-    <table id="downloads-table-id">
-        <!-- Downloads data will be inserted here -->
-    </table>
-    <h2>Downloads Over Time</h2>
-    <canvas id="downloadsChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Rest of your JavaScript code for fetching and populating the data -->
+
+
+
 
     <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -374,5 +495,5 @@
                 renderDownloadsChart(data);
             });
 </script>
-</body>
+
 </html>
