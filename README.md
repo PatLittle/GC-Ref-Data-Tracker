@@ -1,10 +1,6 @@
 # GC-Ref-Data-Tracker
 
 
->
-> <mark>**Go to [cors-anywhere](https://cors-anywhere.herokuapp.com/corsdemo) before viewing - temporary**</mark>
->
-
 Work-in-progress project to monitor GC Enterprise Reference Data Web presence,capture cumulative changes via gitscraping, collect and display web analytics and other related data. 
 
 https://patlittle.github.io/GC-Ref-Data-Tracker/

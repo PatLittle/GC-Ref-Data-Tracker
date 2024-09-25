@@ -41,7 +41,11 @@
 <body>
     <h1>GC Reference Data Tracker</h1>
     <p>This page displays the latest scraped data from the Government of Canada reference data standards pages.</p>
-    
+       <p>
+        View the Atom feeds for specific datasets: 
+        <a href="feeds.html">Go to Feeds Page</a>
+    </p>
+
     <!-- Visits Data Section -->
     <h2>Visits Data</h2>
     <table id="visits-table-id">
@@ -61,7 +65,90 @@
     <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    <script src="https://web.archive.org/web/20240914113055js_/https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://web.archive.org/web/20240914113055js_/https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
+        // Function to parse CSV content
+        function parseCSV(csvContent) {
+            const rows = [];
+            let currentRow = [];
+            let currentValue = '';
+            let insideQuotes = false;
+
+            for (let i = 0; i < csvContent.length; i++) {
+                const char = csvContent[i];
+
+                if (char === '"' && insideQuotes) {
+                    if (csvContent[i + 1] === '"') {
+                        currentValue += '"';
+                        i++;
+                    } else {
+                        insideQuotes = false;
+                    }
+                } else if (char === '"' && !insideQuotes) {
+                    insideQuotes = true;
+                } else if (char === ',' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    currentValue = '';
+                } else if (char === '\n' && !insideQuotes) {
+                    currentRow.push(currentValue.trim());
+                    rows.push(currentRow);
+                    currentRow = [];
+                    currentValue = '';
+                } else {
+                    currentValue += char;
+                }
+            }
+
+            if (currentValue) {
+                currentRow.push(currentValue.trim());
+                rows.push(currentRow);
+            }
+
+            return rows;
+        }
+
+        // Function to load CSV data into a table
+        function loadCSVToTable(csvFile, tableId) {
+            fetch(csvFile)
+                .then(response => response.text())
+                .then(data => {
+                    const rows = parseCSV(data);
+                    const table = document.getElementById(tableId);
+
+                    rows.forEach((row, index) => {
+                        const tr = document.createElement('tr');
+                        row.forEach(cell => {
+                            const td = document.createElement(index === 0 ? 'th' : 'td');
+                            td.textContent = cell;
+                            tr.appendChild(td);
+                        });
+                        table.appendChild(tr);
+                    });
+                });
+        }
+
+        // Function to load HTML content
+        function loadHTMLContent(htmlFile, elementId) {
+            fetch(htmlFile)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                });
+        }
+
+        // Load the CSV files into their respective tables
+        loadCSVToTable('scraped_table_en.csv', 'table-en');
+        loadCSVToTable('scraped_table_fr.csv', 'table-fr');
+
+        // Load the HTML content into the respective sections
+        loadHTMLContent('scraped_content_eng.html', 'content-eng');
+        loadHTMLContent('scraped_content_fra.html', 'content-fra');
+
+        </script>
+    
+    <script>
+        
         // Function to render the Visits table
         function renderVisitsTable(data, tableId) {
             const table = document.getElementById(tableId);
@@ -262,6 +349,6 @@
                 renderDownloadsTable(data, 'downloads-table-id');
                 renderDownloadsChart(data);
             });
-    </script>
+</script>
 </body>
 </html>
