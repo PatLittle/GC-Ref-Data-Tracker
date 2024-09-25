@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -92,11 +91,16 @@
         }
 
         /* Responsive Chart Canvas */
-        canvas {
-            display: block;
-            margin: 20px auto;
+        .chart-container {
+            position: relative;
             width: 100%;
             max-width: 800px;
+            margin: 0 auto;
+        }
+
+        canvas {
+            display: block;
+            max-width: 100%;
             height: auto;
         }
 
@@ -122,6 +126,31 @@
             color: #888;
         }
 
+        /* Collapsible section */
+        .collapsible {
+            display: none;
+        }
+
+        .collapsible.open {
+            display: table-row-group;
+        }
+
+        .collapse-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .collapse-btn:hover {
+            background-color: #2980b9;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
             body {
@@ -139,7 +168,6 @@
     </style>
 </head>
 
-
 <body>
     <header>
         <h1>GC Reference Data Tracker</h1>
@@ -149,291 +177,158 @@
 
     <div class="container">
         <section class="content-section">
-            <h2>English Version</h2>
-            <table id="table-en">
-                <!-- Table content will be inserted here -->
-            </table>
-        </section>
-
-        <section class="content-section">
-            <h2>French Version</h2>
-            <table id="table-fr">
-                <!-- Table content will be inserted here -->
-            </table>
-        </section>
-
-        <section class="content-section">
-            <h2>English - Directive on Service and Digital Reference Data Appendix</h2>
-            <div id="content-eng">
-                <!-- HTML content will be inserted here -->
-            </div>
-        </section>
-
-        <section class="content-section">
-            <h2>French - Directive on Service and Digital Reference Data Appendix</h2>
-            <div id="content-fra">
-                <!-- HTML content will be inserted here -->
-            </div>
-        </section>
-
-        <section class="content-section">
             <h2>Visits Data</h2>
-            <h3>Visits Over Time</h3>
-            <canvas id="visitsChart"></canvas>
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
+            <div class="collapse-btn" id="toggle-visits-btn" onclick="toggleCollapse('visits')">Show More</div>
             
+            <h2>Visits Over Time</h2>
+            <div class="chart-container">
+                <canvas id="visitsChart"></canvas>
+            </div>
         </section>
 
         <section class="content-section">
             <h2>Downloads Data</h2>
             <h3>Downloads Over Time</h3>
-            <canvas id="downloadsChart"></canvas>
+            <div class="chart-container">
+                <canvas id="downloadsChart"></canvas>
+            </div>
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
-          
+            <div class="collapse-btn" id="toggle-downloads-btn" onclick="toggleCollapse('downloads')">Show More</div>
         </section>
     </div>
-
-</body>
 
     <footer>
         <p>&copy; 2024 GC Reference Data Tracker. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Rest of your JavaScript code for fetching and populating the data -->
-
-
-
-
     <!-- Include Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <script src="https://web.archive.org/web/20240914113055js_/https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://web.archive.org/web/20240914113055js_/https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        // Function to parse CSV content
-        function parseCSV(csvContent) {
-            const rows = [];
-            let currentRow = [];
-            let currentValue = '';
-            let insideQuotes = false;
+        // Function to render the Visits table with collapsible rows
+        function renderVisitsTable(data, tableId) {
+            const table = document.getElementById(tableId);
+            const records = data.records;
 
-            for (let i = 0; i < csvContent.length; i++) {
-                const char = csvContent[i];
+            let tableContent = '';
+            
+            // Create table header
+            tableContent += `<thead>
+                <tr>
+                    <th>Title (EN)</th>
+                    <th>Title (FR)</th>
+                    <th>Department (EN)</th>
+                    <th>Department (FR)</th>
+                    <th>Visits</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                </tr>
+            </thead>`;
 
-                if (char === '"' && insideQuotes) {
-                    if (csvContent[i + 1] === '"') {
-                        currentValue += '"';
-                        i++;
-                    } else {
-                        insideQuotes = false;
-                    }
-                } else if (char === '"' && !insideQuotes) {
-                    insideQuotes = true;
-                } else if (char === ',' && !insideQuotes) {
-                    currentRow.push(currentValue.trim());
-                    currentValue = '';
-                } else if (char === '\n' && !insideQuotes) {
-                    currentRow.push(currentValue.trim());
-                    rows.push(currentRow);
-                    currentRow = [];
-                    currentValue = '';
-                } else {
-                    currentValue += char;
-                }
+            // Create top 10 rows in the visible tbody
+            tableContent += '<tbody>';
+            records.slice(0, 10).forEach(record => {
+                tableContent += `<tr>
+                    <td>${record.title}</td>
+                    <td>${record.titre}</td>
+                    <td>${record.department}</td>
+                    <td>${record.ministere}</td>
+                    <td>${record.visits_visites}</td>
+                    <td>${record.month_mois}</td>
+                    <td>${record.year_annee}</td>
+                </tr>`;
+            });
+            tableContent += '</tbody>';
+
+            // Create remaining rows in a collapsible tbody
+            tableContent += '<tbody id="visits-collapsible" class="collapsible">';
+            records.slice(10).forEach(record => {
+                tableContent += `<tr>
+                    <td>${record.title}</td>
+                    <td>${record.titre}</td>
+                    <td>${record.department}</td>
+                    <td>${record.ministere}</td>
+                    <td>${record.visits_visites}</td>
+                    <td>${record.month_mois}</td>
+                    <td>${record.year_annee}</td>
+                </tr>`;
+            });
+            tableContent += '</tbody>';
+
+            table.innerHTML = tableContent;
+        }
+
+        // Function to render the Downloads table with collapsible rows
+        function renderDownloadsTable(data, tableId) {
+            const table = document.getElementById(tableId);
+            const records = data.records;
+
+            let tableContent = '';
+
+            // Create table header
+            tableContent += `<thead>
+                <tr>
+                    <th>Title (EN)</th>
+                    <th>Title (FR)</th>
+                    <th>Department (EN)</th>
+                    <th>Department (FR)</th>
+                    <th>Downloads</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                </tr>
+            </thead>`;
+
+            // Create top 10 rows in the visible tbody
+            tableContent += '<tbody>';
+            records.slice(0, 10).forEach(record => {
+                tableContent += `<tr>
+                    <td>${record.title}</td>
+                    <td>${record.titre}</td>
+                    <td>${record.department}</td>
+                    <td>${record.ministere}</td>
+                    <td>${record.downloads_telechargements}</td>
+                    <td>${record.month_mois}</td>
+                    <td>${record.year_annee}</td>
+                </tr>`;
+            });
+            tableContent += '</tbody>';
+
+            // Create remaining rows in a collapsible tbody
+            tableContent += '<tbody id="downloads-collapsible" class="collapsible">';
+            records.slice(10).forEach(record => {
+                tableContent += `<tr>
+                    <td>${record.title}</td>
+                    <td>${record.titre}</td>
+                    <td>${record.department}</td>
+                    <td>${record.ministere}</td>
+                    <td>${record.downloads_telechargements}</td>
+                    <td>${record.month_mois}</td>
+                    <td>${record.year_annee}</td>
+                </tr>`;
+            });
+            tableContent += '</tbody>';
+
+            table.innerHTML = tableContent;
+        }
+
+        // Toggle function to collapse/expand the rows
+        function toggleCollapse(type) {
+            const collapsible = document.getElementById(`${type}-collapsible`);
+            const toggleButton = document.getElementById(`toggle-${type}-btn`);
+
+            if (collapsible.classList.contains('open')) {
+                collapsible.classList.remove('open');
+                toggleButton.textContent = 'Show More';
+            } else {
+                collapsible.classList.add('open');
+                toggleButton.textContent = 'Show Less';
             }
-
-            if (currentValue) {
-                currentRow.push(currentValue.trim());
-                rows.push(currentRow);
-            }
-
-            return rows;
         }
-
-        // Function to load CSV data into a table
-        function loadCSVToTable(csvFile, tableId) {
-            fetch(csvFile)
-                .then(response => response.text())
-                .then(data => {
-                    const rows = parseCSV(data);
-                    const table = document.getElementById(tableId);
-
-                    rows.forEach((row, index) => {
-                        const tr = document.createElement('tr');
-                        row.forEach(cell => {
-                            const td = document.createElement(index === 0 ? 'th' : 'td');
-                            td.textContent = cell;
-                            tr.appendChild(td);
-                        });
-                        table.appendChild(tr);
-                    });
-                });
-        }
-
-        // Function to load HTML content
-        function loadHTMLContent(htmlFile, elementId) {
-            fetch(htmlFile)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                });
-        }
-
-        // Load the CSV files into their respective tables
-        loadCSVToTable('scraped_table_en.csv', 'table-en');
-        loadCSVToTable('scraped_table_fr.csv', 'table-fr');
-
-        // Load the HTML content into the respective sections
-        loadHTMLContent('scraped_content_eng.html', 'content-eng');
-        loadHTMLContent('scraped_content_fra.html', 'content-fra');
-
-        </script>
-    
-    <script>
-        
-        
-    // Function to render the Visits table with collapsible rows
-    function renderVisitsTable(data, tableId) {
-        const table = document.getElementById(tableId);
-        const records = data.records;
-
-        let tableContent = '';
-        
-        // Create table header
-        tableContent += `<thead>
-            <tr>
-                <th>Title (EN)</th>
-                <th>Title (FR)</th>
-                <th>Department (EN)</th>
-                <th>Department (FR)</th>
-                <th>Visits</th>
-                <th>Month</th>
-                <th>Year</th>
-            </tr>
-        </thead>`;
-
-        // Create top 10 rows in the visible tbody
-        tableContent += '<tbody>';
-        records.slice(0, 10).forEach(record => {
-            tableContent += `<tr>
-                <td>${record.title}</td>
-                <td>${record.titre}</td>
-                <td>${record.department}</td>
-                <td>${record.ministere}</td>
-                <td>${record.visits_visites}</td>
-                <td>${record.month_mois}</td>
-                <td>${record.year_annee}</td>
-            </tr>`;
-        });
-        tableContent += '</tbody>';
-
-        // Create remaining rows in a collapsible tbody
-        tableContent += '<tbody id="visits-collapsible" class="collapsible">';
-        records.slice(10).forEach(record => {
-            tableContent += `<tr>
-                <td>${record.title}</td>
-                <td>${record.titre}</td>
-                <td>${record.department}</td>
-                <td>${record.ministere}</td>
-                <td>${record.visits_visites}</td>
-                <td>${record.month_mois}</td>
-                <td>${record.year_annee}</td>
-            </tr>`;
-        });
-        tableContent += '</tbody>';
-
-        table.innerHTML = tableContent;
-
-        // Add collapsible button
-        const btn = document.createElement('div');
-        btn.className = 'collapse-btn';
-        btn.id = 'toggle-visits-btn';
-        btn.innerHTML = 'Show More';
-        btn.onclick = () => toggleCollapse('visits');
-        table.parentNode.appendChild(btn);
-    }
-
-    // Function to render the Downloads table with collapsible rows
-    function renderDownloadsTable(data, tableId) {
-        const table = document.getElementById(tableId);
-        const records = data.records;
-
-        let tableContent = '';
-
-        // Create table header
-        tableContent += `<thead>
-            <tr>
-                <th>Title (EN)</th>
-                <th>Title (FR)</th>
-                <th>Department (EN)</th>
-                <th>Department (FR)</th>
-                <th>Downloads</th>
-                <th>Month</th>
-                <th>Year</th>
-            </tr>
-        </thead>`;
-
-        // Create top 10 rows in the visible tbody
-        tableContent += '<tbody>';
-        records.slice(0, 10).forEach(record => {
-            tableContent += `<tr>
-                <td>${record.title}</td>
-                <td>${record.titre}</td>
-                <td>${record.department}</td>
-                <td>${record.ministere}</td>
-                <td>${record.downloads_telechargements}</td>
-                <td>${record.month_mois}</td>
-                <td>${record.year_annee}</td>
-            </tr>`;
-        });
-        tableContent += '</tbody>';
-
-        // Create remaining rows in a collapsible tbody
-        tableContent += '<tbody id="downloads-collapsible" class="collapsible">';
-        records.slice(10).forEach(record => {
-            tableContent += `<tr>
-                <td>${record.title}</td>
-                <td>${record.titre}</td>
-                <td>${record.department}</td>
-                <td>${record.ministere}</td>
-                <td>${record.downloads_telechargements}</td>
-                <td>${record.month_mois}</td>
-                <td>${record.year_annee}</td>
-            </tr>`;
-        });
-        tableContent += '</tbody>';
-
-        table.innerHTML = tableContent;
-
-        // Add collapsible button
-        const btn = document.createElement('div');
-        btn.className = 'collapse-btn';
-        btn.id = 'toggle-downloads-btn';
-        btn.innerHTML = 'Show More';
-        btn.onclick = () => toggleCollapse('downloads');
-        table.parentNode.appendChild(btn);
-    }
-
-    // Toggle function to collapse/expand the rows
-    function toggleCollapse(type) {
-        const collapsible = document.getElementById(`${type}-collapsible`);
-        const toggleButton = document.getElementById(`toggle-${type}-btn`);
-
-        if (collapsible.classList.contains('open')) {
-            collapsible.classList.remove('open');
-            toggleButton.textContent = 'Show More';
-        } else {
-            collapsible.classList.add('open');
-            toggleButton.textContent = 'Show Less';
-        }
-    }
-</script>
-
 
         // Function to render the Visits chart
         function renderVisitsChart(data) {
@@ -478,13 +373,35 @@
                     datasets: Object.values(datasets)
                 },
                 options: {
+                    responsive: true,
                     scales: {
                         y: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Visits'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Time (MM/YYYY)'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'bottom'
                         }
                     }
                 }
             });
+        }
+
+        // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
+        function getMonthYearLabel(month, year) {
+            return `${month.toString().padStart(2, '0')}/${year}`;
         }
 
         // Function to render the Downloads chart
@@ -530,9 +447,26 @@
                     datasets: Object.values(datasets)
                 },
                 options: {
+                    responsive: true,
                     scales: {
                         y: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Downloads'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Time (MM/YYYY)'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'bottom'
                         }
                     }
                 }
@@ -564,6 +498,6 @@
                 renderDownloadsTable(data, 'downloads-table-id');
                 renderDownloadsChart(data);
             });
-</script>
-
+    </script>
+</body>
 </html>
