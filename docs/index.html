@@ -228,226 +228,252 @@
     </footer>
 
     <!-- Include Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <!-- Function to parse CSV content -->
-    <script>
-        function parseCSV(csvContent) {
-            const rows = [];
-            let currentRow = [];
-            let currentValue = '';
-            let insideQuotes = false;
+<script>
+    // Function to parse CSV content
+    function parseCSV(csvContent) {
+        const rows = [];
+        let currentRow = [];
+        let currentValue = '';
+        let insideQuotes = false;
 
-            for (let i = 0; i < csvContent.length; i++) {
-                const char = csvContent[i];
+        for (let i = 0; i < csvContent.length; i++) {
+            const char = csvContent[i];
 
-                if (char === '"' && insideQuotes) {
-                    if (csvContent[i + 1] === '"') {
-                        currentValue += '"';
-                        i++;
-                    } else {
-                        insideQuotes = false;
-                    }
-                } else if (char === '"' && !insideQuotes) {
-                    insideQuotes = true;
-                } else if (char === ',' && !insideQuotes) {
-                    currentRow.push(currentValue.trim());
-                    currentValue = '';
-                } else if (char === '\n' && !insideQuotes) {
-                    currentRow.push(currentValue.trim());
-                    rows.push(currentRow);
-                    currentRow = [];
-                    currentValue = '';
+            if (char === '"' && insideQuotes) {
+                if (csvContent[i + 1] === '"') {
+                    currentValue += '"';
+                    i++;
                 } else {
-                    currentValue += char;
+                    insideQuotes = false;
                 }
-            }
-
-            if (currentValue) {
+            } else if (char === '"' && !insideQuotes) {
+                insideQuotes = true;
+            } else if (char === ',' && !insideQuotes) {
+                currentRow.push(currentValue.trim());
+                currentValue = '';
+            } else if (char === '\n' && !insideQuotes) {
                 currentRow.push(currentValue.trim());
                 rows.push(currentRow);
-            }
-
-            return rows;
-        }
-
-        // Function to render tables with collapsible rows
-        function renderTableFromCSV(csvContent, tableId) {
-            const table = document.getElementById(tableId);
-            const rows = parseCSV(csvContent);
-
-            let tableContent = '';
-            
-            // Create table header
-            tableContent += '<thead><tr>';
-            rows[0].forEach(header => {
-                tableContent += `<th>${header}</th>`;
-            });
-            tableContent += '</tr></thead>';
-
-            // Create top 10 rows in the visible tbody
-            tableContent += '<tbody>';
-            rows.slice(1, 11).forEach(row => {
-                tableContent += '<tr>';
-                row.forEach(cell => {
-                    tableContent += `<td>${cell}</td>`;
-                });
-                tableContent += '</tr>';
-            });
-            tableContent += '</tbody>';
-
-            // Create remaining rows in a collapsible tbody
-            tableContent += `<tbody id="${tableId}-collapsible" class="collapsible">`;
-            rows.slice(11).forEach(row => {
-                tableContent += '<tr>';
-                row.forEach(cell => {
-                    tableContent += `<td>${cell}</td>`;
-                });
-                tableContent += '</tr>';
-            });
-            tableContent += '</tbody>';
-
-            table.innerHTML = tableContent;
-        }
-
-        // Toggle function to collapse/expand the rows
-        function toggleCollapse(type) {
-            const collapsible = document.getElementById(`${type}-collapsible`);
-            const toggleButton = document.getElementById(`toggle-${type}-btn`);
-
-            if (collapsible.classList.contains('open')) {
-                collapsible.classList.remove('open');
-                toggleButton.textContent = 'Show More';
+                currentRow = [];
+                currentValue = '';
             } else {
-                collapsible.classList.add('open');
-                toggleButton.textContent = 'Show Less';
+                currentValue += char;
             }
         }
 
-        // Function to render charts
-        function renderChart(data, chartId, label, yAxisLabel) {
-            const labels = [];
-            const datasets = {};
-
-            // Organize data by dataset ID
-            data.records.forEach(record => {
-                const chartLabel = getMonthYearLabel(record.month_mois, record.year_annee);
-                if (!labels.includes(chartLabel)) {
-                    labels.push(chartLabel);
-                }
-
-                if (!datasets[record.id]) {
-                    datasets[record.id] = {
-                        label: record.title,
-                        data: Array(labels.length).fill(null), // Fill with null values initially
-                        borderColor: getRandomColor(),
-                        borderWidth: 2
-                    };
-                }
-
-                datasets[record.id].data[labels.indexOf(chartLabel)] = record.count || record.visits_visites || record.downloads_telechargements;
-            });
-
-            // Fill missing data points for labels
-            Object.values(datasets).forEach(dataset => {
-                dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);
-            });
-
-            // Reverse the labels and dataset values for chronological order
-            labels.reverse();
-            Object.values(datasets).forEach(dataset => {
-                dataset.data.reverse();
-            });
-
-            const ctx = document.getElementById(chartId).getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels,
-                    datasets: Object.values(datasets)
-                },
-                options: {
-                    responsive: true,
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: yAxisLabel
-                            }
-                        },
-                        x: {
-                            title: {
-                                display: true,
-                                text: 'Time (MM/YYYY)'
-                            }
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: true,
-                            position: 'bottom'
-                        }
-                    }
-                }
-            });
+        if (currentValue) {
+            currentRow.push(currentValue.trim());
+            rows.push(currentRow);
         }
 
-        // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
-        function getMonthYearLabel(month, year) {
-            return `${month.toString().padStart(2, '0')}/${year}`;
+        return rows;
+    }
+
+    // Function to render tables with collapsible rows
+    function renderTableFromCSV(csvContent, tableId) {
+        const table = document.getElementById(tableId);
+
+        if (!csvContent || !table) {
+            console.error("Table or CSV content not found for ID:", tableId);
+            return;
         }
 
-        // Helper function to generate random colors for chart lines
-        function getRandomColor() {
-            const letters = '0123456789ABCDEF';
-            let color = '#';
-            for (let i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
+        const rows = parseCSV(csvContent);
+
+        let tableContent = '';
+
+        // Create table header
+        tableContent += '<thead><tr>';
+        rows[0].forEach(header => {
+            tableContent += `<th>${header}</th>`;
+        });
+        tableContent += '</tr></thead>';
+
+        // Create top 10 rows in the visible tbody
+        tableContent += '<tbody>';
+        rows.slice(1, 11).forEach(row => {
+            tableContent += '<tr>';
+            row.forEach(cell => {
+                tableContent += `<td>${cell}</td>`;
+            });
+            tableContent += '</tr>';
+        });
+        tableContent += '</tbody>';
+
+        // Create remaining rows in a collapsible tbody
+        tableContent += `<tbody id="${tableId}-collapsible" class="collapsible">`;
+        rows.slice(11).forEach(row => {
+            tableContent += '<tr>';
+            row.forEach(cell => {
+                tableContent += `<td>${cell}</td>`;
+            });
+            tableContent += '</tr>';
+        });
+        tableContent += '</tbody>';
+
+        table.innerHTML = tableContent;
+    }
+
+    // Toggle function to collapse/expand the rows
+    function toggleCollapse(type) {
+        const collapsible = document.getElementById(`${type}-collapsible`);
+        const toggleButton = document.getElementById(`toggle-${type}-btn`);
+
+        if (!collapsible || !toggleButton) {
+            console.error("Collapsible element or button not found for:", type);
+            return;
+        }
+
+        if (collapsible.classList.contains('open')) {
+            collapsible.classList.remove('open');
+            toggleButton.textContent = 'Show More';
+        } else {
+            collapsible.classList.add('open');
+            toggleButton.textContent = 'Show Less';
+        }
+    }
+
+    // Function to render charts
+    function renderChart(data, chartId, label, yAxisLabel) {
+        const labels = [];
+        const datasets = {};
+
+        // Organize data by dataset ID
+        data.records.forEach(record => {
+            const chartLabel = getMonthYearLabel(record.month_mois, record.year_annee);
+            if (!labels.includes(chartLabel)) {
+                labels.push(chartLabel);
             }
-            return color;
+
+            if (!datasets[record.id]) {
+                datasets[record.id] = {
+                    label: record.title,
+                    data: Array(labels.length).fill(null), // Fill with null values initially
+                    borderColor: getRandomColor(),
+                    borderWidth: 2
+                };
+            }
+
+            datasets[record.id].data[labels.indexOf(chartLabel)] = record.count || record.visits_visites || record.downloads_telechargements;
+        });
+
+        // Fill missing data points for labels
+        Object.values(datasets).forEach(dataset => {
+            dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);
+        });
+
+        // Reverse the labels and dataset values for chronological order
+        labels.reverse();
+        Object.values(datasets).forEach(dataset => {
+            dataset.data.reverse();
+        });
+
+        const ctx = document.getElementById(chartId).getContext('2d');
+        new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: labels,
+        datasets: Object.values(datasets)
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: yAxisLabel
+                }
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Time (MM/YYYY)'
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                display: true,
+                position: 'bottom'
+            }
         }
+    }
+});
 
-        // Fetch data and render all tables and charts
-        fetch('filtered_data_visits.json')
-            .then(response => response.json())
-            .then(data => {
-                renderTableFromCSV(data, 'visits-table-id');
-                renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');
-            });
 
-        fetch('filtered_data_downloads.json')
-            .then(response => response.json())
-            .then(data => {
-                renderTableFromCSV(data, 'downloads-table-id');
-                renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');
-            });
+    // Helper function to create a consistent label for month/year (e.g., "MM/YYYY")
+    function getMonthYearLabel(month, year) {
+        return `${month.toString().padStart(2, '0')}/${year}`;
+    }
 
-        fetch('scraped_table_en.csv')
-            .then(response => response.text())
-            .then(data => {
-                renderTableFromCSV(data, 'table-en');
-            });
+    // Helper function to generate random colors for chart lines
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
 
-        fetch('scraped_table_fr.csv')
-            .then(response => response.text())
-            .then(data => {
-                renderTableFromCSV(data, 'table-fr');
-            });
+    // Fetch data and render all tables and charts
+    fetch('filtered_data_visits.json')
+        .then(response => response.json())
+        .then(data => {
+            renderTableFromCSV(data, 'visits-table-id');
+            renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');
+        })
+        .catch(error => console.error("Error fetching visits data:", error));
 
-        // Load English and French content
-        fetch('scraped_content_eng.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('content-eng').innerHTML = data;
-            });
+    fetch('filtered_data_downloads.json')
+        .then(response => response.json())
+        .then(data => {
+            renderTableFromCSV(data, 'downloads-table-id');
+            renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');
+        })
+        .catch(error => console.error("Error fetching downloads data:", error));
 
-        fetch('scraped_content_fra.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('content-fra').innerHTML = data;
-            });
-    </script>
-</body>
-</html>
+    fetch('scraped_table_en.csv')
+        .then(response => response.text())
+        .then(data => {
+            renderTableFromCSV(data, 'table-en');
+        })
+        .catch(error => console.error("Error fetching English table data:", error));
 
+    fetch('scraped_table_fr.csv')
+        .then(response => response.text())
+        .then(data => {
+            renderTableFromCSV(data, 'table-fr');
+        })
+        .catch(error => console.error("Error fetching French table data:", error));
+
+    // Load English and French content
+    fetch('scraped_content_eng.html')
+        .then(response => response.text())
+        .then(data => {
+            const contentEng = document.getElementById('content-eng');
+            if (contentEng) {
+                contentEng.innerHTML = data;
+            } else {
+                console.error("Element with ID 'content-eng' not found");
+            }
+        })
+        .catch(error => console.error("Error fetching English content:", error));
+
+    fetch('scraped_content_fra.html')
+        .then(response => response.text())
+        .then(data => {
+            const contentFra = document.getElementById('content-fra');
+            if (contentFra) {
+                contentFra.innerHTML = data;
+            } else {
+                console.error("Element with ID 'content-fra' not found");
+            }
+        })
+        .catch(error => console.error("Error fetching French content:", error));
+</script>
+
+</body>ht
