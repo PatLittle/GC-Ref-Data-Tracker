@@ -21,7 +21,6 @@
             <table id="table-en">
                 <!-- English data will be inserted here -->
             </table>
-            <button class="collapse-btn" id="toggle-en-btn" onclick="toggleCollapse('table-en')">Show More</button>
         </section>
 
         <!-- French Version Table -->
@@ -30,7 +29,6 @@
             <table id="table-fr">
                 <!-- French data will be inserted here -->
             </table>
-            <button class="collapse-btn" id="toggle-fr-btn" onclick="toggleCollapse('table-fr')">Show More</button>
         </section>
 
         <!-- Visits Data and Chart -->
@@ -39,7 +37,6 @@
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
-            <button class="collapse-btn" id="toggle-visits-btn" onclick="toggleCollapse('visits-table-id')">Show More</button>
 
             <h2>Visits Over Time</h2>
             <div class="chart-container">
@@ -53,7 +50,6 @@
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
-            <button class="collapse-btn" id="toggle-downloads-btn" onclick="toggleCollapse('downloads-table-id')">Show More</button>
 
             <h3>Downloads Over Time</h3>
             <div class="chart-container">
@@ -110,7 +106,7 @@
             return rows;
         }
 
-        // Function to render CSV tables with collapsible rows
+        // Function to render CSV tables
         function renderTableFromCSV(csvContent, tableId) {
             const table = document.getElementById(tableId);
 
@@ -130,20 +126,9 @@
             });
             tableContent += '</tr></thead>';
 
-            // Create top 10 rows in the visible tbody
+            // Create rows
             tableContent += '<tbody>';
-            rows.slice(1, 11).forEach(row => {
-                tableContent += '<tr>';
-                row.forEach(cell => {
-                    tableContent += `<td>${cell}</td>`;
-                });
-                tableContent += '</tr>';
-            });
-            tableContent += '</tbody>';
-
-            // Create remaining rows in a collapsible tbody
-            tableContent += `<tbody id="${tableId}-collapsible" class="collapsible">`;
-            rows.slice(11).forEach(row => {
+            rows.slice(1).forEach(row => {
                 tableContent += '<tr>';
                 row.forEach(cell => {
                     tableContent += `<td>${cell}</td>`;
@@ -175,18 +160,7 @@
             tableContent += '</tr></thead><tbody>';
 
             // Loop over records and add rows
-            records.slice(0, 10).forEach(record => {
-                tableContent += '<tr>';
-                Object.values(record).forEach(value => {
-                    tableContent += `<td>${value}</td>`;
-                });
-                tableContent += '</tr>';
-            });
-
-            tableContent += '</tbody><tbody id="' + tableId + '-collapsible" class="collapsible">';
-
-            // Add collapsible rows for remaining records
-            records.slice(10).forEach(record => {
+            records.forEach(record => {
                 tableContent += '<tr>';
                 Object.values(record).forEach(value => {
                     tableContent += `<td>${value}</td>`;
@@ -196,25 +170,6 @@
 
             tableContent += '</tbody>';
             table.innerHTML = tableContent;
-        }
-
-        // Toggle function to collapse/expand the rows
-        function toggleCollapse(tableId) {
-            const collapsible = document.getElementById(`${tableId}-collapsible`);
-            const toggleButton = document.getElementById(`toggle-${tableId}-btn`);
-
-            if (!collapsible || !toggleButton) {
-                console.error("Collapsible element or button not found for ID:", tableId);
-                return;
-            }
-
-            if (collapsible.classList.contains('open')) {
-                collapsible.classList.remove('open');
-                toggleButton.textContent = 'Show More';
-            } else {
-                collapsible.classList.add('open');
-                toggleButton.textContent = 'Show Less';
-            }
         }
 
         // Function to render charts
