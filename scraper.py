@@ -6,7 +6,7 @@ def scrape_table(url, output_filename):
     response = requests.get(url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
-        table_div = soup.find('div', class_='table-responsive2 small')
+        table_div = soup.find('div', class_='table-responsive2')
         if table_div:
             table = table_div.find('table')
             if table:
