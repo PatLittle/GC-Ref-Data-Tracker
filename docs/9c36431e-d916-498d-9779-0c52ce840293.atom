@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>
+  <title>Open Government Portal - Dataset: "Data Reference Standard on Person(s): sex assigned at birth"</title>
+  <updated>2024-10-01T13:58:23.611460+00:00</updated>
+  <author>
+    <name>https://open.canada.ca</name>
+  </author>
+  <link href="https://open.canada.ca/data/en/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom" rel="self"/>
+  <link href="https://open.canada.ca/data/en/api/3/action/package_show?id=9c36431e-d916-498d-9779-0c52ce840293" rel="enclosure"/>
+  <link href="https://open.canada.ca/data/en/dataset/9c36431e-d916-498d-9779-0c52ce840293" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Recently created or updated resources on Open Government Portal for dataset: Data Reference Standard on Person(s): sex assigned at birth</subtitle>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/9c36431e-d916-498d-9779-0c52ce840293/resource/ab457ba4-4a80-476b-8608-c57c52d59bd1</id>
+    <title>reference data table for sex assigned at birth</title>
+    <updated>2024-09-26T18:40:37.336492+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/9c36431e-d916-498d-9779-0c52ce840293/resource/ab457ba4-4a80-476b-8608-c57c52d59bd1" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=ab457ba4-4a80-476b-8608-c57c52d59bd1" rel="enclosure"/>
+    <published>2024-09-26T18:40:37.349363+00:00</published>
+  </entry>
+</feed>
