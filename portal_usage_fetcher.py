@@ -33,7 +33,7 @@ def fetch_and_save_data(resource_id, output_file):
 # Step 3: Fetch data for both resource IDs
 
 # First table (visits)
-fetch_and_save_data("c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db", "filtered_data_visits.json")
+fetch_and_save_data("c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db", "docs/filtered_data_visits.json")
 
 # Second table (downloads)
-fetch_and_save_data("4ebc050f-6c3c-4dfd-817e-875b2caf3ec6", "filtered_data_downloads.json")
+fetch_and_save_data("4ebc050f-6c3c-4dfd-817e-875b2caf3ec6", "docs/filtered_data_downloads.json")
