@@ -1,104 +1,92 @@
-
-/* General styles */
+/* Reset and box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* General body and typography */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
+    margin: 20px; /* Unified margin */
+    padding: 20px; /* Unified padding */
 }
 
+/* Heading styles */
 h1, h2, h3 {
     color: #2c3e50;
 }
 
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-p {
-    margin-bottom: 20px;
-    font-size: 1.1em;
-    color: #555;
-}
-
-/* Header and main layout */
-header {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-header h1 {
+h1 {
     font-size: 2.5em;
     font-weight: 600;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+/* Breadcrumb styles */
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Feed container styles */
+.feed-container {
+    margin-bottom: 30px;
+}
+
+.feed-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.feed-box h3 {
+    margin-top: 0;
 }
 
 /* Table styles */
 table {
     width: 100%;
-    margin: 20px 0;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 th, td {
-    padding: 12px 15px;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #3498db;
+    background-color: #4CAF50; /* Updated header background */
     color: white;
     font-weight: bold;
 }
 
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background */
+}
+
 tr:hover {
-    background-color: #f1f1f1;
+    background-color: #ddd;
 }
 
-td {
-    color: #555;
-}
-
-/* Content section */
-.content-section {
-    margin-top: 40px;
-}
-
-/* Responsive Chart Canvas */
-.chart-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-canvas {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Button styling */
+/* Button styles */
 .btn {
     display: inline-block;
     background-color: #3498db;
@@ -112,46 +100,42 @@ canvas {
     background-color: #2980b9;
 }
 
-/* Footer styles */
-footer {
-    margin-top: 50px;
-    text-align: center;
-    font-size: 0.9em;
-    color: #888;
+/* Diff container styles */
+.diff-container {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
 }
 
-/* Collapsible section */
-.collapsible {
-    display: none;
+.diff-added {
+    background-color: #e6ffed;
+    color: #22863a;
 }
 
-.collapsible.open {
-    display: table-row-group;
+.diff-removed {
+    background-color: #ffeef0;
+    color: #d73a49;
 }
 
-.collapse-btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 8px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 10px;
-    transition: background-color 0.3s;
+.diff-context {
+    background-color: #f6f8fa;
+    color: #6a737d;
 }
 
-.collapse-btn:hover {
-    background-color: #2980b9;
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
-/* Responsive design */
+/* Responsive styles */
 @media (max-width: 768px) {
     body {
         padding: 10px;
     }
 
-    header h1 {
+    h1 {
         font-size: 2em;
     }
 
@@ -159,3 +143,45 @@ footer {
         padding: 10px;
     }
 }
+
+/* Summary and Details styles */
+details {
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c3e50;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+}
+
+summary:hover {
+    color: #007bff;
+}
+
+summary::marker {
+    color: #3498db;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #ddd;
+}
+
+details[open] {
+    background-color: #f1f1f1;
+}
+
+details p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #555;
+}
+
