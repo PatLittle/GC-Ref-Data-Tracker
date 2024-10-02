@@ -86,36 +86,59 @@
   <script>
     const filePath = '/docs/scraped_table_en.csv'; // CSV file path in the repo
     const baseCsvUrl = `https://raw.githubusercontent.com/PatLittle/GC-Ref-Data-Tracker/`;
-
     const commitSelect = document.getElementById('commit-select');
     const gitDiffContainer = document.getElementById('git-diff');
     const commitInfo = document.getElementById('commit-info');
     const csvTable = document.getElementById('csv-table');
     const loadingMessage = document.getElementById('loading-message');
 
-    // Fetch and display git diff for the specific file from the commits.json
-    function fetchAndDisplayDiff(commitHash) {
-      fetch(`commits.json`)
+    // Load commits.json and populate the dropdown
+    fetch('docs/commits.json')  // Assumes commits.json is at the root of your site
+      .then(response => response.json())
+      .then(commits => {
+        commits.forEach(commit => {
+          const option = document.createElement('option');
+          option.value = commit.sha;
+          option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
+          commitSelect.appendChild(option);
+        });
+
+        // Display details of the first commit by default
+        if (commits.length > 0) {
+          fetchAndDisplayDiff(commits[0].sha);
+          fetchAndDisplayCsv(commits[0].sha);
+          updateCommitInfo(commits[0]);
+        }
+      })
+      .catch(error => {
+        console.error('Error loading commits.json:', error);
+      });
+
+    // Function to fetch and display pre-fetched diff data from commits.json
+    function fetchAndDisplayDiff(commitSha) {
+      fetch('docs/commits.json')  // Fetch the same commits.json file
         .then(response => response.json())
         .then(commits => {
-          const selectedCommit = commits.find(commit => commit.sha === commitHash);
-          if (selectedCommit && selectedCommit.files) {
+          const selectedCommit = commits.find(commit => commit.sha === commitSha);
+          if (selectedCommit) {
             let diffContent = '';
             selectedCommit.files.forEach(file => {
-              diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
+              if (file.patch) {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
+              } else {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
+              }
             });
             gitDiffContainer.textContent = diffContent;
-          } else {
-            gitDiffContainer.textContent = 'No changes found for the selected commit.';
           }
         })
         .catch(error => {
-          gitDiffContainer.textContent = 'Error loading commit diff.';
           console.error('Error loading diff:', error);
+          gitDiffContainer.textContent = 'Error loading commit diff.';
         });
     }
 
-    // Fetch and display CSV data
+    // Fetch and display CSV data for the selected commit
     function fetchAndDisplayCsv(commitHash) {
       const csvUrl = `${baseCsvUrl}${commitHash}${filePath}`;
       csvTable.innerHTML = ''; // Clear the table
@@ -159,36 +182,21 @@
       commitInfo.textContent = `Commit: ${commit.sha.substring(0, 7)} | Message: ${commit.commit.message} | Date: ${new Date(commit.commit.author.date).toLocaleString()}`;
     }
 
-    // Fetch commits.json and populate the dropdown
-    fetch('commits.json')  // Assuming commits.json is in the root of your site
-      .then(response => response.json())
-      .then(commits => {
-        // Populate the dropdown with commit SHAs and messages
-        commits.forEach(commit => {
-          const option = document.createElement('option');
-          option.value = commit.sha;
-          option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
-          commitSelect.appendChild(option);
-        });
-
-        // Display metadata of the first commit
-        if (commits.length > 0) {
-          updateCommitInfo(commits[0]);
-
-          // Load CSV and diff for the first commit in the dropdown by default
-          fetchAndDisplayCsv(commits[0].sha);
-          fetchAndDisplayDiff(commits[0].sha);
-        }
-      })
-      .catch(error => {
-        console.error('Error loading commits:', error);
-      });
-
     // Event listener for commit selection
     commitSelect.addEventListener('change', function() {
-      const selectedCommit = commitSelect.value;
-      fetchAndDisplayCsv(selectedCommit);
-      fetchAndDisplayDiff(selectedCommit);
+      const selectedCommitSha = commitSelect.value;
+      fetchAndDisplayDiff(selectedCommitSha);
+      fetchAndDisplayCsv(selectedCommitSha);
+
+      // Load commit metadata
+      fetch('docs/commits.json')
+        .then(response => response.json())
+        .then(commits => {
+          const selectedCommit = commits.find(commit => commit.sha === selectedCommitSha);
+          if (selectedCommit) {
+            updateCommitInfo(selectedCommit);
+          }
+        });
     });
   </script>
 </body>
