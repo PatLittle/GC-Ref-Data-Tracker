@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Commits Viewer</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-  <!-- Link to external CSS file -->
   <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
@@ -80,6 +79,12 @@
     const loadingMessageFr = document.getElementById('loading-message-fr');
     const filePathFr = '/docs/scraped_table_fr.csv'; // Path for French CSV
 
+    // Function to log errors for better debugging
+    function logError(message, error) {
+      console.error(message, error);
+      alert(message); // Optional: Notify users of the error
+    }
+
     // Fetch and display English Git Diff
     function fetchAndDisplayDiffEn(commitSha) {
       fetch('./subsets/filtered_commits_scraped_table_en.json')
@@ -100,10 +105,7 @@
               .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
           }
         })
-        .catch(error => {
-          console.error('Error loading diff:', error);
-          gitDiffContainerEn.textContent = 'Error loading commit diff.';
-        });
+        .catch(error => logError('Error loading English commit diff.', error));
     }
 
     // Fetch and display French Git Diff
@@ -126,11 +128,35 @@
               .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
           }
         })
-        .catch(error => {
-          console.error('Error loading diff:', error);
-          gitDiffContainerFr.textContent = 'Error loading commit diff.';
-        });
+        .catch(error => logError('Error loading French commit diff.', error));
     }
+
+    // Fetch commits and load options into the dropdowns
+    function loadCommitsForTable(fetchUrl, commitSelectElement, tableName, csvTableElement, diffDisplayFn) {
+      fetch(fetchUrl)
+        .then(response => response.json())
+        .then(commits => {
+          commits.forEach(commit => {
+            const option = document.createElement('option');
+            option.value = commit.sha;
+            option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
+            commitSelectElement.appendChild(option);
+          });
+
+          // Load first commit by default if commits are available
+          if (commits.length > 0) {
+            const firstCommit = commits[0].sha;
+            diffDisplayFn(firstCommit);
+          }
+        })
+        .catch(error => logError(`Error loading ${tableName} commits.`, error));
+    }
+
+    // Load the English commits
+    loadCommitsForTable('./subsets/filtered_commits_scraped_table_en.json', commitSelectEn, 'English', csvTableEn, fetchAndDisplayDiffEn);
+
+    // Load the French commits
+    loadCommitsForTable('./subsets/filtered_commits_scraped_table_fr.json', commitSelectFr, 'French', csvTableFr, fetchAndDisplayDiffFr);
 
     // Event listeners for the English table commit selection
     commitSelectEn.addEventListener('change', function() {
