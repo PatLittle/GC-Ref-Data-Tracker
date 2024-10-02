@@ -127,6 +127,54 @@
     const loadingMessageFr = document.getElementById('loading-message-fr');
     const filePathFr = '/docs/scraped_table_fr.csv'; // Path for French CSV
 
+    // Fetch and display English Git Diff
+    function fetchAndDisplayDiffEn(commitSha) {
+      fetch('./subsets/filtered_commits_scraped_table_en.json')
+        .then(response => response.json())
+        .then(commits => {
+          const selectedCommit = commits.find(commit => commit.sha === commitSha);
+          if (selectedCommit) {
+            let diffContent = '';
+            selectedCommit.files.forEach(file => {
+              if (file.patch) {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
+              } else {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
+              }
+            });
+            gitDiffContainerEn.textContent = diffContent;
+          }
+        })
+        .catch(error => {
+          console.error('Error loading diff:', error);
+          gitDiffContainerEn.textContent = 'Error loading commit diff.';
+        });
+    }
+
+    // Fetch and display French Git Diff
+    function fetchAndDisplayDiffFr(commitSha) {
+      fetch('./subsets/filtered_commits_scraped_table_fr.json')
+        .then(response => response.json())
+        .then(commits => {
+          const selectedCommit = commits.find(commit => commit.sha === commitSha);
+          if (selectedCommit) {
+            let diffContent = '';
+            selectedCommit.files.forEach(file => {
+              if (file.patch) {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
+              } else {
+                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
+              }
+            });
+            gitDiffContainerFr.textContent = diffContent;
+          }
+        })
+        .catch(error => {
+          console.error('Error loading diff:', error);
+          gitDiffContainerFr.textContent = 'Error loading commit diff.';
+        });
+    }
+
     // Function to fetch and display data for the English CSV
     function fetchAndDisplayCsvEn(commitHash) {
       const csvUrl = `${baseCsvUrl}${commitHash}${filePathEn}`;
@@ -218,6 +266,7 @@
 
         if (commits.length > 0) {
           fetchAndDisplayCsvEn(commits[0].sha);
+          fetchAndDisplayDiffEn(commits[0].sha);
           updateCommitInfo(commitInfoEn, commits[0]);
         }
       })
@@ -238,6 +287,7 @@
 
         if (commits.length > 0) {
           fetchAndDisplayCsvFr(commits[0].sha);
+          fetchAndDisplayDiffFr(commits[0].sha);
           updateCommitInfo(commitInfoFr, commits[0]);
         }
       })
@@ -254,12 +304,14 @@
     commitSelectEn.addEventListener('change', function() {
       const selectedCommitSha = commitSelectEn.value;
       fetchAndDisplayCsvEn(selectedCommitSha);
+      fetchAndDisplayDiffEn(selectedCommitSha);
     });
 
     // Event listeners for the French table commit selection
     commitSelectFr.addEventListener('change', function() {
       const selectedCommitSha = commitSelectFr.value;
       fetchAndDisplayCsvFr(selectedCommitSha);
+      fetchAndDisplayDiffFr(selectedCommitSha);
     });
   </script>
 </body>
