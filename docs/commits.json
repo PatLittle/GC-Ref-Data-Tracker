@@ -1,5 +1,1010 @@
 [
   {
+    "sha": "885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+    "node_id": "C_kwDOMrSvVdoAKDg4NTQwMDQwOWZkNTg3YzI4YzQ2ZDczY2NmMGEyMjZjNGJmYmQ0ZmI",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-10-02T21:01:30Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-10-02T21:01:30Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "1e3e6ea4d7090e56a0975be87fdbe34ef33c2c6d",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/1e3e6ea4d7090e56a0975be87fdbe34ef33c2c6d"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/885400409fd587c28c46d73ccf0a226c4bfbd4fb/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea"
+      }
+    ],
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "9a4fa1fa7b976bb2114d16b2f818a1fb318c3e64",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-10-02T17:07:16.777308+00:00</updated>\n+  <updated>2024-10-02T21:01:22.991952+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "1689625d1ad2cd7b970bc7fe642e6c4d2fd22a36",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-10-02T17:07:16.535563+00:00</updated>\n+  <updated>2024-10-02T21:01:22.754545+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "c8d0312e1a9d56f360b3209400540551fa495667",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-10-02T17:07:16.966241+00:00</updated>\n+  <updated>2024-10-02T21:01:29.288342+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "53cd7a0fc3a8688978a98817f932995dacf6ac16",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-10-02T17:07:16.659176+00:00</updated>\n+  <updated>2024-10-02T21:01:22.877213+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "4dad3d723274e6b3d84b236f5c64d2007a44b2cc",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/885400409fd587c28c46d73ccf0a226c4bfbd4fb/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=885400409fd587c28c46d73ccf0a226c4bfbd4fb",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-10-02T17:07:16.417917+00:00</updated>\n+  <updated>2024-10-02T21:01:22.641961+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      }
+    ]
+  },
+  {
+    "sha": "4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+    "node_id": "C_kwDOMrSvVdoAKDRiNzlmNGUyYjY3NGVmMGMwMmNmMGRmZTY3N2JhYTE4OGM5N2Y2ZWE",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T20:10:34Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T20:10:34Z"
+      },
+      "message": "css on feeds",
+      "tree": {
+        "sha": "2425e3a87f3d17caddf36ab5642434d6bcbdd71b",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/2425e3a87f3d17caddf36ab5642434d6bcbdd71b"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/a1e962834a1ff0907e27618a8ee3a24fc3964bf6"
+      }
+    ],
+    "stats": {
+      "total": 29,
+      "additions": 1,
+      "deletions": 28
+    },
+    "files": [
+      {
+        "sha": "1f978f1b93d16d762b9f62b7b7c6ff38a96e1b2d",
+        "filename": "docs/feeds.html",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 28,
+        "changes": 29,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea/docs%2Ffeeds.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea/docs%2Ffeeds.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffeeds.html?ref=4b79f4e2b674ef0c02cf0dfe677baa188c97f6ea",
+        "patch": "@@ -4,34 +4,7 @@\n     <meta charset=\"UTF-8\">\r\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n     <title>GC Reference Data Tracker - Atom Feeds</title>\r\n-    <style>\r\n-        body {\r\n-            font-family: Arial, sans-serif;\r\n-            margin: 40px;\r\n-        }\r\n-        .breadcrumb {\r\n-            margin-bottom: 20px;\r\n-        }\r\n-        .breadcrumb a {\r\n-            text-decoration: none;\r\n-            color: #007bff;\r\n-        }\r\n-        .breadcrumb a:hover {\r\n-            text-decoration: underline;\r\n-        }\r\n-        .feed-container {\r\n-            margin-bottom: 30px;\r\n-        }\r\n-        .feed-box {\r\n-            border: 1px solid #ddd;\r\n-            padding: 20px;\r\n-            margin-bottom: 20px;\r\n-            background-color: #f9f9f9;\r\n-        }\r\n-        .feed-box h3 {\r\n-            margin-top: 0;\r\n-        }\r\n-    </style>\r\n+    <link rel=\"stylesheet\" href=\"styles.css\"> <!-- External CSS file -->\r\n </head>\r\n <body>\r\n     <!-- Breadcrumb Navigation -->\r"
+      }
+    ]
+  },
+  {
+    "sha": "a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+    "node_id": "C_kwDOMrSvVdoAKGExZTk2MjgzNGExZmYwOTA3ZTI3NjE4YThlZTNhMjRmYzM5NjRiZjY",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T19:15:07Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T19:15:07Z"
+      },
+      "message": "css",
+      "tree": {
+        "sha": "68287d6d00c72a41e7e68025e58425230234c56b",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/68287d6d00c72a41e7e68025e58425230234c56b"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a1e962834a1ff0907e27618a8ee3a24fc3964bf6/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "733539203b3b83c5009f2154b66245ef744206ea",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/733539203b3b83c5009f2154b66245ef744206ea",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/733539203b3b83c5009f2154b66245ef744206ea"
+      }
+    ],
+    "stats": {
+      "total": 178,
+      "additions": 102,
+      "deletions": 76
+    },
+    "files": [
+      {
+        "sha": "4102a45964af0ea7dbed2b9005632f7d38382260",
+        "filename": "docs/changes.html",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/a1e962834a1ff0907e27618a8ee3a24fc3964bf6/docs%2Fchanges.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/a1e962834a1ff0907e27618a8ee3a24fc3964bf6/docs%2Fchanges.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchanges.html?ref=a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+        "patch": "@@ -5,7 +5,7 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n   <title>GitHub Commits Viewer</title>\n   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js\"></script>\n-  <link rel=\"stylesheet\" href=\"styles2.css\">\n+  <link rel=\"stylesheet\" href=\"styles.css\">\n </head>\n <body>\n   <h1>GitHub Commits Viewer</h1>"
+      },
+      {
+        "sha": "8e91d668e56769914b00f5b245d648e2e2e44a69",
+        "filename": "docs/styles.css",
+        "status": "modified",
+        "additions": 101,
+        "deletions": 75,
+        "changes": 176,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/a1e962834a1ff0907e27618a8ee3a24fc3964bf6/docs%2Fstyles.css",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/a1e962834a1ff0907e27618a8ee3a24fc3964bf6/docs%2Fstyles.css",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fstyles.css?ref=a1e962834a1ff0907e27618a8ee3a24fc3964bf6",
+        "patch": "@@ -1,104 +1,92 @@\n-\r\n-/* General styles */\r\n+/* Reset and box-sizing */\r\n * {\r\n     margin: 0;\r\n     padding: 0;\r\n     box-sizing: border-box;\r\n }\r\n \r\n+/* General body and typography */\r\n body {\r\n     font-family: 'Roboto', Arial, sans-serif;\r\n     background-color: #f4f4f9;\r\n     color: #333;\r\n     line-height: 1.6;\r\n-    padding: 20px;\r\n+    margin: 20px; /* Unified margin */\r\n+    padding: 20px; /* Unified padding */\r\n }\r\n \r\n+/* Heading styles */\r\n h1, h2, h3 {\r\n     color: #2c3e50;\r\n }\r\n \r\n-a {\r\n-    color: #3498db;\r\n-    text-decoration: none;\r\n+h1 {\r\n+    font-size: 2.5em;\r\n+    font-weight: 600;\r\n }\r\n \r\n-a:hover {\r\n-    text-decoration: underline;\r\n+/* Breadcrumb styles */\r\n+.breadcrumb {\r\n+    margin-bottom: 20px;\r\n }\r\n \r\n-p {\r\n-    margin-bottom: 20px;\r\n-    font-size: 1.1em;\r\n-    color: #555;\r\n+.breadcrumb a {\r\n+    text-decoration: none;\r\n+    color: #007bff;\r\n }\r\n \r\n-/* Header and main layout */\r\n-header {\r\n-    text-align: center;\r\n-    margin-bottom: 40px;\r\n+.breadcrumb a:hover {\r\n+    text-decoration: underline;\r\n }\r\n \r\n-header h1 {\r\n-    font-size: 2.5em;\r\n-    font-weight: 600;\r\n+/* Feed container styles */\r\n+.feed-container {\r\n+    margin-bottom: 30px;\r\n+}\r\n+\r\n+.feed-box {\r\n+    border: 1px solid #ddd;\r\n+    padding: 20px;\r\n+    margin-bottom: 20px;\r\n+    background-color: #f9f9f9;\r\n }\r\n \r\n-.container {\r\n-    max-width: 1200px;\r\n-    margin: 0 auto;\r\n+.feed-box h3 {\r\n+    margin-top: 0;\r\n }\r\n \r\n /* Table styles */\r\n table {\r\n     width: 100%;\r\n-    margin: 20px 0;\r\n     border-collapse: collapse;\r\n-    background-color: white;\r\n+    background-color: #f9f9f9;\r\n+    margin-top: 20px;\r\n+    border: 1px solid #ddd;\r\n     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n     border-radius: 8px;\r\n }\r\n \r\n th, td {\r\n-    padding: 12px 15px;\r\n+    padding: 10px;\r\n     text-align: left;\r\n     border-bottom: 1px solid #ddd;\r\n }\r\n \r\n th {\r\n-    background-color: #3498db;\r\n+    background-color: #4CAF50; /* Updated header background */\r\n     color: white;\r\n     font-weight: bold;\r\n }\r\n \r\n-tr:hover {\r\n-    background-color: #f1f1f1;\r\n-}\r\n-\r\n-td {\r\n-    color: #555;\r\n-}\r\n-\r\n-/* Content section */\r\n-.content-section {\r\n-    margin-top: 40px;\r\n+tr:nth-child(even) {\r\n+    background-color: #f2f2f2; /* Alternate row background */\r\n }\r\n \r\n-/* Responsive Chart Canvas */\r\n-.chart-container {\r\n-    position: relative;\r\n-    width: 100%;\r\n-    max-width: 800px;\r\n-    margin: 0 auto;\r\n-}\r\n-\r\n-canvas {\r\n-    display: block;\r\n-    max-width: 100%;\r\n-    height: auto;\r\n+tr:hover {\r\n+    background-color: #ddd;\r\n }\r\n \r\n-/* Button styling */\r\n+/* Button styles */\r\n .btn {\r\n     display: inline-block;\r\n     background-color: #3498db;\r\n@@ -112,50 +100,88 @@ canvas {\n     background-color: #2980b9;\r\n }\r\n \r\n-/* Footer styles */\r\n-footer {\r\n-    margin-top: 50px;\r\n-    text-align: center;\r\n-    font-size: 0.9em;\r\n-    color: #888;\r\n+/* Diff container styles */\r\n+.diff-container {\r\n+    margin-top: 20px;\r\n+    background-color: #f9f9f9;\r\n+    padding: 10px;\r\n+    border: 1px solid #ddd;\r\n+    overflow-x: auto;\r\n }\r\n \r\n-/* Collapsible section */\r\n-.collapsible {\r\n-    display: none;\r\n+.diff-added {\r\n+    background-color: #e6ffed;\r\n+    color: #22863a;\r\n }\r\n \r\n-.collapsible.open {\r\n-    display: table-row-group;\r\n+.diff-removed {\r\n+    background-color: #ffeef0;\r\n+    color: #d73a49;\r\n }\r\n \r\n-.collapse-btn {\r\n-    display: inline-block;\r\n-    background-color: #3498db;\r\n-    color: white;\r\n-    padding: 8px 15px;\r\n-    border-radius: 5px;\r\n-    cursor: pointer;\r\n-    text-align: center;\r\n-    margin-top: 10px;\r\n-    transition: background-color 0.3s;\r\n+.diff-context {\r\n+    background-color: #f6f8fa;\r\n+    color: #6a737d;\r\n }\r\n \r\n-.collapse-btn:hover {\r\n-    background-color: #2980b9;\r\n+pre {\r\n+    white-space: pre-wrap;\r\n+    word-wrap: break-word;\r\n }\r\n \r\n-/* Responsive design */\r\n+/* Responsive styles */\r\n @media (max-width: 768px) {\r\n     body {\r\n         padding: 10px;\r\n     }\r\n \r\n-    header h1 {\r\n+    h1 {\r\n         font-size: 2em;\r\n     }\r\n \r\n     th, td {\r\n         padding: 10px;\r\n     }\r\n }\r\n+\r\n+/* Summary and Details styles */\r\n+details {\r\n+    margin: 20px 0;\r\n+    background-color: #f9f9f9;\r\n+    border: 1px solid #ddd;\r\n+    border-radius: 5px;\r\n+    padding: 10px;\r\n+    transition: background-color 0.3s ease;\r\n+}\r\n+\r\n+summary {\r\n+    font-weight: bold;\r\n+    font-size: 1.1em;\r\n+    color: #2c3e50;\r\n+    cursor: pointer;\r\n+    padding: 10px;\r\n+    outline: none;\r\n+}\r\n+\r\n+summary:hover {\r\n+    color: #007bff;\r\n+}\r\n+\r\n+summary::marker {\r\n+    color: #3498db;\r\n+}\r\n+\r\n+details[open] summary {\r\n+    border-bottom: 1px solid #ddd;\r\n+}\r\n+\r\n+details[open] {\r\n+    background-color: #f1f1f1;\r\n+}\r\n+\r\n+details p {\r\n+    margin: 10px 0;\r\n+    font-size: 1em;\r\n+    color: #555;\r\n+}\r\n+\r"
+      }
+    ]
+  },
+  {
+    "sha": "733539203b3b83c5009f2154b66245ef744206ea",
+    "node_id": "C_kwDOMrSvVdoAKDczMzUzOTIwM2IzYjgzYzUwMDlmMjE1NGI2NjI0NWVmNzQ0MjA2ZWE",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T18:01:29Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T18:01:29Z"
+      },
+      "message": "sdfgh",
+      "tree": {
+        "sha": "4457bb68badc15f5f4b3e35f8cf6f3b4b3143425",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/4457bb68badc15f5f4b3e35f8cf6f3b4b3143425"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/733539203b3b83c5009f2154b66245ef744206ea",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/733539203b3b83c5009f2154b66245ef744206ea",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/733539203b3b83c5009f2154b66245ef744206ea",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/733539203b3b83c5009f2154b66245ef744206ea/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d412c69badbc134711716744b84fcc3b254d5f45",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d412c69badbc134711716744b84fcc3b254d5f45",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d412c69badbc134711716744b84fcc3b254d5f45"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1
+    },
+    "files": [
+      {
+        "sha": "c0e534fc0f135e2e0f8cb9472a227093e358a0d8",
+        "filename": "docs/changes.html",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/733539203b3b83c5009f2154b66245ef744206ea/docs%2Fchanges.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/733539203b3b83c5009f2154b66245ef744206ea/docs%2Fchanges.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchanges.html?ref=733539203b3b83c5009f2154b66245ef744206ea",
+        "patch": "@@ -5,7 +5,7 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n   <title>GitHub Commits Viewer</title>\n   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js\"></script>\n-  <link rel=\"stylesheet\" href=\"styles.css\">\n+  <link rel=\"stylesheet\" href=\"styles2.css\">\n </head>\n <body>\n   <h1>GitHub Commits Viewer</h1>"
+      }
+    ]
+  },
+  {
+    "sha": "d412c69badbc134711716744b84fcc3b254d5f45",
+    "node_id": "C_kwDOMrSvVdoAKGQ0MTJjNjliYWRiYzEzNDcxMTcxNjc0NGI4NGZjYzNiMjU0ZDVmNDU",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:55:43Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:55:43Z"
+      },
+      "message": "vghbnj",
+      "tree": {
+        "sha": "54f001a5c62053d604f402cd17c433dd0f6c594f",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/54f001a5c62053d604f402cd17c433dd0f6c594f"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d412c69badbc134711716744b84fcc3b254d5f45",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d412c69badbc134711716744b84fcc3b254d5f45",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d412c69badbc134711716744b84fcc3b254d5f45",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d412c69badbc134711716744b84fcc3b254d5f45/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5"
+      }
+    ],
+    "stats": {
+      "total": 82,
+      "additions": 77,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "4102a45964af0ea7dbed2b9005632f7d38382260",
+        "filename": "docs/changes.html",
+        "status": "modified",
+        "additions": 77,
+        "deletions": 5,
+        "changes": 82,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d412c69badbc134711716744b84fcc3b254d5f45/docs%2Fchanges.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d412c69badbc134711716744b84fcc3b254d5f45/docs%2Fchanges.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchanges.html?ref=d412c69badbc134711716744b84fcc3b254d5f45",
+        "patch": "@@ -5,7 +5,7 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n   <title>GitHub Commits Viewer</title>\n   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js\"></script>\n-  <link rel=\"stylesheet\" href=\"styles2.css\">\n+  <link rel=\"stylesheet\" href=\"styles.css\">\n </head>\n <body>\n   <h1>GitHub Commits Viewer</h1>\n@@ -61,7 +61,7 @@ <h2>Git Diff for French CSV</h2>\n   </div>\n \n   <script>\n-    // Relative paths for English and French CSV files (assuming they are in the same folder as this HTML file)\n+    // Relative paths for CSV files\n     const filePathEn = './scraped_table_en.csv';\n     const filePathFr = './scraped_table_fr.csv';\n \n@@ -108,10 +108,82 @@ <h2>Git Diff for French CSV</h2>\n       });\n     }\n \n-    // Fetch and display CSV data for English and French CSV files\n-    fetchAndDisplayCsv(filePathEn, document.getElementById('csv-table-en'), document.getElementById('loading-message-en'));\n-    fetchAndDisplayCsv(filePathFr, document.getElementById('csv-table-fr'), document.getElementById('loading-message-fr'));\n+    // Function to fetch and display Git Diff\n+    function fetchAndDisplayDiff(commitSha, diffContainerElement, diffJsonPath) {\n+      fetch(diffJsonPath)\n+        .then(response => response.json())\n+        .then(commits => {\n+          const selectedCommit = commits.find(commit => commit.sha === commitSha);\n+          if (selectedCommit) {\n+            let diffContent = '';\n+            selectedCommit.files.forEach(file => {\n+              if (file.patch) {\n+                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nPatch:\\n${file.patch}\\n\\n`;\n+              } else {\n+                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nNo diff available for this file.\\n\\n`;\n+              }\n+            });\n+            diffContainerElement.innerHTML = diffContent.replace(/^(\\+.*)$/gm, '<span class=\"diff-added\">$1</span>')\n+              .replace(/^(\\-.*)$/gm, '<span class=\"diff-removed\">$1</span>')\n+              .replace(/^(@@.*)$/gm, '<span class=\"diff-context\">$1</span>');\n+          }\n+        })\n+        .catch(error => logError('Error loading Git diff.', error));\n+    }\n+\n+    // Function to load commits and update the table and diff\n+    function loadCommits(commitJsonPath, commitSelectElement, csvFilePath, csvTableElement, loadingMessageElement, diffContainerElement, diffJsonPath) {\n+      fetch(commitJsonPath)\n+        .then(response => response.json())\n+        .then(commits => {\n+          commits.forEach(commit => {\n+            const option = document.createElement('option');\n+            option.value = commit.sha;\n+            option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;\n+            commitSelectElement.appendChild(option);\n+          });\n+\n+          // Load the first commit by default if there are any commits\n+          if (commits.length > 0) {\n+            const firstCommitSha = commits[0].sha;\n+            fetchAndDisplayCsv(csvFilePath, csvTableElement, loadingMessageElement);\n+            fetchAndDisplayDiff(firstCommitSha, diffContainerElement, diffJsonPath);\n+          }\n+        })\n+        .catch(error => logError('Error loading commits.', error));\n+    }\n \n+    // Load the English commits, CSV, and Git diff\n+    loadCommits('./subsets/filtered_commits_scraped_table_en.json', \n+      document.getElementById('commit-select-en'), \n+      filePathEn, \n+      document.getElementById('csv-table-en'), \n+      document.getElementById('loading-message-en'), \n+      document.getElementById('git-diff-en'),\n+      './subsets/filtered_commits_scraped_table_en.json');\n+\n+    // Load the French commits, CSV, and Git diff\n+    loadCommits('./subsets/filtered_commits_scraped_table_fr.json', \n+      document.getElementById('commit-select-fr'), \n+      filePathFr, \n+      document.getElementById('csv-table-fr'), \n+      document.getElementById('loading-message-fr'), \n+      document.getElementById('git-diff-fr'),\n+      './subsets/filtered_commits_scraped_table_fr.json');\n+\n+    // Event listeners for the English table commit selection\n+    document.getElementById('commit-select-en').addEventListener('change', function() {\n+      const selectedCommitSha = this.value;\n+      fetchAndDisplayCsv(filePathEn, document.getElementById('csv-table-en'), document.getElementById('loading-message-en'));\n+      fetchAndDisplayDiff(selectedCommitSha, document.getElementById('git-diff-en'), './subsets/filtered_commits_scraped_table_en.json');\n+    });\n+\n+    // Event listeners for the French table commit selection\n+    document.getElementById('commit-select-fr').addEventListener('change', function() {\n+      const selectedCommitSha = this.value;\n+      fetchAndDisplayCsv(filePathFr, document.getElementById('csv-table-fr'), document.getElementById('loading-message-fr'));\n+      fetchAndDisplayDiff(selectedCommitSha, document.getElementById('git-diff-fr'), './subsets/filtered_commits_scraped_table_fr.json');\n+    });\n   </script>\n </body>\n </html>"
+      }
+    ]
+  },
+  {
+    "sha": "7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+    "node_id": "C_kwDOMrSvVdoAKDdmZDBlMzEyZmQxNDUxNzE0MWM2NGU1ZjgzZmEwMzA1ZjZkNmU5YzU",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:50:09Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:50:09Z"
+      },
+      "message": "yuginjk",
+      "tree": {
+        "sha": "01392c9eed01b5e95189c84683412126b863eb51",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/01392c9eed01b5e95189c84683412126b863eb51"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/5e89bca7772d3d36702d182b2089289113ba6cd5"
+      }
+    ],
+    "stats": {
+      "total": 133,
+      "additions": 38,
+      "deletions": 95
+    },
+    "files": [
+      {
+        "sha": "4e8c24b90d412f80bd417c7c2a888c7e08e9af90",
+        "filename": "docs/changes.html",
+        "status": "modified",
+        "additions": 38,
+        "deletions": 95,
+        "changes": 133,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5/docs%2Fchanges.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7fd0e312fd14517141c64e5f83fa0305f6d6e9c5/docs%2Fchanges.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchanges.html?ref=7fd0e312fd14517141c64e5f83fa0305f6d6e9c5",
+        "patch": "@@ -61,114 +61,57 @@ <h2>Git Diff for French CSV</h2>\n   </div>\n \n   <script>\n-    const baseCsvUrl = `https://raw.githubusercontent.com/PatLittle/GC-Ref-Data-Tracker/`;\n-\n-    // English Table Elements\n-    const commitSelectEn = document.getElementById('commit-select-en');\n-    const gitDiffContainerEn = document.getElementById('git-diff-en');\n-    const commitInfoEn = document.getElementById('commit-info-en');\n-    const csvTableEn = document.getElementById('csv-table-en');\n-    const loadingMessageEn = document.getElementById('loading-message-en');\n-    const filePathEn = '/docs/scraped_table_en.csv'; // Path for English CSV\n-\n-    // French Table Elements\n-    const commitSelectFr = document.getElementById('commit-select-fr');\n-    const gitDiffContainerFr = document.getElementById('git-diff-fr');\n-    const commitInfoFr = document.getElementById('commit-info-fr');\n-    const csvTableFr = document.getElementById('csv-table-fr');\n-    const loadingMessageFr = document.getElementById('loading-message-fr');\n-    const filePathFr = '/docs/scraped_table_fr.csv'; // Path for French CSV\n+    // Relative paths for English and French CSV files (assuming they are in the same folder as this HTML file)\n+    const filePathEn = './scraped_table_en.csv';\n+    const filePathFr = './scraped_table_fr.csv';\n \n     // Function to log errors for better debugging\n     function logError(message, error) {\n       console.error(message, error);\n       alert(message); // Optional: Notify users of the error\n     }\n \n-    // Fetch and display English Git Diff\n-    function fetchAndDisplayDiffEn(commitSha) {\n-      fetch('./subsets/filtered_commits_scraped_table_en.json')\n-        .then(response => response.json())\n-        .then(commits => {\n-          const selectedCommit = commits.find(commit => commit.sha === commitSha);\n-          if (selectedCommit) {\n-            let diffContent = '';\n-            selectedCommit.files.forEach(file => {\n-              if (file.patch) {\n-                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nPatch:\\n${file.patch}\\n\\n`;\n-              } else {\n-                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nNo diff available for this file.\\n\\n`;\n-              }\n-            });\n-            gitDiffContainerEn.innerHTML = diffContent.replace(/^(\\+.*)$/gm, '<span class=\"diff-added\">$1</span>')\n-              .replace(/^(\\-.*)$/gm, '<span class=\"diff-removed\">$1</span>')\n-              .replace(/^(@@.*)$/gm, '<span class=\"diff-context\">$1</span>');\n-          }\n-        })\n-        .catch(error => logError('Error loading English commit diff.', error));\n-    }\n+    // Function to fetch and display CSV data\n+    function fetchAndDisplayCsv(filePath, csvTableElement, loadingMessageElement) {\n+      loadingMessageElement.textContent = 'Loading CSV data...';\n+\n+      Papa.parse(filePath, {\n+        download: true,\n+        header: true,\n+        complete: function(results) {\n+          loadingMessageElement.textContent = ''; // Hide the loading message\n+\n+          const data = results.data;\n+          const tableBody = csvTableElement.createTBody();\n+          const thead = csvTableElement.createTHead();\n+          const row = thead.insertRow();\n+\n+          // Create table headers\n+          Object.keys(data[0]).forEach(key => {\n+            const th = document.createElement('th');\n+            th.textContent = key;\n+            row.appendChild(th);\n+          });\n \n-    // Fetch and display French Git Diff\n-    function fetchAndDisplayDiffFr(commitSha) {\n-      fetch('./subsets/filtered_commits_scraped_table_fr.json')\n-        .then(response => response.json())\n-        .then(commits => {\n-          const selectedCommit = commits.find(commit => commit.sha === commitSha);\n-          if (selectedCommit) {\n-            let diffContent = '';\n-            selectedCommit.files.forEach(file => {\n-              if (file.patch) {\n-                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nPatch:\\n${file.patch}\\n\\n`;\n-              } else {\n-                diffContent += `File: ${file.filename}\\nStatus: ${file.status}\\n\\nNo diff available for this file.\\n\\n`;\n-              }\n+          // Populate table rows\n+          data.forEach(rowData => {\n+            const row = tableBody.insertRow();\n+            Object.values(rowData).forEach(value => {\n+              const cell = row.insertCell();\n+              cell.textContent = value;\n             });\n-            gitDiffContainerFr.innerHTML = diffContent.replace(/^(\\+.*)$/gm, '<span class=\"diff-added\">$1</span>')\n-              .replace(/^(\\-.*)$/gm, '<span class=\"diff-removed\">$1</span>')\n-              .replace(/^(@@.*)$/gm, '<span class=\"diff-context\">$1</span>');\n-          }\n-        })\n-        .catch(error => logError('Error loading French commit diff.', error));\n-    }\n-\n-    // Fetch commits and load options into the dropdowns\n-    function loadCommitsForTable(fetchUrl, commitSelectElement, tableName, csvTableElement, diffDisplayFn) {\n-      fetch(fetchUrl)\n-        .then(response => response.json())\n-        .then(commits => {\n-          commits.forEach(commit => {\n-            const option = document.createElement('option');\n-            option.value = commit.sha;\n-            option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;\n-            commitSelectElement.appendChild(option);\n           });\n-\n-          // Load first commit by default if commits are available\n-          if (commits.length > 0) {\n-            const firstCommit = commits[0].sha;\n-            diffDisplayFn(firstCommit);\n-          }\n-        })\n-        .catch(error => logError(`Error loading ${tableName} commits.`, error));\n+        },\n+        error: function(error) {\n+          logError('Error loading CSV data.', error);\n+        }\n+      });\n     }\n \n-    // Load the English commits\n-    loadCommitsForTable('./subsets/filtered_commits_scraped_table_en.json', commitSelectEn, 'English', csvTableEn, fetchAndDisplayDiffEn);\n-\n-    // Load the French commits\n-    loadCommitsForTable('./subsets/filtered_commits_scraped_table_fr.json', commitSelectFr, 'French', csvTableFr, fetchAndDisplayDiffFr);\n-\n-    // Event listeners for the English table commit selection\n-    commitSelectEn.addEventListener('change', function() {\n-      const selectedCommitSha = commitSelectEn.value;\n-      fetchAndDisplayDiffEn(selectedCommitSha);\n-    });\n+    // Fetch and display CSV data for English and French CSV files\n+    fetchAndDisplayCsv(filePathEn, document.getElementById('csv-table-en'), document.getElementById('loading-message-en'));\n+    fetchAndDisplayCsv(filePathFr, document.getElementById('csv-table-fr'), document.getElementById('loading-message-fr'));\n \n-    // Event listeners for the French table commit selection\n-    commitSelectFr.addEventListener('change', function() {\n-      const selectedCommitSha = commitSelectFr.value;\n-      fetchAndDisplayDiffFr(selectedCommitSha);\n-    });\n   </script>\n </body>\n </html>"
+      }
+    ]
+  },
+  {
+    "sha": "5e89bca7772d3d36702d182b2089289113ba6cd5",
+    "node_id": "C_kwDOMrSvVdoAKDVlODliY2E3NzcyZDNkMzY3MDJkMTgyYjIwODkyODkxMTNiYTZjZDU",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:37:46Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:37:46Z"
+      },
+      "message": "Merge branch 'main' of https://github.com/PatLittle/GC-Ref-Data-Tracker into main",
+      "tree": {
+        "sha": "584ab1c31d624aa73bb0d0673acbbeb3ace39483",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/584ab1c31d624aa73bb0d0673acbbeb3ace39483"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/5e89bca7772d3d36702d182b2089289113ba6cd5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5e89bca7772d3d36702d182b2089289113ba6cd5",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/5e89bca7772d3d36702d182b2089289113ba6cd5",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5e89bca7772d3d36702d182b2089289113ba6cd5/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4ce0d2165bf7599f7686864049d74a3acf749ba2",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4ce0d2165bf7599f7686864049d74a3acf749ba2",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4ce0d2165bf7599f7686864049d74a3acf749ba2"
+      },
+      {
+        "sha": "d74ee8703f122f17b93db920bca85412ff2727b7",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d74ee8703f122f17b93db920bca85412ff2727b7",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d74ee8703f122f17b93db920bca85412ff2727b7"
+      }
+    ],
+    "stats": {
+      "total": 4113,
+      "additions": 2100,
+      "deletions": 2013
+    },
+    "files": [
+      {
+        "sha": "4cf962497d557fd6cf8bba721b07435967fed229",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-10-02T16:00:59.792336+00:00</updated>\n+  <updated>2024-10-02T17:07:16.777308+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "d91347428d3ed9e6d1e5271f6e5052e86cf0b1af",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-10-02T16:00:59.140371+00:00</updated>\n+  <updated>2024-10-02T17:07:16.535563+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "72a05b809d547f6e82b0df952815e7e9212a4491",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-10-02T16:01:00.096989+00:00</updated>\n+  <updated>2024-10-02T17:07:16.966241+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "f1aa0a64dd006faa036365100949958aa3d6c19b",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-10-02T16:00:59.460189+00:00</updated>\n+  <updated>2024-10-02T17:07:16.659176+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "987d44d468323c12371522c86fa6a64ccb1274d1",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=5e89bca7772d3d36702d182b2089289113ba6cd5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-10-02T16:00:58.824811+00:00</updated>\n+  <updated>2024-10-02T17:07:16.417917+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "785c90ba881ed065fddef1f48b8bfce0bb8008cb",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 2095,
+        "deletions": 2008,
+        "changes": 4103,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5e89bca7772d3d36702d182b2089289113ba6cd5/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=5e89bca7772d3d36702d182b2089289113ba6cd5"
+      }
+    ]
+  },
+  {
+    "sha": "4ce0d2165bf7599f7686864049d74a3acf749ba2",
+    "node_id": "C_kwDOMrSvVdoAKDRjZTBkMjE2NWJmNzU5OWY3Njg2ODY0MDQ5ZDc0YTNhY2Y3NDliYTI",
+    "commit": {
+      "author": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:37:37Z"
+      },
+      "committer": {
+        "name": "plittle",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-10-02T17:37:37Z"
+      },
+      "message": "sadfsadf",
+      "tree": {
+        "sha": "a0966dc6a4c1b042db6e4f6c2a16a65a693b4992",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/a0966dc6a4c1b042db6e4f6c2a16a65a693b4992"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/4ce0d2165bf7599f7686864049d74a3acf749ba2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4ce0d2165bf7599f7686864049d74a3acf749ba2",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4ce0d2165bf7599f7686864049d74a3acf749ba2",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4ce0d2165bf7599f7686864049d74a3acf749ba2/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f79fd9a5b4bbb8e990affc6b68d076240d58a3e7",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f79fd9a5b4bbb8e990affc6b68d076240d58a3e7",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/f79fd9a5b4bbb8e990affc6b68d076240d58a3e7"
+      }
+    ],
+    "stats": {
+      "total": 44,
+      "additions": 35,
+      "deletions": 9
+    },
+    "files": [
+      {
+        "sha": "4aaa26aa1d1b711307b0bccd37aead4c18308a6e",
+        "filename": "docs/changes.html",
+        "status": "modified",
+        "additions": 35,
+        "deletions": 9,
+        "changes": 44,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/4ce0d2165bf7599f7686864049d74a3acf749ba2/docs%2Fchanges.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/4ce0d2165bf7599f7686864049d74a3acf749ba2/docs%2Fchanges.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchanges.html?ref=4ce0d2165bf7599f7686864049d74a3acf749ba2",
+        "patch": "@@ -5,7 +5,6 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n   <title>GitHub Commits Viewer</title>\n   <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js\"></script>\n-  <!-- Link to external CSS file -->\n   <link rel=\"stylesheet\" href=\"styles2.css\">\n </head>\n <body>\n@@ -80,6 +79,12 @@ <h2>Git Diff for French CSV</h2>\n     const loadingMessageFr = document.getElementById('loading-message-fr');\n     const filePathFr = '/docs/scraped_table_fr.csv'; // Path for French CSV\n \n+    // Function to log errors for better debugging\n+    function logError(message, error) {\n+      console.error(message, error);\n+      alert(message); // Optional: Notify users of the error\n+    }\n+\n     // Fetch and display English Git Diff\n     function fetchAndDisplayDiffEn(commitSha) {\n       fetch('./subsets/filtered_commits_scraped_table_en.json')\n@@ -100,10 +105,7 @@ <h2>Git Diff for French CSV</h2>\n               .replace(/^(@@.*)$/gm, '<span class=\"diff-context\">$1</span>');\n           }\n         })\n-        .catch(error => {\n-          console.error('Error loading diff:', error);\n-          gitDiffContainerEn.textContent = 'Error loading commit diff.';\n-        });\n+        .catch(error => logError('Error loading English commit diff.', error));\n     }\n \n     // Fetch and display French Git Diff\n@@ -126,12 +128,36 @@ <h2>Git Diff for French CSV</h2>\n               .replace(/^(@@.*)$/gm, '<span class=\"diff-context\">$1</span>');\n           }\n         })\n-        .catch(error => {\n-          console.error('Error loading diff:', error);\n-          gitDiffContainerFr.textContent = 'Error loading commit diff.';\n-        });\n+        .catch(error => logError('Error loading French commit diff.', error));\n+    }\n+\n+    // Fetch commits and load options into the dropdowns\n+    function loadCommitsForTable(fetchUrl, commitSelectElement, tableName, csvTableElement, diffDisplayFn) {\n+      fetch(fetchUrl)\n+        .then(response => response.json())\n+        .then(commits => {\n+          commits.forEach(commit => {\n+            const option = document.createElement('option');\n+            option.value = commit.sha;\n+            option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;\n+            commitSelectElement.appendChild(option);\n+          });\n+\n+          // Load first commit by default if commits are available\n+          if (commits.length > 0) {\n+            const firstCommit = commits[0].sha;\n+            diffDisplayFn(firstCommit);\n+          }\n+        })\n+        .catch(error => logError(`Error loading ${tableName} commits.`, error));\n     }\n \n+    // Load the English commits\n+    loadCommitsForTable('./subsets/filtered_commits_scraped_table_en.json', commitSelectEn, 'English', csvTableEn, fetchAndDisplayDiffEn);\n+\n+    // Load the French commits\n+    loadCommitsForTable('./subsets/filtered_commits_scraped_table_fr.json', commitSelectFr, 'French', csvTableFr, fetchAndDisplayDiffFr);\n+\n     // Event listeners for the English table commit selection\n     commitSelectEn.addEventListener('change', function() {\n       const selectedCommitSha = commitSelectEn.value;"
+      }
+    ]
+  },
+  {
+    "sha": "d74ee8703f122f17b93db920bca85412ff2727b7",
+    "node_id": "C_kwDOMrSvVdoAKGQ3NGVlODcwM2YxMjJmMTdiOTNkYjkyMGJjYTg1NDEyZmYyNzI3Yjc",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-10-02T17:07:37Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-10-02T17:07:37Z"
+      },
+      "message": "Update commit data",
+      "tree": {
+        "sha": "7af6f86a131389929e2e3f1feed874d59b93191c",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/7af6f86a131389929e2e3f1feed874d59b93191c"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d74ee8703f122f17b93db920bca85412ff2727b7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d74ee8703f122f17b93db920bca85412ff2727b7",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d74ee8703f122f17b93db920bca85412ff2727b7",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d74ee8703f122f17b93db920bca85412ff2727b7/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1c60a721b8a94578d180a49db4c45355e53e9cd7",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1c60a721b8a94578d180a49db4c45355e53e9cd7",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/1c60a721b8a94578d180a49db4c45355e53e9cd7"
+      }
+    ],
+    "stats": {
+      "total": 4103,
+      "additions": 2095,
+      "deletions": 2008
+    },
+    "files": [
+      {
+        "sha": "785c90ba881ed065fddef1f48b8bfce0bb8008cb",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 2095,
+        "deletions": 2008,
+        "changes": 4103,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d74ee8703f122f17b93db920bca85412ff2727b7/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d74ee8703f122f17b93db920bca85412ff2727b7/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=d74ee8703f122f17b93db920bca85412ff2727b7"
+      }
+    ]
+  },
+  {
     "sha": "1c60a721b8a94578d180a49db4c45355e53e9cd7",
     "node_id": "C_kwDOMrSvVdoAKDFjNjBhNzIxYjhhOTQ1NzhkMTgwYTQ5ZGI0YzQ1MzU1ZTUzZTljZDc",
     "commit": {
@@ -15786,996 +16791,6 @@
         "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/daf740021e0be3ab94bc70f5e79d30a6fa733b7c/docs%2Findex.html",
         "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=daf740021e0be3ab94bc70f5e79d30a6fa733b7c",
         "patch": "@@ -176,6 +176,25 @@ <h1>GC Reference Data Tracker</h1>\n     </header>\n \n     <div class=\"container\">\n+        <!-- English Version Table -->\n+        <section class=\"content-section\">\n+            <h2>English Version</h2>\n+            <table id=\"table-en\">\n+                <!-- English data will be inserted here -->\n+            </table>\n+            <div class=\"collapse-btn\" id=\"toggle-en-btn\" onclick=\"toggleCollapse('en')\">Show More</div>\n+        </section>\n+\n+        <!-- French Version Table -->\n+        <section class=\"content-section\">\n+            <h2>French Version</h2>\n+            <table id=\"table-fr\">\n+                <!-- French data will be inserted here -->\n+            </table>\n+            <div class=\"collapse-btn\" id=\"toggle-fr-btn\" onclick=\"toggleCollapse('fr')\">Show More</div>\n+        </section>\n+\n+        <!-- Visits Data and Chart -->\n         <section class=\"content-section\">\n             <h2>Visits Data</h2>\n             <table id=\"visits-table-id\">\n@@ -189,16 +208,18 @@ <h2>Visits Over Time</h2>\n             </div>\n         </section>\n \n+        <!-- Downloads Data and Chart -->\n         <section class=\"content-section\">\n             <h2>Downloads Data</h2>\n-            <h3>Downloads Over Time</h3>\n-            <div class=\"chart-container\">\n-                <canvas id=\"downloadsChart\"></canvas>\n-            </div>\n             <table id=\"downloads-table-id\">\n                 <!-- Downloads data will be inserted here -->\n             </table>\n             <div class=\"collapse-btn\" id=\"toggle-downloads-btn\" onclick=\"toggleCollapse('downloads')\">Show More</div>\n+            \n+            <h3>Downloads Over Time</h3>\n+            <div class=\"chart-container\">\n+                <canvas id=\"downloadsChart\"></canvas>\n+            </div>\n         </section>\n     </div>\n \n@@ -210,8 +231,8 @@ <h3>Downloads Over Time</h3>\n     <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n \n     <script>\n-        // Function to render the Visits table with collapsible rows\n-        function renderVisitsTable(data, tableId) {\n+        // Function to render tables with collapsible rows\n+        function renderTable(data, tableId) {\n             const table = document.getElementById(tableId);\n             const records = data.records;\n \n@@ -224,7 +245,7 @@ <h3>Downloads Over Time</h3>\n                     <th>Title (FR)</th>\n                     <th>Department (EN)</th>\n                     <th>Department (FR)</th>\n-                    <th>Visits</th>\n+                    <th>Count</th>\n                     <th>Month</th>\n                     <th>Year</th>\n                 </tr>\n@@ -238,75 +259,22 @@ <h3>Downloads Over Time</h3>\n                     <td>${record.titre}</td>\n                     <td>${record.department}</td>\n                     <td>${record.ministere}</td>\n-                    <td>${record.visits_visites}</td>\n+                    <td>${record.count}</td>\n                     <td>${record.month_mois}</td>\n                     <td>${record.year_annee}</td>\n                 </tr>`;\n             });\n             tableContent += '</tbody>';\n \n             // Create remaining rows in a collapsible tbody\n-            tableContent += '<tbody id=\"visits-collapsible\" class=\"collapsible\">';\n+            tableContent += `<tbody id=\"${tableId}-collapsible\" class=\"collapsible\">`;\n             records.slice(10).forEach(record => {\n                 tableContent += `<tr>\n                     <td>${record.title}</td>\n                     <td>${record.titre}</td>\n                     <td>${record.department}</td>\n                     <td>${record.ministere}</td>\n-                    <td>${record.visits_visites}</td>\n-                    <td>${record.month_mois}</td>\n-                    <td>${record.year_annee}</td>\n-                </tr>`;\n-            });\n-            tableContent += '</tbody>';\n-\n-            table.innerHTML = tableContent;\n-        }\n-\n-        // Function to render the Downloads table with collapsible rows\n-        function renderDownloadsTable(data, tableId) {\n-            const table = document.getElementById(tableId);\n-            const records = data.records;\n-\n-            let tableContent = '';\n-\n-            // Create table header\n-            tableContent += `<thead>\n-                <tr>\n-                    <th>Title (EN)</th>\n-                    <th>Title (FR)</th>\n-                    <th>Department (EN)</th>\n-                    <th>Department (FR)</th>\n-                    <th>Downloads</th>\n-                    <th>Month</th>\n-                    <th>Year</th>\n-                </tr>\n-            </thead>`;\n-\n-            // Create top 10 rows in the visible tbody\n-            tableContent += '<tbody>';\n-            records.slice(0, 10).forEach(record => {\n-                tableContent += `<tr>\n-                    <td>${record.title}</td>\n-                    <td>${record.titre}</td>\n-                    <td>${record.department}</td>\n-                    <td>${record.ministere}</td>\n-                    <td>${record.downloads_telechargements}</td>\n-                    <td>${record.month_mois}</td>\n-                    <td>${record.year_annee}</td>\n-                </tr>`;\n-            });\n-            tableContent += '</tbody>';\n-\n-            // Create remaining rows in a collapsible tbody\n-            tableContent += '<tbody id=\"downloads-collapsible\" class=\"collapsible\">';\n-            records.slice(10).forEach(record => {\n-                tableContent += `<tr>\n-                    <td>${record.title}</td>\n-                    <td>${record.titre}</td>\n-                    <td>${record.department}</td>\n-                    <td>${record.ministere}</td>\n-                    <td>${record.downloads_telechargements}</td>\n+                    <td>${record.count}</td>\n                     <td>${record.month_mois}</td>\n                     <td>${record.year_annee}</td>\n                 </tr>`;\n@@ -330,16 +298,16 @@ <h3>Downloads Over Time</h3>\n             }\n         }\n \n-        // Function to render the Visits chart\n-        function renderVisitsChart(data) {\n+        // Function to render charts\n+        function renderChart(data, chartId, label, yAxisLabel) {\n             const labels = [];\n             const datasets = {};\n \n             // Organize data by dataset ID\n             data.records.forEach(record => {\n-                const label = getMonthYearLabel(record.month_mois, record.year_annee);\n-                if (!labels.includes(label)) {\n-                    labels.push(label);\n+                const chartLabel = getMonthYearLabel(record.month_mois, record.year_annee);\n+                if (!labels.includes(chartLabel)) {\n+                    labels.push(chartLabel);\n                 }\n \n                 if (!datasets[record.id]) {\n@@ -351,7 +319,7 @@ <h3>Downloads Over Time</h3>\n                     };\n                 }\n \n-                datasets[record.id].data[labels.indexOf(label)] = record.visits_visites;\n+                datasets[record.id].data[labels.indexOf(chartLabel)] = record.count;\n             });\n \n             // Fill missing data points for labels\n@@ -365,7 +333,7 @@ <h3>Downloads Over Time</h3>\n                 dataset.data.reverse();\n             });\n \n-            const ctx = document.getElementById('visitsChart').getContext('2d');\n+            const ctx = document.getElementById(chartId).getContext('2d');\n             new Chart(ctx, {\n                 type: 'line',\n                 data: {\n@@ -379,7 +347,7 @@ <h3>Downloads Over Time</h3>\n                             beginAtZero: true,\n                             title: {\n                                 display: true,\n-                                text: 'Visits'\n+                                text: yAxisLabel\n                             }\n                         },\n                         x: {\n@@ -404,75 +372,6 @@ <h3>Downloads Over Time</h3>\n             return `${month.toString().padStart(2, '0')}/${year}`;\n         }\n \n-        // Function to render the Downloads chart\n-        function renderDownloadsChart(data) {\n-            const labels = [];\n-            const datasets = {};\n-\n-            // Organize data by dataset ID\n-            data.records.forEach(record => {\n-                const label = getMonthYearLabel(record.month_mois, record.year_annee);\n-                if (!labels.includes(label)) {\n-                    labels.push(label);\n-                }\n-\n-                if (!datasets[record.id]) {\n-                    datasets[record.id] = {\n-                        label: record.title,\n-                        data: Array(labels.length).fill(null), // Fill with null values initially\n-                        borderColor: getRandomColor(),\n-                        borderWidth: 2\n-                    };\n-                }\n-\n-                datasets[record.id].data[labels.indexOf(label)] = record.downloads_telechargements;\n-            });\n-\n-            // Fill missing data points for labels\n-            Object.values(datasets).forEach(dataset => {\n-                dataset.data = labels.map(label => dataset.data[labels.indexOf(label)] || null);\n-            });\n-\n-            // Reverse the labels and dataset values for chronological order\n-            labels.reverse();\n-            Object.values(datasets).forEach(dataset => {\n-                dataset.data.reverse();\n-            });\n-\n-            const ctx = document.getElementById('downloadsChart').getContext('2d');\n-            new Chart(ctx, {\n-                type: 'line',\n-                data: {\n-                    labels: labels,\n-                    datasets: Object.values(datasets)\n-                },\n-                options: {\n-                    responsive: true,\n-                    scales: {\n-                        y: {\n-                            beginAtZero: true,\n-                            title: {\n-                                display: true,\n-                                text: 'Downloads'\n-                            }\n-                        },\n-                        x: {\n-                            title: {\n-                                display: true,\n-                                text: 'Time (MM/YYYY)'\n-                            }\n-                        }\n-                    },\n-                    plugins: {\n-                        legend: {\n-                            display: true,\n-                            position: 'bottom'\n-                        }\n-                    }\n-                }\n-            });\n-        }\n-\n         // Helper function to generate random colors for chart lines\n         function getRandomColor() {\n             const letters = '0123456789ABCDEF';\n@@ -483,20 +382,31 @@ <h3>Downloads Over Time</h3>\n             return color;\n         }\n \n-        // Fetch JSON data for Visits and render table and chart\n+        // Fetch data and render all tables and charts\n         fetch('filtered_data_visits.json')\n             .then(response => response.json())\n             .then(data => {\n-                renderVisitsTable(data, 'visits-table-id');\n-                renderVisitsChart(data);\n+                renderTable(data, 'visits-table-id');\n+                renderChart(data, 'visitsChart', 'Visits Over Time', 'Visits');\n             });\n \n-        // Fetch JSON data for Downloads and render table and chart\n         fetch('filtered_data_downloads.json')\n             .then(response => response.json())\n             .then(data => {\n-                renderDownloadsTable(data, 'downloads-table-id');\n-                renderDownloadsChart(data);\n+                renderTable(data, 'downloads-table-id');\n+                renderChart(data, 'downloadsChart', 'Downloads Over Time', 'Downloads');\n+            });\n+\n+        fetch('scraped_table_en.json')\n+            .then(response => response.json())\n+            .then(data => {\n+                renderTable(data, 'table-en');\n+            });\n+\n+        fetch('scraped_table_fr.json')\n+            .then(response => response.json())\n+            .then(data => {\n+                renderTable(data, 'table-fr');\n             });\n     </script>\n </body>"
-      }
-    ]
-  },
-  {
-    "sha": "f687017a9be62550c9e8ff41da138a2f0fb62194",
-    "node_id": "C_kwDOMrSvVdoAKGY2ODcwMTdhOWJlNjI1NTBjOWU4ZmY0MWRhMTM4YTJmMGZiNjIxOTQ",
-    "commit": {
-      "author": {
-        "name": "Patrick Little",
-        "email": "patrick.little@tbs-sct.gc.ca",
-        "date": "2024-09-25T05:33:22Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-09-25T05:33:22Z"
-      },
-      "message": "i",
-      "tree": {
-        "sha": "56e2eb641ce07155fd0f0b2c7a12a5178d94371e",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/56e2eb641ce07155fd0f0b2c7a12a5178d94371e"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/f687017a9be62550c9e8ff41da138a2f0fb62194",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm86CiCRC1aQ7uu5UhlAAAB7QQACvFOZcKkwqyUq3Uuy5ancxz\naWB2huCYztMKkybNCvyWohscwn7aYgwEgennAKPcVHpp+133LuPzU5EPY6ml4Vlv\nAo0Yv6r5R4WQtI3aiDlhVTBOdSRpFtyL9sfjgKKlH7yRI+fDqt2+sSUbd5edWUiJ\njPFMWiEfidrPT2bDAwgqp/S0XMoR0FUZT1bmxmzDUXkvGp1kpMnGcKbbjkUCq622\nuhb3ZmuisbrQhrMI/6QY2yFAE/qm/Acjw7tvJdaVpRy9EkXh5oPYP16rlLxaZE+0\nFV3I04MRmjkKawP5BXN9NqX03f2ITOAKeTcn/iYVt39hqiDSAvHn2C6FEGYVR5NL\ndjxB5aaJGHu3zhEXvDqVytNi+Ced+Rdu7NEesRPgc3efrpUruxv3RwuGDz01plGV\naWSa0EnSRRKXzGKnJDl5EZbVozI+WXDZg0vofPtvgxCEnZU1GMb44PzDSBg2zEHl\nrvY54O0p0urSp+X/lh0HVkxjy56gAcv3NJM5hDpbGKlqiNJYv/pnu7XGCxfgqUYG\n++yeIcaaniynGcl28is36Hbe3UWps3ZVZVBRlmglybbIwnQVzkJpodv24bk7z9Uk\n7T/fuGd8xNG40gDc2KpxMUvBthLz8cnXKsH/p6qOXRFdqdbFz1UqTNvgezNMR4OJ\nG8tR0d/olGol2qiwoiju\n=IAdt\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 56e2eb641ce07155fd0f0b2c7a12a5178d94371e\nparent 1949aa4401efbbd036e3f9c56bd3b4d55bb36555\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1727242402 -0400\ncommitter GitHub <noreply@github.com> 1727242402 -0400\n\ni"
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f687017a9be62550c9e8ff41da138a2f0fb62194",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/f687017a9be62550c9e8ff41da138a2f0fb62194",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f687017a9be62550c9e8ff41da138a2f0fb62194/comments",
-    "author": {
-      "login": "PatLittle",
-      "id": 31454591,
-      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/PatLittle",
-      "html_url": "https://github.com/PatLittle",
-      "followers_url": "https://api.github.com/users/PatLittle/followers",
-      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
-      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
-      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
-      "repos_url": "https://api.github.com/users/PatLittle/repos",
-      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/1949aa4401efbbd036e3f9c56bd3b4d55bb36555"
-      }
-    ],
-    "stats": {
-      "total": 458,
-      "additions": 196,
-      "deletions": 262
-    },
-    "files": [
-      {
-        "sha": "ce8cb78e7b3e343b460c10fa3f6d7f5c5c4ad542",
-        "filename": "docs/index.html",
-        "status": "modified",
-        "additions": 196,
-        "deletions": 262,
-        "changes": 458,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/f687017a9be62550c9e8ff41da138a2f0fb62194/docs%2Findex.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/f687017a9be62550c9e8ff41da138a2f0fb62194/docs%2Findex.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=f687017a9be62550c9e8ff41da138a2f0fb62194",
-        "patch": "@@ -1,5 +1,4 @@\n <!DOCTYPE html>\n-\n <html lang=\"en\">\n <head>\n     <meta charset=\"UTF-8\">\n@@ -92,11 +91,16 @@\n         }\n \n         /* Responsive Chart Canvas */\n-        canvas {\n-            display: block;\n-            margin: 20px auto;\n+        .chart-container {\n+            position: relative;\n             width: 100%;\n             max-width: 800px;\n+            margin: 0 auto;\n+        }\n+\n+        canvas {\n+            display: block;\n+            max-width: 100%;\n             height: auto;\n         }\n \n@@ -122,6 +126,31 @@\n             color: #888;\n         }\n \n+        /* Collapsible section */\n+        .collapsible {\n+            display: none;\n+        }\n+\n+        .collapsible.open {\n+            display: table-row-group;\n+        }\n+\n+        .collapse-btn {\n+            display: inline-block;\n+            background-color: #3498db;\n+            color: white;\n+            padding: 8px 15px;\n+            border-radius: 5px;\n+            cursor: pointer;\n+            text-align: center;\n+            margin-top: 10px;\n+            transition: background-color 0.3s;\n+        }\n+\n+        .collapse-btn:hover {\n+            background-color: #2980b9;\n+        }\n+\n         /* Responsive design */\n         @media (max-width: 768px) {\n             body {\n@@ -139,7 +168,6 @@\n     </style>\n </head>\n \n-\n <body>\n     <header>\n         <h1>GC Reference Data Tracker</h1>\n@@ -148,293 +176,160 @@ <h1>GC Reference Data Tracker</h1>\n     </header>\n \n     <div class=\"container\">\n-        <section class=\"content-section\">\n-            <h2>English Version</h2>\n-            <table id=\"table-en\">\n-                <!-- Table content will be inserted here -->\n-            </table>\n-        </section>\n-\n-        <section class=\"content-section\">\n-            <h2>French Version</h2>\n-            <table id=\"table-fr\">\n-                <!-- Table content will be inserted here -->\n-            </table>\n-        </section>\n-\n-        <section class=\"content-section\">\n-            <h2>English - Directive on Service and Digital Reference Data Appendix</h2>\n-            <div id=\"content-eng\">\n-                <!-- HTML content will be inserted here -->\n-            </div>\n-        </section>\n-\n-        <section class=\"content-section\">\n-            <h2>French - Directive on Service and Digital Reference Data Appendix</h2>\n-            <div id=\"content-fra\">\n-                <!-- HTML content will be inserted here -->\n-            </div>\n-        </section>\n-\n         <section class=\"content-section\">\n             <h2>Visits Data</h2>\n-            <h3>Visits Over Time</h3>\n-            <canvas id=\"visitsChart\"></canvas>\n             <table id=\"visits-table-id\">\n                 <!-- Visits data will be inserted here -->\n             </table>\n+            <div class=\"collapse-btn\" id=\"toggle-visits-btn\" onclick=\"toggleCollapse('visits')\">Show More</div>\n             \n+            <h2>Visits Over Time</h2>\n+            <div class=\"chart-container\">\n+                <canvas id=\"visitsChart\"></canvas>\n+            </div>\n         </section>\n \n         <section class=\"content-section\">\n             <h2>Downloads Data</h2>\n             <h3>Downloads Over Time</h3>\n-            <canvas id=\"downloadsChart\"></canvas>\n+            <div class=\"chart-container\">\n+                <canvas id=\"downloadsChart\"></canvas>\n+            </div>\n             <table id=\"downloads-table-id\">\n                 <!-- Downloads data will be inserted here -->\n             </table>\n-          \n+            <div class=\"collapse-btn\" id=\"toggle-downloads-btn\" onclick=\"toggleCollapse('downloads')\">Show More</div>\n         </section>\n     </div>\n \n-</body>\n-\n     <footer>\n         <p>&copy; 2024 GC Reference Data Tracker. All rights reserved.</p>\n     </footer>\n \n-    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n-    <!-- Rest of your JavaScript code for fetching and populating the data -->\n-\n-\n-\n-\n     <!-- Include Chart.js -->\n     <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n \n-    <script src=\"https://web.archive.org/web/20240914113055js_/https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n-    <script src=\"https://web.archive.org/web/20240914113055js_/https://cdn.jsdelivr.net/npm/chart.js\"></script>\n     <script>\n-        // Function to parse CSV content\n-        function parseCSV(csvContent) {\n-            const rows = [];\n-            let currentRow = [];\n-            let currentValue = '';\n-            let insideQuotes = false;\n-\n-            for (let i = 0; i < csvContent.length; i++) {\n-                const char = csvContent[i];\n-\n-                if (char === '\"' && insideQuotes) {\n-                    if (csvContent[i + 1] === '\"') {\n-                        currentValue += '\"';\n-                        i++;\n-                    } else {\n-                        insideQuotes = false;\n-                    }\n-                } else if (char === '\"' && !insideQuotes) {\n-                    insideQuotes = true;\n-                } else if (char === ',' && !insideQuotes) {\n-                    currentRow.push(currentValue.trim());\n-                    currentValue = '';\n-                } else if (char === '\\n' && !insideQuotes) {\n-                    currentRow.push(currentValue.trim());\n-                    rows.push(currentRow);\n-                    currentRow = [];\n-                    currentValue = '';\n-                } else {\n-                    currentValue += char;\n-                }\n-            }\n+        // Function to render the Visits table with collapsible rows\n+        function renderVisitsTable(data, tableId) {\n+            const table = document.getElementById(tableId);\n+            const records = data.records;\n \n-            if (currentValue) {\n-                currentRow.push(currentValue.trim());\n-                rows.push(currentRow);\n-            }\n+            let tableContent = '';\n+            \n+            // Create table header\n+            tableContent += `<thead>\n+                <tr>\n+                    <th>Title (EN)</th>\n+                    <th>Title (FR)</th>\n+                    <th>Department (EN)</th>\n+                    <th>Department (FR)</th>\n+                    <th>Visits</th>\n+                    <th>Month</th>\n+                    <th>Year</th>\n+                </tr>\n+            </thead>`;\n+\n+            // Create top 10 rows in the visible tbody\n+            tableContent += '<tbody>';\n+            records.slice(0, 10).forEach(record => {\n+                tableContent += `<tr>\n+                    <td>${record.title}</td>\n+                    <td>${record.titre}</td>\n+                    <td>${record.department}</td>\n+                    <td>${record.ministere}</td>\n+                    <td>${record.visits_visites}</td>\n+                    <td>${record.month_mois}</td>\n+                    <td>${record.year_annee}</td>\n+                </tr>`;\n+            });\n+            tableContent += '</tbody>';\n+\n+            // Create remaining rows in a collapsible tbody\n+            tableContent += '<tbody id=\"visits-collapsible\" class=\"collapsible\">';\n+            records.slice(10).forEach(record => {\n+                tableContent += `<tr>\n+                    <td>${record.title}</td>\n+                    <td>${record.titre}</td>\n+                    <td>${record.department}</td>\n+                    <td>${record.ministere}</td>\n+                    <td>${record.visits_visites}</td>\n+                    <td>${record.month_mois}</td>\n+                    <td>${record.year_annee}</td>\n+                </tr>`;\n+            });\n+            tableContent += '</tbody>';\n \n-            return rows;\n+            table.innerHTML = tableContent;\n         }\n \n-        // Function to load CSV data into a table\n-        function loadCSVToTable(csvFile, tableId) {\n-            fetch(csvFile)\n-                .then(response => response.text())\n-                .then(data => {\n-                    const rows = parseCSV(data);\n-                    const table = document.getElementById(tableId);\n+        // Function to render the Downloads table with collapsible rows\n+        function renderDownloadsTable(data, tableId) {\n+            const table = document.getElementById(tableId);\n+            const records = data.records;\n+\n+            let tableContent = '';\n+\n+            // Create table header\n+            tableContent += `<thead>\n+                <tr>\n+                    <th>Title (EN)</th>\n+                    <th>Title (FR)</th>\n+                    <th>Department (EN)</th>\n+                    <th>Department (FR)</th>\n+                    <th>Downloads</th>\n+                    <th>Month</th>\n+                    <th>Year</th>\n+                </tr>\n+            </thead>`;\n+\n+            // Create top 10 rows in the visible tbody\n+            tableContent += '<tbody>';\n+            records.slice(0, 10).forEach(record => {\n+                tableContent += `<tr>\n+                    <td>${record.title}</td>\n+                    <td>${record.titre}</td>\n+                    <td>${record.department}</td>\n+                    <td>${record.ministere}</td>\n+                    <td>${record.downloads_telechargements}</td>\n+                    <td>${record.month_mois}</td>\n+                    <td>${record.year_annee}</td>\n+                </tr>`;\n+            });\n+            tableContent += '</tbody>';\n+\n+            // Create remaining rows in a collapsible tbody\n+            tableContent += '<tbody id=\"downloads-collapsible\" class=\"collapsible\">';\n+            records.slice(10).forEach(record => {\n+                tableContent += `<tr>\n+                    <td>${record.title}</td>\n+                    <td>${record.titre}</td>\n+                    <td>${record.department}</td>\n+                    <td>${record.ministere}</td>\n+                    <td>${record.downloads_telechargements}</td>\n+                    <td>${record.month_mois}</td>\n+                    <td>${record.year_annee}</td>\n+                </tr>`;\n+            });\n+            tableContent += '</tbody>';\n \n-                    rows.forEach((row, index) => {\n-                        const tr = document.createElement('tr');\n-                        row.forEach(cell => {\n-                            const td = document.createElement(index === 0 ? 'th' : 'td');\n-                            td.textContent = cell;\n-                            tr.appendChild(td);\n-                        });\n-                        table.appendChild(tr);\n-                    });\n-                });\n+            table.innerHTML = tableContent;\n         }\n \n-        // Function to load HTML content\n-        function loadHTMLContent(htmlFile, elementId) {\n-            fetch(htmlFile)\n-                .then(response => response.text())\n-                .then(data => {\n-                    document.getElementById(elementId).innerHTML = data;\n-                });\n+        // Toggle function to collapse/expand the rows\n+        function toggleCollapse(type) {\n+            const collapsible = document.getElementById(`${type}-collapsible`);\n+            const toggleButton = document.getElementById(`toggle-${type}-btn`);\n+\n+            if (collapsible.classList.contains('open')) {\n+                collapsible.classList.remove('open');\n+                toggleButton.textContent = 'Show More';\n+            } else {\n+                collapsible.classList.add('open');\n+                toggleButton.textContent = 'Show Less';\n+            }\n         }\n \n-        // Load the CSV files into their respective tables\n-        loadCSVToTable('scraped_table_en.csv', 'table-en');\n-        loadCSVToTable('scraped_table_fr.csv', 'table-fr');\n-\n-        // Load the HTML content into the respective sections\n-        loadHTMLContent('scraped_content_eng.html', 'content-eng');\n-        loadHTMLContent('scraped_content_fra.html', 'content-fra');\n-\n-        </script>\n-    \n-    <script>\n-        \n-        \n-    // Function to render the Visits table with collapsible rows\n-    function renderVisitsTable(data, tableId) {\n-        const table = document.getElementById(tableId);\n-        const records = data.records;\n-\n-        let tableContent = '';\n-        \n-        // Create table header\n-        tableContent += `<thead>\n-            <tr>\n-                <th>Title (EN)</th>\n-                <th>Title (FR)</th>\n-                <th>Department (EN)</th>\n-                <th>Department (FR)</th>\n-                <th>Visits</th>\n-                <th>Month</th>\n-                <th>Year</th>\n-            </tr>\n-        </thead>`;\n-\n-        // Create top 10 rows in the visible tbody\n-        tableContent += '<tbody>';\n-        records.slice(0, 10).forEach(record => {\n-            tableContent += `<tr>\n-                <td>${record.title}</td>\n-                <td>${record.titre}</td>\n-                <td>${record.department}</td>\n-                <td>${record.ministere}</td>\n-                <td>${record.visits_visites}</td>\n-                <td>${record.month_mois}</td>\n-                <td>${record.year_annee}</td>\n-            </tr>`;\n-        });\n-        tableContent += '</tbody>';\n-\n-        // Create remaining rows in a collapsible tbody\n-        tableContent += '<tbody id=\"visits-collapsible\" class=\"collapsible\">';\n-        records.slice(10).forEach(record => {\n-            tableContent += `<tr>\n-                <td>${record.title}</td>\n-                <td>${record.titre}</td>\n-                <td>${record.department}</td>\n-                <td>${record.ministere}</td>\n-                <td>${record.visits_visites}</td>\n-                <td>${record.month_mois}</td>\n-                <td>${record.year_annee}</td>\n-            </tr>`;\n-        });\n-        tableContent += '</tbody>';\n-\n-        table.innerHTML = tableContent;\n-\n-        // Add collapsible button\n-        const btn = document.createElement('div');\n-        btn.className = 'collapse-btn';\n-        btn.id = 'toggle-visits-btn';\n-        btn.innerHTML = 'Show More';\n-        btn.onclick = () => toggleCollapse('visits');\n-        table.parentNode.appendChild(btn);\n-    }\n-\n-    // Function to render the Downloads table with collapsible rows\n-    function renderDownloadsTable(data, tableId) {\n-        const table = document.getElementById(tableId);\n-        const records = data.records;\n-\n-        let tableContent = '';\n-\n-        // Create table header\n-        tableContent += `<thead>\n-            <tr>\n-                <th>Title (EN)</th>\n-                <th>Title (FR)</th>\n-                <th>Department (EN)</th>\n-                <th>Department (FR)</th>\n-                <th>Downloads</th>\n-                <th>Month</th>\n-                <th>Year</th>\n-            </tr>\n-        </thead>`;\n-\n-        // Create top 10 rows in the visible tbody\n-        tableContent += '<tbody>';\n-        records.slice(0, 10).forEach(record => {\n-            tableContent += `<tr>\n-                <td>${record.title}</td>\n-                <td>${record.titre}</td>\n-                <td>${record.department}</td>\n-                <td>${record.ministere}</td>\n-                <td>${record.downloads_telechargements}</td>\n-                <td>${record.month_mois}</td>\n-                <td>${record.year_annee}</td>\n-            </tr>`;\n-        });\n-        tableContent += '</tbody>';\n-\n-        // Create remaining rows in a collapsible tbody\n-        tableContent += '<tbody id=\"downloads-collapsible\" class=\"collapsible\">';\n-        records.slice(10).forEach(record => {\n-            tableContent += `<tr>\n-                <td>${record.title}</td>\n-                <td>${record.titre}</td>\n-                <td>${record.department}</td>\n-                <td>${record.ministere}</td>\n-                <td>${record.downloads_telechargements}</td>\n-                <td>${record.month_mois}</td>\n-                <td>${record.year_annee}</td>\n-            </tr>`;\n-        });\n-        tableContent += '</tbody>';\n-\n-        table.innerHTML = tableContent;\n-\n-        // Add collapsible button\n-        const btn = document.createElement('div');\n-        btn.className = 'collapse-btn';\n-        btn.id = 'toggle-downloads-btn';\n-        btn.innerHTML = 'Show More';\n-        btn.onclick = () => toggleCollapse('downloads');\n-        table.parentNode.appendChild(btn);\n-    }\n-\n-    // Toggle function to collapse/expand the rows\n-    function toggleCollapse(type) {\n-        const collapsible = document.getElementById(`${type}-collapsible`);\n-        const toggleButton = document.getElementById(`toggle-${type}-btn`);\n-\n-        if (collapsible.classList.contains('open')) {\n-            collapsible.classList.remove('open');\n-            toggleButton.textContent = 'Show More';\n-        } else {\n-            collapsible.classList.add('open');\n-            toggleButton.textContent = 'Show Less';\n-        }\n-    }\n-</script>\n-\n-\n         // Function to render the Visits chart\n         function renderVisitsChart(data) {\n             const labels = [];\n@@ -478,15 +373,37 @@ <h3>Downloads Over Time</h3>\n                     datasets: Object.values(datasets)\n                 },\n                 options: {\n+                    responsive: true,\n                     scales: {\n                         y: {\n-                            beginAtZero: true\n+                            beginAtZero: true,\n+                            title: {\n+                                display: true,\n+                                text: 'Visits'\n+                            }\n+                        },\n+                        x: {\n+                            title: {\n+                                display: true,\n+                                text: 'Time (MM/YYYY)'\n+                            }\n+                        }\n+                    },\n+                    plugins: {\n+                        legend: {\n+                            display: true,\n+                            position: 'bottom'\n                         }\n                     }\n                 }\n             });\n         }\n \n+        // Helper function to create a consistent label for month/year (e.g., \"MM/YYYY\")\n+        function getMonthYearLabel(month, year) {\n+            return `${month.toString().padStart(2, '0')}/${year}`;\n+        }\n+\n         // Function to render the Downloads chart\n         function renderDownloadsChart(data) {\n             const labels = [];\n@@ -530,9 +447,26 @@ <h3>Downloads Over Time</h3>\n                     datasets: Object.values(datasets)\n                 },\n                 options: {\n+                    responsive: true,\n                     scales: {\n                         y: {\n-                            beginAtZero: true\n+                            beginAtZero: true,\n+                            title: {\n+                                display: true,\n+                                text: 'Downloads'\n+                            }\n+                        },\n+                        x: {\n+                            title: {\n+                                display: true,\n+                                text: 'Time (MM/YYYY)'\n+                            }\n+                        }\n+                    },\n+                    plugins: {\n+                        legend: {\n+                            display: true,\n+                            position: 'bottom'\n                         }\n                     }\n                 }\n@@ -564,6 +498,6 @@ <h3>Downloads Over Time</h3>\n                 renderDownloadsTable(data, 'downloads-table-id');\n                 renderDownloadsChart(data);\n             });\n-</script>\n-\n+    </script>\n+</body>\n </html>"
-      }
-    ]
-  },
-  {
-    "sha": "1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-    "node_id": "C_kwDOMrSvVdoAKDE5NDlhYTQ0MDFlZmJiZDAzNmUzZjljNTZiZDNiNGQ1NWJiMzY1NTU",
-    "commit": {
-      "author": {
-        "name": "Patrick Little",
-        "email": "patrick.little@tbs-sct.gc.ca",
-        "date": "2024-09-25T05:25:00Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-09-25T05:25:00Z"
-      },
-      "message": "tbl smaller",
-      "tree": {
-        "sha": "cbd0c1688876f213f5aa75dfeda950cd6a2d6552",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/cbd0c1688876f213f5aa75dfeda950cd6a2d6552"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm856tCRC1aQ7uu5UhlAAALcgQAE1G8uhrQgEJfYxH1Skzxlvy\nVjJQaUWtZSoacr13ySMLXfQ9gcT8OtMMCLBXx+rut5DBBBKrpFj2aXcnHU2MoPyl\nNpcOtP5OzzCNd0xoEgdtnx9GOKVv9d3K2anieW8GH8DQAX86xzm/kR+6+h7Hk27r\nupXiBqvlTKLDWm5a7xwl8W8f9zdzSRVcEujsZ5fpdueOBN96JUq165LGMrvhwVSZ\nU2De8TmpYizK2Q488EccjICmz+VqFb8LY5IdULpxy8RS40lzuJKY/o14BYwAcrqj\nH6KilXO1qpJ+f6hcGW7fpLQG+wLVI/WzQ+w2JKB3gsqAooCvjX3HzqOccCjj7EZ4\nyJ8Eox1kxUaU+HNYSm5DfNUrjEDje6YR0glrYzzOrOXfpAgJAjMR0/DhJVCXB4/Q\nJS0SMQu+oZo4UL9IDd2wryoDWZHuq42sv+cqXt1kUmUh2ydJK2jjlZLMGMwBqq14\nsJ47oyaCgPbiOrlOa0E0tND4ZXbie/5YzqRElAYHhkMdMlmA9LP8aN6mTHkdiA/f\nyo1plakTOX3O3VKpciG4Pmk0jW25aK1IiK7V7LvAwDPbEnPL6c+pvk0DOIc/f58p\nCVD1CrkldcMmPiQgUA4FHzmUU9L52BoZ2UPILnkT7d3/KD0/Fi20ELY3l5GRhM7/\niwYaZ12bNDnuBPSJqjzG\n=5/q8\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree cbd0c1688876f213f5aa75dfeda950cd6a2d6552\nparent a9ebe8c9e3110ca30340617bbd049c54a184650c\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1727241900 -0400\ncommitter GitHub <noreply@github.com> 1727241900 -0400\n\ntbl smaller"
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1949aa4401efbbd036e3f9c56bd3b4d55bb36555/comments",
-    "author": {
-      "login": "PatLittle",
-      "id": 31454591,
-      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/PatLittle",
-      "html_url": "https://github.com/PatLittle",
-      "followers_url": "https://api.github.com/users/PatLittle/followers",
-      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
-      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
-      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
-      "repos_url": "https://api.github.com/users/PatLittle/repos",
-      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a9ebe8c9e3110ca30340617bbd049c54a184650c",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a9ebe8c9e3110ca30340617bbd049c54a184650c",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/a9ebe8c9e3110ca30340617bbd049c54a184650c"
-      }
-    ],
-    "stats": {
-      "total": 182,
-      "additions": 126,
-      "deletions": 56
-    },
-    "files": [
-      {
-        "sha": "fac98d3b396e206e04cda62ab309977b433eb915",
-        "filename": "docs/index.html",
-        "status": "modified",
-        "additions": 126,
-        "deletions": 56,
-        "changes": 182,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/1949aa4401efbbd036e3f9c56bd3b4d55bb36555/docs%2Findex.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/1949aa4401efbbd036e3f9c56bd3b4d55bb36555/docs%2Findex.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=1949aa4401efbbd036e3f9c56bd3b4d55bb36555",
-        "patch": "@@ -178,20 +178,22 @@ <h2>French - Directive on Service and Digital Reference Data Appendix</h2>\n \n         <section class=\"content-section\">\n             <h2>Visits Data</h2>\n+            <h3>Visits Over Time</h3>\n+            <canvas id=\"visitsChart\"></canvas>\n             <table id=\"visits-table-id\">\n                 <!-- Visits data will be inserted here -->\n             </table>\n-            <h2>Visits Over Time</h2>\n-            <canvas id=\"visitsChart\"></canvas>\n+            \n         </section>\n \n         <section class=\"content-section\">\n             <h2>Downloads Data</h2>\n+            <h3>Downloads Over Time</h3>\n+            <canvas id=\"downloadsChart\"></canvas>\n             <table id=\"downloads-table-id\">\n                 <!-- Downloads data will be inserted here -->\n             </table>\n-            <h2>Downloads Over Time</h2>\n-            <canvas id=\"downloadsChart\"></canvas>\n+          \n         </section>\n     </div>\n \n@@ -294,76 +296,144 @@ <h2>Downloads Over Time</h2>\n     \n     <script>\n         \n-        // Function to render the Visits table\n-        function renderVisitsTable(data, tableId) {\n-            const table = document.getElementById(tableId);\n-            const records = data.records;\n-            \n-            // Create table header\n-            let headerRow = `<tr>\n+        \n+    // Function to render the Visits table with collapsible rows\n+    function renderVisitsTable(data, tableId) {\n+        const table = document.getElementById(tableId);\n+        const records = data.records;\n+\n+        let tableContent = '';\n+        \n+        // Create table header\n+        tableContent += `<thead>\n+            <tr>\n                 <th>Title (EN)</th>\n                 <th>Title (FR)</th>\n                 <th>Department (EN)</th>\n                 <th>Department (FR)</th>\n                 <th>Visits</th>\n                 <th>Month</th>\n                 <th>Year</th>\n+            </tr>\n+        </thead>`;\n+\n+        // Create top 10 rows in the visible tbody\n+        tableContent += '<tbody>';\n+        records.slice(0, 10).forEach(record => {\n+            tableContent += `<tr>\n+                <td>${record.title}</td>\n+                <td>${record.titre}</td>\n+                <td>${record.department}</td>\n+                <td>${record.ministere}</td>\n+                <td>${record.visits_visites}</td>\n+                <td>${record.month_mois}</td>\n+                <td>${record.year_annee}</td>\n             </tr>`;\n-            \n-            table.innerHTML = headerRow;\n-            \n-            // Add rows\n-            records.forEach(record => {\n-                const row = `<tr>\n-                    <td>${record.title}</td>\n-                    <td>${record.titre}</td>\n-                    <td>${record.department}</td>\n-                    <td>${record.ministere}</td>\n-                    <td>${record.visits_visites}</td>\n-                    <td>${record.month_mois}</td>\n-                    <td>${record.year_annee}</td>\n-                </tr>`;\n-                table.innerHTML += row;\n-            });\n-        }\n-\n-        // Function to render the Downloads table\n-        function renderDownloadsTable(data, tableId) {\n-            const table = document.getElementById(tableId);\n-            const records = data.records;\n-            \n-            // Create table header\n-            let headerRow = `<tr>\n+        });\n+        tableContent += '</tbody>';\n+\n+        // Create remaining rows in a collapsible tbody\n+        tableContent += '<tbody id=\"visits-collapsible\" class=\"collapsible\">';\n+        records.slice(10).forEach(record => {\n+            tableContent += `<tr>\n+                <td>${record.title}</td>\n+                <td>${record.titre}</td>\n+                <td>${record.department}</td>\n+                <td>${record.ministere}</td>\n+                <td>${record.visits_visites}</td>\n+                <td>${record.month_mois}</td>\n+                <td>${record.year_annee}</td>\n+            </tr>`;\n+        });\n+        tableContent += '</tbody>';\n+\n+        table.innerHTML = tableContent;\n+\n+        // Add collapsible button\n+        const btn = document.createElement('div');\n+        btn.className = 'collapse-btn';\n+        btn.id = 'toggle-visits-btn';\n+        btn.innerHTML = 'Show More';\n+        btn.onclick = () => toggleCollapse('visits');\n+        table.parentNode.appendChild(btn);\n+    }\n+\n+    // Function to render the Downloads table with collapsible rows\n+    function renderDownloadsTable(data, tableId) {\n+        const table = document.getElementById(tableId);\n+        const records = data.records;\n+\n+        let tableContent = '';\n+\n+        // Create table header\n+        tableContent += `<thead>\n+            <tr>\n                 <th>Title (EN)</th>\n                 <th>Title (FR)</th>\n                 <th>Department (EN)</th>\n                 <th>Department (FR)</th>\n                 <th>Downloads</th>\n                 <th>Month</th>\n                 <th>Year</th>\n+            </tr>\n+        </thead>`;\n+\n+        // Create top 10 rows in the visible tbody\n+        tableContent += '<tbody>';\n+        records.slice(0, 10).forEach(record => {\n+            tableContent += `<tr>\n+                <td>${record.title}</td>\n+                <td>${record.titre}</td>\n+                <td>${record.department}</td>\n+                <td>${record.ministere}</td>\n+                <td>${record.downloads_telechargements}</td>\n+                <td>${record.month_mois}</td>\n+                <td>${record.year_annee}</td>\n             </tr>`;\n-            \n-            table.innerHTML = headerRow;\n-            \n-            // Add rows\n-            records.forEach(record => {\n-                const row = `<tr>\n-                    <td>${record.title}</td>\n-                    <td>${record.titre}</td>\n-                    <td>${record.department}</td>\n-                    <td>${record.ministere}</td>\n-                    <td>${record.downloads_telechargements}</td>\n-                    <td>${record.month_mois}</td>\n-                    <td>${record.year_annee}</td>\n-                </tr>`;\n-                table.innerHTML += row;\n-            });\n+        });\n+        tableContent += '</tbody>';\n+\n+        // Create remaining rows in a collapsible tbody\n+        tableContent += '<tbody id=\"downloads-collapsible\" class=\"collapsible\">';\n+        records.slice(10).forEach(record => {\n+            tableContent += `<tr>\n+                <td>${record.title}</td>\n+                <td>${record.titre}</td>\n+                <td>${record.department}</td>\n+                <td>${record.ministere}</td>\n+                <td>${record.downloads_telechargements}</td>\n+                <td>${record.month_mois}</td>\n+                <td>${record.year_annee}</td>\n+            </tr>`;\n+        });\n+        tableContent += '</tbody>';\n+\n+        table.innerHTML = tableContent;\n+\n+        // Add collapsible button\n+        const btn = document.createElement('div');\n+        btn.className = 'collapse-btn';\n+        btn.id = 'toggle-downloads-btn';\n+        btn.innerHTML = 'Show More';\n+        btn.onclick = () => toggleCollapse('downloads');\n+        table.parentNode.appendChild(btn);\n+    }\n+\n+    // Toggle function to collapse/expand the rows\n+    function toggleCollapse(type) {\n+        const collapsible = document.getElementById(`${type}-collapsible`);\n+        const toggleButton = document.getElementById(`toggle-${type}-btn`);\n+\n+        if (collapsible.classList.contains('open')) {\n+            collapsible.classList.remove('open');\n+            toggleButton.textContent = 'Show More';\n+        } else {\n+            collapsible.classList.add('open');\n+            toggleButton.textContent = 'Show Less';\n         }\n+    }\n+</script>\n \n-        // Helper function to create a consistent label for month/year (e.g., \"MM/YYYY\")\n-        function getMonthYearLabel(month, year) {\n-            return `${month.toString().padStart(2, '0')}/${year}`;\n-        }\n \n         // Function to render the Visits chart\n         function renderVisitsChart(data) {"
-      }
-    ]
-  },
-  {
-    "sha": "a9ebe8c9e3110ca30340617bbd049c54a184650c",
-    "node_id": "C_kwDOMrSvVdoAKGE5ZWJlOGM5ZTMxMTBjYTMwMzQwNjE3YmJkMDQ5YzU0YTE4NDY1MGM",
-    "commit": {
-      "author": {
-        "name": "Patrick Little",
-        "email": "patrick.little@tbs-sct.gc.ca",
-        "date": "2024-09-25T04:05:16Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-09-25T04:05:16Z"
-      },
-      "message": "style",
-      "tree": {
-        "sha": "07c7bafc21b3f47c222ca517b037ff516e068ef2",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/07c7bafc21b3f47c222ca517b037ff516e068ef2"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/a9ebe8c9e3110ca30340617bbd049c54a184650c",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm84v8CRC1aQ7uu5UhlAAAuPoQAAXdYJXH93b2kt9lVSnAxVVb\n4AzItE+nY+Z0t25ZW5QjLlT2yHy2rI9fbxeis96Yw2FdtBpVKPlSQERvwsxlwpSv\nzp8bYKZCHNIdT5REH8ST3lhzG6lbLMumFKUdKMOKl3Xt0v/ny9jfeTLWTV37vJoH\nhJwUdL8BLLMdnJIHN2Zrhwf7KrloN2XXnmsTG1Rz8Me6qjT5g0Qd1sJWDqwGsm6N\nOj9JGYszC8aNkJhbg4A6rkukV5yeuS/HGM2+Vy/FlSoX95FzC2zI8rNMfl5uwhEh\n7qqHw+r4bsByvm9Oh/AHz3Bqt1QE74chvnE6zaSL6kOtLmA8vWF46iUnVEy/VguP\ndiBfvKsYIlTmHrNtYj/OS02m7kNhU4SZWWYgjURazL3lrnZLYVw51OXYp+cuuX2x\nHFlibxB36HdhGtR4c/uW//ufByd9yseMC/5VlUtgZpGssHG0yhCXVrcSJsiY4oiU\nykLSBPAbZ2wli2KuOwb7WrU5a3K/zSl0kdku8PWQc2OxvoynLhc4icML/U2JabEB\ncd2lGCcFmoMwvUxRoX++v8Y4prpCfGX1TBsZSIVrxZkxNeAtenLW+Fh8NK6/0p+n\nC5xzZh76AtMWWgnNNuNI+4YvX8zM1bsZt5R7lhAa80pebMpP+VVShagY8tprjOkF\n3QB/DRzWxb4fTrRMTS+K\n=cNvm\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 07c7bafc21b3f47c222ca517b037ff516e068ef2\nparent 848617a0002558aae3c7186455f7779394ea4a40\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1727237116 -0400\ncommitter GitHub <noreply@github.com> 1727237116 -0400\n\nstyle"
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a9ebe8c9e3110ca30340617bbd049c54a184650c",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/a9ebe8c9e3110ca30340617bbd049c54a184650c",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a9ebe8c9e3110ca30340617bbd049c54a184650c/comments",
-    "author": {
-      "login": "PatLittle",
-      "id": 31454591,
-      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/PatLittle",
-      "html_url": "https://github.com/PatLittle",
-      "followers_url": "https://api.github.com/users/PatLittle/followers",
-      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
-      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
-      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
-      "repos_url": "https://api.github.com/users/PatLittle/repos",
-      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "848617a0002558aae3c7186455f7779394ea4a40",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/848617a0002558aae3c7186455f7779394ea4a40",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/848617a0002558aae3c7186455f7779394ea4a40"
-      }
-    ],
-    "stats": {
-      "total": 231,
-      "additions": 176,
-      "deletions": 55
-    },
-    "files": [
-      {
-        "sha": "b6f460975767fb79bdcfa48439a08c1b1b79e4ef",
-        "filename": "docs/index.html",
-        "status": "modified",
-        "additions": 176,
-        "deletions": 55,
-        "changes": 231,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/a9ebe8c9e3110ca30340617bbd049c54a184650c/docs%2Findex.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/a9ebe8c9e3110ca30340617bbd049c54a184650c/docs%2Findex.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=a9ebe8c9e3110ca30340617bbd049c54a184650c",
-        "patch": "@@ -1,90 +1,211 @@\n <!DOCTYPE html>\n+\n <html lang=\"en\">\n <head>\n     <meta charset=\"UTF-8\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>GC Reference Data Tracker</title>\n     <style>\n+        /* General styles */\n+        * {\n+            margin: 0;\n+            padding: 0;\n+            box-sizing: border-box;\n+        }\n+\n         body {\n-            font-family: Arial, sans-serif;\n-            margin: 40px;\n+            font-family: 'Roboto', Arial, sans-serif;\n+            background-color: #f4f4f9;\n+            color: #333;\n+            line-height: 1.6;\n+            padding: 20px;\n+        }\n+\n+        h1, h2, h3 {\n+            color: #2c3e50;\n+        }\n+\n+        a {\n+            color: #3498db;\n+            text-decoration: none;\n+        }\n+\n+        a:hover {\n+            text-decoration: underline;\n+        }\n+\n+        p {\n+            margin-bottom: 20px;\n+            font-size: 1.1em;\n+            color: #555;\n+        }\n+\n+        /* Header and main layout */\n+        header {\n+            text-align: center;\n+            margin-bottom: 40px;\n+        }\n+\n+        header h1 {\n+            font-size: 2.5em;\n+            font-weight: 600;\n+        }\n+\n+        .container {\n+            max-width: 1200px;\n+            margin: 0 auto;\n         }\n+\n+        /* Table styles */\n         table {\n             width: 100%;\n-            max-width: 800px;\n-            border-collapse: collapse;\n             margin: 20px 0;\n+            border-collapse: collapse;\n+            background-color: white;\n+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n+            border-radius: 8px;\n         }\n-        table, th, td {\n-            border: 1px solid black;\n-        }\n+\n         th, td {\n-            padding: 10px;\n+            padding: 12px 15px;\n             text-align: left;\n+            border-bottom: 1px solid #ddd;\n         }\n+\n         th {\n-            background-color: #f2f2f2;\n+            background-color: #3498db;\n+            color: white;\n+            font-weight: bold;\n+        }\n+\n+        tr:hover {\n+            background-color: #f1f1f1;\n+        }\n+\n+        td {\n+            color: #555;\n         }\n+\n+        /* Content section */\n         .content-section {\n             margin-top: 40px;\n         }\n+\n+        /* Responsive Chart Canvas */\n         canvas {\n             display: block;\n             margin: 20px auto;\n-            max-width: 800px;\n-            max-height: 400px;\n             width: 100%;\n+            max-width: 800px;\n             height: auto;\n         }\n+\n+        /* Button styling */\n+        .btn {\n+            display: inline-block;\n+            background-color: #3498db;\n+            color: white;\n+            padding: 10px 20px;\n+            border-radius: 5px;\n+            transition: background-color 0.3s ease;\n+        }\n+\n+        .btn:hover {\n+            background-color: #2980b9;\n+        }\n+\n+        /* Footer styles */\n+        footer {\n+            margin-top: 50px;\n+            text-align: center;\n+            font-size: 0.9em;\n+            color: #888;\n+        }\n+\n+        /* Responsive design */\n+        @media (max-width: 768px) {\n+            body {\n+                padding: 10px;\n+            }\n+\n+            header h1 {\n+                font-size: 2em;\n+            }\n+\n+            th, td {\n+                padding: 10px;\n+            }\n+        }\n     </style>\n </head>\n+\n+\n <body>\n-    <h1>GC Reference Data Tracker</h1>\n-    <p>This page displays the latest scraped data from the Government of Canada reference data standards pages.</p>\n-       <p>\n-        View the Atom feeds for specific datasets: \n-        <a href=\"feeds.html\">Go to Feeds Page</a>\n-    </p>\n-\n-    <h2>English Version</h2>\n-    <table id=\"table-en\">\n-        <!-- Table content will be inserted here -->\n-    </table>\n-\n-    <h2>French Version</h2>\n-    <table id=\"table-fr\">\n-        <!-- Table content will be inserted here -->\n-    </table>\n-\n-    <div class=\"content-section\">\n-        <h2>English - Directive on Service and Digital Reference Data Appendix</h2>\n-        <div id=\"content-eng\">\n-            <!-- HTML content will be inserted here -->\n-        </div>\n+    <header>\n+        <h1>GC Reference Data Tracker</h1>\n+        <p>Tracking the latest reference data standards from the Government of Canada.</p>\n+        <a href=\"feeds.html\" class=\"btn\">Go to Feeds Page</a>\n+    </header>\n+\n+    <div class=\"container\">\n+        <section class=\"content-section\">\n+            <h2>English Version</h2>\n+            <table id=\"table-en\">\n+                <!-- Table content will be inserted here -->\n+            </table>\n+        </section>\n+\n+        <section class=\"content-section\">\n+            <h2>French Version</h2>\n+            <table id=\"table-fr\">\n+                <!-- Table content will be inserted here -->\n+            </table>\n+        </section>\n+\n+        <section class=\"content-section\">\n+            <h2>English - Directive on Service and Digital Reference Data Appendix</h2>\n+            <div id=\"content-eng\">\n+                <!-- HTML content will be inserted here -->\n+            </div>\n+        </section>\n+\n+        <section class=\"content-section\">\n+            <h2>French - Directive on Service and Digital Reference Data Appendix</h2>\n+            <div id=\"content-fra\">\n+                <!-- HTML content will be inserted here -->\n+            </div>\n+        </section>\n+\n+        <section class=\"content-section\">\n+            <h2>Visits Data</h2>\n+            <table id=\"visits-table-id\">\n+                <!-- Visits data will be inserted here -->\n+            </table>\n+            <h2>Visits Over Time</h2>\n+            <canvas id=\"visitsChart\"></canvas>\n+        </section>\n+\n+        <section class=\"content-section\">\n+            <h2>Downloads Data</h2>\n+            <table id=\"downloads-table-id\">\n+                <!-- Downloads data will be inserted here -->\n+            </table>\n+            <h2>Downloads Over Time</h2>\n+            <canvas id=\"downloadsChart\"></canvas>\n+        </section>\n     </div>\n \n-    <div class=\"content-section\">\n-        <h2>French - Directive on Service and Digital Reference Data Appendix</h2>\n-        <div id=\"content-fra\">\n-            <!-- HTML content will be inserted here -->\n-        </div>\n-    </div>\n+</body>\n+\n+    <footer>\n+        <p>&copy; 2024 GC Reference Data Tracker. All rights reserved.</p>\n+    </footer>\n+\n+    <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n+    <!-- Rest of your JavaScript code for fetching and populating the data -->\n+\n+\n \n-    <!-- Visits Data Section -->\n-    <h2>Visits Data</h2>\n-    <table id=\"visits-table-id\">\n-        <!-- Visits data will be inserted here -->\n-    </table>\n-    <h2>Visits Over Time</h2>\n-    <canvas id=\"visitsChart\"></canvas>\n-\n-    <!-- Downloads Data Section -->\n-    <h2>Downloads Data</h2>\n-    <table id=\"downloads-table-id\">\n-        <!-- Downloads data will be inserted here -->\n-    </table>\n-    <h2>Downloads Over Time</h2>\n-    <canvas id=\"downloadsChart\"></canvas>\n \n     <!-- Include Chart.js -->\n     <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n@@ -374,5 +495,5 @@ <h2>Downloads Over Time</h2>\n                 renderDownloadsChart(data);\n             });\n </script>\n-</body>\n+\n </html>"
-      }
-    ]
-  },
-  {
-    "sha": "848617a0002558aae3c7186455f7779394ea4a40",
-    "node_id": "C_kwDOMrSvVdoAKDg0ODYxN2EwMDAyNTU4YWFlM2M3MTg2NDU1Zjc3NzkzOTRlYTRhNDA",
-    "commit": {
-      "author": {
-        "name": "Patrick Little",
-        "email": "patrick.little@tbs-sct.gc.ca",
-        "date": "2024-09-25T03:02:25Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-09-25T03:02:25Z"
-      },
-      "message": "can tbls",
-      "tree": {
-        "sha": "8efee4a57af803fa8f16de2fca0a95cdd7110cd4",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/8efee4a57af803fa8f16de2fca0a95cdd7110cd4"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/848617a0002558aae3c7186455f7779394ea4a40",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm831BCRC1aQ7uu5UhlAAAqwMQAHHxPKBjbGqBCkOrmzazeU9N\ni7GzIk7fL4qkgiz94SNeVqo7V3TuI5hr3beZi0hMeLlPwHURX0uv7bIzPpi/2KDv\n+Zvajb33DZr/blXaMxIOrxtIxiK5SKpltZt+m3mhM6CLcm6BvUieSGIoNnuABxOo\nEUnrfWu7OZzHXZq1wz3QLtwIJmexgH+sXTn8y5xjte99WIyJBTXJCqvxcVtMUv3K\n/X0JgsCRpmZYpfI/SiWM3e2PRg/HMmlzsnOgiVEbfeLvjKCQM61Qq79HO/nmt9TD\nJxrmVyNm5XnHj3A3tetiYWpqjWy3QhO3iyaOmjrO3ESM08k3YkgrigRXXfPml0K4\nXXwRU7u+jngbkKQOG1i/HGKYDkAkUf8f3lSWw8QLZX/JCJWzF3lEqoo2M0qU7ova\njlRiYXhuP7ECH7o7lej5hscupGMkOXko9+P1k0G0bb1ddWsOfLRtbTOBdZZ/yo1/\nx2cGsOQoud6Ix2PwdyKW5xnXr0gIqHC7ojkyva0YYPGJmLfVwlWMTHgLDix0Ku19\nCsC6gcWyZ/GglLkneBKowqlLHNfMK+8S5ow3P38MvB8orseoCeJIoZ2kJspJLrRk\nD0jl56IB+2sSkpc6G6D6HlR0jfVfiAQXtpQismmZI3jxG0woSD3fuCHJSaLdHjJy\nDOoda7TUg09Vdoe/OyAF\n=jTs4\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 8efee4a57af803fa8f16de2fca0a95cdd7110cd4\nparent 243cb41be559aee9a3d002e3e39a075a5ff734c5\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1727233345 -0400\ncommitter GitHub <noreply@github.com> 1727233345 -0400\n\ncan tbls"
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/848617a0002558aae3c7186455f7779394ea4a40",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/848617a0002558aae3c7186455f7779394ea4a40",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/848617a0002558aae3c7186455f7779394ea4a40/comments",
-    "author": {
-      "login": "PatLittle",
-      "id": 31454591,
-      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/PatLittle",
-      "html_url": "https://github.com/PatLittle",
-      "followers_url": "https://api.github.com/users/PatLittle/followers",
-      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
-      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
-      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
-      "repos_url": "https://api.github.com/users/PatLittle/repos",
-      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "243cb41be559aee9a3d002e3e39a075a5ff734c5",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/243cb41be559aee9a3d002e3e39a075a5ff734c5",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/243cb41be559aee9a3d002e3e39a075a5ff734c5"
-      }
-    ],
-    "stats": {
-      "total": 24,
-      "additions": 24,
-      "deletions": 0
-    },
-    "files": [
-      {
-        "sha": "cbcf62ba5864c936e7353801ce8ea8ef9d3a0e53",
-        "filename": "docs/index.html",
-        "status": "modified",
-        "additions": 24,
-        "deletions": 0,
-        "changes": 24,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/848617a0002558aae3c7186455f7779394ea4a40/docs%2Findex.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/848617a0002558aae3c7186455f7779394ea4a40/docs%2Findex.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=848617a0002558aae3c7186455f7779394ea4a40",
-        "patch": "@@ -46,6 +46,30 @@ <h1>GC Reference Data Tracker</h1>\n         <a href=\"feeds.html\">Go to Feeds Page</a>\n     </p>\n \n+    <h2>English Version</h2>\n+    <table id=\"table-en\">\n+        <!-- Table content will be inserted here -->\n+    </table>\n+\n+    <h2>French Version</h2>\n+    <table id=\"table-fr\">\n+        <!-- Table content will be inserted here -->\n+    </table>\n+\n+    <div class=\"content-section\">\n+        <h2>English - Directive on Service and Digital Reference Data Appendix</h2>\n+        <div id=\"content-eng\">\n+            <!-- HTML content will be inserted here -->\n+        </div>\n+    </div>\n+\n+    <div class=\"content-section\">\n+        <h2>French - Directive on Service and Digital Reference Data Appendix</h2>\n+        <div id=\"content-fra\">\n+            <!-- HTML content will be inserted here -->\n+        </div>\n+    </div>\n+\n     <!-- Visits Data Section -->\n     <h2>Visits Data</h2>\n     <table id=\"visits-table-id\">"
-      }
-    ]
-  },
-  {
-    "sha": "243cb41be559aee9a3d002e3e39a075a5ff734c5",
-    "node_id": "C_kwDOMrSvVdoAKDI0M2NiNDFiZTU1OWFlZTlhM2QwMDJlM2UzOWEwNzVhNWZmNzM0YzU",
-    "commit": {
-      "author": {
-        "name": "Patrick Little",
-        "email": "patrick.little@tbs-sct.gc.ca",
-        "date": "2024-09-25T02:58:17Z"
-      },
-      "committer": {
-        "name": "GitHub",
-        "email": "noreply@github.com",
-        "date": "2024-09-25T02:58:17Z"
-      },
-      "message": "revert index pg",
-      "tree": {
-        "sha": "c67e75305762176767fad1d39d246bfae25e8178",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/c67e75305762176767fad1d39d246bfae25e8178"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/243cb41be559aee9a3d002e3e39a075a5ff734c5",
-      "comment_count": 0,
-      "verification": {
-        "verified": true,
-        "reason": "valid",
-        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm83xJCRC1aQ7uu5UhlAAAf74QAK6kVb2DuyPJysHYR92Ds34D\n0obM3J87nses8nkBl7fRZ62lBl9nugxFwvvTdwQ3e+d/EieFbz8HS4B1h2yIUbl5\nYe2Z2I8avGILWCZJRHVNQUeG6f0C5SWADGb/XWERG9ueBmWNaLFL6TO5grzzfetI\nR1MkOt+o86+K0wzpfrKI2aqmZQGZYdfxPvcN7oCYvOBEZsnjLRvTlrQGbtPxvGhV\nGDX76iZTBWAGk71ZxCJHB8qYtWvmquljMSK+DGm6GPXwbxcW+EK9Yan0qdiQZkZ5\nlSLvWLiDjczF1J0RK3vj0pibfLp1mkbgaAiThItZ4XRSgY52F651rCP8S0pRYhdz\nEYlXcay4JEfwiY4TZjIpT5fNCu92lSVQ6twWyksXReAzA7DDtbH+tre/z6Pl9IW1\nQea0WsXuSK4uRllCeHzh7jpN7dW5j6kWJRFuSRhw0QSNohchzhe9JI38qp85ZOx0\nA/jOG5LGtEAWnCDSbiKb6BXVY743siEnn/x9DKdDzqL5x0qHFvNefmxn7vdkNQc0\nG+mRgSp9RM4hAnlLPli1V6Zx0geWHcOpqGRJTMopmkVdty/Q4++0V7EgpBvFThew\nievGzqqazXYT/Lx45VnIUUNdvgSq/TZ/KboUhhiVfYha+4iY9bXxhIxfAMdsLZS1\nQCaoRIGDCIqPvtoTcdZq\n=rusK\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree c67e75305762176767fad1d39d246bfae25e8178\nparent d448bca1639f018c68dee59cd0e3dad4078eced4\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1727233097 -0400\ncommitter GitHub <noreply@github.com> 1727233097 -0400\n\nrevert index pg"
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/243cb41be559aee9a3d002e3e39a075a5ff734c5",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/243cb41be559aee9a3d002e3e39a075a5ff734c5",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/243cb41be559aee9a3d002e3e39a075a5ff734c5/comments",
-    "author": {
-      "login": "PatLittle",
-      "id": 31454591,
-      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/PatLittle",
-      "html_url": "https://github.com/PatLittle",
-      "followers_url": "https://api.github.com/users/PatLittle/followers",
-      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
-      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
-      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
-      "repos_url": "https://api.github.com/users/PatLittle/repos",
-      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "web-flow",
-      "id": 19864447,
-      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/web-flow",
-      "html_url": "https://github.com/web-flow",
-      "followers_url": "https://api.github.com/users/web-flow/followers",
-      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-      "organizations_url": "https://api.github.com/users/web-flow/orgs",
-      "repos_url": "https://api.github.com/users/web-flow/repos",
-      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/web-flow/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d448bca1639f018c68dee59cd0e3dad4078eced4",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d448bca1639f018c68dee59cd0e3dad4078eced4",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d448bca1639f018c68dee59cd0e3dad4078eced4"
-      }
-    ],
-    "stats": {
-      "total": 95,
-      "additions": 89,
-      "deletions": 6
-    },
-    "files": [
-      {
-        "sha": "11d8ed324cb7e492b401a0425f16f54a95988663",
-        "filename": "README.md",
-        "status": "modified",
-        "additions": 0,
-        "deletions": 4,
-        "changes": 4,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/243cb41be559aee9a3d002e3e39a075a5ff734c5/README.md",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/243cb41be559aee9a3d002e3e39a075a5ff734c5/README.md",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/README.md?ref=243cb41be559aee9a3d002e3e39a075a5ff734c5",
-        "patch": "@@ -1,10 +1,6 @@\n # GC-Ref-Data-Tracker\r\n \r\n \r\n->\r\n-> <mark>**Go to [cors-anywhere](https://cors-anywhere.herokuapp.com/corsdemo) before viewing - temporary**</mark>\r\n->\r\n-\r\n Work-in-progress project to monitor GC Enterprise Reference Data Web presence,capture cumulative changes via gitscraping, collect and display web analytics and other related data. \r\n \r\n https://patlittle.github.io/GC-Ref-Data-Tracker/\r"
-      },
-      {
-        "sha": "135d277d597adb90eed0c6410f0f1757825f3383",
-        "filename": "docs/index.html",
-        "status": "modified",
-        "additions": 89,
-        "deletions": 2,
-        "changes": 91,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/243cb41be559aee9a3d002e3e39a075a5ff734c5/docs%2Findex.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/243cb41be559aee9a3d002e3e39a075a5ff734c5/docs%2Findex.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Findex.html?ref=243cb41be559aee9a3d002e3e39a075a5ff734c5",
-        "patch": "@@ -41,7 +41,11 @@\n <body>\n     <h1>GC Reference Data Tracker</h1>\n     <p>This page displays the latest scraped data from the Government of Canada reference data standards pages.</p>\n-    \n+       <p>\n+        View the Atom feeds for specific datasets: \n+        <a href=\"feeds.html\">Go to Feeds Page</a>\n+    </p>\n+\n     <!-- Visits Data Section -->\n     <h2>Visits Data</h2>\n     <table id=\"visits-table-id\">\n@@ -61,7 +65,90 @@ <h2>Downloads Over Time</h2>\n     <!-- Include Chart.js -->\n     <script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n \n+    <script src=\"https://web.archive.org/web/20240914113055js_/https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n+    <script src=\"https://web.archive.org/web/20240914113055js_/https://cdn.jsdelivr.net/npm/chart.js\"></script>\n+    <script>\n+        // Function to parse CSV content\n+        function parseCSV(csvContent) {\n+            const rows = [];\n+            let currentRow = [];\n+            let currentValue = '';\n+            let insideQuotes = false;\n+\n+            for (let i = 0; i < csvContent.length; i++) {\n+                const char = csvContent[i];\n+\n+                if (char === '\"' && insideQuotes) {\n+                    if (csvContent[i + 1] === '\"') {\n+                        currentValue += '\"';\n+                        i++;\n+                    } else {\n+                        insideQuotes = false;\n+                    }\n+                } else if (char === '\"' && !insideQuotes) {\n+                    insideQuotes = true;\n+                } else if (char === ',' && !insideQuotes) {\n+                    currentRow.push(currentValue.trim());\n+                    currentValue = '';\n+                } else if (char === '\\n' && !insideQuotes) {\n+                    currentRow.push(currentValue.trim());\n+                    rows.push(currentRow);\n+                    currentRow = [];\n+                    currentValue = '';\n+                } else {\n+                    currentValue += char;\n+                }\n+            }\n+\n+            if (currentValue) {\n+                currentRow.push(currentValue.trim());\n+                rows.push(currentRow);\n+            }\n+\n+            return rows;\n+        }\n+\n+        // Function to load CSV data into a table\n+        function loadCSVToTable(csvFile, tableId) {\n+            fetch(csvFile)\n+                .then(response => response.text())\n+                .then(data => {\n+                    const rows = parseCSV(data);\n+                    const table = document.getElementById(tableId);\n+\n+                    rows.forEach((row, index) => {\n+                        const tr = document.createElement('tr');\n+                        row.forEach(cell => {\n+                            const td = document.createElement(index === 0 ? 'th' : 'td');\n+                            td.textContent = cell;\n+                            tr.appendChild(td);\n+                        });\n+                        table.appendChild(tr);\n+                    });\n+                });\n+        }\n+\n+        // Function to load HTML content\n+        function loadHTMLContent(htmlFile, elementId) {\n+            fetch(htmlFile)\n+                .then(response => response.text())\n+                .then(data => {\n+                    document.getElementById(elementId).innerHTML = data;\n+                });\n+        }\n+\n+        // Load the CSV files into their respective tables\n+        loadCSVToTable('scraped_table_en.csv', 'table-en');\n+        loadCSVToTable('scraped_table_fr.csv', 'table-fr');\n+\n+        // Load the HTML content into the respective sections\n+        loadHTMLContent('scraped_content_eng.html', 'content-eng');\n+        loadHTMLContent('scraped_content_fra.html', 'content-fra');\n+\n+        </script>\n+    \n     <script>\n+        \n         // Function to render the Visits table\n         function renderVisitsTable(data, tableId) {\n             const table = document.getElementById(tableId);\n@@ -262,6 +349,6 @@ <h2>Downloads Over Time</h2>\n                 renderDownloadsTable(data, 'downloads-table-id');\n                 renderDownloadsChart(data);\n             });\n-    </script>\n+</script>\n </body>\n </html>"
-      }
-    ]
-  },
-  {
-    "sha": "d448bca1639f018c68dee59cd0e3dad4078eced4",
-    "node_id": "C_kwDOMrSvVdoAKGQ0NDhiY2ExNjM5ZjAxOGM2OGRlZTU5Y2QwZTNkYWQ0MDc4ZWNlZDQ",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-25T01:36:58Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-25T01:36:58Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "784dd7faa6a2e395290090b0bccdb17cdb150d6a",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/784dd7faa6a2e395290090b0bccdb17cdb150d6a"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d448bca1639f018c68dee59cd0e3dad4078eced4",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d448bca1639f018c68dee59cd0e3dad4078eced4",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d448bca1639f018c68dee59cd0e3dad4078eced4",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d448bca1639f018c68dee59cd0e3dad4078eced4/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/2f601ab6323e062a4bde8fbebe640c1d03522bbc"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "592fe08e7d6dc86777f09e1a60dba2dc4c7b3b43",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=d448bca1639f018c68dee59cd0e3dad4078eced4",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-09-24T01:35:49.646641+00:00</updated>\n+  <updated>2024-09-25T01:36:56.465084+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "38c9b2f53266d46d2b2e9a4c2cdadfc4b60c0ec9",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=d448bca1639f018c68dee59cd0e3dad4078eced4",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-09-24T01:35:49.754903+00:00</updated>\n+  <updated>2024-09-25T01:36:56.754681+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "aee41fa69aa4381147a694185c526df3948c9341",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d448bca1639f018c68dee59cd0e3dad4078eced4/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=d448bca1639f018c68dee59cd0e3dad4078eced4",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-09-24T01:35:49.521923+00:00</updated>\n+  <updated>2024-09-25T01:36:56.190752+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-    "node_id": "C_kwDOMrSvVdoAKDJmNjAxYWI2MzIzZTA2MmE0YmRlOGZiZWJlNjQwYzFkMDM1MjJiYmM",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-24T01:35:51Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-24T01:35:51Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "20a56ef074b90060de08b504052c21721a873e74",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/20a56ef074b90060de08b504052c21721a873e74"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2f601ab6323e062a4bde8fbebe640c1d03522bbc/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "fcc40792f8199c4c702749d989afcc933929f6d3",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/fcc40792f8199c4c702749d989afcc933929f6d3",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/fcc40792f8199c4c702749d989afcc933929f6d3"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "64748932ec4f0e7639095bf33f7eb1b647bdc625",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-09-23T01:35:31.036440+00:00</updated>\n+  <updated>2024-09-24T01:35:49.646641+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "30cbf13d827b3cf2d3dd815a31728a23131eba38",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-09-23T01:35:31.155745+00:00</updated>\n+  <updated>2024-09-24T01:35:49.754903+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "8edc19d6ca5adf40eca24a1af407911d16b38503",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2f601ab6323e062a4bde8fbebe640c1d03522bbc/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=2f601ab6323e062a4bde8fbebe640c1d03522bbc",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-09-23T01:35:30.916457+00:00</updated>\n+  <updated>2024-09-24T01:35:49.521923+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "fcc40792f8199c4c702749d989afcc933929f6d3",
-    "node_id": "C_kwDOMrSvVdoAKGZjYzQwNzkyZjgxOTljNGM3MDI3NDlkOTg5YWZjYzkzMzkyOWY2ZDM",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-23T01:35:31Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-23T01:35:31Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "ad458098a4a2f6b24e92f73ef355005eb613fde3",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/ad458098a4a2f6b24e92f73ef355005eb613fde3"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/fcc40792f8199c4c702749d989afcc933929f6d3",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/fcc40792f8199c4c702749d989afcc933929f6d3",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/fcc40792f8199c4c702749d989afcc933929f6d3",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/fcc40792f8199c4c702749d989afcc933929f6d3/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "0c690c908ef3a22a9f90f2a6b3196a4941225719",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0c690c908ef3a22a9f90f2a6b3196a4941225719",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/0c690c908ef3a22a9f90f2a6b3196a4941225719"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "aad155354745b5055713c62f833d207dc41712ba",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=fcc40792f8199c4c702749d989afcc933929f6d3",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-09-22T01:40:35.128596+00:00</updated>\n+  <updated>2024-09-23T01:35:31.036440+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "d79194e9356bc8719f900055da267ea9f32b022b",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=fcc40792f8199c4c702749d989afcc933929f6d3",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-09-22T01:40:34.967093+00:00</updated>\n+  <updated>2024-09-23T01:35:31.155745+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "be03ffdaddc04c6eb9e22a89a3752cdf63b0cfb4",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/fcc40792f8199c4c702749d989afcc933929f6d3/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=fcc40792f8199c4c702749d989afcc933929f6d3",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-09-22T01:40:34.758954+00:00</updated>\n+  <updated>2024-09-23T01:35:30.916457+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "0c690c908ef3a22a9f90f2a6b3196a4941225719",
-    "node_id": "C_kwDOMrSvVdoAKDBjNjkwYzkwOGVmM2EyMmE5ZjkwZjJhNmIzMTk2YTQ5NDEyMjU3MTk",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-22T01:40:36Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-09-22T01:40:36Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "8bf0d4367bcb01aa3f60d6bbdc68e5a5cb3fb30a",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/8bf0d4367bcb01aa3f60d6bbdc68e5a5cb3fb30a"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/0c690c908ef3a22a9f90f2a6b3196a4941225719",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0c690c908ef3a22a9f90f2a6b3196a4941225719",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/0c690c908ef3a22a9f90f2a6b3196a4941225719",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0c690c908ef3a22a9f90f2a6b3196a4941225719/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "f8acf7ddca2a07e6f70d7d3811c17b5313b9f579",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f8acf7ddca2a07e6f70d7d3811c17b5313b9f579",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/f8acf7ddca2a07e6f70d7d3811c17b5313b9f579"
-      }
-    ],
-    "stats": {
-      "total": 6,
-      "additions": 3,
-      "deletions": 3
-    },
-    "files": [
-      {
-        "sha": "757fbc2bf3457bb4dfc593895e7be0a1a09edc5f",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=0c690c908ef3a22a9f90f2a6b3196a4941225719",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-09-21T01:24:37.705651+00:00</updated>\n+  <updated>2024-09-22T01:40:35.128596+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "2a3888b1a0180a1f6d766fd02684961c2e472afa",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=0c690c908ef3a22a9f90f2a6b3196a4941225719",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-09-21T01:24:37.788493+00:00</updated>\n+  <updated>2024-09-22T01:40:34.967093+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "f4621f8372604e62d2f4fcef95a64a7a9dbf1117",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/0c690c908ef3a22a9f90f2a6b3196a4941225719/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=0c690c908ef3a22a9f90f2a6b3196a4941225719",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-09-21T01:24:37.582301+00:00</updated>\n+  <updated>2024-09-22T01:40:34.758954+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
       }
     ]
   }
