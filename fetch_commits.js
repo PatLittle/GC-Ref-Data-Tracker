@@ -1,8 +1,5 @@
-import fetch from 'node-fetch'; // Use import instead of require
-import fs from 'fs';
-import { promisify } from 'util';
-
-const writeFileAsync = promisify(fs.writeFile);
+const fetch = require('node-fetch');
+const fs = require('fs');
 
 // Environment variables
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -11,6 +8,7 @@ const REPO_NAME = 'GC-Ref-Data-Tracker';
 const BRANCH_NAME = 'main';
 const OUTPUT_FILE = './build/commits.json'; // Location to store the fetched commit data
 
+// GitHub API URL for fetching commits
 const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?sha=${BRANCH_NAME}&per_page=50`;
 
 // Fetch commits from GitHub
@@ -28,9 +26,12 @@ async function fetchCommits() {
     }
 
     const commits = await response.json();
+
+    // Log the number of commits fetched
     console.log(`Fetched ${commits.length} commits.`);
 
-    await writeFileAsync(OUTPUT_FILE, JSON.stringify(commits, null, 2));
+    // Write the commit data to a JSON file
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(commits, null, 2));
     console.log(`Commit data saved to ${OUTPUT_FILE}`);
   } catch (error) {
     console.error('Error fetching commits:', error);
@@ -38,4 +39,5 @@ async function fetchCommits() {
   }
 }
 
+// Run the fetchCommits function
 fetchCommits();

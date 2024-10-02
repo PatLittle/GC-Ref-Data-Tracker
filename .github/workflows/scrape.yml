@@ -38,7 +38,7 @@ jobs:
         node-version: '18'  # Use the version of Node.js you need
 
     - name: Install Puppeteer
-      run: npm install puppeteer node-fetch
+      run: npm install puppeteer node-fetch@2
 
     - name: Run scraper
       run: python scraper.py
