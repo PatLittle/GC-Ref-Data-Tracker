@@ -92,8 +92,8 @@
     const csvTable = document.getElementById('csv-table');
     const loadingMessage = document.getElementById('loading-message');
 
-    // Load commits.json and populate the dropdown
-    fetch('docs/commits.json')  // Assumes commits.json is at the root of your site
+    // Load commits.json from the same folder as the HTML file and populate the dropdown
+    fetch('./commits.json')  // Use relative URL to get commits.json from the same folder
       .then(response => response.json())
       .then(commits => {
         commits.forEach(commit => {
@@ -116,7 +116,7 @@
 
     // Function to fetch and display pre-fetched diff data from commits.json
     function fetchAndDisplayDiff(commitSha) {
-      fetch('docs/commits.json')  // Fetch the same commits.json file
+      fetch('./commits.json')  // Fetch the same commits.json file from the same folder
         .then(response => response.json())
         .then(commits => {
           const selectedCommit = commits.find(commit => commit.sha === commitSha);
@@ -189,7 +189,7 @@
       fetchAndDisplayCsv(selectedCommitSha);
 
       // Load commit metadata
-      fetch('docs/commits.json')
+      fetch('./commits.json')
         .then(response => response.json())
         .then(commits => {
           const selectedCommit = commits.find(commit => commit.sha === selectedCommitSha);
