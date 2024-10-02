@@ -6,7 +6,7 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO_OWNER = 'PatLittle';
 const REPO_NAME = 'GC-Ref-Data-Tracker';
 const BRANCH_NAME = 'main';
-const OUTPUT_FILE = './build/commits.json'; // Location to store the fetched commit data
+const OUTPUT_FILE = 'commits.json'; // Location to store the fetched commit data
 
 // GitHub API URL for fetching commits
 const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?sha=${BRANCH_NAME}&per_page=50`;
