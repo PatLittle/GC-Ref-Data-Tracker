@@ -61,23 +61,9 @@
   </div>
 
   <script>
-    const baseCsvUrl = `https://raw.githubusercontent.com/PatLittle/GC-Ref-Data-Tracker/`;
-
-    // English Table Elements
-    const commitSelectEn = document.getElementById('commit-select-en');
-    const gitDiffContainerEn = document.getElementById('git-diff-en');
-    const commitInfoEn = document.getElementById('commit-info-en');
-    const csvTableEn = document.getElementById('csv-table-en');
-    const loadingMessageEn = document.getElementById('loading-message-en');
-    const filePathEn = '/docs/scraped_table_en.csv'; // Path for English CSV
-
-    // French Table Elements
-    const commitSelectFr = document.getElementById('commit-select-fr');
-    const gitDiffContainerFr = document.getElementById('git-diff-fr');
-    const commitInfoFr = document.getElementById('commit-info-fr');
-    const csvTableFr = document.getElementById('csv-table-fr');
-    const loadingMessageFr = document.getElementById('loading-message-fr');
-    const filePathFr = '/docs/scraped_table_fr.csv'; // Path for French CSV
+    // Relative paths for English and French CSV files (assuming they are in the same folder as this HTML file)
+    const filePathEn = './scraped_table_en.csv';
+    const filePathFr = './scraped_table_fr.csv';
 
     // Function to log errors for better debugging
     function logError(message, error) {
@@ -85,90 +71,47 @@
       alert(message); // Optional: Notify users of the error
     }
 
-    // Fetch and display English Git Diff
-    function fetchAndDisplayDiffEn(commitSha) {
-      fetch('./subsets/filtered_commits_scraped_table_en.json')
-        .then(response => response.json())
-        .then(commits => {
-          const selectedCommit = commits.find(commit => commit.sha === commitSha);
-          if (selectedCommit) {
-            let diffContent = '';
-            selectedCommit.files.forEach(file => {
-              if (file.patch) {
-                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
-              } else {
-                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
-              }
-            });
-            gitDiffContainerEn.innerHTML = diffContent.replace(/^(\+.*)$/gm, '<span class="diff-added">$1</span>')
-              .replace(/^(\-.*)$/gm, '<span class="diff-removed">$1</span>')
-              .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
-          }
-        })
-        .catch(error => logError('Error loading English commit diff.', error));
-    }
+    // Function to fetch and display CSV data
+    function fetchAndDisplayCsv(filePath, csvTableElement, loadingMessageElement) {
+      loadingMessageElement.textContent = 'Loading CSV data...';
 
-    // Fetch and display French Git Diff
-    function fetchAndDisplayDiffFr(commitSha) {
-      fetch('./subsets/filtered_commits_scraped_table_fr.json')
-        .then(response => response.json())
-        .then(commits => {
-          const selectedCommit = commits.find(commit => commit.sha === commitSha);
-          if (selectedCommit) {
-            let diffContent = '';
-            selectedCommit.files.forEach(file => {
-              if (file.patch) {
-                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nPatch:\n${file.patch}\n\n`;
-              } else {
-                diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
-              }
-            });
-            gitDiffContainerFr.innerHTML = diffContent.replace(/^(\+.*)$/gm, '<span class="diff-added">$1</span>')
-              .replace(/^(\-.*)$/gm, '<span class="diff-removed">$1</span>')
-              .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
-          }
-        })
-        .catch(error => logError('Error loading French commit diff.', error));
-    }
+      Papa.parse(filePath, {
+        download: true,
+        header: true,
+        complete: function(results) {
+          loadingMessageElement.textContent = ''; // Hide the loading message
 
-    // Fetch commits and load options into the dropdowns
-    function loadCommitsForTable(fetchUrl, commitSelectElement, tableName, csvTableElement, diffDisplayFn) {
-      fetch(fetchUrl)
-        .then(response => response.json())
-        .then(commits => {
-          commits.forEach(commit => {
-            const option = document.createElement('option');
-            option.value = commit.sha;
-            option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
-            commitSelectElement.appendChild(option);
+          const data = results.data;
+          const tableBody = csvTableElement.createTBody();
+          const thead = csvTableElement.createTHead();
+          const row = thead.insertRow();
+
+          // Create table headers
+          Object.keys(data[0]).forEach(key => {
+            const th = document.createElement('th');
+            th.textContent = key;
+            row.appendChild(th);
           });
 
-          // Load first commit by default if commits are available
-          if (commits.length > 0) {
-            const firstCommit = commits[0].sha;
-            diffDisplayFn(firstCommit);
-          }
-        })
-        .catch(error => logError(`Error loading ${tableName} commits.`, error));
+          // Populate table rows
+          data.forEach(rowData => {
+            const row = tableBody.insertRow();
+            Object.values(rowData).forEach(value => {
+              const cell = row.insertCell();
+              cell.textContent = value;
+            });
+          });
+        },
+        error: function(error) {
+          logError('Error loading CSV data.', error);
+        }
+      });
     }
 
-    // Load the English commits
-    loadCommitsForTable('./subsets/filtered_commits_scraped_table_en.json', commitSelectEn, 'English', csvTableEn, fetchAndDisplayDiffEn);
+    // Fetch and display CSV data for English and French CSV files
+    fetchAndDisplayCsv(filePathEn, document.getElementById('csv-table-en'), document.getElementById('loading-message-en'));
+    fetchAndDisplayCsv(filePathFr, document.getElementById('csv-table-fr'), document.getElementById('loading-message-fr'));
 
-    // Load the French commits
-    loadCommitsForTable('./subsets/filtered_commits_scraped_table_fr.json', commitSelectFr, 'French', csvTableFr, fetchAndDisplayDiffFr);
-
-    // Event listeners for the English table commit selection
-    commitSelectEn.addEventListener('change', function() {
-      const selectedCommitSha = commitSelectEn.value;
-      fetchAndDisplayDiffEn(selectedCommitSha);
-    });
-
-    // Event listeners for the French table commit selection
-    commitSelectFr.addEventListener('change', function() {
-      const selectedCommitSha = commitSelectFr.value;
-      fetchAndDisplayDiffFr(selectedCommitSha);
-    });
   </script>
 </body>
 </html>
