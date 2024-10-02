@@ -92,27 +92,26 @@
     const csvTable = document.getElementById('csv-table');
     const loadingMessage = document.getElementById('loading-message');
 
-    // Load commits.json from the same folder as the HTML file and populate the dropdown
-    fetch('./commits.json')  // Use relative URL to get commits.json from the same folder
-      .then(response => response.json())
-      .then(commits => {
-        commits.forEach(commit => {
-          const option = document.createElement('option');
-          option.value = commit.sha;
-          option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
-          commitSelect.appendChild(option);
-        });
-
-        // Display details of the first commit by default
-        if (commits.length > 0) {
-          fetchAndDisplayDiff(commits[0].sha);
-          fetchAndDisplayCsv(commits[0].sha);
-          updateCommitInfo(commits[0]);
-        }
-      })
-      .catch(error => {
-        console.error('Error loading commits.json:', error);
+  // Load the filtered commits for scraped_table_en.csv
+  fetch('./subsets/filtered_commits_scraped_table_en.json')
+    .then(response => response.json())
+    .then(commits => {
+      commits.forEach(commit => {
+        const option = document.createElement('option');
+        option.value = commit.sha;
+        option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
+        commitSelect.appendChild(option);
       });
+
+      if (commits.length > 0) {
+        fetchAndDisplayDiff(commits[0].sha);
+        fetchAndDisplayCsv(commits[0].sha);
+        updateCommitInfo(commits[0]);
+      }
+    })
+    .catch(error => {
+      console.error('Error loading filtered commits:', error);
+    });
 
     // Function to fetch and display pre-fetched diff data from commits.json
     function fetchAndDisplayDiff(commitSha) {
