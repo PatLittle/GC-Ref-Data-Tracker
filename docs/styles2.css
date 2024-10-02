@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Light background for the table */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50; /* Header background */
+    color: white; /* Header text color */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  tr:hover {
+    background-color: #ddd; /* Hover effect on rows */
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .commit-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .loading {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .diff-container {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+  }
+  
+  .diff-added {
+    background-color: #e6ffed;
+    color: #22863a;
+  }
+  
+  .diff-removed {
+    background-color: #ffeef0;
+    color: #d73a49;
+  }
+  
+  .diff-context {
+    background-color: #f6f8fa;
+    color: #6a737d;
+  }
+  
+  pre {
+    white-space: pre-wrap; /* Enable line wrapping in diffs */
+    word-wrap: break-word;
+  }
+  

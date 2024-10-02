@@ -5,55 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GitHub Commits Viewer</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    label {
-      font-weight: bold;
-    }
-    select {
-      margin: 10px 0;
-      padding: 5px;
-      font-size: 16px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 20px;
-    }
-    th, td {
-      padding: 8px 12px;
-      border: 1px solid #ddd;
-      text-align: left;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    .table-container {
-      overflow-x: auto;
-    }
-    .commit-info {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #555;
-    }
-    .loading {
-      font-size: 16px;
-      color: #555;
-    }
-    .diff-container {
-      margin-top: 20px;
-      background-color: #f9f9f9;
-      padding: 10px;
-      border: 1px solid #ddd;
-      overflow-x: auto;
-    }
-  </style>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
   <h1>GitHub Commits Viewer</h1>
@@ -142,7 +95,9 @@
                 diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
               }
             });
-            gitDiffContainerEn.textContent = diffContent;
+            gitDiffContainerEn.innerHTML = diffContent.replace(/^(\+.*)$/gm, '<span class="diff-added">$1</span>')
+              .replace(/^(\-.*)$/gm, '<span class="diff-removed">$1</span>')
+              .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
           }
         })
         .catch(error => {
@@ -166,7 +121,9 @@
                 diffContent += `File: ${file.filename}\nStatus: ${file.status}\n\nNo diff available for this file.\n\n`;
               }
             });
-            gitDiffContainerFr.textContent = diffContent;
+            gitDiffContainerFr.innerHTML = diffContent.replace(/^(\+.*)$/gm, '<span class="diff-added">$1</span>')
+              .replace(/^(\-.*)$/gm, '<span class="diff-removed">$1</span>')
+              .replace(/^(@@.*)$/gm, '<span class="diff-context">$1</span>');
           }
         })
         .catch(error => {
@@ -175,142 +132,15 @@
         });
     }
 
-    // Function to fetch and display data for the English CSV
-    function fetchAndDisplayCsvEn(commitHash) {
-      const csvUrl = `${baseCsvUrl}${commitHash}${filePathEn}`;
-      csvTableEn.innerHTML = ''; // Clear the table
-      loadingMessageEn.textContent = 'Loading CSV data...'; // Show loading message
-
-      Papa.parse(csvUrl, {
-        download: true,
-        header: true,
-        complete: function(results) {
-          loadingMessageEn.textContent = ''; // Hide loading message
-          const data = results.data;
-
-          // Create table header
-          const thead = csvTableEn.createTHead();
-          const row = thead.insertRow();
-          Object.keys(data[0]).forEach(key => {
-            const th = document.createElement('th');
-            th.textContent = key;
-            row.appendChild(th);
-          });
-
-          // Create table body
-          const tbody = csvTableEn.createTBody();
-          data.forEach(rowData => {
-            const row = tbody.insertRow();
-            Object.values(rowData).forEach(value => {
-              const cell = row.insertCell();
-              cell.textContent = value;
-            });
-          });
-        },
-        error: function(error) {
-          loadingMessageEn.textContent = 'Error loading CSV data.';
-          console.error('CSV Fetch Error:', error);
-        }
-      });
-    }
-
-    // Function to fetch and display data for the French CSV
-    function fetchAndDisplayCsvFr(commitHash) {
-      const csvUrl = `${baseCsvUrl}${commitHash}${filePathFr}`;
-      csvTableFr.innerHTML = ''; // Clear the table
-      loadingMessageFr.textContent = 'Loading CSV data...'; // Show loading message
-
-      Papa.parse(csvUrl, {
-        download: true,
-        header: true,
-        complete: function(results) {
-          loadingMessageFr.textContent = ''; // Hide loading message
-          const data = results.data;
-
-          // Create table header
-          const thead = csvTableFr.createTHead();
-          const row = thead.insertRow();
-          Object.keys(data[0]).forEach(key => {
-            const th = document.createElement('th');
-            th.textContent = key;
-            row.appendChild(th);
-          });
-
-          // Create table body
-          const tbody = csvTableFr.createTBody();
-          data.forEach(rowData => {
-            const row = tbody.insertRow();
-            Object.values(rowData).forEach(value => {
-              const cell = row.insertCell();
-              cell.textContent = value;
-            });
-          });
-        },
-        error: function(error) {
-          loadingMessageFr.textContent = 'Error loading CSV data.';
-          console.error('CSV Fetch Error:', error);
-        }
-      });
-    }
-
-    // Load English commits.json and populate the English dropdown
-    fetch('./subsets/filtered_commits_scraped_table_en.json')
-      .then(response => response.json())
-      .then(commits => {
-        commits.forEach(commit => {
-          const option = document.createElement('option');
-          option.value = commit.sha;
-          option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
-          commitSelectEn.appendChild(option);
-        });
-
-        if (commits.length > 0) {
-          fetchAndDisplayCsvEn(commits[0].sha);
-          fetchAndDisplayDiffEn(commits[0].sha);
-          updateCommitInfo(commitInfoEn, commits[0]);
-        }
-      })
-      .catch(error => {
-        console.error('Error loading filtered_commits_scraped_table_en.json:', error);
-      });
-
-    // Load French commits.json and populate the French dropdown
-    fetch('./subsets/filtered_commits_scraped_table_fr.json')
-      .then(response => response.json())
-      .then(commits => {
-        commits.forEach(commit => {
-          const option = document.createElement('option');
-          option.value = commit.sha;
-          option.textContent = `${commit.sha.substring(0, 7)} - ${commit.commit.message}`;
-          commitSelectFr.appendChild(option);
-        });
-
-        if (commits.length > 0) {
-          fetchAndDisplayCsvFr(commits[0].sha);
-          fetchAndDisplayDiffFr(commits[0].sha);
-          updateCommitInfo(commitInfoFr, commits[0]);
-        }
-      })
-      .catch(error => {
-        console.error('Error loading filtered_commits_scraped_table_fr.json:', error);
-      });
-
-    // Update commit info
-    function updateCommitInfo(element, commit) {
-      element.textContent = `Commit: ${commit.sha.substring(0, 7)} | Message: ${commit.commit.message} | Date: ${new Date(commit.commit.author.date).toLocaleString()}`;
-    }
-
     // Event listeners for the English table commit selection
     commitSelectEn.addEventListener('change', function() {
       const selectedCommitSha = commitSelectEn.value;
-      fetchAndDisplayCsvEn(selectedCommitSha);
       fetchAndDisplayDiffEn(selectedCommitSha);
     });
 
     // Event listeners for the French table commit selection
     commitSelectFr.addEventListener('change', function() {
       const selectedCommitSha = commitSelectFr.value;
-      fetchAndDisplayCsvFr(selectedCommitSha);
       fetchAndDisplayDiffFr(selectedCommitSha);
     });
   </script>
