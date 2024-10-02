@@ -115,3 +115,12 @@ jobs:
         git add -A
         git commit --allow-empty -m "Update fetched feeds"
         git push
+
+    - name: Fetch GitHub Commits
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        node fetch_commits.js
+        git add -A
+        git commit --allow-empty -m "Update commit data"
+        git push
