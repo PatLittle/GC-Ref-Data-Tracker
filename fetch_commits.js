@@ -10,7 +10,7 @@ const BRANCH_NAME = 'main';
 const OUTPUT_FILE = 'docs/commits.json'; // Location to store the fetched commit data
 
 // GitHub API URL for fetching commits
-const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?sha=${BRANCH_NAME}&per_page=50`;
+const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?sha=${BRANCH_NAME}&per_page=500`;
 
 // Fetch commit details (including diffs) for a given commit SHA
 async function fetchCommitDetails(commitSha) {
