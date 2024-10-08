@@ -11,8 +11,14 @@
     <header>
         <h1>GC Reference Data Tracker</h1>
         <p>Tracking the latest reference data standards from the Government of Canada.</p>
-        <a href="feeds.html" class="btn">ATOM Feeds</a> <a href="changes.html" class="btn">View Detailed Changes</a>
+        
     </header>
+
+    <nav>
+    <a href="feeds.html" class="btn">ATOM Feeds</a> 
+    <a href="changes.html" class="btn">View Detailed Changes</a>
+    </nav>
+
 
     <div class="container">
         <!-- English Version Table -->
@@ -23,7 +29,8 @@
                 <!-- English data will be inserted here -->
             </table>
         </section>
-
+        
+        <br>
         <!-- French Version Table -->
         <section class="content-section">
             <h2>Tableau du répertoire des normes référentielles pangouvernementales relatives aux données du GC</h2>
@@ -37,15 +44,18 @@
     <br>
     <hr>
     <br>
+
         <!-- Visits Data and Chart -->
         <section class="content-section">
             <h2>Visits Over Time</h2>
+            <p> Measures monthly visits to Data Reference Standard records on Open.Canada.ca. Only includes reference standards that have a record on Open.Canada.ca. Includes the last 12 months of data.</p>
             <div class="chart-container">
                 <canvas id="visitsChart"></canvas>
             </div>
             
             <details>
             <summary>Visits Data</summary>
+            <p>Data source: https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db</p>
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
