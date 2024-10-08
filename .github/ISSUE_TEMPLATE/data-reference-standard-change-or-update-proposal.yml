@@ -1,8 +1,8 @@
----
+
 name: Data Reference Standard Change or Update Proposal
 about: Propose an update or change to an existing DRS
-title: "[CR]"
-labels: ''
+title: "[CR]: "
+labels: "CR"
 assignees: ''
 body:
 - type: dropdown
@@ -20,16 +20,25 @@ body:
       - Data reference standard on date and time format
   validations:
     required: true
----
-
-**Impacted Data Reference Standard**
-Insert the link from 
-
-**Describe the update or change**
-A clear and concise description of what the change is.
-
-**Link to Pull Request**
-If possible propose the change as a pull request and insert the link here
-
-**Additional context**
-Add any other context about the change here.
+- type: textarea
+   id: description
+   attributes:
+      label: describe the change
+      description: Describe the update or change
+  validations:
+     required: true
+- type: input
+    id: PR
+    attributes:
+      label: Link to Pull Request
+      description: If possible submit a pull request with the change
+      placeholder: PR-123
+  validations:
+      required: false
+- type: textarea
+   id: additional
+   attributes:
+      label: Additional Info
+      description: Add any other context about the change here.
+  validations:
+     required: false
