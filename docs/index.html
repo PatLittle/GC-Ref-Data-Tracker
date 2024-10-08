@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GC Reference Data Tracker</title>
     <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
             
             <details>
             <summary>Visits Data</summary>
-            <p>Data source: https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db</p>
+            <p>Data source: <a href="https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db">https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db</a></p>
             <table id="visits-table-id">
                 <!-- Visits data will be inserted here -->
             </table>
@@ -66,12 +67,14 @@
         <!-- Downloads Data and Chart -->
         <section class="content-section">
             <h2>Downloads Over Time</h2>
+            <p> Measures monthly downloads of Data Reference Standard records on Open.Canada.ca. Only includes reference standards that have a record on Open.Canada.ca. Includes the last 12 months of data.</p>
             <div class="chart-container">
                 <canvas id="downloadsChart"></canvas>
             </div>
 
             <details>
              <summary>Downloads Data</summary>
+             <p>Data source: <a href="https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/4ebc050f-6c3c-4dfd-817e-875b2caf3ec6">https://open.canada.ca/data/en/dataset/2916fad5-ebcc-4c86-b0f3-4f619b29f412/resource/4ebc050f-6c3c-4dfd-817e-875b2caf3ec6</a></p>
             <table id="downloads-table-id">
                 <!-- Downloads data will be inserted here -->
             </table>
@@ -82,6 +85,7 @@
 
     <footer>
         <p>&copy; GC Reference Data Tracker Community Project. </p>
+        <a href="https://github.com/PatLittle/GC-Ref-Data-Tracker/issues/new" class="btn"><i class="fa fa-github fa-3x"></i> Report an Issue</a> 
     </footer>
 
     <!-- Include Chart.js -->
