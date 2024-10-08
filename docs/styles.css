@@ -190,9 +190,12 @@ details p {
     border: 1px solid green; /* Green border */
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
+    text-align: center;
+    margin:auto;
     cursor: pointer; /* Pointer/hand icon */
     width: 50%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+    font-size: 24px;
   }
   
   .btn-group button:not(:last-child) {
