@@ -89,7 +89,7 @@ tr:hover {
 /* Button styles */
 .btn {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -97,7 +97,7 @@ tr:hover {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #4CAF50;
 }
 
 /* Diff container styles */
