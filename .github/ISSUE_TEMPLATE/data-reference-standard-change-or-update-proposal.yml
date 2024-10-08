@@ -2,43 +2,45 @@
 name: Data Reference Standard Change or Update Proposal
 about: Propose an update or change to an existing DRS
 title: "[CR]: "
-labels: "CR"
-assignees: ''
+labels: CR
+assignees: ""
 body:
-- type: dropdown
-  id: drs
-  attributes:
-    label: Impacted Standard
-    options:
-      - Data reference standard on codes for current and past official names of countries, territories and geographic areas recognized by the Government of Canada
-      - Data reference standard on Canadian provinces and territories
-      - Data reference standard on industry classification system
-      - Data reference standard on the business number
-      - Data reference standard on person(s) gender
-      - Data reference standard on person(s) sex assigned at birth
-      - Data reference standard on person(s) name architecture
-      - Data reference standard on date and time format
-  validations:
-    required: true
-- type: textarea
-   id: desc
-   attributes:
+  - type: dropdown
+    id: drs
+    attributes:
+      label: Impacted Standard
+      options:
+        - Data reference standard on codes for current and past official names
+          of countries, territories and geographic areas recognized by the
+          Government of Canada
+        - Data reference standard on Canadian provinces and territories
+        - Data reference standard on industry classification system
+        - Data reference standard on the business number
+        - Data reference standard on person(s) gender
+        - Data reference standard on person(s) sex assigned at birth
+        - Data reference standard on person(s) name architecture
+        - Data reference standard on date and time format
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
       label: describe the change
       description: Describe the update or change
-  validations:
-     required: true
-- type: input
+    validations:
+      required: true
+  - type: input
     id: PR
     attributes:
       label: Link to Pull Request
       description: If possible submit a pull request with the change
       placeholder: PR-123
-  validations:
+    validations:
       required: false
-- type: textarea
-   id: additional
-   attributes:
+  - type: textarea
+    id: additional
+    attributes:
       label: Additional Info
       description: Add any other context about the change here.
-  validations:
-     required: false
+    validations:
+      required: false
