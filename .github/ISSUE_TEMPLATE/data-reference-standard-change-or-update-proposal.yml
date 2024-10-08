@@ -1,6 +1,5 @@
-
 name: Data Reference Standard Change or Update Proposal
-about: Propose an update or change to an existing DRS
+description: Propose an update or change to an existing DRS
 title: "[CR]: "
 labels: CR
 body:
