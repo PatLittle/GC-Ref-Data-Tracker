@@ -6,7 +6,7 @@ labels: "CR"
 assignees: ''
 body:
 - type: dropdown
-  id: download
+  id: drs
   attributes:
     label: Impacted Standard
     options:
@@ -14,14 +14,14 @@ body:
       - Data reference standard on Canadian provinces and territories
       - Data reference standard on industry classification system
       - Data reference standard on the business number
-      - Data reference standard on person(s): gender
-      - Data reference standard on person(s): sex assigned at birth
-      - Data reference standard on person(s): name architecture
+      - Data reference standard on person(s) gender
+      - Data reference standard on person(s) sex assigned at birth
+      - Data reference standard on person(s) name architecture
       - Data reference standard on date and time format
   validations:
     required: true
 - type: textarea
-   id: description
+   id: desc
    attributes:
       label: describe the change
       description: Describe the update or change
