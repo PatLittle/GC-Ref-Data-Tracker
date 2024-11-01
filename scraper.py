@@ -13,7 +13,7 @@ def scrape_table(url, output_filename):
                 with open(output_filename, 'w', newline='') as f:
                     writer = csv.writer(f)
                     for row in table.find_all('tr'):
-                        cells = [cell.get_text(strip=True) for cell in row.find_all(['th', 'td'])]
+                        cells = [cell.get_text(strip=False) for cell in row.find_all(['th', 'td'])]
                         writer.writerow(cells)
                 print(f"Scraped and saved table from {url} to {output_filename}")
         else:
