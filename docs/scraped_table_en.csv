@@ -1,9 +1,45 @@
 Title,Description,Effective date,Data reference standard stewards,Machine-readable formats (available on Open Government)
-"Data reference standard on codes for current and past official names of countries, territories and geographic areas recognized by the Government of Canada","This reference standard is intended to standardize the way countries, territories and geographic areas are described in datasets.",2024-01-29,Global Affairs Canada,CSV|JSON
-Data reference standard on Canadian provinces and territories,This reference standard is intended to standardize the way Canadian provinces and territories are described in datasets.,2023-10-02,Statistics CanadaNatural Resources Canada,CSV|JSON
-Data reference standard on industry classification system,This reference standard is intended to standardize the way industry classifications are described in datasets.,2023-12-15,Statistics Canada,CSV
-Data reference standard on the business number,This data reference standard is intended to ensure that departments and agencies use the business number as the standard identifier for all transactions between businesses and the Government of Canada.,2024-05-07,"Canada Revenue AgencyInnovation, Science and Economic Development Canada",not available
-Data reference standard on person(s): gender,This  data reference standard provides a standard list of values to categorize data  on person(s). The list reflects the classifications of gender.,2024-09-27,Statistics Canada,CSV
-Data reference standard on person(s): sex assigned at birth,This data reference standard is part of a suite  that provides a standard list of values to categorize data on person(s). The  list reflects the classifications of sex assigned at birth.,2024-09-27,Statistics Canada,CSV
-Data reference standard on person(s): name architecture,This data reference standard is intended to ensure  that departments and agencies of the Government of Canada use consistent fields  for capturing the diverse set of names of persons.,2024-09-27,"Immigration, Refugees and Citizenship Canada",not available
-Data reference standard on date and time format,This data reference standard is intended to ensure  that departments and agencies use a consistent numeric format for date and  time.,2024-09-27,National Research Council Canada,not available
+"
+Data reference standard on codes for current and past official names of countries, territories and geographic areas recognized by the Government of Canada 
+","This reference standard is intended to standardize the way countries, territories and geographic areas are described in datasets.",2024-01-29,"
+
+Global Affairs Canada
+
+","
+CSV | JSON
+"
+"
+Data reference standard on Canadian provinces and territories
+",This reference standard is intended to standardize the way Canadian provinces and territories are described in datasets.,2023-10-02,"
+
+Statistics Canada
+Natural Resources Canada
+
+","
+CSV | JSON
+"
+"
+Data reference standard on industry classification system
+",This reference standard is intended to standardize the way industry classifications are described in datasets.,2023-12-15,"
+
+Statistics Canada
+
+","
+CSV
+"
+Data reference standard on the business number,This data reference standard is intended to ensure that departments and agencies use the business number as the standard identifier for all transactions between businesses and the Government of Canada.,2024-05-07,"
+Canada Revenue Agency
+Innovation, Science and Economic Development Canada
+",not available
+Data reference standard on person(s): gender,This  data reference standard provides a standard list of values to categorize data  on person(s). The list reflects the classifications of gender.,2024-09-27,"
+Statistics Canada
+",CSV
+Data reference standard on person(s): sex assigned at birth,This data reference standard is part of a suite  that provides a standard list of values to categorize data on person(s). The  list reflects the classifications of sex assigned at birth.,2024-09-27,"
+Statistics Canada
+",CSV
+Data reference standard on person(s): name architecture,This data reference standard is intended to ensure  that departments and agencies of the Government of Canada use consistent fields  for capturing the diverse set of names of persons.,2024-09-27,"
+Immigration, Refugees and Citizenship Canada
+",not available
+Data reference standard on date and time format,This data reference standard is intended to ensure  that departments and agencies use a consistent numeric format for date and  time.,2024-09-27,"
+National Research Council Canada
+",not available
