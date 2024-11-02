@@ -1,8 +1,17 @@
 name: Data Reference Standard Proposal
 description: Propose a new Data Reference Standard for consideration
 title: "[DRS PROPOSAL]: "
-labels: ''
+labels: ["proposal", "triage"]
+projects: ["your-org/1", "your-org/standardization-project"]
+assignees:
+  - your-username
+
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a new Data Reference Standard! Please fill out the following details to help us assess and understand your proposal.
+
   - type: input
     id: title
     attributes:
@@ -69,3 +78,12 @@ body:
       description: "Add any other context or screenshots about the proposal here."
     validations:
       required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Code of Conduct"
+      description: "By submitting this proposal, you agree to follow our [Code of Conduct](https://example.com)."
+      options:
+        - label: "I agree to follow this project's Code of Conduct"
+          required: true
