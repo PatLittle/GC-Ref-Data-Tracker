@@ -3,13 +3,13 @@ description: Propose a new DRS
 title: "[DRS PROPOSAL]: "
 labels: DRS
 body:
-  - type: textarea
-    id: desc
-    attributes:
-      label: "describe the Proposal"
-      description: "Describe the proposed reference standard"
-    validations:
-      required: true
+- type: textarea
+id: desc
+attributes:
+  label: "describe the Proposal"
+  description: "Describe the proposed reference standard"
+  validations:
+    required: true
   - type: checkboxes
   id: type
   attributes:
