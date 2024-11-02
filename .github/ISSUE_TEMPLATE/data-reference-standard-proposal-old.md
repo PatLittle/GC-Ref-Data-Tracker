@@ -1,5 +1,5 @@
 ---
-name: Data Reference Standard Proposal
+name: Data Reference Standard Proposal-old
 about: Propose a new Data Reference Standard for consideration
 title: "[DRS PROPOSAL]"
 labels: ''
