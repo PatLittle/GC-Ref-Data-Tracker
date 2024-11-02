@@ -1,30 +1,71 @@
-name: New Data Reference Standard Proposal
-description: Propose a new DRS
+name: Data Reference Standard Proposal
+description: Propose a new Data Reference Standard for consideration
 title: "[DRS PROPOSAL]: "
-labels: DRS
+labels: ''
 body:
-- type: textarea
-id: desc
-attributes:
-  label: "describe the Proposal"
-  description: "Describe the proposed reference standard"
-  validations:
-    required: true
-  - type: checkboxes
-  id: type
-  attributes:
-    label: Proposed Structure
-    description: You may select more than one.
-    options:
-      - label: codelist
-        required: true
-      - label: **schema**
-      - label: ontology
-      - label: taxonomy
-  - type: textarea
-    id: additional
+  - type: input
+    id: title
     attributes:
-      label: "Additional Info"
-      description: "Add any other context about the change here."
+      label: "Title"
+      description: "Enter a concise title for your proposed Data Reference Standard."
+      placeholder: "e.g., Data Standard for Geographic Areas"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the Data Reference Standard you are proposing"
+      description: "Provide a clear and concise description of the proposed standard."
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: "Use Case and Importance"
+      description: "Describe in what contexts this proposal is important for interoperability and standardization."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: stewardship
+    attributes:
+      label: "Stewardship and Source"
+      options:
+        - label: "My organization is willing to be the Data Steward for this standard"
+        - label: "The required data source is available"
+        - label: "This is an existing departmental standard"
+        - label: "This is an existing standard managed by a standards-setting organization (ISO, IEEE, W3C, etc)"
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: "Format"
+      options:
+        - Codelist
+        - Schema
+        - Taxonomy
+        - Ontology
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: update_cycle
+    attributes:
+      label: "Expected Update Cycle"
+      options:
+        - label: "This is expected to be updated infrequently (less than annually)"
+        - label: "This is expected to be updated annually"
+        - label: "This is expected to be updated quarterly"
+        - label: "This is expected to be updated more frequently than every three months"
+        - label: "Updates are driven by executive function, where changes are not communicated in advance (e.g., Orders in Council, Ministerial Directives)"
+        - label: "Updates are scheduled at a predictable cadence, and communicated in advance"
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional context"
+      description: "Add any other context or screenshots about the proposal here."
     validations:
       required: false
