@@ -109,7 +109,7 @@ jobs:
       run: |
         python atom_feed_fetcher.py
         python portal_usage_fetcher.py
-        python create_subset.py
+        
 
     - name: Commit and Push Feed Fetcher Result
       run: |
