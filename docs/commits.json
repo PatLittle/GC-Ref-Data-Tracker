@@ -1,5 +1,254 @@
 [
   {
+    "sha": "3f5a4745eab35167f2bb7dc912cb8159980876e6",
+    "node_id": "C_kwDOMrSvVdoAKDNmNWE0NzQ1ZWFiMzUxNjdmMmJiN2RjOTEyY2I4MTU5OTgwODc2ZTY",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-11-12T21:01:13Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-11-12T21:01:13Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "66fd7796481cb5d026798c924c8e86da9d048591",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/66fd7796481cb5d026798c924c8e86da9d048591"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/3f5a4745eab35167f2bb7dc912cb8159980876e6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3f5a4745eab35167f2bb7dc912cb8159980876e6",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/3f5a4745eab35167f2bb7dc912cb8159980876e6",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3f5a4745eab35167f2bb7dc912cb8159980876e6/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/27cde36df2f5619b4f6fd78575962b7e8e2affcc"
+      }
+    ],
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "0562c89bd970a54b7b1bde3bc74546e741b090da",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=3f5a4745eab35167f2bb7dc912cb8159980876e6",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-11-12T16:01:14.215956+00:00</updated>\n+  <updated>2024-11-12T21:01:11.328270+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "4638b71ce160e7600420bc4d79a7ac10e81f701d",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=3f5a4745eab35167f2bb7dc912cb8159980876e6",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-11-12T16:01:13.361388+00:00</updated>\n+  <updated>2024-11-12T21:01:10.733886+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "c3f74d8b90587230e6187a8bc3be3aad54db94e2",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=3f5a4745eab35167f2bb7dc912cb8159980876e6",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-11-12T16:01:14.775040+00:00</updated>\n+  <updated>2024-11-12T21:01:11.617869+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "adb9b27dc8d62098e0fdaeaaa7407e3069d83ca3",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=3f5a4745eab35167f2bb7dc912cb8159980876e6",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-11-12T16:01:13.744925+00:00</updated>\n+  <updated>2024-11-12T21:01:11.043855+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "f712a1dbbf549b2845ca04957c229574aea4f4cb",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3f5a4745eab35167f2bb7dc912cb8159980876e6/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=3f5a4745eab35167f2bb7dc912cb8159980876e6",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-11-12T16:01:13.060945+00:00</updated>\n+  <updated>2024-11-12T21:01:10.439641+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      }
+    ]
+  },
+  {
+    "sha": "27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+    "node_id": "C_kwDOMrSvVdoAKDI3Y2RlMzZkZjJmNTYxOWI0ZjZmZDc4NTc1OTYyYjdlOGUyYWZmY2M",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-11-12T16:01:53Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-11-12T16:01:53Z"
+      },
+      "message": "Update commit data",
+      "tree": {
+        "sha": "efb312bbb7f7f76173794e2938df18aa8eeb2555",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/efb312bbb7f7f76173794e2938df18aa8eeb2555"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/27cde36df2f5619b4f6fd78575962b7e8e2affcc",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/27cde36df2f5619b4f6fd78575962b7e8e2affcc/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6620ed169dc460a58f542b6a05acdc29de5523f2",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6620ed169dc460a58f542b6a05acdc29de5523f2",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/6620ed169dc460a58f542b6a05acdc29de5523f2"
+      }
+    ],
+    "stats": {
+      "total": 496,
+      "additions": 248,
+      "deletions": 248
+    },
+    "files": [
+      {
+        "sha": "40ac2ab71b962f46d23efd49479235e0d439b745",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 248,
+        "deletions": 248,
+        "changes": 496,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/27cde36df2f5619b4f6fd78575962b7e8e2affcc/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/27cde36df2f5619b4f6fd78575962b7e8e2affcc/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=27cde36df2f5619b4f6fd78575962b7e8e2affcc"
+      }
+    ]
+  },
+  {
     "sha": "6620ed169dc460a58f542b6a05acdc29de5523f2",
     "node_id": "C_kwDOMrSvVdoAKDY2MjBlZDE2OWRjNDYwYTU4ZjU0MmI2YTA1YWNkYzI5ZGU1NTIzZjI",
     "commit": {
@@ -24,7 +273,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6620ed169dc460a58f542b6a05acdc29de5523f2",
@@ -172,7 +422,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/21ee804dd8ac159d338e0bb8acdda6028293c902",
@@ -272,7 +523,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c835ddad7c58a8aaea91f37e59b2156cdb7e1d68",
@@ -420,7 +672,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2a0f82c0e6f18d85077f1e29d2c291cc6d93d189",
@@ -520,7 +773,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5978b08e037c7fe399da069d4b7fcd1bc7dfea29",
@@ -668,7 +922,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a176e5a04c53ecb327fc0051f5ee94ca2f0d7807",
@@ -767,7 +1022,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c61c8412303e3fdc6b7277be77bada548eeb6bca",
@@ -915,7 +1171,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2858db54750e7f5d2930d071a448593c0524bd5b",
@@ -1015,7 +1272,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2009bf59b80a276f11ed9c1086361f28035e252e",
@@ -1163,7 +1421,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4db06ff543d8b22133881565fde982c0fcdc73fd",
@@ -1262,7 +1521,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2df143ab48ea72ee5c2a0a2466018d2ff71d28e0",
@@ -1410,7 +1670,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f64fe406f876a58df63d5bacfb6bb721ce4e9171",
@@ -1510,7 +1771,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/49b5d0f3ca2544e47690168d25792c775b7bc2cc",
@@ -1634,7 +1896,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1c6e5fbcf346751bbb3efa702935eef28155afd4",
@@ -1734,7 +1997,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/177b4096dc3c52913b20d9a8e4443a387ca90291",
@@ -1882,7 +2146,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/be0bd04d38bad61f18602746c8948e45704bc1f2",
@@ -1981,7 +2246,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b82345ecc3eac077b12b4aca827acb73aabd1959",
@@ -2129,7 +2395,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/26227d5b2d54d77739ef86b8b43d8ee07c9ad323",
@@ -2229,7 +2496,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ff6dc48791a5048ef32acc5b76dcbb77b5782422",
@@ -2377,7 +2645,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/9c853753c7d30cae44c4cc8252119d9de8997b2c",
@@ -2477,7 +2746,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4f4e89fe2e16ed5a5d13c78509eb77e4ed46d77e",
@@ -2625,7 +2895,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3b10cb486c7395f919c78313f3c682da290c7b06",
@@ -2724,7 +2995,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b2da1b52fb9f7fda4301de245c1d236034d6ba31",
@@ -2872,7 +3144,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ad183fa095180c6385c46e8f472e5fe739061de9",
@@ -2972,7 +3245,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/8e349c4871101a107595fbcd8d62d53efaa69aab",
@@ -3120,7 +3394,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/bf45593124ac8d86812312a72c27d1a189751f8c",
@@ -3219,7 +3494,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/929bb2991b1df8a41de2ad5d93dabb5abb81f607",
@@ -3367,7 +3643,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/67d3b7a7462fabe66247a78c1a350ac13d0ed0ba",
@@ -3466,7 +3743,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f0ba2efedd2c275d636709294d706237e720d230",
@@ -3614,7 +3892,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a7e545d5138055ddf678031ac37f18784bc41dd4",
@@ -3714,7 +3993,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b3180810d3d6b5de56d15678cc0a98354d7fdc82",
@@ -3862,7 +4142,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/45ee7ffd64b15c9f4ce1b5e27d1f66aeb42c4f8c",
@@ -3961,7 +4242,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/21318d01739c439f4b974ef475bb1c0cdf6e1fdf",
@@ -4109,7 +4391,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7dd0cbe9fcbc41a4d8517c27abc3001ac7429b0b",
@@ -4209,7 +4492,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/059302c75c71af2a0581b8813be8b2a72e747b27",
@@ -4357,7 +4641,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0b0390e76c86248280aabd95ac1b8ce42790f327",
@@ -4456,7 +4741,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4d1c4c0e98ac9487c0fabdf4159e27b2aca44ad8",
@@ -4604,7 +4890,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/067dc69739c1254865f17adc47faea0eebfba57b",
@@ -4704,7 +4991,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0d1585a01dda58fafc4092288da1457cbf4c6dec",
@@ -4852,7 +5140,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/bda2f67ab89dbdefaa5533d045449f6f1f77027c",
@@ -4951,7 +5240,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c5d04176edec0934f1338a12528928af6b394b5d",
@@ -5099,7 +5389,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/fbbfeaf808fda31e43c9091ebf629d0769c7d74f",
@@ -5198,7 +5489,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7a16b5cda64ea025681473b11747241420262a61",
@@ -5346,7 +5638,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/54dd7f33e5eaef6dc39839b3a86ca679b1987b2f",
@@ -5446,7 +5739,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5caf3246411e30a323d746769524ac521cb6b2f4",
@@ -5594,7 +5888,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/23d462caa5ac293c44c2cab2ca49473130248453",
@@ -5693,7 +5988,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4080883714d278669257b9b30ad7b3bda16c89c0",
@@ -5841,7 +6137,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/1b58f86436ccd5525b9fd94f65212d697a6bed26",
@@ -5940,7 +6237,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4311a3773ea6fb2f98e43368370cd46986ef6841",
@@ -6088,7 +6386,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/835960957a51122d6dee106c00148af7cfe33f1b",
@@ -6188,7 +6487,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5f4fab04d7065273be9f19fdcc7426b15abb2857",
@@ -6336,7 +6636,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d1e9317f1613ded73a666febc7a13dd7e625fe09",
@@ -6435,7 +6736,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c230ad6f2283b6ebd12ab388787e6c3f7b8b41e7",
@@ -6583,7 +6885,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/aeb346c43b53384e3306b637d4675ee0e1c34c9c",
@@ -6682,7 +6985,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c8978da6beb59494a13b7de58baccd761e32611d",
@@ -6830,7 +7134,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f6785a48f61a80124a4ce6ec2faebb545f5aecc2",
@@ -6930,7 +7235,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ac3a7b4f8044ae8251e831b145c074cc3a6bc206",
@@ -7078,7 +7384,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2feb0d24838cfc9a63f3b2f0d10602eac36aa87b",
@@ -7177,7 +7484,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/27e46c7379343bd06d0645a629fb0f744deadc70",
@@ -7325,7 +7633,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ab4fb3d6ab51ccff4c56fb3bc6d95c761ae25aca",
@@ -7424,7 +7733,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b232736082511bde54aa09757f50a41a3dc9e8c7",
@@ -7572,7 +7882,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d98594b3555b173cbb6ec44d651bb983c165aed5",
@@ -7672,7 +7983,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b1568e8de884a72d53156a298cd1652cac7e6bba",
@@ -7820,7 +8132,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/904aef28189c0df7b421efc98e2805327576d716",
@@ -7919,7 +8232,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d8c76abe13b48888ea910ed0d19babe32be0713d",
@@ -8067,7 +8381,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnKMvsCRC1aQ7uu5UhlAAAMAgQAKoa+CpWoP/mUGbri19bCPFp\na4Z59nsLtPUdpvzCRElcz6SLPnC3R+CapZmD1EelTEiYAkojJ5IL3JTAwsWdbyWe\n4eX4KNEzJH40qWMs8a0oanCOiwAh4bK35Q91dwRY5PX1eKWLsi2pSrmjXm2VAtvW\nPuCPVHKHGwqXTfctTotnsiAfw3y1IutzV133VC3molwqLomVprWyaNxBDzIWq3qs\nS72O34LXdhVOmPZ+rpppP8I3773QxXal9dYEZkG5Uqpi/0yUkfj04FU4dBd5EzYA\nPtkWKS73MxM+4e/WaTArYWrX+4N7iziRey7Gixk+SiO/BxWjlzdETZ8CA0dryT7p\nZgokTbFAya0uHrSo4Mi2QaNp4uRKLFYQO6lAv2EvH++NUoRHaOvs9VeBmyO0fFI/\n1NagVRPPK6umEec+ssr9Uinkf9gHcJElDkwuf+aVkbr6pUEhze5g9gY8gw72pi7D\n5katzNmqK7Pim6E4WsuB/UOEQ48VAeqloWdLcy0d4Nb2eVi/lDHrUsSS7kc5lsXw\nfDedq8v5nGZ7ZTxZpcNMDNeLPS65uh60nAdkuann77K1LLugSuqZaR8bBPNkK6yf\nSGVD7eCHnZWiVoBHKNTH+5wK+XEQfHuRhpHly7f4deHEYo5yvgCWRb4xaCX7xRKc\nBHB1dxnwkqff8IZ9gbg9\n=sUT6\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree b4e7ed4115270bfbd78ccfb8e1535ec8df4cd4cd\nparent 4f602bd52f7f94e36fa3f9eb5bea9c48bbec864a\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730726892 -0500\ncommitter GitHub <noreply@github.com> 1730726892 -0500\n\nUpdate scrape.yml"
+        "payload": "tree b4e7ed4115270bfbd78ccfb8e1535ec8df4cd4cd\nparent 4f602bd52f7f94e36fa3f9eb5bea9c48bbec864a\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730726892 -0500\ncommitter GitHub <noreply@github.com> 1730726892 -0500\n\nUpdate scrape.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5a2c78a7d08110eff543ad5676928e1d503351a9",
@@ -8167,7 +8482,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcVWCRC1aQ7uu5UhlAAAnq4QAK000MgweMyfG3P0j/w6movM\nMxeh/S6LN1mGJq4GRKRm+X5yttCS6GcJobCYaXcqIBpt9ZLhf6A9EOOyMy/Hh++u\nZxn7U6z29tqxC1hz21sqwcmQy5f4l9TmFPPDkKryoDgyinwyEjDLoDP9LXokVyz6\ni721BkeXkVw7dOfXpZNEXPFhK8gO/ZWB7cBYRHaCpOluDV+yu58mwt2sg2pfcvVA\nEsqXvfoXTQT5361DN/duSfw4uUm5BBw/HAwgNkRnKoZIzVxSo/qJNXt5RhWHVK3q\ncy/tYjLl+di0wl8vCNhsQOgHHrjcVXG51uKLW2Fq/arwE+6DEuMZMjrj6gBze8aD\nwSQcc5KjwT9c2GWx6dQenf3qkiJDTg7iQwWkZWDKfv9Gvdtr2gWQmmkRJ0MMyBZO\nL/AuVHwHi7vPka4prQr3vBh7Yek27LfYBvO75bhR+tzsuEjUVUckJ87aEfNFFaOU\nVSrIlEVv0xqb5eqSP5YD07ARa8lRDjI+TsG3TYLzY+u7mwpNozhWGHO6pwvPA9on\nfD5rIA7e2aaDbeBnhGb1UvQOWBnHCzhxEXDNp+mrzbOGOiVkQeaa6VD1T/xBNC49\ncCUsNl2u5T7ynyf5S7mIkoZdxqXKJ6NjgQMkEnWnUEgiggokH91OQr16Hm41P0LK\n1wjiXwFYqgzvUDlRwane\n=jESr\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree d06ded033e517d18ecc6756ee626210b3c307632\nparent c1d3a9713308100c1b2140b233a25a151ba3925a\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528598 -0400\ncommitter GitHub <noreply@github.com> 1730528598 -0400\n\nUpdate data-reference-standard-proposal-old.md"
+        "payload": "tree d06ded033e517d18ecc6756ee626210b3c307632\nparent c1d3a9713308100c1b2140b233a25a151ba3925a\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528598 -0400\ncommitter GitHub <noreply@github.com> 1730528598 -0400\n\nUpdate data-reference-standard-proposal-old.md",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4f602bd52f7f94e36fa3f9eb5bea9c48bbec864a",
@@ -8267,7 +8583,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcUuCRC1aQ7uu5UhlAAAAP8QAF6vk7MQ1iqEQ3xJjN1LeIW9\n2ZjZbe9L4bNEQFiMV+h9zWYmkAZ9FY+AaAwo6ZPvE+C/eEalOZ3DZbtDU7j1XuNX\nlLb/NUxRkmW1VAZWkt23QFgHlUhCJ7n8Mo09Bcgj1EOycsUo74flah2BYpIBptAV\nastC9y/pa7wr7DLbFaeAOo2IPpoaDrf8qsjcyDSfSWib9YD0lhfxCgrViBmMqzEH\nllw4+ToBbvdVAlSzP0qgjQ3+aZ+8tNf53kQSVb42Kp0Z+DLqgxOZeSe5vPAX6Ggz\nPTPF49fM4xHYpuiIa73tU2sVUUyA0XKZJmMCPz9VhQTYlQTeIIT+ZuStKCpf9ed2\n7So4BYPgyBU66Hqn/YFVH1gRAHzHDSziYCtsLlq3+Kb9LwhInH7bn17rjFcXsDLe\nEgv9T1Wfepqea5dZe4qmcx0y4bbABMNT7JH2VtZo9ue0KIFc1HoeKvg0RbIKcN0p\nPedzzHzIHzWIrRGhknOrXjx1BeMDC7Cd2jUXfC4FUjLrTQnODmD3jm/qBe6QBX4D\n/mUDd/dzf48LGGFzYL64qTMUCn1OBT7fQn8YG47LlzjxbbK3WX/k1q7Uig9SPbIO\nF625fX9nePXNP1PNLjTLQFipVJUN5HJtnG7eaJ7SwNser2WBPQn3sSjziVOYP0pa\n6lzdwFzPP/XAdbej/U/C\n=pK+a\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree a709388337ddfe118e5b86fb3c6aec720f722d46\nparent 8c7a0d7412a5ab62d32cf32a2f804ee5c70caed3\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528557 -0400\ncommitter GitHub <noreply@github.com> 1730528557 -0400\n\nUpdate data-reference-standard-proposal.yml"
+        "payload": "tree a709388337ddfe118e5b86fb3c6aec720f722d46\nparent 8c7a0d7412a5ab62d32cf32a2f804ee5c70caed3\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528557 -0400\ncommitter GitHub <noreply@github.com> 1730528557 -0400\n\nUpdate data-reference-standard-proposal.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c1d3a9713308100c1b2140b233a25a151ba3925a",
@@ -8367,7 +8684,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcQ3CRC1aQ7uu5UhlAAAWywQAJ/994f+7reuLkGbCcVefU7N\nSsmQq7IDDAnsQMQ8KpQp7Pn0Z8N6FKj23w+fQYsl8p/HSsuNJX/j0qCuJp4L3mfI\n7hOdi/fxFnefmMfxZtoo479Tq9XojZUrE4bH39jCFSovOz4fezh/nnfWXmwsa1yu\nbtWByTekkvM7ZcHKlLoMS+lX+Umor/XU/2gaLVdbbUFZQDBNZfjpNl7eoLlHrQTb\nCDTYDUwTEE2FwMfExnvqD6ztSOwlvtyxM6RBZeZQxdjYn4lxjM+9YhQp+ICz9ajN\nD8KNGmtoQF4YCNasTMzdWvhH/rrfNUeDgSJiejC8O0q8Fuq/5bJ6DDsd0gG4gK0l\n2r9aFiY6KsZHBsK97Xwc28jeItuU1oRJ2hJYvXa8r/VKtvgEn++ijS9axD7Vmydk\nFnjFpYQRo5yJwPpcyYj/ylEMsfSYe2HtiUdat6iNcRKiTqkdhdy+VszviO5N2tfr\nBvZb/1vQLuCh4tZV7CgkpzDr63d2ueKQ2fSnwknP901wsL3fGJBNzLHiCEfXjbDh\nmb0S5EkDegpwJFwl4q8HVWcMEBDpAp5/G2sKqWA63uvHyAKiR4d1r1t0vaK/ir4j\n6VM4oc56dh9AFcHGGYXsPAzeIzvu4w2i5/1O5McsAqHz3RvRsKAeiTBOyjvE04i7\nmzkJgVCfcIF47p8LpYEM\n=+Mu+\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree df4a973187da036bd82ae19013110a1845080c49\nparent b149c84035800bfd4b648eba5aafc9add0cf40bb\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528311 -0400\ncommitter GitHub <noreply@github.com> 1730528311 -0400\n\nUpdate data-reference-standard-proposal.yml"
+        "payload": "tree df4a973187da036bd82ae19013110a1845080c49\nparent b149c84035800bfd4b648eba5aafc9add0cf40bb\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528311 -0400\ncommitter GitHub <noreply@github.com> 1730528311 -0400\n\nUpdate data-reference-standard-proposal.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/8c7a0d7412a5ab62d32cf32a2f804ee5c70caed3",
@@ -8467,7 +8785,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcMHCRC1aQ7uu5UhlAAAKvoQAG3gzbD/MzeVXk3gQ2QczG2L\nGrOLMYE52hi30dCj5OxnDNwO6Px9zoM775e4WM8AaIhH07AXMXdjbO4JkjN5O0j/\np4ECWWEDO596+4ZG1sKKJ7xYJRuSPnJyWLqUEgiuW/L1e18+g+ARPJpt6Y3vDoWe\n1k/WY2SG8CB9NjXfmGORO+fVQNYgPDOBXu8B5m90wjz4PzK8wVZLk8zJ/w3YAeBr\nFUFAAkZOoOv11HxypHjsy402CNi+mhnJniZCNP5OEclTu017ejLlABmomphLfwMZ\niyxt71uaGbFqcdJS6cDcexdKo6n9JiHzrDju4GOSR2H7LsCNh7ob1KiB81OHZkuS\nGq5q1p0W/yVifbuEQNFTW2pA7tTvjTkRL9TEsJUZvNHmZxZY2MefmLj0u+kwQcMp\nnql1GjLfMGgODNyUF7WO/4z5LowLThyohIQtDVbgEv6IgBQu0zgrqyG4uW2dEtmK\n71l/NNb3PWTf10RsECVMFEKfe492IAwtaNtwNd24X7ixeJXbmBH31P1FbsRSFBBL\nXUnO6yXHJhYz31cX4ZFdIoruYvYC8AbtqlLNEa6iztl4wSSkRT2CUUjxl2HU3ShH\nO/44I3dD3P6Y4RFq1QxuS3CT6vWW5iCN4yML5SfnEvNOq05jsvLPiM96YXFn7nDx\n7Giyj6LhE7votG+Aw7Pd\n=WTKO\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 0b07ff264d0ad7f247ede3e21926e8122c3ab650\nparent f074c521230ea752442aab57d9f44feaf76da841\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528007 -0400\ncommitter GitHub <noreply@github.com> 1730528007 -0400\n\nUpdate data-reference-standard-proposal.yml"
+        "payload": "tree 0b07ff264d0ad7f247ede3e21926e8122c3ab650\nparent f074c521230ea752442aab57d9f44feaf76da841\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730528007 -0400\ncommitter GitHub <noreply@github.com> 1730528007 -0400\n\nUpdate data-reference-standard-proposal.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b149c84035800bfd4b648eba5aafc9add0cf40bb",
@@ -8567,7 +8886,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcJbCRC1aQ7uu5UhlAAALnAQAGIKPy7IXGp7JTPtpul/16D3\na0ZEO4CtWN83OvdqgM6aUtsp6nQEWBMF+kCIScQO+yD0CITiC/YJOP+gUkxQjXit\neZ2P7nwo5r7hJmwqXLYVpPQ5N28wN58/M3IAe1MHuRrJKXGKkus2FNHFVnmq+Tjw\nuiTVD2ekVCEY3+IL2FO92ICQ5YNMQDM9gJ+A+1Mt8LwBmtaz0UHcID8tv0eQcqI1\nuyyVvcaADO5YB0tnZsbFvb+reEeCjR1XvLZ3zQErRgshmAV35dc6oI5EsFfgAS4l\nHHVQkL/D9UAgYcMO78nyunNtSrjmFTuEpbjGwg/4LtQBxP2k/goGqtVQgyl4IH2I\n/hY5lDfddD+c2SBxPrxvhBoeestmtUUHJwzqI68/gnFzzs1axdWCrtCO9FZ3JnEi\nA7r6Bs2vlSIWvHP+Wv0DFQl5Y3m6l2+2rup0IML+l/5IMZ+Y8FFvLa4pjdIR2LtX\nhm+H4pqPIW8GzODSBL65uZ3NuTtPk2Py20wY1XLbeQnAwCw6ETbVplt4OI7M1pZU\nyaOsfCaKlNLNp14GVFAl3IFD3Pf6EdwjPBHkcphRG+4aj7MlBviWBigW/rZukgsG\nehINlcNG7VY+5KIAjPakFC3d5OSj+QbN+3UFH+1H5oAanRf9IeQUzJGe+s0z/xWL\nzL3TgdqvomvsmCamDD5z\n=GGOs\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 862db8d37229182882f20a99d836dd4a60facc0d\nparent 4bcbda93336866ee4f752b5d89f129d1cc55081d\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730527835 -0400\ncommitter GitHub <noreply@github.com> 1730527835 -0400\n\nRename data-reference-standard-proposal.md to data-reference-standard-proposal-old.md"
+        "payload": "tree 862db8d37229182882f20a99d836dd4a60facc0d\nparent 4bcbda93336866ee4f752b5d89f129d1cc55081d\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730527835 -0400\ncommitter GitHub <noreply@github.com> 1730527835 -0400\n\nRename data-reference-standard-proposal.md to data-reference-standard-proposal-old.md",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f074c521230ea752442aab57d9f44feaf76da841",
@@ -8667,7 +8987,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJcIrCRC1aQ7uu5UhlAAAeqkQAKn8L7LlRG1IbfSc9jCLWI0b\nTHbTYZNyFwDHSQt+TNf+nivSyUAu8mgRFW+6OaOKvGVcr+FbCqUBz4BAd7qaHds1\ned9kT3Fexr2RKMSGkHBiP2bGECnqzLsvhcW9l5v9S3c6GYC2ZNDr3ygYmSQpGeMh\nh/FMjUVnom0Np5Dm4V8vC86/KSZSXKgRMoLgH2SEp9nEYW8Sfm0bMaUM2m/2t4+S\n0d5JSD1cUCfKwkT/hveyPNpzmXUwIXXVTcYqGnzP+Y+BC7rcqtiTw8RpDtaByxZH\nXjJGF9GsDZ14hUcTzOiy+sB2+meeJsB5HHetg4NU9s5H/7reSmmKzH6jFe7JJI3R\nxTET4nfk3GzXs1G+TvD03uHRo59a7c+GI7g8SqeR1w6a+5ciFXepTRFjAod4IZ4h\nnnciwPVs2Bb8ivjtnmBzjRztgycdfm/Q75XSvUROi2uzFTE3RTduaAP2b/odZaxp\nqxOWXzJSrxFp+lBEWDzaqifm7gCfTqZTm5Q6EIl7Knw+r767eAnjhqp3hsELLY7m\n0gk+2JUvz3wTl0Eo/esnteuhIxmEDTn9EhywioeUy+XIkU+mLnOsiMjUDyJHg9ES\nWP1n0q6uSIlnhYnwdO4QxG99oZQA0wKHHRmNu+RezontOevhaVmEpgeSV9McFl+C\ngCaYfXO0m2DdSKbTAPiM\n=tzVW\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree cf0dc8cb5e2a2a006901d408f3c97f77b7dc68b9\nparent f6ca09f25a337e4207c7e3b692e89efd3372ae27\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730527787 -0400\ncommitter GitHub <noreply@github.com> 1730527787 -0400\n\nCreate data-reference-standard-proposal.yml"
+        "payload": "tree cf0dc8cb5e2a2a006901d408f3c97f77b7dc68b9\nparent f6ca09f25a337e4207c7e3b692e89efd3372ae27\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730527787 -0400\ncommitter GitHub <noreply@github.com> 1730527787 -0400\n\nCreate data-reference-standard-proposal.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4bcbda93336866ee4f752b5d89f129d1cc55081d",
@@ -8767,7 +9088,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJVz2CRC1aQ7uu5UhlAAAuc8QALALVInOfFtavrZIciPL9qbk\nocOnSN/BjLsB+ul6V+zNB8DdWL5tvpp4aLGGRyrxXgl2nVr3d3BNnSrYnSoV0oPn\nqij0NyXJMrrtVXik3hc/vh/X7BeAHqJLgyP4o85t4kORolZGqHRwVZHIhTOcSsni\ns+MsuXtRA5y3yKlZmhsk2WysXyaTKe8g8xNoT1/VBoc7EnJqqPy6qfwzZGNxMjQA\nHWGp26AeTg0lWHFV97vDpwhN6RsTtp41ib+YMeqSuUceRh3SR3GuyyHDCDrynuIb\n+urGeMfxb9yW652w04T65sQOqbrm3N/ks5x2s0D8/n3bo7M//Z3mKmQENK/KauVn\nFJJrQoryc6A5X1juSXcNHe9ZojemAvA2Un7u33CjnN2bPgXnfdoFPyC5b1yyk0Bd\nGdl0blPTRqpFGoJi04serp81VFy5Rc4HaCr1gNNm9In8YqQRWzJXnnGoO9RbpBfz\nYlKZkA70x9tlpR73O5bKuozzR0AV2SP1Y/DzTgmuInyEwcf9YHsdFr3N+F12b4gO\nTOKf1hu4vj2xuYngc1lE7RBM5kVDyIw6BTOUubHpSXCR/tN5BnbhctC9uJPxweR8\nYzf5Qs4qgWdLL/19wrt2YTNM5diC2kDRdDUfghxN6k2thKPu5xUEy0kDAG7DaZF4\njgVp8BrNPjZYuhmbgM7A\n=dabp\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree bc40a374b5f0fb98cad7adf220145db1968d3748\nparent 7741b171ee02bb39e363113262d73540b8e88c71\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730501878 -0400\ncommitter GitHub <noreply@github.com> 1730501878 -0400\n\nUpdate scrape.yml"
+        "payload": "tree bc40a374b5f0fb98cad7adf220145db1968d3748\nparent 7741b171ee02bb39e363113262d73540b8e88c71\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730501878 -0400\ncommitter GitHub <noreply@github.com> 1730501878 -0400\n\nUpdate scrape.yml",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f6ca09f25a337e4207c7e3b692e89efd3372ae27",
@@ -8867,7 +9189,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7741b171ee02bb39e363113262d73540b8e88c71",
@@ -8966,7 +9289,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/fcca3ef198ef9c16d2600676d46a69dcb71e3b30",
@@ -9114,7 +9438,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/937e1e347b4e7e583c33d5c64a0ed4e8f2fd4fc4",
@@ -9213,7 +9538,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/45a7be35d64490c655daf07c13596f89ec985dcf",
@@ -9373,7 +9699,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/8da6f0cadb198fa9f4b271589c5bce49d7a092db",
@@ -9483,7 +9810,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/feb90edbdd2f22c9d615ce601bbd55010f009a26",
@@ -9595,7 +9923,8 @@
         "verified": true,
         "reason": "valid",
         "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJVlNCRC1aQ7uu5UhlAAAgb4QAKWnxYC31JLKVdvCZXNeiLuZ\nceRNiy47WC8dJKpy4yddT4q29NB3Cqvrlb6XhHVFAoU5FBxT5NWaYj0q0UAeNPsy\nXfMPQWfpeInRRWBnky4DZ4ygiPm+UZ4TYKokrebBXM+PEgFNLM8+AIdl27zRQuJb\nzb+qa4QA3qts4TGqhK7QTSX5xT/FVByiopevCYAg8lDMDJ+oa+jOvVMfS6/fDfrJ\nTDB/OK+byjmixxUnNIpUDqJo/A+0TxATAdI8xQ5gWbDGdsUGIGaAw5X5GAmZHhqZ\njbOxGsesejYDeDAB1f6v/mbH5ZAmHAM1uf2iBjjL7ebLAXBmQgRAfieWinKm5oa3\nxMMlyS3v2fra71J9Ytj6f43UpiyxzpsDNIao9IjucaWLPz+08Ss/UDisrlmHT6DO\nF32QmOkJctu9g/P5/jPG4DbGMAZFA/BdAozJnQi41hx/8k6gmu1pChJ5VzTWmKHw\nDjrb3Wwgx8a+HTZZkT4BOVCXPOqChmVaqORkme/eJu1s7W8Z23zkhs9lNcKo/iYH\nCX4R6uK1j8CwhdJwaZGYe04LsnqYemV8SKgZECbqMW56qB1RP0ucugKDoKBdYMkr\nyZgS6TJeDNal0kFsPKzIydSOJfwsBBTQt4S+n6CiOYgN3qRR8x4ofkdW39lnJgaK\nVpl9WBK5Fm4deoXY8VYb\n=NYE1\n-----END PGP SIGNATURE-----\n",
-        "payload": "tree 9b9b06aa1c45b74ff02394b6824f4c1f6e57b064\nparent 0620f01d187b3c8d45a967ec2de5a176ab13dece\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730500941 -0400\ncommitter GitHub <noreply@github.com> 1730500941 -0400\n\nUpdate scraper.py"
+        "payload": "tree 9b9b06aa1c45b74ff02394b6824f4c1f6e57b064\nparent 0620f01d187b3c8d45a967ec2de5a176ab13dece\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1730500941 -0400\ncommitter GitHub <noreply@github.com> 1730500941 -0400\n\nUpdate scraper.py",
+        "verified_at": "2024-11-07T16:01:17Z"
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f7c0a3814912b6e6ace4eb7b4390dd70695746b8",
@@ -9695,7 +10024,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0620f01d187b3c8d45a967ec2de5a176ab13dece",
@@ -9794,7 +10124,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/8898810b31bdd239ba8a154bd03aba01518af987",
@@ -9966,7 +10297,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3d0cce37a548526704268fb6154a3527d411f303",
@@ -10065,7 +10397,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/e9775ae4ae0ab24f0bc1f135669738613db1ac31",
@@ -10213,7 +10546,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c88e97d19cef1d63494068b0680877b1b5b29b8e",
@@ -10312,7 +10646,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2cf8df2c61235c588452a03d9743bdc7f090848b",
@@ -10460,7 +10795,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/bdfb296b7ad4e148cb08d9c7ebb56a373f06cf48",
@@ -10560,7 +10896,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a304de487eba7921cceeb5371ae9b4729e81bce4",
@@ -10708,7 +11045,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6a0d716315ba3396a2c74626a5715d9401f936af",
@@ -10808,7 +11146,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/85134ad0a0b40b44d01468ebbf70f8a1f7b6b786",
@@ -10956,7 +11295,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c6486bcf53d7942563cab30ca65596a1c28fe34b",
@@ -11055,7 +11395,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5f5f5da6928e8d5f86f1fbed7372d4ffe92628b3",
@@ -11203,7 +11544,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a705c2dbe925ac0b809b7eab47120642d894544b",
@@ -11302,7 +11644,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/bc225547b16109802050d6fb79832615e7c9d69f",
@@ -11450,7 +11793,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6ac49a498de036e1513f10d9d5e97b71a8ad45eb",
@@ -11550,7 +11894,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/f76c8d02a818fc19652ed7adc8ef960dfc33931e",
@@ -11698,7 +12043,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/745e0480b988265b6cbf8e6957919b8ce465689d",
@@ -11798,7 +12144,8 @@
         "verified": false,
         "reason": "unsigned",
         "signature": null,
-        "payload": null
+        "payload": null,
+        "verified_at": null
       }
     },
     "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/40be3a74c3d34cfb64009b51880e181f419909ab",
@@ -11918,253 +12265,6 @@
         "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/40be3a74c3d34cfb64009b51880e181f419909ab/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
         "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=40be3a74c3d34cfb64009b51880e181f419909ab",
         "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-10-30T16:01:14.196769+00:00</updated>\n+  <updated>2024-10-30T21:00:51.529594+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "c7454131c5ef33c2a14683b5ca454f77a0b44890",
-    "node_id": "C_kwDOMrSvVdoAKGM3NDU0MTMxYzVlZjMzYzJhMTQ2ODNiNWNhNDU0Zjc3YTBiNDQ4OTA",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-10-30T16:01:54Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-10-30T16:01:54Z"
-      },
-      "message": "Update commit data",
-      "tree": {
-        "sha": "e2375d03083682a24ab2f8ad972da0ca9fc16852",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/e2375d03083682a24ab2f8ad972da0ca9fc16852"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/c7454131c5ef33c2a14683b5ca454f77a0b44890",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c7454131c5ef33c2a14683b5ca454f77a0b44890",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/c7454131c5ef33c2a14683b5ca454f77a0b44890",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/c7454131c5ef33c2a14683b5ca454f77a0b44890/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d970bfc21342ae99bd48180c912c0cfa59fd4fa2"
-      }
-    ],
-    "stats": {
-      "total": 496,
-      "additions": 248,
-      "deletions": 248
-    },
-    "files": [
-      {
-        "sha": "69032d495ab195edc7a463dd667238619c90ef98",
-        "filename": "docs/commits.json",
-        "status": "modified",
-        "additions": 248,
-        "deletions": 248,
-        "changes": 496,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/c7454131c5ef33c2a14683b5ca454f77a0b44890/docs%2Fcommits.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/c7454131c5ef33c2a14683b5ca454f77a0b44890/docs%2Fcommits.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=c7454131c5ef33c2a14683b5ca454f77a0b44890"
-      }
-    ]
-  },
-  {
-    "sha": "d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-    "node_id": "C_kwDOMrSvVdoAKGQ5NzBiZmMyMTM0MmFlOTliZDQ4MTgwYzkxMmMwY2ZhNTlmZDRmYTI",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-10-30T16:01:16Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-10-30T16:01:16Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "75861768f53c53eda9a555f03a2b6f44fcff82ef",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/75861768f53c53eda9a555f03a2b6f44fcff82ef"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "653a8d1f3609c634b82f5bb908731d316893be76",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/653a8d1f3609c634b82f5bb908731d316893be76",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/653a8d1f3609c634b82f5bb908731d316893be76"
-      }
-    ],
-    "stats": {
-      "total": 10,
-      "additions": 5,
-      "deletions": 5
-    },
-    "files": [
-      {
-        "sha": "0f4cd8867590f6128de1553824bb6b81ddd5b8c1",
-        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-10-30T12:13:18.565490+00:00</updated>\n+  <updated>2024-10-30T16:01:15.118208+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "850b9aa2e26b36bf3ed66212d49c32a8ad9be98b",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-10-30T12:13:18.323567+00:00</updated>\n+  <updated>2024-10-30T16:01:14.518571+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "257905cec6d59386c595b8192a54a1dc69c9e925",
-        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-10-30T12:13:18.664381+00:00</updated>\n+  <updated>2024-10-30T16:01:15.412474+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "3699d7eeb00b42861fc4702be31006bb48c06a45",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-10-30T12:13:18.428550+00:00</updated>\n+  <updated>2024-10-30T16:01:14.816194+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "a7b634b6f8fbd0bf218c6a8717343785313a5221",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d970bfc21342ae99bd48180c912c0cfa59fd4fa2/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=d970bfc21342ae99bd48180c912c0cfa59fd4fa2",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-10-30T12:13:18.223017+00:00</updated>\n+  <updated>2024-10-30T16:01:14.196769+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
       }
     ]
   }
