@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>
   <title>Open Government Portal - Dataset: "Data Reference Standard on Person(s): gender"</title>
-  <updated>2024-11-20T21:01:18.049182+00:00</updated>
+  <updated>2024-11-21T04:01:19.498740+00:00</updated>
   <author>
     <name>https://open.canada.ca</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5</id>
     <title>reference data table for gender</title>
-    <updated>2024-09-26T18:40:39.652649+00:00</updated>
+    <updated>2024-11-20T21:32:27.556828+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=56eed7af-6a70-48d7-a402-4082ebe1e3b5" rel="enclosure"/>

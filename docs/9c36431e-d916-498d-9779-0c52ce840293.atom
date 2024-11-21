@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>
   <title>Open Government Portal - Dataset: "Data Reference Standard on Person(s): sex assigned at birth"</title>
-  <updated>2024-11-20T21:01:18.359415+00:00</updated>
+  <updated>2024-11-21T04:01:19.591010+00:00</updated>
   <author>
     <name>https://open.canada.ca</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/9c36431e-d916-498d-9779-0c52ce840293/resource/ab457ba4-4a80-476b-8608-c57c52d59bd1</id>
     <title>reference data table for sex assigned at birth</title>
-    <updated>2024-09-26T18:40:37.336492+00:00</updated>
+    <updated>2024-11-20T21:32:27.160206+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/9c36431e-d916-498d-9779-0c52ce840293/resource/ab457ba4-4a80-476b-8608-c57c52d59bd1" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=ab457ba4-4a80-476b-8608-c57c52d59bd1" rel="enclosure"/>
