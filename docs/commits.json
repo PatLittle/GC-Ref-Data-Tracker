@@ -1,5 +1,355 @@
 [
   {
+    "sha": "d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+    "node_id": "C_kwDOMrSvVdoAKGQzNWQ2ZTljNDA0Y2E4ZDRiNjcyOWIzZjZjZGE0ZDVkYzlmYjVmOWE",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-03T12:13:53Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-03T12:13:53Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "350807d2534a225a372db4452fa68b1d6e0c8367",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/350807d2534a225a372db4452fa68b1d6e0c8367"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/37ec8499d7f618b0ca9dbe10458146b7e18dae3c"
+      }
+    ],
+    "stats": {
+      "total": 10,
+      "additions": 5,
+      "deletions": 5
+    },
+    "files": [
+      {
+        "sha": "c08d1ff16c6b77309a8af15e42024a371026224d",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-12-03T04:01:07.061438+00:00</updated>\n+  <updated>2024-12-03T12:13:52.540196+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "45ef4c41f5db0511409fc5667a917b7039a249fa",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-12-03T04:01:06.499836+00:00</updated>\n+  <updated>2024-12-03T12:13:52.304493+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "dd6ee5d9fb38e6cab9fc0e383c63742a0ab1b3a2",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-12-03T04:01:07.342652+00:00</updated>\n+  <updated>2024-12-03T12:13:52.650750+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "bbb02c9cd88f27c054336b5926e4787fa62a7ead",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-12-03T04:01:06.782869+00:00</updated>\n+  <updated>2024-12-03T12:13:52.425003+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "b1d70cebfec76310bbd5a8548243017dda88f056",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=d35d6e9c404ca8d4b6729b3f6cda4d5dc9fb5f9a",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-12-03T04:01:06.202971+00:00</updated>\n+  <updated>2024-12-03T12:13:52.177990+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      }
+    ]
+  },
+  {
+    "sha": "37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+    "node_id": "C_kwDOMrSvVdoAKDM3ZWM4NDk5ZDdmNjE4YjBjYTlkYmUxMDQ1ODE0NmI3ZTE4ZGFlM2M",
+    "commit": {
+      "author": {
+        "name": "Patrick Little",
+        "email": "patrick.little@tbs-sct.gc.ca",
+        "date": "2024-12-03T11:59:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-12-03T11:59:08Z"
+      },
+      "message": "sprk ln",
+      "tree": {
+        "sha": "78a48ad37806ef7510e1e3f27044fee507a09478",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/78a48ad37806ef7510e1e3f27044fee507a09478"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnTvKMCRC1aQ7uu5UhlAAAoisQABcqiv6ltFo/QSyKXpco5nUC\nf/L58NeOBGY9iVSQj+RH1JCz7Itw+AJMA2giTn6NcVbfP2/sIh48dODo402ukzhg\n44hoy8G9UiADdLxwHzCKq9ZkEP8glo0NNkNc+5hTqIpWjzD/llZi+KKp6JlW9RJG\nhwCp+BkyxIhigwX2N2uX6w33TaOVwHN/7rdaHUv6ND28w3xkzEK+db1OqTb5SxzD\nc55GCKpCutCJQsJILvmgTJhq0MDeoyDGCH4jTwTuPUpF+APlIgHJth8vZS95I5rN\ncY9Zl8zds0sN7vL2cxJxrWzEzPlTQh/CdSy0s+LHSJK5gyiKDwnbhBVsOn5wZCVd\naPfR6TBC9ThARh/EUSDJCNao3gcwVV/LOBb0e6KCNFTl8UCjt8OyKm5Opu/4rC4m\nWe0DYBl1o9LDFDLrAFgcS3P+X+J8m4aQhpNyARvC1PMEan2X6LvrteAzYXEM2qsm\n/Q5RI5Q8mhN9NocCmWtO3nXt9oYaZ7K+a7rRVBOqMDvtCqAMINm+Dc7DZ5lZcidq\nZUPZeUYXkkQ3AMLqekuTLlxIkx63ruIeAbcpEKnwOqnu3T9MTvn1KMWnyU5voJLL\nIIy1eiThNJIW2rRKCCQqv7c2K/c2QaCE99hdM93yNx3TXbuL2UTK1fW3zj9VXSab\nrjDyB56Kgr8842vTjTo3\n=TIF/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 78a48ad37806ef7510e1e3f27044fee507a09478\nparent 4e01a423c91bd510c16302cf2654553b89037f2b\nauthor Patrick Little <patrick.little@tbs-sct.gc.ca> 1733227148 -0500\ncommitter GitHub <noreply@github.com> 1733227148 -0500\n\nsprk ln",
+        "verified_at": "2024-12-03T12:04:10Z"
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/37ec8499d7f618b0ca9dbe10458146b7e18dae3c/comments",
+    "author": {
+      "login": "PatLittle",
+      "id": 31454591,
+      "node_id": "MDQ6VXNlcjMxNDU0NTkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31454591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatLittle",
+      "html_url": "https://github.com/PatLittle",
+      "followers_url": "https://api.github.com/users/PatLittle/followers",
+      "following_url": "https://api.github.com/users/PatLittle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatLittle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatLittle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatLittle/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatLittle/orgs",
+      "repos_url": "https://api.github.com/users/PatLittle/repos",
+      "events_url": "https://api.github.com/users/PatLittle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatLittle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e01a423c91bd510c16302cf2654553b89037f2b",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4e01a423c91bd510c16302cf2654553b89037f2b",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4e01a423c91bd510c16302cf2654553b89037f2b"
+      }
+    ],
+    "stats": {
+      "total": 105,
+      "additions": 105,
+      "deletions": 0
+    },
+    "files": [
+      {
+        "sha": "4223115c11b7d5d1b2b0c967079af26593adc205",
+        "filename": "docs/user_feedback.html",
+        "status": "added",
+        "additions": 105,
+        "deletions": 0,
+        "changes": 105,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/37ec8499d7f618b0ca9dbe10458146b7e18dae3c/docs%2Fuser_feedback.html",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/37ec8499d7f618b0ca9dbe10458146b7e18dae3c/docs%2Fuser_feedback.html",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fuser_feedback.html?ref=37ec8499d7f618b0ca9dbe10458146b7e18dae3c",
+        "patch": "@@ -0,0 +1,105 @@\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n+<head>\r\n+    <meta charset=\"UTF-8\">\r\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+    <title>Sparkline Table</title>\r\n+    <script src=\"https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js\"></script>\r\n+    <script src=\"https://cdn.jsdelivr.net/npm/jquery-sparkline/jquery.sparkline.min.js\"></script>\r\n+    <style>\r\n+        table {\r\n+            width: 100%;\r\n+            border-collapse: collapse;\r\n+        }\r\n+        th, td {\r\n+            padding: 10px;\r\n+            text-align: left;\r\n+            border: 1px solid #ddd;\r\n+        }\r\n+        .sparkline {\r\n+            width: 100px;\r\n+        }\r\n+    </style>\r\n+</head>\r\n+<body>\r\n+    <h1>Sparkline Table</h1>\r\n+    <table>\r\n+        <thead>\r\n+            <tr>\r\n+                <th>UUID</th>\r\n+                <th>Ratings Trend</th>\r\n+            </tr>\r\n+        </thead>\r\n+        <tbody id=\"sparklineTable\">\r\n+            <!-- Rows will be dynamically added here -->\r\n+        </tbody>\r\n+    </table>\r\n+\r\n+    <script>\r\n+        // Example API response (truncate for simplicity)\r\n+        const apiResponse = {\r\n+            result: {\r\n+                records: [\r\n+                    { date: \"2021-08-11T20:33:52\", uuid: \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", rating_eval: 5 },\r\n+                    { date: \"2023-03-29T16:53:01\", uuid: \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", rating_eval: 1 },\r\n+                    { date: \"2024-01-27T22:22:01\", uuid: \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", rating_eval: 5 },\r\n+                    { date: \"2023-09-19T18:47:22\", uuid: \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", rating_eval: 5 },\r\n+                    { date: \"2024-01-30T14:09:28\", uuid: \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", rating_eval: 5 },\r\n+                ]\r\n+            }\r\n+        };\r\n+\r\n+        // Process API response to group by UUID\r\n+        const records = apiResponse.result.records;\r\n+        const groupedData = {};\r\n+\r\n+        records.forEach(record => {\r\n+            const uuid = record.uuid;\r\n+            const rating = record.rating_eval;\r\n+\r\n+            if (!groupedData[uuid]) {\r\n+                groupedData[uuid] = [];\r\n+            }\r\n+            groupedData[uuid].push(rating);\r\n+        });\r\n+\r\n+        // Populate the table with sparklines\r\n+        const tableBody = document.getElementById(\"sparklineTable\");\r\n+\r\n+        Object.keys(groupedData).forEach(uuid => {\r\n+            const row = document.createElement(\"tr\");\r\n+\r\n+            const uuidCell = document.createElement(\"td\");\r\n+            uuidCell.textContent = uuid;\r\n+\r\n+            const sparklineCell = document.createElement(\"td\");\r\n+            const sparklineSpan = document.createElement(\"span\");\r\n+            sparklineSpan.className = \"sparkline\";\r\n+            sparklineSpan.dataset.values = groupedData[uuid].join(\",\");\r\n+\r\n+            sparklineCell.appendChild(sparklineSpan);\r\n+            row.appendChild(uuidCell);\r\n+            row.appendChild(sparklineCell);\r\n+\r\n+            tableBody.appendChild(row);\r\n+        });\r\n+\r\n+        // Render sparklines\r\n+        $(document).ready(() => {\r\n+            $(\".sparkline\").each(function () {\r\n+                const values = $(this).data(\"values\").split(\",\").map(Number);\r\n+                $(this).sparkline(values, {\r\n+                    type: \"line\",\r\n+                    width: \"100px\",\r\n+                    height: \"30px\",\r\n+                    lineColor: \"#007bff\",\r\n+                    fillColor: \"#cce5ff\",\r\n+                    spotColor: \"#007bff\",\r\n+                    minSpotColor: \"#dc3545\",\r\n+                    maxSpotColor: \"#28a745\",\r\n+                });\r\n+            });\r\n+        });\r\n+    </script>\r\n+</body>\r\n+</html>\r"
+      }
+    ]
+  },
+  {
+    "sha": "4e01a423c91bd510c16302cf2654553b89037f2b",
+    "node_id": "C_kwDOMrSvVdoAKDRlMDFhNDIzYzkxYmQ1MTBjMTYzMDJjZjI2NTQ1NTNiODkwMzdmMmI",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-03T04:01:41Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-03T04:01:41Z"
+      },
+      "message": "Update commit data",
+      "tree": {
+        "sha": "f769fc3ff433c48c3fddd52e3333f41b2ad585a4",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/f769fc3ff433c48c3fddd52e3333f41b2ad585a4"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/4e01a423c91bd510c16302cf2654553b89037f2b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4e01a423c91bd510c16302cf2654553b89037f2b",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/4e01a423c91bd510c16302cf2654553b89037f2b",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/4e01a423c91bd510c16302cf2654553b89037f2b/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8b07763d93a6ee83323f1e0877e4c3a7b01dfe7",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b8b07763d93a6ee83323f1e0877e4c3a7b01dfe7",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/b8b07763d93a6ee83323f1e0877e4c3a7b01dfe7"
+      }
+    ],
+    "stats": {
+      "total": 499,
+      "additions": 250,
+      "deletions": 249
+    },
+    "files": [
+      {
+        "sha": "3cec3e6932d5a646cf7d44e62e0e4d959ebf03ad",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 250,
+        "deletions": 249,
+        "changes": 499,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/4e01a423c91bd510c16302cf2654553b89037f2b/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/4e01a423c91bd510c16302cf2654553b89037f2b/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=4e01a423c91bd510c16302cf2654553b89037f2b"
+      }
+    ]
+  },
+  {
     "sha": "b8b07763d93a6ee83323f1e0877e4c3a7b01dfe7",
     "node_id": "C_kwDOMrSvVdoAKGI4YjA3NzYzZDkzYTZlZTgzMzIzZjFlMDg3N2U0YzNhN2IwMWRmZTc",
     "commit": {
@@ -12126,355 +12476,6 @@
         "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/eb689843328a6ca4d5e22a73007f6237de4b2ad8/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
         "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=eb689843328a6ca4d5e22a73007f6237de4b2ad8",
         "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-11-20T21:01:17.167930+00:00</updated>\n+  <updated>2024-11-21T04:01:19.171824+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>\n@@ -14,7 +14,7 @@\n   <entry>\n     <id>tag:https://open.canada.ca,2014-01-01:/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c</id>\n     <title>Schema - Reference data on Canadian Provinces and Territories</title>\n-    <updated>2023-10-25T15:41:12.209940+00:00</updated>\n+    <updated>2024-11-21T00:21:09.569425+00:00</updated>\n     <content/>\n     <link href=\"https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c\" rel=\"alternate\"/>\n     <link href=\"https://open.canada.ca/data/en/api/3/action/resource_show?id=86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c\" rel=\"enclosure\"/>\n@@ -23,7 +23,7 @@\n   <entry>\n     <id>tag:https://open.canada.ca,2014-01-01:/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931</id>\n     <title>Reference data on Canadian Provinces and Territories</title>\n-    <updated>2023-10-25T15:41:12.209720+00:00</updated>\n+    <updated>2024-11-21T01:56:54.513245+00:00</updated>\n     <content/>\n     <link href=\"https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931\" rel=\"alternate\"/>\n     <link href=\"https://open.canada.ca/data/en/api/3/action/resource_show?id=4cb827a6-a313-4d97-a66b-26fe23984931\" rel=\"enclosure\"/>"
-      }
-    ]
-  },
-  {
-    "sha": "d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a",
-    "node_id": "C_kwDOMrSvVdoAKGQ4YzI4NTc1MWQ4ODgwMzc2YTRlMGViM2ZhYzdlN2U5ZjFlNWY1OWE",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T21:01:58Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T21:01:58Z"
-      },
-      "message": "Update commit data",
-      "tree": {
-        "sha": "7452bb10c43e1dec451ec274f5bb8c07e6b1fc1b",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/7452bb10c43e1dec451ec274f5bb8c07e6b1fc1b"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd"
-      }
-    ],
-    "stats": {
-      "total": 498,
-      "additions": 249,
-      "deletions": 249
-    },
-    "files": [
-      {
-        "sha": "3cf28cad725cd7590ca403808bce811f171c60f1",
-        "filename": "docs/commits.json",
-        "status": "modified",
-        "additions": 249,
-        "deletions": 249,
-        "changes": 498,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a/docs%2Fcommits.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a/docs%2Fcommits.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=d8c285751d8880376a4e0eb3fac7e7e9f1e5f59a"
-      }
-    ]
-  },
-  {
-    "sha": "2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-    "node_id": "C_kwDOMrSvVdoAKDJjMDY2YzlhMjRjZDYwYjliOGJlZTk4NWEwYzNmNmJlNDJjZGMyZmQ",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T21:01:20Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T21:01:20Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "dfcc9fa4f70422b2bd71531f402db4c0f02787ca",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/dfcc9fa4f70422b2bd71531f402db4c0f02787ca"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "adb1059363270460965f8b455567c162d668eb1b",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/adb1059363270460965f8b455567c162d668eb1b",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/adb1059363270460965f8b455567c162d668eb1b"
-      }
-    ],
-    "stats": {
-      "total": 10,
-      "additions": 5,
-      "deletions": 5
-    },
-    "files": [
-      {
-        "sha": "adec00aec8fd97a716af2b4d52e9305518dfb2a1",
-        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-11-20T16:01:14.074056+00:00</updated>\n+  <updated>2024-11-20T21:01:18.049182+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "677e4b089cf33cd51b26c1f19e17aab70ac2cd15",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-11-20T16:01:13.805589+00:00</updated>\n+  <updated>2024-11-20T21:01:17.460726+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "80a28a0e375c85b115a6dd00ca00382a7457148d",
-        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-11-20T16:01:14.199410+00:00</updated>\n+  <updated>2024-11-20T21:01:18.359415+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "682cc24e01e77777b35fc95f00ea20f80dd4db6d",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-11-20T16:01:13.939914+00:00</updated>\n+  <updated>2024-11-20T21:01:17.760276+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "a5559b6834c1e20764cf6e0a1c64869c07b2bb7f",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=2c066c9a24cd60b9b8bee985a0c3f6be42cdc2fd",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-11-20T16:01:13.672967+00:00</updated>\n+  <updated>2024-11-20T21:01:17.167930+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "adb1059363270460965f8b455567c162d668eb1b",
-    "node_id": "C_kwDOMrSvVdoAKGFkYjEwNTkzNjMyNzA0NjA5NjVmOGI0NTU1NjdjMTYyZDY2OGViMWI",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T16:01:38Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-11-20T16:01:38Z"
-      },
-      "message": "Update commit data",
-      "tree": {
-        "sha": "9b207f131d13ad18274b72b3f7076dd2d78d0347",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/9b207f131d13ad18274b72b3f7076dd2d78d0347"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/adb1059363270460965f8b455567c162d668eb1b",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/adb1059363270460965f8b455567c162d668eb1b",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/adb1059363270460965f8b455567c162d668eb1b",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/adb1059363270460965f8b455567c162d668eb1b/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "eb614b8417207bd3a2790be9b4ddd04f984c64b3",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/eb614b8417207bd3a2790be9b4ddd04f984c64b3",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/eb614b8417207bd3a2790be9b4ddd04f984c64b3"
-      }
-    ],
-    "stats": {
-      "total": 499,
-      "additions": 249,
-      "deletions": 250
-    },
-    "files": [
-      {
-        "sha": "8e66f94ab5926733825cb35136ea4fff1286c9c0",
-        "filename": "docs/commits.json",
-        "status": "modified",
-        "additions": 249,
-        "deletions": 250,
-        "changes": 499,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/adb1059363270460965f8b455567c162d668eb1b/docs%2Fcommits.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/adb1059363270460965f8b455567c162d668eb1b/docs%2Fcommits.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=adb1059363270460965f8b455567c162d668eb1b"
       }
     ]
   }
