@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkline Table</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        .sparkline {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sparkline Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>UUID</th>
+                <th>Ratings Trend</th>
+            </tr>
+        </thead>
+        <tbody id="sparklineTable">
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <script>
+        // Example API response (truncate for simplicity)
+        const apiResponse = {
+            result: {
+                records: [
+                    { date: "2021-08-11T20:33:52", uuid: "cd8fad92-b276-4250-972f-2d6c40ca04fa", rating_eval: 5 },
+                    { date: "2023-03-29T16:53:01", uuid: "980d598c-73c9-4003-b6e1-78a9a3081b6c", rating_eval: 1 },
+                    { date: "2024-01-27T22:22:01", uuid: "cac6fd9f-594a-4bcd-bf17-10295812d4c5", rating_eval: 5 },
+                    { date: "2023-09-19T18:47:22", uuid: "980d598c-73c9-4003-b6e1-78a9a3081b6c", rating_eval: 5 },
+                    { date: "2024-01-30T14:09:28", uuid: "980d598c-73c9-4003-b6e1-78a9a3081b6c", rating_eval: 5 },
+                ]
+            }
+        };
+
+        // Process API response to group by UUID
+        const records = apiResponse.result.records;
+        const groupedData = {};
+
+        records.forEach(record => {
+            const uuid = record.uuid;
+            const rating = record.rating_eval;
+
+            if (!groupedData[uuid]) {
+                groupedData[uuid] = [];
+            }
+            groupedData[uuid].push(rating);
+        });
+
+        // Populate the table with sparklines
+        const tableBody = document.getElementById("sparklineTable");
+
+        Object.keys(groupedData).forEach(uuid => {
+            const row = document.createElement("tr");
+
+            const uuidCell = document.createElement("td");
+            uuidCell.textContent = uuid;
+
+            const sparklineCell = document.createElement("td");
+            const sparklineSpan = document.createElement("span");
+            sparklineSpan.className = "sparkline";
+            sparklineSpan.dataset.values = groupedData[uuid].join(",");
+
+            sparklineCell.appendChild(sparklineSpan);
+            row.appendChild(uuidCell);
+            row.appendChild(sparklineCell);
+
+            tableBody.appendChild(row);
+        });
+
+        // Render sparklines
+        $(document).ready(() => {
+            $(".sparkline").each(function () {
+                const values = $(this).data("values").split(",").map(Number);
+                $(this).sparkline(values, {
+                    type: "line",
+                    width: "100px",
+                    height: "30px",
+                    lineColor: "#007bff",
+                    fillColor: "#cce5ff",
+                    spotColor: "#007bff",
+                    minSpotColor: "#dc3545",
+                    maxSpotColor: "#28a745",
+                });
+            });
+        });
+    </script>
+</body>
+</html>
