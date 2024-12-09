@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>
   <title>Open Government Portal - Dataset: "Data reference standard on Canadian Provinces and Territories"</title>
-  <updated>2024-12-09T16:01:15.917650+00:00</updated>
+  <updated>2024-12-09T21:01:04.525995+00:00</updated>
   <author>
     <name>https://open.canada.ca</name>
   </author>
@@ -23,7 +23,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931</id>
     <title>Reference data on Canadian Provinces and Territories</title>
-    <updated>2024-11-21T01:56:54.513245+00:00</updated>
+    <updated>2024-12-09T17:54:37.718212+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=4cb827a6-a313-4d97-a66b-26fe23984931" rel="enclosure"/>
