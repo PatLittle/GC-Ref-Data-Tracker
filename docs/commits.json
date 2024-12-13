@@ -1,5 +1,266 @@
 [
   {
+    "sha": "7dbad593247918345272d680c390579327f2514b",
+    "node_id": "C_kwDOMrSvVdoAKDdkYmFkNTkzMjQ3OTE4MzQ1MjcyZDY4MGMzOTA1NzkzMjdmMjUxNGI",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-13T21:01:07Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-13T21:01:07Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "6f506773504f3322cb12be561305a5be9a400ff5",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/6f506773504f3322cb12be561305a5be9a400ff5"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/7dbad593247918345272d680c390579327f2514b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7dbad593247918345272d680c390579327f2514b",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/7dbad593247918345272d680c390579327f2514b",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7dbad593247918345272d680c390579327f2514b/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e"
+      }
+    ],
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "f23927f9339d05b001f759cc2a28bd81162575ba",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-12-13T16:01:21.897532+00:00</updated>\n+  <updated>2024-12-13T21:01:06.410354+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "4d4f78f7b09912d736c799e831dfd98cea24f1ff",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-12-13T16:01:21.643168+00:00</updated>\n+  <updated>2024-12-13T21:01:06.154362+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "9accd10151df0e23a6e023a05cf6426dcc9b651e",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-12-13T16:01:22.012209+00:00</updated>\n+  <updated>2024-12-13T21:01:06.525626+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "cd1756cd07bb00f1dce07baa299a4ec14da0dd7d",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-12-13T16:01:21.768539+00:00</updated>\n+  <updated>2024-12-13T21:01:06.293257+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "5c105f3d7092a6e38bcbb3d666d7f8a2cc5c456c",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-12-13T16:01:21.523428+00:00</updated>\n+  <updated>2024-12-13T21:01:05.983801+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "aa3dae0acd3cf262d874f3ab29e6327bb0f7d181",
+        "filename": "docs/filtered_data_visits.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/7dbad593247918345272d680c390579327f2514b/docs%2Ffiltered_data_visits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/7dbad593247918345272d680c390579327f2514b/docs%2Ffiltered_data_visits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffiltered_data_visits.json?ref=7dbad593247918345272d680c390579327f2514b",
+        "patch": "@@ -1 +1 @@\n-{\"filters\": {\"id\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 2429549, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 382, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430142, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 65, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430675, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 35, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430818, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 31, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430861, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 30, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2446886, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 615, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447658, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 53, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447665, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 52, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447990, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 37, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2448221, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 30, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2464952, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 378, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465372, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 63, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465546, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 45, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465551, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 45, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2466488, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 17, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2479661, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 43, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2480107, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 19, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2480355, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 14, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2490677, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 40, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2490705, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 37, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2491159, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 18, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2502716, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 214, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2502974, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 74, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2503266, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 43, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2517287, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 350, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2517750, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 72, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2517835, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 62, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2532871, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 343, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2533934, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 37, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2534077, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 32, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2548960, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 599, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2549609, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 57, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2550349, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 26, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2564032, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 632, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2564393, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 99, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2564580, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 67, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2578803, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 726, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2578974, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 178, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2579040, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 139, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2593796, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 381, \"month_mois\": 12, \"year_annee\": 2023}, {\"_id\": 2593981, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 117, \"month_mois\": 12, \"year_annee\": 2023}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"id\", \"type\": \"text\", \"info\": {\"notes_fr\": \"\", \"label_en\": \"unique identifier\", \"label_fr\": \"identifiant unique\", \"type_override\": \"text\", \"notes_en\": \"\"}}, {\"id\": \"title\", \"type\": \"text\", \"info\": {\"notes_fr\": \"Titre du jeu de donn\\u00e9es\", \"label_en\": \"title-en\", \"label_fr\": \"titre-en\", \"type_override\": \"text\", \"notes_en\": \"Dataset title\"}}, {\"id\": \"titre\", \"type\": \"text\", \"info\": {\"notes_fr\": \"Titre du jeu de donn\\u00e9es\", \"label_en\": \"title-fr\", \"label_fr\": \"titre-fr\", \"type_override\": \"text\", \"notes_en\": \"Dataset title\"}}, {\"id\": \"department\", \"type\": \"text\", \"info\": {\"notes_fr\": \"Minist\\u00e8re ou organisme que les jeux de donn\\u00e9es appartiennent\", \"label_en\": \"department -en\", \"label_fr\": \"minist\\u00e8re-en\", \"type_override\": \"text\", \"notes_en\": \"Department or agency that owns the dataset\"}}, {\"id\": \"ministere\", \"type\": \"text\", \"info\": {\"notes_fr\": \"Minist\\u00e8re ou organisme que les jeux de donn\\u00e9es appartiennent\", \"label_en\": \"department -fr\", \"label_fr\": \"minist\\u00e8re-en\", \"type_override\": \"text\", \"notes_en\": \"Department or agency that owns the dataset.\"}}, {\"id\": \"visits_visites\", \"type\": \"numeric\", \"info\": {\"notes_fr\": \"Nombre de visites\", \"label_en\": \"visits\", \"label_fr\": \"visites\", \"type_override\": \"numeric\", \"notes_en\": \"Number of visits\"}}, {\"id\": \"month_mois\", \"type\": \"numeric\", \"info\": {\"notes_fr\": \"Mois de visites en format de deux chiffres (MM)\", \"label_en\": \"month\", \"label_fr\": \"mois\", \"type_override\": \"numeric\", \"notes_en\": \"Month of visits in two digits format (MM)\"}}, {\"id\": \"year_annee\", \"type\": \"numeric\", \"info\": {\"notes_fr\": \"Ann\\u00e9e de visites en format de quatre chiffres (YYYY)\", \"label_en\": \"year\", \"label_fr\": \"ann\\u00e9e\", \"type_override\": \"numeric\", \"notes_en\": \"Year of visits in four digits format (YYYY)\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 41, \"total_was_estimated\": false}\n\\ No newline at end of file\n+{\"filters\": {\"id\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 2429549, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 382, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430142, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 65, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430675, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 35, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430818, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 31, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2430861, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 30, \"month_mois\": 11, \"year_annee\": 2024}, {\"_id\": 2446886, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 615, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447658, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 53, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447665, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 52, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2447990, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 37, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2448221, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 30, \"month_mois\": 10, \"year_annee\": 2024}, {\"_id\": 2464952, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 378, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465372, \"id\": \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"title\": \"Data Reference Standard on Person(s): gender\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: genre\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 63, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465546, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 45, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2465551, \"id\": \"9c36431e-d916-498d-9779-0c52ce840293\", \"title\": \"Data Reference Standard on Person(s): sex assigned at birth\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les personnes\\u202f: sexe assign\\u00e9 \\u00e0 la naissance\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 45, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2466488, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 17, \"month_mois\": 9, \"year_annee\": 2024}, {\"_id\": 2479661, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 43, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2480107, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 19, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2480355, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 14, \"month_mois\": 8, \"year_annee\": 2024}, {\"_id\": 2490677, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 40, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2490705, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 37, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2491159, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 18, \"month_mois\": 7, \"year_annee\": 2024}, {\"_id\": 2502716, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 214, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2502974, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 74, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2503266, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 43, \"month_mois\": 6, \"year_annee\": 2024}, {\"_id\": 2517287, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 350, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2517750, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 72, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2517835, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 62, \"month_mois\": 5, \"year_annee\": 2024}, {\"_id\": 2532871, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 343, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2533934, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 37, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2534077, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 32, \"month_mois\": 4, \"year_annee\": 2024}, {\"_id\": 2548960, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 599, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2549609, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 57, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2550349, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 26, \"month_mois\": 3, \"year_annee\": 2024}, {\"_id\": 2564032, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 632, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2564393, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 99, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2564580, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 67, \"month_mois\": 2, \"year_annee\": 2024}, {\"_id\": 2578803, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 726, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2578974, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 178, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2579040, \"id\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"title\": \"Data Reference Standard on Countries, Territories and Geographic areas\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les Pays, territoires et r\\u00e9gions g\\u00e9ographiques\", \"department\": \"Global Affairs Canada\", \"ministere\": \"Affaires mondiales Canada\", \"visits_visites\": 139, \"month_mois\": 1, \"year_annee\": 2024}, {\"_id\": 2593796, \"id\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"title\": \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\", \"titre\": \"Syst\\u00e8me de classification des industries de l'Am\\u00e9rique du Nord (SCIAN) Canada 2022 version 1.0\", \"department\": \"Statistics Canada\", \"ministere\": \"Statistique Canada\", \"visits_visites\": 381, \"month_mois\": 12, \"year_annee\": 2023}, {\"_id\": 2593981, \"id\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"title\": \"Data reference standard on Canadian Provinces and Territories\", \"titre\": \"Norme r\\u00e9f\\u00e9rentielle relative aux donn\\u00e9es sur les provinces et les territoires du Canada\", \"department\": \"Treasury Board of Canada Secretariat\", \"ministere\": \"Secr\\u00e9tariat du Conseil du Tr\\u00e9sor du Canada\", \"visits_visites\": 117, \"month_mois\": 12, \"year_annee\": 2023}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"id\", \"type\": \"text\"}, {\"id\": \"title\", \"type\": \"text\"}, {\"id\": \"titre\", \"type\": \"text\"}, {\"id\": \"department\", \"type\": \"text\"}, {\"id\": \"ministere\", \"type\": \"text\"}, {\"id\": \"visits_visites\", \"type\": \"numeric\"}, {\"id\": \"month_mois\", \"type\": \"numeric\"}, {\"id\": \"year_annee\", \"type\": \"numeric\"}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 41, \"total_was_estimated\": false}\n\\ No newline at end of file"
+      }
+    ]
+  },
+  {
+    "sha": "df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+    "node_id": "C_kwDOMrSvVdoAKGRmNWY2ZTVkMzBkNDhjNmJjYzg4YTRmYmFjMDliMzJjNzkxMDVmMmU",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-13T16:01:48Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2024-12-13T16:01:48Z"
+      },
+      "message": "Update commit data",
+      "tree": {
+        "sha": "bcf9553065bd86ee2d064eb744121b980e4dcef1",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/bcf9553065bd86ee2d064eb744121b980e4dcef1"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6816c28d17f0eb33bf8a586f7a2401ec83e9280e",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6816c28d17f0eb33bf8a586f7a2401ec83e9280e",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/6816c28d17f0eb33bf8a586f7a2401ec83e9280e"
+      }
+    ],
+    "stats": {
+      "total": 500,
+      "additions": 250,
+      "deletions": 250
+    },
+    "files": [
+      {
+        "sha": "2da2c768e44dfd0341c4aeb88999df0015537507",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 250,
+        "deletions": 250,
+        "changes": 500,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=df5f6e5d30d48c6bcc88a4fbac09b32c79105f2e"
+      }
+    ]
+  },
+  {
     "sha": "6816c28d17f0eb33bf8a586f7a2401ec83e9280e",
     "node_id": "C_kwDOMrSvVdoAKDY4MTZjMjhkMTdmMGViMzNiZjhhNTg2ZjdhMjQwMWVjODNlOTI4MGU",
     "commit": {
@@ -12319,255 +12580,6 @@
         "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/65dfa72fdb3b13a812efec408835c8380d4977ff/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
         "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=65dfa72fdb3b13a812efec408835c8380d4977ff",
         "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-12-01T12:12:35.636924+00:00</updated>\n+  <updated>2024-12-01T16:01:22.277813+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      }
-    ]
-  },
-  {
-    "sha": "ad9872c352d8e351cfc67ad7528e33d409c10cdb",
-    "node_id": "C_kwDOMrSvVdoAKGFkOTg3MmMzNTJkOGUzNTFjZmM2N2FkNzUyOGUzM2Q0MDljMTBjZGI",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-12-01T12:13:10Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-12-01T12:13:10Z"
-      },
-      "message": "Update commit data",
-      "tree": {
-        "sha": "4dddc77ca909f7536c003809858f7e08d50e9c8f",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/4dddc77ca909f7536c003809858f7e08d50e9c8f"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/ad9872c352d8e351cfc67ad7528e33d409c10cdb",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ad9872c352d8e351cfc67ad7528e33d409c10cdb",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/ad9872c352d8e351cfc67ad7528e33d409c10cdb",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ad9872c352d8e351cfc67ad7528e33d409c10cdb/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/5d16fdb3da056ff2a5459b38dce08e185208d2ec"
-      }
-    ],
-    "stats": {
-      "total": 500,
-      "additions": 250,
-      "deletions": 250
-    },
-    "files": [
-      {
-        "sha": "a61dd671266d954d444881144b5447b71d71e463",
-        "filename": "docs/commits.json",
-        "status": "modified",
-        "additions": 250,
-        "deletions": 250,
-        "changes": 500,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ad9872c352d8e351cfc67ad7528e33d409c10cdb/docs%2Fcommits.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ad9872c352d8e351cfc67ad7528e33d409c10cdb/docs%2Fcommits.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=ad9872c352d8e351cfc67ad7528e33d409c10cdb"
-      }
-    ]
-  },
-  {
-    "sha": "5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-    "node_id": "C_kwDOMrSvVdoAKDVkMTZmZGIzZGEwNTZmZjJhNTQ1OWIzOGRjZTA4ZTE4NTIwOGQyZWM",
-    "commit": {
-      "author": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-12-01T12:12:38Z"
-      },
-      "committer": {
-        "name": "Your Name",
-        "email": "your-email@example.com",
-        "date": "2024-12-01T12:12:38Z"
-      },
-      "message": "Update fetched feeds",
-      "tree": {
-        "sha": "999e23d55bb567dcb975cf070007fa90c836c04b",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/999e23d55bb567dcb975cf070007fa90c836c04b"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5d16fdb3da056ff2a5459b38dce08e185208d2ec/comments",
-    "author": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "renoschubert",
-      "id": 46114615,
-      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/renoschubert",
-      "html_url": "https://github.com/renoschubert",
-      "followers_url": "https://api.github.com/users/renoschubert/followers",
-      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
-      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
-      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
-      "repos_url": "https://api.github.com/users/renoschubert/repos",
-      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
-      "type": "User",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "a2ff0298be3451bad4284089df84698ad82de027",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/a2ff0298be3451bad4284089df84698ad82de027",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/a2ff0298be3451bad4284089df84698ad82de027"
-      }
-    ],
-    "stats": {
-      "total": 10,
-      "additions": 5,
-      "deletions": 5
-    },
-    "files": [
-      {
-        "sha": "9a0a182bf3f79aac86d1a01c2dc2f7c89d2e9cd8",
-        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2024-12-01T04:13:40.426391+00:00</updated>\n+  <updated>2024-12-01T12:12:36.473279+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "97f47fd8eb8c2b322cc53babda4e64cc406e2b8e",
-        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2024-12-01T04:13:39.854436+00:00</updated>\n+  <updated>2024-12-01T12:12:35.918029+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "dcbb7477b7ce48582e8ad44df9d839fb43b9c935",
-        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2024-12-01T04:13:40.707256+00:00</updated>\n+  <updated>2024-12-01T12:12:36.749130+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "9baeb5ddeac4c888f54cd4843f1b36668a22b13f",
-        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2024-12-01T04:13:40.142356+00:00</updated>\n+  <updated>2024-12-01T12:12:36.198304+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
-      },
-      {
-        "sha": "b7278f5f6a0e282e35507301edb2f8752972aa4a",
-        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/5d16fdb3da056ff2a5459b38dce08e185208d2ec/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=5d16fdb3da056ff2a5459b38dce08e185208d2ec",
-        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2024-12-01T04:13:39.466767+00:00</updated>\n+  <updated>2024-12-01T12:12:35.636924+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
       }
     ]
   }
