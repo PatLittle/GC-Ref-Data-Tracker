@@ -61,6 +61,7 @@ def extract_properties_from_md(content):
 def scrape_table(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
+
     table_div = soup.find('div', id='wb-auto-4_info')
     if table_div:
         table = table_div.find('table')
@@ -100,6 +101,7 @@ def scrape_table(url):
             print(f"No table found at {url}")
     else:
         print(f"No table div found at {url}")
+
 
 if __name__ == "__main__":
     create_directory('REF_STDs')
