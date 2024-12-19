@@ -62,7 +62,7 @@ def scrape_table(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    table_div = soup.find('div', id='wb-auto-4_info')
+    table_div = soup.find('div', class_='table-responsive2')
     if table_div:
         table = table_div.find('table')
         if table:
@@ -100,7 +100,8 @@ def scrape_table(url):
         else:
             print(f"No table found at {url}")
     else:
-        print(f"No table div found at {url}")
+        print("No table div found. Here is the HTML content:")
+        print(soup.prettify())
 
 
 if __name__ == "__main__":
