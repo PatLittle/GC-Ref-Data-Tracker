@@ -61,38 +61,47 @@ def extract_properties_from_md(content):
 def scrape_table(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
-    table = soup.find('div', id='wb-auto-4_info').find('table')
-    rows = table.find_all('tr')[1:]  # Skip the header row
 
-    for row in rows:
-        cells = row.find_all('td')
-        subdir_name = cells[0].get_text(strip=True).replace(' ', '_')
-        subdir_path = os.path.join('REF_STDs', subdir_name)
-        create_directory(subdir_path)
+    table_div = soup.find('div', id='wb-auto-4_info')
+    if table_div:
+        table = table_div.find('table')
+        if table:
+            rows = table.find_all('tr')[1:]  # Skip the header row
 
-        for link in row.find_all('a', href=True):
-            file_url = link['href']
-            downloaded_file = download_file(file_url, subdir_path)
+            for row in rows:
+                cells = row.find_all('td')
+                subdir_name = cells[0].get_text(strip=True).replace(' ', '_')
+                subdir_path = os.path.join('REF_STDs', subdir_name)
+                create_directory(subdir_path)
 
-            if downloaded_file.endswith('.html'):
-                with open(downloaded_file, 'r', encoding='utf-8') as f:
-                    html_content = f.read()
-                md_content = convert_html_to_md(html_content)
-                md_filename = os.path.splitext(downloaded_file)[0] + '.md'
-                with open(md_filename, 'w', encoding='utf-8') as f:
-                    f.write(md_content)
+                for link in row.find_all('a', href=True):
+                    file_url = link['href']
+                    downloaded_file = download_file(file_url, subdir_path)
 
-                if 'lang-toggle' in html_content:
-                    fr_url = file_url.replace('/en/', '/fr/')
-                    fr_downloaded_file = download_file(fr_url, subdir_path)
-                    with open(fr_downloaded_file, 'r', encoding='utf-8') as f:
-                        fr_html_content = f.read()
-                    fr_md_content = convert_html_to_md(fr_html_content)
-                    fr_md_filename = os.path.splitext(fr_downloaded_file)[0] + '.md'
-                    with open(fr_md_filename, 'w', encoding='utf-8') as f:
-                        f.write(fr_md_content)
+                    if downloaded_file.endswith('.html'):
+                        with open(downloaded_file, 'r', encoding='utf-8') as f:
+                            html_content = f.read()
+                        md_content = convert_html_to_md(html_content)
+                        md_filename = os.path.splitext(downloaded_file)[0] + '.md'
+                        with open(md_filename, 'w', encoding='utf-8') as f:
+                            f.write(md_content)
 
-        generate_shacl_and_json_schema(subdir_path)
+                        if 'lang-toggle' in html_content:
+                            fr_url = file_url.replace('/en/', '/fr/')
+                            fr_downloaded_file = download_file(fr_url, subdir_path)
+                            with open(fr_downloaded_file, 'r', encoding='utf-8') as f:
+                                fr_html_content = f.read()
+                            fr_md_content = convert_html_to_md(fr_html_content)
+                            fr_md_filename = os.path.splitext(fr_downloaded_file)[0] + '.md'
+                            with open(fr_md_filename, 'w', encoding='utf-8') as f:
+                                f.write(fr_md_content)
+
+                generate_shacl_and_json_schema(subdir_path)
+        else:
+            print(f"No table found at {url}")
+    else:
+        print(f"No table div found at {url}")
+
 
 if __name__ == "__main__":
     create_directory('REF_STDs')
