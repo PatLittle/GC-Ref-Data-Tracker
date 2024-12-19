@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import markdownify
 import json
+from urllib.parse import urljoin
 
 def create_directory(path):
     if not os.path.exists(path):
@@ -75,7 +76,7 @@ def scrape_table(url):
                 create_directory(subdir_path)
 
                 for link in row.find_all('a', href=True):
-                    file_url = link['href']
+                    file_url = urljoin(url, link['href'])
                     downloaded_file = download_file(file_url, subdir_path)
 
                     if downloaded_file.endswith('.html'):
