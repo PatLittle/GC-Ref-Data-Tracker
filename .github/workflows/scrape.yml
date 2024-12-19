@@ -30,7 +30,7 @@ jobs:
     - name: Install Python Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests beautifulsoup4 ckanapi
+        pip install requests beautifulsoup4 ckanapi markdownify
 
     - name: Install Node.js
       uses: actions/setup-node@v3
@@ -43,12 +43,15 @@ jobs:
     - name: Run scraper
       run: python scraper.py
 
+    - name: Run REF_STDs scraper
+      run: python REF_STDs/scraper.py
+
     - name: Commit and Push Result
       id: git_commit
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the automatically provided GITHUB_TOKEN
       run: |
-        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom
+        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom REF_STDs/
         git commit -m "Update scraped data and content"
         git push
       continue-on-error: true
