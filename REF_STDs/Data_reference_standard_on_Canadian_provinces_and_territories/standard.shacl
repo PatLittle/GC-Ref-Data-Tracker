@@ -1,0 +1,15 @@
+{
+  "@context": "http://www.w3.org/ns/shacl#",
+  "@type": "NodeShape",
+  "targetClass": "http://example.org/Standard",
+  "property": [
+    {
+      "path": "http://example.org/property1",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string"
+    },
+    {
+      "path": "http://example.org/property2",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string"
+    }
+  ]
+}

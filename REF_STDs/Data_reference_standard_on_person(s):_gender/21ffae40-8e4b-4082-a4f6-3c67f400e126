@@ -1,0 +1,1320 @@
+<!DOCTYPE html><!--[if lt IE 9]>
+  <html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]--> <!--[if gt IE 8]><!-->
+  <html class="no-js" lang="en" dir="ltr"> <!--<![endif]-->
+  <head>
+    
+  <meta charset="utf-8" />
+      <meta name="csrf_field_name" content="_csrf_token" />
+      <meta name="_csrf_token" content="ImE4MjZkMjU5YWJkYzVlMzBkMzhmNzlkZmI5NjY0NDA4NGU4MWFhZjAi.Z2QHIA.SxZnAzeNVz7uUaiYhJF_ooqE7J4" />
+
+      <meta name="generator" content="ckan 2.10.4" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <meta property="og:title" content="Data Reference Standard on Person(s): gender - Open Government Portal">
+  
+  
+    
+      
+        <meta property="dcterms:title" content="Data Reference Standard on Person(s): gender - Open Government Portal" />
+      
+      <meta property="dcterms:language" content="eng" />
+      
+  <meta property="dcterms:creator" content="Treasury Board of Canada Secretariat" data-gc-analytics-owner="Treasury Board of Canada Secretariat|N/A|N/A|N/A"/>
+
+      <meta property="dcterms:service" content="OG-GO" />
+      <meta property="dcterms:accessRights" content="2" />
+    
+  
+
+    <title>Data Reference Standard on Person(s): gender - Open Government Portal</title>
+
+    
+    
+  
+    
+  <link rel="shortcut icon" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_1/wet-boew/assets/favicon.ico" />
+    
+  
+    
+    
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9JG8CZVYZ"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-S9JG8CZVYZ');
+      </script>
+    
+  
+  
+  
+
+    
+        <link rel="alternate" type="text/n3" href="https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.n3"/>
+        <link rel="alternate" type="text/ttl" href="https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.ttl"/>
+        <link rel="alternate" type="application/rdf+xml" href="https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.xml"/>
+        <link rel="alternate" type="application/ld+json" href="https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.jsonld"/>
+    
+
+  
+    <script>
+    window.imConfigPath = "/invitation-manager/";
+    </script>
+  
+
+  
+  
+      
+      
+      
+    
+  
+
+  
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Data Reference Standard on Person(s): gender - Open Government Portal">
+  <meta property="og:description" content="This data reference standard provides a standard list of values to categorize data on person(s). The list reflects the classifications of gender and is designed to provide common data variables of...">
+
+
+    
+    <link href="/data/webassets/base/b8878992_main.css" rel="stylesheet"/>
+<link href="/data/webassets/ckanext-scheming/728ec589_scheming_css.css" rel="stylesheet"/>
+<link href="/data/webassets/ckanext-activity/5ee4e4a8_activity.css" rel="stylesheet"/>
+  
+  
+  <script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_1/cdts/compiled/soyutils.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v5_0_1/cdts/compiled/wet-en.js"></script>
+
+<script>
+  document.write(
+    wet.builder.refTop({
+      
+        "isApplication": false,
+        
+          "webAnalytics": [
+            {
+              "custom": "be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js",
+            }
+          ],
+        
+      
+    })
+  );
+</script>
+
+<style>
+  body .app-bar-mb nav#info-pnl{
+    display: none !important;
+  }
+  body .app-bar .row > section{
+    width: 0 !important;
+    display: none !important;
+  }
+  body .app-bar nav{
+    width: 100% !important;
+  }
+  body .app-bar nav ul.app-list-account{
+    margin-top: 9px !important;
+  }
+  body .app-bar nav ul.app-list-account > li:first-of-type{
+    margin-right: 4.15px !important;
+  }
+  body div[class^="app-bar"] nav .btn.btn-warning{
+    color: #000000;
+    background-color: #f2d40d;
+    border-color: #917f08;
+  }
+  body div[class^="app-bar"] nav .btn.btn-warning:hover,
+  body div[class^="app-bar"] nav .btn.btn-warning:active,
+  body div[class^="app-bar"] nav .btn.btn-warning:focus{
+    background-color: #c2aa0a;
+  }
+  body #cdts-signout-btn,
+  body #cdts-signout-btn-mobile,
+  body div[class^="app-bar"] nav .btn.btn-danger{
+    color: #ffffff;
+    background-color: #bc3331;
+    border-color: #6b1d1c;
+  }
+  body #cdts-signout-btn:hover,
+  body #cdts-signout-btn:active,
+  body #cdts-signout-btn:focus,
+  body #cdts-signout-btn-mobile:hover,
+  body #cdts-signout-btn-mobile:active,
+  body #cdts-signout-btn-mobile:focus,
+  body div[class^="app-bar"] nav .btn.btn-danger:hover,
+  body div[class^="app-bar"] nav .btn.btn-danger:active,
+  body div[class^="app-bar"] nav .btn.btn-danger:focus{
+    background-color: #942826;
+  }
+  .canada-sign-in-context{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+    background-color: #E1E4E7;
+  }
+</style>
+  
+    
+  
+
+  </head>
+
+  
+  <body data-site-root="https://open.canada.ca/data/" data-locale-root="https://open.canada.ca/data/en/"  vocab="https://schema.org/" typeof="WebPage">
+
+    
+    
+    
+
+
+  <div id="app-top"></div>
+  
+
+
+
+
+
+
+
+<script>
+  let appTop = document.getElementById("app-top");
+  if( appTop ){
+    
+      appTop.outerHTML = wet.builder.top({
+        "search": true,
+        "lngLinks": [
+          {
+            "lang": "fr",
+            "href": "/data/fr/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126",
+            "text": "Français",
+          }
+        ],
+        "breadcrumbs": [{"href": "/en", "title": "Open Government"}, {"href": "https://search.open.canada.ca", "title": "Search"}],
+      });
+    
+  }
+</script>
+
+  
+  
+  
+    
+    <div class="container">
+      <div class="row">
+        
+          <div class="col-md-12 canada-flash-messages">
+            <div class="flash-messages">
+              
+            </div>
+          </div>
+        
+        <main role="main" property="mainContentOfPage" class="container">
+          
+  <h1>Data Reference Standard on Person(s): gender
+    
+    
+  </h1>
+
+          
+            <div class="row">
+              <div class="col-md-12">
+                
+                
+                
+                  <div data-ajax-replace="/data/static/_site_messaging/header_od_ckan.en"></div>
+                
+              </div>
+            </div>
+          
+          <div class="row  wb-eqht ">
+            
+              
+            
+            
+              <div class=" col-md-9 col-md-push-3 ">
+                
+                  <article class="module">
+                    <div class="module-content mrgn-tp-lg canada-page-main-wrapper">
+                      
+                      
+  <div vocab="http://schema.org/" typeof="Dataset" style="display:none;">
+  <div property="includedInDataCatalog" typeof="DataCatalog">
+    <span property="name" value="Government of Canada Open Government Portal"></span>
+    <span property="description" value="This catalog contains metadata records describing open datasets available from the Government of Canada"></span>
+    <span property="datePublished" value="2013-06-19"></span>
+    <span property="dateModified" value=""></span>
+    <span property="inLanguage" value="en-CA"></span>
+    <span property="sameAs" value="http://open.canada.ca"></span>
+    <span property="publisher" typeof="Organization">
+      <span property="name" value="Government of Canada, Treasury Board of Canada Secretariat"></span>
+      <span property="email" value="open-ouvert@tbs-sct.gc.ca"></span>
+    </span>
+    <span property="genre" value="Information and Communications Government and Politics"></span>
+    <span property="license" typeof="CreativeWork">
+      <span property="name" value="Open Government Licence - Canada"></span>
+      <span property="sameAs" value="https://open.canada.ca/en/open-government-licence-canada"></span>
+      <span property="text" value="Rights under which the catalog can be reused are outlined in the Open Government Licence - Canada"></span>
+    </span>
+  </div>
+  <span property="name">Data Reference Standard on Person(s): gender</span>
+  <span property="description">This data reference standard provides a standard list of values to categorize data on person(s). 
+
+The list reflects the classifications of gender and is designed to provide common data variables of the reported gender of person(s) or an individual’s personal and social gender identity.  
+
+This data reference standard is to be read in conjunction with the Policy Direction to Modernize the Government of Canada’s Sex and Gender Information Practices and the Disaggregated Data Action Plan. 
+
+This list of values is intended to standardize the way gender classifications are described in datasets to enable data interoperability and improve data quality. 
+
+The appendix lists a data reference table that includes one-digit codes for designating gender.  
+
+Not included in this data reference standard is an additional two-digit code for further classification.  
+
+This data reference standard will be reviewed as required by the data reference steward in consultation with the data reference standard custodian. 
+
+For support or advice on the measurement of “gender of person” or related data variables, contact [statcan.csds-cnsd.statcan@statcan.gc.ca](mailto:statcan.csds-cnsd.statcan@statcan.gc.ca)</span>
+  
+  <span property="dateModified">2024-12-09</span>
+  <span property="publisher" typeof="Organization">
+    <span property="name">Treasury Board of Canada Secretariat</span>
+    <span property="email">ServiceDigital-ServicesNumerique@tbs-sct.gc.ca</span>
+  </span><span property="genre">Persons</span><span property="genre">Society and Culture</span><span property="keywords">reference data</span><span property="keywords">gender</span><span property="keywords">DDAP</span>
+  <span property="sameAs" value="/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126"></span>
+      <span property="distribution" typeof="DataDownload">
+        <span property="inLanguage" content="en,fr"> </span>
+        <span property="name" lang="en">reference data table for gender</span><span property="datePublished" value="2024-09-27"></span><span property="fileFormat">CSV</span>
+        <span property="url">https://open.canada.ca/data/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5/download/person_gender-genre_personnes.csv</span>
+      </span></div>
+  <div class="module">
+    
+      
+    
+    
+    
+      <section class="module-content indent-large">
+        <div id="resource-desc">
+          
+          
+          <p>This data reference standard provides a standard list of values to categorize data on person(s). </p>
+<p>The list reflects the classifications of gender and is designed to provide common data variables of the reported gender of person(s) or an individual’s personal and social gender identity.  </p>
+<p>This data reference standard is to be read in conjunction with the Policy Direction to Modernize the Government of Canada’s Sex and Gender Information Practices and the Disaggregated Data Action Plan. </p>
+<p>This list of values is intended to standardize the way gender classifications are described in datasets to enable data interoperability and improve data quality. </p>
+<p>The appendix lists a data reference table that includes one-digit codes for designating gender.  </p>
+<p>Not included in this data reference standard is an additional two-digit code for further classification.  </p>
+<p>This data reference standard will be reviewed as required by the data reference steward in consultation with the data reference standard custodian. </p>
+<p>For support or advice on the measurement of “gender of person” or related data variables, contact <a href="mailto:statcan.csds-cnsd.statcan@statcan.gc.ca">statcan.csds-cnsd.statcan@statcan.gc.ca</a></p>
+        </div>
+      </section>
+    
+    <section>
+      <ul class="list-group dataset-inline-details">
+        
+          
+          
+          
+          <li class="list-group-item">
+            <strong>Publisher - Current Organization Name:</strong>
+            Treasury Board of Canada Secretariat
+          </li>
+        
+        
+        
+        
+          
+          
+            
+            
+              
+            
+            
+              
+            
+          
+        
+          
+          
+            
+            
+              
+            
+            
+          
+        
+          
+          
+            
+            
+              
+            
+            
+              
+                
+                <li class="list-group-item"><strong>Contributor:</strong>
+                  Statistics Canada
+                </li>
+              
+            
+          
+        
+          
+          
+            
+            
+            
+              
+                
+                <li class="list-group-item"><strong>Licence:</strong>
+                  
+
+  <a href="https://open.canada.ca/en/open-government-licence-canada">Open Government Licence - Canada</a>
+
+                </li>
+              
+            
+          
+        
+      </ul>
+    </section>
+    
+      
+        
+    
+    
+
+<section id="dataset-resources" class="resources">
+  
+  <h2>Data and Resources
+    
+    
+    
+  </h2>
+
+  
+    
+      <ul class="resource-list">
+        
+  
+    
+    
+
+
+
+<li class="resource-item" data-id="56eed7af-6a70-48d7-a402-4082ebe1e3b5">
+  
+  <div id="resource_title">
+    
+    <a class="heading resource-heading" href="/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5" title="reference data table for gender">
+      reference data table for gender<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+        
+
+      
+    </a>
+    
+    <div>
+    
+      
+        
+          
+            <span class="badge res-tag res-tag-lang">
+              English
+            </span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+            <span class="badge res-tag res-tag-lang">
+              French
+            </span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+    
+    
+    
+      <span class="badge res-tag">
+        terminology
+      </span>
+    
+    
+      <span class="badge res-tag">
+        CSV
+      </span>
+    
+    </div>
+  </div>
+
+  
+  
+
+  
+  
+    <div class="dropdown btn-group resource-action-links">
+      <a href="javascript:void(0);" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button" id="dropdownExplorer" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-share" aria-hidden="true"></i>&nbsp;Explore
+      </a>
+      <ul class="dropdown-menu canada-resource-dropdown-explore">
+        
+          <li>
+            <a href="/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5">
+              
+                <i class="fa fa-eye" aria-hidden="true"></i>&nbsp;Preview
+              
+            </a>
+          </li>
+          
+            <li>
+              <a href="https://open.canada.ca/data/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126/resource/56eed7af-6a70-48d7-a402-4082ebe1e3b5/download/person_gender-genre_personnes.csv" class="resource-url-analytics" target="_blank" data-pkg-id="21ffae40-8e4b-4082-a4f6-3c67f400e126" data-res-id="56eed7af-6a70-48d7-a402-4082ebe1e3b5" data-org-id="81765FCD-32B3-4708-A593-3AA00705E62B">
+                
+                  <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>&nbsp;Download
+                
+              </a>
+            </li>
+          
+          
+          
+          
+        
+      </ul>
+    </div>
+  
+
+</li>
+  
+
+      </ul>
+    
+  
+</section>
+  
+      
+    
+    
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+        
+          <section class="panel panel-primary">
+            <header class="panel-heading">
+              <div class="panel-title">Similar records</div>
+            </header>
+            <div data-ajax-replace="https://search.open.canada.ca/opendata/similar/21ffae40-8e4b-4082-a4f6-3c67f400e126" class="panel-body" id="related_pkgs"></div>
+          </section>
+        
+      
+    
+    
+      
+        <a id="rate"></a>
+        <div id="voting-wrapper" data-ajax-replace="/en/vote?uuid=21ffae40-8e4b-4082-a4f6-3c67f400e126"></div>
+      
+    
+    
+      
+        <a id="feedback"></a>
+        <section class="indent-large">
+          <div id="feedback-wrapper" data-ajax-replace="/en/feedback?uuid=21ffae40-8e4b-4082-a4f6-3c67f400e126"></div>
+        </section>
+      
+    
+  </div>
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+            
+              
+                <aside class="col-md-3 col-md-pull-9 mrgn-tp-lg canada-page-side-wrapper">
+                  
+  
+    
+  
+    <div class="panel panel-primary">
+      
+      <div class="panel-heading"><div class="panel-title">Have your say</div></div>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+          <div data-ajax-replace="/en/vote-result/vote/21ffae40-8e4b-4082-a4f6-3c67f400e126"></div>
+          <li><a href="#rate">Rate this dataset</a></li>
+          <li><a href="#feedback">Provide feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  
+
+  
+  
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <div class="panel-title">
+          Additional Information
+        </div>
+      </div>
+      <ul class="list-group">
+        
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Contact Email:</strong>
+                
+<a href="mailto:ServiceDigital-ServicesNumerique@tbs-sct.gc.ca?subject=Data Reference Standard on Person(s): gender&body=The following is a question related to the record https://open.canada.ca/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126 found on https://open.canada.ca">ServiceDigital-ServicesNumerique@tbs-sct.gc.ca</a>
+              </li>
+            
+          
+        
+          
+          
+          
+            
+            
+              
+            
+            
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+            
+            
+              
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Keywords:</strong>
+                <ul class='list-inline'><li class="label label-default mrgn-rght-sm resource-tags">reference data</li><li class="label label-default mrgn-rght-sm resource-tags">gender</li><li class="label label-default mrgn-rght-sm resource-tags">DDAP</li></ul>
+              </li>
+            
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Subject:</strong>
+                <ul class='list-inline'><li class="label label-default mrgn-rght-sm resource-tags"> Persons</li><li class="label label-default mrgn-rght-sm resource-tags"> Society and Culture</li></ul>
+              </li>
+            
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Audience:</strong>
+                <ul class='list-inline'><li class="label label-default mrgn-rght-sm resource-tags"> Government</li></ul>
+              </li>
+            
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Place of Publication:</strong>
+                Canada
+              </li>
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+            
+              
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Homepage:</strong>
+                <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards/data-reference-standard-person-gender.html" rel="" style="word-wrap: break-word" target="_blank">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards/data-reference-standard-person-gender.html</a>
+              </li>
+            
+          
+        
+          
+          
+          
+            
+            
+              
+            
+            
+          
+        
+          
+          
+          
+            
+            
+              
+            
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Maintenance and Update Frequency:</strong>
+                Irregular
+              </li>
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+          
+          
+          
+            
+            
+            
+              <li class="list-group-item resource-tags">
+                <strong>Date Published:</strong>
+                
+  2024-09-26
+
+              </li>
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+            
+            
+          
+        
+        
+          
+            <li class="list-group-item"><a
+              href="https://open.canada.ca/en/openness-rating"><b>Openness Rating</b></a>:&nbsp;<img src="/data/static/img/stars/star3.png" alt="three stars"
+                    class="image-actual margin-bottom-none openness-rating-stars" />
+            </li>
+          
+        
+      </ul>
+    </div>
+  
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <div class="panel-title">About this Record</div>
+    </div>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <strong>Record Released:</strong>
+        2024-09-26
+      </li>
+      <li class="list-group-item">
+        <strong>Record Modified:</strong>
+        2024-12-09
+      </li>
+      <li class="list-group-item">
+        <strong>Record ID:</strong>
+        21ffae40-8e4b-4082-a4f6-3c67f400e126
+      </li>
+      <li class="list-group-item">
+        <strong>Metadata:</strong>
+        <ul class="list-group" style="margin-bottom: 0;">
+          <li class="list-group-item">
+            <a href="https://open.canada.ca/data/api/action/package_show?id=21ffae40-8e4b-4082-a4f6-3c67f400e126" rel="nofollow">
+              Link to JSON format
+            </a>
+          </li>
+          
+            <li class="list-group-item" style="border: none;">
+              <a href="/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.jsonld" rel="nofollow">
+                DCAT (JSON-LD)
+              </a>
+            </li>
+          
+          
+            <li class="list-group-item" style="border: none;">
+              <a href="/data/en/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.xml" rel="nofollow">
+                DCAT (XML)
+              </a>
+            </li>
+          
+        </ul>
+      </li>
+      
+      <li class="list-group-item">
+        <a href="/data/en/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom" title="RSS">
+          <span class="fa fa-rss-square" aria-hidden="true"></span>&nbsp;Atom Feed
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+
+  
+  
+    
+  
+    
+  
+
+                </aside>
+              
+            
+          </div>
+        </main>
+      </div>
+    </div>
+  
+    
+    <div id="ref-footer"></div>
+<script>
+  let refFooter = document.getElementById("ref-footer");
+  if( refFooter ){
+    refFooter.outerHTML = wet.builder.footer({});
+  }
+</script>
+
+
+  
+  
+  
+  
+  
+    
+  
+  
+  
+<script>
+  document.write(
+    wet.builder.refFooter({
+      
+        "isApplication": false,
+        
+          "webAnalytics": true,
+        
+      
+    })
+  );
+</script>
+  
+  
+    
+  
+    
+  
+  
+  
+  
+    
+
+    
+        
+        
+        
+    
+
+
+  
+
+  
+
+
+  
+      
+  
+    
+
+      
+  
+
+
+    
+    
+    <link href="/data/webassets/canada_public/1148008d_canada_public.css" rel="stylesheet"/>
+<link href="/data/webassets/invitation_manager/b0dc356d_invitation_manager.css" rel="stylesheet"/>
+<link href="/data/webassets/vendor/f3b8236b_select2.css" rel="stylesheet"/>
+<link href="/data/webassets/vendor/d05bf0e7_fontawesome.css" rel="stylesheet"/>
+    <script src="/data/webassets/canada_public/1e1601b9_more_like_this.js" type="text/javascript"></script>
+<script src="/data/webassets/canada_public/1da89540_voting_fix.js" type="text/javascript"></script>
+<script src="/data/webassets/invitation_manager/ecf68db1_invitation_manager.js" type="text/javascript"></script>
+<script src="/data/webassets/canada_public/562e1564_canada_public_analytics.js" type="text/javascript"></script>
+<script src="/data/webassets/vendor/8c3c143a_jquery.js" type="text/javascript"></script>
+<script src="/data/webassets/vendor/5027b870_vendor.js" type="text/javascript"></script>
+<script src="/data/webassets/vendor/6d1ad7e6_bootstrap.js" type="text/javascript"></script>
+<script src="/data/webassets/base/6fddaa3f_main.js" type="text/javascript"></script>
+<script src="/data/webassets/base/0d39d542_ckan.js" type="text/javascript"></script>
+<script src="/data/webassets/vendor/9c4cfd9c_fileupload.js" type="text/javascript"></script>
+<script src="/data/webassets/ckanext-cloudstorage/06b9ac90_main.js" type="text/javascript"></script>
+<script src="/data/webassets/activity/0fdb5ee0_activity.js" type="text/javascript"></script>
+  </body>
+</html>
