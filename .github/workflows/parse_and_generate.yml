@@ -1,0 +1,45 @@
+name: Parse and Generate
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # Run daily at 1 AM UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+permissions:
+  contents: write  # Grant write permissions to the repository contents
+
+jobs:
+  parse_and_generate_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Configure Git
+      run: |
+        git config --global user.email "your-email@example.com"
+        git config --global user.name "Your Name"
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'  # Use the version of Python you need
+
+    - name: Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install rdflib markdown
+
+    - name: Run parse and generate script
+      run: python REF_STDs/parse_and_generate.py
+
+    - name: Commit and Push Result
+      id: git_commit
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the automatically provided GITHUB_TOKEN
+      run: |
+        git add REF_STDs/*/*.shacl REF_STDs/*/*.json
+        git commit -m "Generate SHACL and JSON schema files"
+        git push
+      continue-on-error: true
