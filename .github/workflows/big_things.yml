@@ -1,4 +1,5 @@
-name: multi job wf
+name: Multi-Job Workflow
+
 on:
   schedule:
     - cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
@@ -16,74 +17,70 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
-        clean: false  # Prevent deletion of existing files
-        fetch-depth: 0  # Fetch all history if needed
-        fetch-tags: true  # Include tags
+        clean: true  # Ensure a clean slate
+        fetch-depth: 0
+        fetch-tags: true
 
     - name: Configure Git
       run: |
         git config --global user.email "your-email@example.com"
         git config --global user.name "Your Name"
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install Python Dependencies
+    - name: Install Python and Node.js
       run: |
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4 ckanapi markdownify
+        npm install puppeteer node-fetch@2
 
-    - name: Install Node.js
-      uses: actions/setup-node@v3
+    - name: Upload Repository as Artifact
+      uses: actions/upload-artifact@v3
       with:
-        node-version: '18'
-
-    - name: Install Puppeteer
-      run: npm install puppeteer node-fetch@2
+        name: repository
+        path: ${{ github.workspace }}
 
   scrape:
     name: Scrape Data
     needs: setup
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Download Repository Artifact
+      uses: actions/download-artifact@v3
       with:
-        clean: false  # Prevent deletion of existing files
-        fetch-depth: 0  # Fetch all history if needed
-        fetch-tags: true  # Include tags
-        
+        name: repository
+
     - name: Run scraper
       run: |
-        echo $PWD
-        ls -R
         python scraper.py
-      continue-on-error: true
-      
-    - name: Run REF_STDs scraper
-      run: python REF_STDs/scraper.py
-      continue-on-error: true
+        python REF_STDs/scraper.py
 
     - name: Commit and Push Scraped Data
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom REF_STDs/
-        git commit -m "Update scraped data and content"
+        git commit -m "Update scraped data and content" || echo "No changes to commit"
         git push
-      continue-on-error: true
+
+    - name: Upload Scrape Results as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: scrape-results
+        path: docs/
 
   detect_changes:
     name: Detect Changes
     needs: scrape
     runs-on: ubuntu-latest
     outputs:
-      changed: ${{ steps.check_commit_message.outputs.changed }}
+      changed: ${{ steps.check-commit-message.outputs.changed }}
     steps:
+    - name: Download Repository Artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: repository
+
     - name: Check Commit Message
-      id: check_commit_message
+      id: check-commit-message
       run: |
         COMMIT_MESSAGE=$(git log -1 --pretty=%B)
         echo "Last commit message: $COMMIT_MESSAGE"
@@ -94,7 +91,7 @@ jobs:
         fi
 
     - name: Take Screenshots if Changes Detected
-      if: ${{ needs.detect_changes.outputs.changed == 'true' }}
+      if: ${{ steps.check-commit-message.outputs.changed == 'true' }}
       run: |
         node -e "
         const puppeteer = require('puppeteer');
@@ -102,21 +99,21 @@ jobs:
           const browser = await puppeteer.launch();
           const page = await browser.newPage();
           await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html');
-          await page.screenshot({ path: 'docs/screenshot_en.png', fullPage: true, captureBeyondViewport: true });
+          await page.screenshot({ path: 'docs/screenshot_en.png', fullPage: true });
           await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
-          await page.screenshot({ path: 'docs/screenshot_fr.png', fullPage: true, captureBeyondViewport: true });
+          await page.screenshot({ path: 'docs/screenshot_fr.png', fullPage: true });
           await browser.close();
         })();
         "
 
     - name: Commit and Push Screenshots
-      if: ${{ needs.detect_changes.outputs.changed == 'true' }}
+      if: ${{ steps.check-commit-message.outputs.changed == 'true' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add docs/screenshot_en.png docs/screenshot_fr.png
-        git commit -m "Add updated screenshots for data change detection"
+        git commit -m "Add updated screenshots for data change detection" || echo "No changes to commit"
         git push
-      continue-on-error: true
-
 
   create_issue:
     name: Create GitHub Issue
@@ -127,8 +124,7 @@ jobs:
     - name: Create Issue Body
       run: |
         echo "# Data Change Detected" > issue_body.md
-        git log --stat --pretty=fuller HEAD~2..HEAD > issue_body.md
-        echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
+        echo "The data on the monitored website has changed." >> issue_body.md
         echo "![Screenshot EN](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_en.png?raw=true)" >> issue_body.md
         echo "![Screenshot FR](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_fr.png?raw=true)" >> issue_body.md
 
@@ -145,64 +141,58 @@ jobs:
     needs: scrape
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Download Repository Artifact
+      uses: actions/download-artifact@v3
       with:
-        clean: false  # Prevent deletion of existing files
-        fetch-depth: 0  # Fetch all history if needed
-        fetch-tags: true  # Include tags
+        name: repository
+
     - name: Run Feed Fetcher
-      run: |
-        python atom_feed_fetcher.py
-      continue-on-error: true
+      run: python atom_feed_fetcher.py
 
     - name: Commit and Push Feed Results
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add -A
-        git commit --allow-empty -m "Update fetched feeds"
+        git commit --allow-empty -m "Update fetched feeds" || echo "No changes to commit"
         git push
-      continue-on-error: true
 
   fetch_usage:
-    name: Fetch usage
+    name: Fetch Usage
     needs: scrape
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Download Repository Artifact
+      uses: actions/download-artifact@v3
       with:
-        clean: false  # Prevent deletion of existing files
-        fetch-depth: 0  # Fetch all history if needed
-        fetch-tags: true  # Include tags
-    - name: Run usage Fetcher
-      run: |
-        python portal_usage_fetcher.py
-      continue-on-error: true
+        name: repository
 
-    - name: Commit and Push Feed Results
+    - name: Run Usage Fetcher
+      run: python portal_usage_fetcher.py
+
+    - name: Commit and Push Usage Results
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add -A
-        git commit --allow-empty -m "Update fetched feeds"
+        git commit --allow-empty -m "Update usage data" || echo "No changes to commit"
         git push
-      continue-on-error: true
 
   fetch_commits:
     name: Fetch Commits
     needs: fetch_feeds
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Download Repository Artifact
+      uses: actions/download-artifact@v3
       with:
-        clean: false  # Prevent deletion of existing files
-        fetch-depth: 0  # Fetch all history if needed
-        fetch-tags: true  # Include tags
+        name: repository
+
     - name: Fetch GitHub Commits
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         node fetch_commits.js
         git add -A
-        git commit --allow-empty -m "Update commit data"
+        git commit --allow-empty -m "Update commit data" || echo "No changes to commit"
         git push
-      
