@@ -64,6 +64,8 @@ jobs:
     name: Detect Changes
     needs: scrape
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.check_commit_message.outputs.changed }}
     steps:
     - name: Check Commit Message
       id: check_commit_message
@@ -71,12 +73,13 @@ jobs:
         COMMIT_MESSAGE=$(git log -1 --pretty=%B)
         echo "Last commit message: $COMMIT_MESSAGE"
         if [[ "$COMMIT_MESSAGE" == *"Update scraped data and content"* ]]; then
-          echo "changed=true" >> $GITHUB_ENV
+          echo "::set-output name=changed::true"
         else
-          echo "changed=false" >> $GITHUB_ENV
+          echo "::set-output name=changed::false"
+        fi
 
     - name: Take Screenshots if Changes Detected
-      if: env.changed == 'true'
+      if: ${{ needs.detect_changes.outputs.changed == 'true' }}
       run: |
         node -e "
         const puppeteer = require('puppeteer');
@@ -92,12 +95,13 @@ jobs:
         "
 
     - name: Commit and Push Screenshots
-      if: env.changed == 'true'
+      if: ${{ needs.detect_changes.outputs.changed == 'true' }}
       run: |
         git add docs/screenshot_en.png docs/screenshot_fr.png
         git commit -m "Add updated screenshots for data change detection"
         git push
       continue-on-error: true
+
 
   create_issue:
     name: Create GitHub Issue
