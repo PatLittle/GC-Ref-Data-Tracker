@@ -59,8 +59,6 @@ jobs:
       run: |
         echo $PWD
         ls -R
-        cd ..
-        ls -R
         python scraper.py
       continue-on-error: true
       
@@ -147,10 +145,15 @@ jobs:
     needs: scrape
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        clean: false  # Prevent deletion of existing files
+        fetch-depth: 0  # Fetch all history if needed
+        fetch-tags: true  # Include tags
     - name: Run Feed Fetcher
       run: |
         python atom_feed_fetcher.py
-        python portal_usage_fetcher.py
       continue-on-error: true
 
     - name: Commit and Push Feed Results
@@ -165,6 +168,12 @@ jobs:
     needs: scrape
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        clean: false  # Prevent deletion of existing files
+        fetch-depth: 0  # Fetch all history if needed
+        fetch-tags: true  # Include tags
     - name: Run usage Fetcher
       run: |
         python portal_usage_fetcher.py
@@ -182,6 +191,12 @@ jobs:
     needs: fetch_feeds
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        clean: false  # Prevent deletion of existing files
+        fetch-depth: 0  # Fetch all history if needed
+        fetch-tags: true  # Include tags
     - name: Fetch GitHub Commits
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
