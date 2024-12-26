@@ -107,7 +107,7 @@ jobs:
     name: Create GitHub Issue
     needs: detect_changes
     runs-on: ubuntu-latest
-    if: env.changed == 'true'
+    if: ${{ needs.detect_changes.outputs.changed == 'true' }}
     steps:
     - name: Create Issue Body
       run: |
