@@ -4,6 +4,8 @@ import csv
 from datetime import datetime
 
 
+import re
+
 def count_links_in_markdown(file_path):
     """
     Counts the number of links in a Markdown file.
@@ -17,13 +19,16 @@ def count_links_in_markdown(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        return content.count('](')  # Markdown links are in the format [text](url)
+        # Match Markdown-style links: [text](url)
+        links = re.findall(r'\[.*?\]\(.*?\)', content)
+        return len(links)
     except FileNotFoundError:
         print(f"File not found: {file_path}")
         return 0
     except Exception as e:
         print(f"An error occurred while reading {file_path}: {e}")
         return 0
+
 
 
 def count_entries_on_page(url):
@@ -67,13 +72,18 @@ def generate_markdown_files():
             soup = BeautifulSoup(response.content, 'html.parser')
             directive_content = soup.find('h2', id='appK').find_parent('details')
             if directive_content:
+                markdown_converter = html2text.HTML2Text()
+                markdown_converter.ignore_links = False
+                markdown_converter.body_width = 0
+                markdown_content = markdown_converter.handle(directive_content.prettify())
                 with open(output_file, 'w', encoding='utf-8') as f:
-                    f.write(directive_content.prettify())
+                    f.write(markdown_content)
                 print(f"Saved {output_file}")
             else:
                 print(f"Directive content not found at {url}")
         except Exception as e:
             print(f"Error processing {url}: {e}")
+
 
 
 def append_to_csv(date, status, en_appk, en_canadaca, fr_appk, fr_canadaca):
