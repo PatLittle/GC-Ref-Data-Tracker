@@ -36,8 +36,8 @@ jobs:
           # Create directive-status.html by combining dashboard and footer
           {
             echo "<!DOCTYPE html><html><head><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>Directive Status</title><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head><body>";
-            echo "<nav><a href="index.html" class="btn">Home</a><a href="feeds.html" class="btn">ATOM Feeds</a><a href="changes.html" class="btn">View Detailed Changes</a></nav>";
-            echo "<header><h1>Directive on Service and Digital Status</h1><p>Tracking if the Directive on the Policy site is updated with all DRS'.</p></header><br><hr>";
+            echo "<header><h1>Directive on Service and Digital Status</h1><p>This page tracks if Appendix K of the Directive on Service and Digital on the TBS Policy Website is updated with all approved DRS published on Canada.ca.</p></header><br><hr>";
+            echo "<nav><a href="index.html" class="btn">Home</a><a href="feeds.html" class="btn">ATOM Feeds</a><a href="changes.html" class="btn">View Detailed Changes</a></nav><hr>";
             cat "$DASHBOARD_HTML";
             cat "$FOOTER_HTML";
             echo "</body></html>";
