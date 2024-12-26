@@ -21,6 +21,24 @@
     <a href="index.html" class="btn">Home</a>  
     </nav>
 
+<div id="dashboard-container"></div>
+
+<script>
+fetch("https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html")
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.text();
+  })
+  .then(html => {
+    document.getElementById("dashboard-container").innerHTML = html;
+  })
+  .catch(error => {
+    console.error("Failed to load dashboard:", error);
+  });
+</script>
+
 
 <object data="https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html" style="width:100%">
     <p>Your browser does not support displaying this content. <a href="https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html">View it here</a>.</p>
