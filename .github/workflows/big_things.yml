@@ -1,5 +1,4 @@
-name: Scrape Website
-
+name: multi job wf
 on:
   schedule:
     - cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
