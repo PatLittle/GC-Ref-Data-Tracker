@@ -48,6 +48,13 @@ jobs:
     needs: setup
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        clean: false  # Prevent deletion of existing files
+        fetch-depth: 0  # Fetch all history if needed
+        fetch-tags: true  # Include tags
+        
     - name: Run scraper
       run: |
         echo $PWD
@@ -55,9 +62,11 @@ jobs:
         cd ..
         ls -R
         python scraper.py
-
+      continue-on-error: true
+      
     - name: Run REF_STDs scraper
       run: python REF_STDs/scraper.py
+      continue-on-error: true
 
     - name: Commit and Push Scraped Data
       env:
