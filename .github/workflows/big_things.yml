@@ -15,6 +15,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        clean: false  # Prevent deletion of existing files
+        fetch-depth: 0  # Fetch all history if needed
+        fetch-tags: true  # Include tags
 
     - name: Configure Git
       run: |
@@ -47,6 +51,8 @@ jobs:
     - name: Run scraper
       run: |
         echo $PWD
+        ls -R
+        cd ..
         ls -R
         python scraper.py
 
