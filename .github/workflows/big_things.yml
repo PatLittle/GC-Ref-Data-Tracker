@@ -47,6 +47,7 @@ jobs:
     - name: Run scraper
       run: |
         echo $PWD
+        echo ls -R
         python scraper.py
 
     - name: Run REF_STDs scraper
