@@ -89,6 +89,8 @@ jobs:
         git add docs/screenshot_en.png docs/screenshot_fr.png
         git commit -m "Add updated screenshots for data change detection"
         git push
+      continue-on-error: true
+  
 
     - name: Create Issue Body
       if: env.changed == 'true'
