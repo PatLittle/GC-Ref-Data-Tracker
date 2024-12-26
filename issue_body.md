@@ -1,19 +1,20 @@
-commit e280b1d8530b869e0b024b298d820cd463ab95e3
+commit f300f747a9404e78b4e70b385c28d21601446ebe
 Author:     Your Name <your-email@example.com>
-AuthorDate: Thu Dec 26 16:01:31 2024 +0000
+AuthorDate: Thu Dec 26 21:01:40 2024 +0000
 Commit:     Your Name <your-email@example.com>
-CommitDate: Thu Dec 26 16:01:31 2024 +0000
+CommitDate: Thu Dec 26 21:01:40 2024 +0000
 
     Add updated screenshots for data change detection
 
- docs/screenshot_en.png | Bin 466165 -> 486379 bytes
- 1 file changed, 0 insertions(+), 0 deletions(-)
+ docs/screenshot_en.png | Bin 486379 -> 466165 bytes
+ docs/screenshot_fr.png | Bin 561170 -> 570541 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
 
-commit 15ddabeb9abf48e5b9e6ae9706b1d2b839b91781
+commit 5c3365e15ff73aa2b896872cad22242ebf2fd4ad
 Author:     Your Name <your-email@example.com>
-AuthorDate: Thu Dec 26 16:01:12 2024 +0000
+AuthorDate: Thu Dec 26 21:01:16 2024 +0000
 Commit:     Your Name <your-email@example.com>
-CommitDate: Thu Dec 26 16:01:12 2024 +0000
+CommitDate: Thu Dec 26 21:01:16 2024 +0000
 
     Update scraped data and content
 
