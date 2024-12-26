@@ -30,6 +30,20 @@ def fetch_and_save_data(resource_id, output_file):
     except Exception as e:
         print(f"Error fetching data for resource_id {resource_id}: {e}")
 
+def fetch_and_save_ratings(resource_id, output_file):
+    try:
+        result = rc.action.datastore_search(
+            resource_id=resource_id,
+            filters={"uuid": dataset_ids},
+        )
+        
+        with open(output_file, "w") as json_file:
+            json.dump(result, json_file)
+
+        print(f"Data from resource_id {resource_id} saved to {output_file}")
+
+    except Exception as e:
+        print(f"Error fetching data for resource_id {resource_id}: {e}")
 # Step 3: Fetch data for both resource IDs
 
 # First table (visits)
@@ -37,3 +51,5 @@ fetch_and_save_data("c14ba36b-0af5-4c59-a5fd-26ca6a1ef6db", "docs/filtered_data_
 
 # Second table (downloads)
 fetch_and_save_data("4ebc050f-6c3c-4dfd-817e-875b2caf3ec6", "docs/filtered_data_downloads.json")
+
+fetch_and_save_ratings("8353523a-8e4e-4cd0-a91e-b42abe2e6ee5", "docs/filtered_data_ratings.json")
