@@ -1,0 +1,69 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            .chart-container {
+                width: 80%;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>🚩Directive on Service and Digital: Appendix K not updated 🆖</h1>
+        <div class="chart-container">
+            <canvas id="barChart"></canvas>
+        </div>
+        <script>
+            const ctx = document.getElementById('barChart').getContext('2d');
+            const chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['ENGLISH', 'FRENCH'],
+                    datasets: [
+                        {
+                            label: 'Count DRS in AppK',
+                            data: [0, 0],
+                            backgroundColor: ['red', 'red'],
+                            borderColor: 'black',
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'Count DRS on Canada.ca',
+                            data: [8, 8],
+                            backgroundColor: ['darkgrey', 'darkgrey'],
+                            borderColor: 'black',
+                            borderWidth: 2
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: function(tooltipItem) {
+                                    return tooltipItem.dataset.label + ": " + tooltipItem.raw;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: false
+                        },
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Count'
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+    </body>
+    </html>
+    

@@ -1,0 +1,29 @@
+<details class="pol-sec">
+ <summary onclick="_gaq.push(['_trackEvent', 'policy suite', 'open policy', 'http://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32601']);">
+  <h2 id="appK">
+   Annexe K : Normes référentielles relatives aux données
+  </h2>
+ </summary>
+ <div class="pol-content">
+  <p>
+   <a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-provinces-territoires-canada.html">
+    Norme référentielle relative aux données sur les provinces et les territoires du Canada
+   </a>
+  </p>
+  <p>
+   <a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-systeme-classification-industries.html">
+    Norme référentielle relative aux données sur le système de classification des industries
+   </a>
+  </p>
+  <p>
+   <a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/noms-officiels-anciens-actuels-pays-territoires-zones-geographiques.html">
+    Norme référentielle relative aux données sur les noms officiels, anciens et actuels, des pays, territoires et zones géographiques reconnus par le gouvernement du Canada
+   </a>
+  </p>
+  <p>
+   <a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-numero-entreprise.html">
+    Norme référentielle relative aux données sur le numéro d’entreprise
+   </a>
+  </p>
+ </div>
+</details>
