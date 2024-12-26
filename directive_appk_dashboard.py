@@ -231,18 +231,6 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
 
     # Generate the updated HTML with the appended table
     full_html = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <style>
-            body {{ font-family: Arial, sans-serif; }}
-            .chart-container {{ width: 80%; margin: auto; }}
-            table {{ margin-top: 20px; width: 80%; margin: auto; border-collapse: collapse; }}
-            th, td {{ padding: 8px; text-align: center; border: 1px solid black; }}
-        </style>
-    </head>
-    <body>
         <h1 style="text-align: center;">{chart_title}</h1>
         {chart_html}
         <table>
