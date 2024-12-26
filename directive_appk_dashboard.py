@@ -231,7 +231,7 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
 
     # Generate the updated HTML with the appended table
     full_html = f"""
-        <h1 style="text-align: center;">{chart_title}</h1>
+        <h2 style="text-align: center;">{chart_title}</h2>
         {chart_html}
         <table>
             <thead>
