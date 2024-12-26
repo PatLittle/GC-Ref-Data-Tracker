@@ -248,8 +248,7 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
                 {updated_rows}
             </tbody>
         </table>
-    </body>
-    </html>
+    
     """
 
     # Save the updated HTML to the file
