@@ -32,6 +32,10 @@ jobs:
         pip install requests beautifulsoup4 ckanapi markdownify
         npm install puppeteer node-fetch@2
 
+    - name: Sanitize File Paths
+      run: |
+        find . -name '*[":,<>|*?]*' -exec rename 's/[^a-zA-Z0-9_.-]/_/g' {} +
+
     - name: Upload Repository as Artifact
       uses: actions/upload-artifact@v3
       with:
