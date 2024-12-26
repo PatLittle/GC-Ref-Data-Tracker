@@ -105,7 +105,7 @@ def append_to_csv(date, status, en_appk, en_canadaca, fr_appk, fr_canadaca):
 
 def generate_bar_chart_widget(markdown_files, reference_pages):
     """
-    Generates the Chart.js widget and updates the CSV file.
+    Generates the Chart.js widget, updates the CSV file, and creates an HTML table with the data.
 
     Parameters:
         markdown_files (list): List of Markdown file paths.
@@ -142,85 +142,115 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
     chart_title = "✅Directive on Service and Digital: Appendix K updated 🆗" if all_equal else "🚩Directive on Service and Digital: Appendix K not updated 🆖"
 
     # Generate the Chart.js HTML content
-    html_content = f"""
+    chart_html = f"""
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('barChart').getContext('2d');
+        const chart = new Chart(ctx, {{
+            type: 'bar',
+            data: {{
+                labels: {labels},
+                datasets: [
+                    {{
+                        label: 'Count DRS in AppK',
+                        data: {markdown_links},
+                        backgroundColor: {colors_md},
+                        borderColor: 'black',
+                        borderWidth: 2
+                    }},
+                    {{
+                        label: 'Count DRS on Canada.ca',
+                        data: {page_entries},
+                        backgroundColor: {colors_entries},
+                        borderColor: 'black',
+                        borderWidth: 2
+                    }}
+                ]
+            }},
+            options: {{
+                responsive: true,
+                plugins: {{
+                    tooltip: {{
+                        callbacks: {{
+                            label: function(tooltipItem) {{
+                                return tooltipItem.dataset.label + ": " + tooltipItem.raw;
+                            }}
+                        }}
+                    }}
+                }},
+                scales: {{
+                    x: {{
+                        stacked: false
+                    }},
+                    y: {{
+                        beginAtZero: true,
+                        title: {{
+                            display: true,
+                            text: 'Count'
+                        }}
+                    }}
+                }}
+            }}
+        }});
+    </script>
+    """
+
+    # Generate the HTML table content
+    table_html = f"""
+    <table border="1" style="width: 80%; margin: auto; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Status</th>
+                <th>EN_AppK</th>
+                <th>EN_Canadaca</th>
+                <th>FR_AppK</th>
+                <th>FR_Canadaca</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</td>
+                <td>{chart_title}</td>
+                <td>{markdown_links[0]}</td>
+                <td>{page_entries[0]}</td>
+                <td>{markdown_links[1]}</td>
+                <td>{page_entries[1]}</td>
+            </tr>
+        </tbody>
+    </table>
+    """
+
+    # Combine the chart and table into an HTML file
+    full_html = f"""
     <!DOCTYPE html>
     <html>
     <head>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <style>
-            .chart-container {{
-                width: 80%;
-                margin: auto;
-            }}
+            body {{ font-family: Arial, sans-serif; }}
+            .chart-container {{ width: 80%; margin: auto; }}
+            table {{ margin-top: 20px; }}
+            th, td {{ padding: 8px; text-align: center; }}
         </style>
     </head>
     <body>
-        <h1>{chart_title}</h1>
-        <div class="chart-container">
-            <canvas id="barChart"></canvas>
-        </div>
-        <script>
-            const ctx = document.getElementById('barChart').getContext('2d');
-            const chart = new Chart(ctx, {{
-                type: 'bar',
-                data: {{
-                    labels: {labels},
-                    datasets: [
-                        {{
-                            label: 'Count DRS in AppK',
-                            data: {markdown_links},
-                            backgroundColor: {colors_md},
-                            borderColor: 'black',
-                            borderWidth: 2
-                        }},
-                        {{
-                            label: 'Count DRS on Canada.ca',
-                            data: {page_entries},
-                            backgroundColor: {colors_entries},
-                            borderColor: 'black',
-                            borderWidth: 2
-                        }}
-                    ]
-                }},
-                options: {{
-                    responsive: true,
-                    plugins: {{
-                        tooltip: {{
-                            callbacks: {{
-                                label: function(tooltipItem) {{
-                                    return tooltipItem.dataset.label + ": " + tooltipItem.raw;
-                                }}
-                            }}
-                        }}
-                    }},
-                    scales: {{
-                        x: {{
-                            stacked: false
-                        }},
-                        y: {{
-                            beginAtZero: true,
-                            title: {{
-                                display: true,
-                                text: 'Count'
-                            }}
-                        }}
-                    }}
-                }}
-            }});
-        </script>
+        <h1 style="text-align: center;">{chart_title}</h1>
+        {chart_html}
+        {table_html}
     </body>
     </html>
     """
 
-    # Save the Chart.js dashboard as an HTML file
     with open('docs/bar_chart_dashboard.html', 'w', encoding='utf-8') as f:
-        f.write(html_content)
-    print("Bar chart dashboard saved to docs/bar_chart_dashboard.html")
+        f.write(full_html)
+    print("Bar chart and table dashboard saved to docs/bar_chart_dashboard.html")
 
     # Update the CSV with the current data
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     append_to_csv(now, chart_title, markdown_links[0], page_entries[0], markdown_links[1], page_entries[1])
-
 
 
 if __name__ == "__main__":
