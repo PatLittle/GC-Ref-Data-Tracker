@@ -46,7 +46,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Run scraper
-      run: python scraper.py
+      run: |
+        echo $PWD
+        python scraper.py
 
     - name: Run REF_STDs scraper
       run: python REF_STDs/scraper.py
