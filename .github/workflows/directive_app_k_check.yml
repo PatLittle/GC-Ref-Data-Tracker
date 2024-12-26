@@ -27,12 +27,26 @@ jobs:
         run: |
           python directive_appk_dashboard.py
 
+      - name: Create directive-status.html
+        run: |
+          DASHBOARD_HTML="docs/bar_chart_dashboard.html"
+          FOOTER_HTML="docs/footer.html"
+          OUTPUT_HTML="docs/directive-status.html"
+
+          # Create directive-status.html by combining dashboard and footer
+          {
+            echo "<!DOCTYPE html><html><head><title>Directive Status</title></head><body>";
+            cat "$DASHBOARD_HTML";
+            cat "$FOOTER_HTML";
+            echo "</body></html>";
+          } > "$OUTPUT_HTML"
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/bar_chart_dashboard.html docs/chart_data.csv docs/directive_appendix_k_eng.md docs/directive_appendix_k_fra.md
-          git commit -m "Daily update of Directive on Service and Digital: Appendix K"
+          git add docs/directive-status.html docs/bar_chart_dashboard.html docs/chart_data.csv docs/directive_appendix_k_eng.md docs/directive_appendix_k_fra.md
+          git commit -m "Daily update of Directive on Service and Digital: Appendix K and directive-status.html"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
