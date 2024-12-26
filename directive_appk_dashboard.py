@@ -106,11 +106,17 @@ def append_to_csv(date, status, en_appk, en_canadaca, fr_appk, fr_canadaca):
 def generate_bar_chart_widget(markdown_files, reference_pages):
     """
     Generates the Chart.js widget and updates the CSV file.
+
+    Parameters:
+        markdown_files (list): List of Markdown file paths.
+        reference_pages (list): List of reference page URLs.
     """
     data = []
     labels = ['ENGLISH', 'FRENCH']
     markdown_links = []
     page_entries = []
+    colors_md = []
+    colors_entries = []
     all_equal = True
 
     for file, page in zip(markdown_files, reference_pages):
@@ -118,15 +124,103 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
         entries = count_entries_on_page(page)
         markdown_links.append(md_links)
         page_entries.append(entries)
-        if md_links != entries:
-            all_equal = False
 
+        # Conditional coloring
+        if md_links == entries:
+            colors_md.append('green')
+            colors_entries.append('green')
+        else:
+            all_equal = False
+            if md_links < entries:
+                colors_md.append('red')
+                colors_entries.append('darkgrey')
+            else:
+                colors_md.append('darkgrey')
+                colors_entries.append('red')
+
+    # Set chart title dynamically
     chart_title = "✅Directive on Service and Digital: Appendix K updated 🆗" if all_equal else "🚩Directive on Service and Digital: Appendix K not updated 🆖"
 
+    # Generate the Chart.js HTML content
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            .chart-container {{
+                width: 80%;
+                margin: auto;
+            }}
+        </style>
+    </head>
+    <body>
+        <h1>{chart_title}</h1>
+        <div class="chart-container">
+            <canvas id="barChart"></canvas>
+        </div>
+        <script>
+            const ctx = document.getElementById('barChart').getContext('2d');
+            const chart = new Chart(ctx, {{
+                type: 'bar',
+                data: {{
+                    labels: {labels},
+                    datasets: [
+                        {{
+                            label: 'Count DRS in AppK',
+                            data: {markdown_links},
+                            backgroundColor: {colors_md},
+                            borderColor: 'black',
+                            borderWidth: 2
+                        }},
+                        {{
+                            label: 'Count DRS on Canada.ca',
+                            data: {page_entries},
+                            backgroundColor: {colors_entries},
+                            borderColor: 'black',
+                            borderWidth: 2
+                        }}
+                    ]
+                }},
+                options: {{
+                    responsive: true,
+                    plugins: {{
+                        tooltip: {{
+                            callbacks: {{
+                                label: function(tooltipItem) {{
+                                    return tooltipItem.dataset.label + ": " + tooltipItem.raw;
+                                }}
+                            }}
+                        }}
+                    }},
+                    scales: {{
+                        x: {{
+                            stacked: false
+                        }},
+                        y: {{
+                            beginAtZero: true,
+                            title: {{
+                                display: true,
+                                text: 'Count'
+                            }}
+                        }}
+                    }}
+                }}
+            }});
+        </script>
+    </body>
+    </html>
+    """
+
+    # Save the Chart.js dashboard as an HTML file
+    with open('docs/bar_chart_dashboard.html', 'w', encoding='utf-8') as f:
+        f.write(html_content)
+    print("Bar chart dashboard saved to docs/bar_chart_dashboard.html")
+
+    # Update the CSV with the current data
     now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     append_to_csv(now, chart_title, markdown_links[0], page_entries[0], markdown_links[1], page_entries[1])
 
-    print("Bar chart and CSV update completed.")
 
 
 if __name__ == "__main__":
