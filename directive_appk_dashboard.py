@@ -250,10 +250,10 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
                 <tr>
                     <th>Date</th>
                     <th>Status</th>
-                    <th>EN_AppK</th>
-                    <th>EN_Canadaca</th>
-                    <th>FR_AppK</th>
-                    <th>FR_Canadaca</th>
+                    <th><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601#appK">Directive AppK EN</a></th>
+                    <th><a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html">Data Reference Standards - Canada.ca</a></th>
+                    <th><a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32601#appK">Directive AppK FR</a></th>
+                    <th><a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html">Normes référentielles aux données - Canada.ca</a></th>
                 </tr>
             </thead>
             <tbody>
