@@ -1,51 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directive Status</title>
-    <link rel="stylesheet" href="styles.css"> <!-- External CSS file -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<!DOCTYPE html><html><head><title>Directive Status</title></head><body>
 
-<body>
-    <header>
-        <h1>Directive Status</h1>
-        <p>Tracking the latest reference data standards from the Government of Canada.</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            .chart-container { width: 80%; margin: auto; }
+            table { margin-top: 20px; width: 80%; margin: auto; border-collapse: collapse; }
+            th, td { padding: 8px; text-align: center; border: 1px solid black; }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">🚩Directive on Service and Digital: Appendix K not updated 🆖</h1>
         
-    </header>
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+    </div>
+    <script>
+        const ctx = document.getElementById('barChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['ENGLISH', 'FRENCH'],
+                datasets: [
+                    {
+                        label: 'Count DRS in AppK',
+                        data: [4, 4],
+                        backgroundColor: ['red', 'red'],
+                        borderColor: 'black',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Count DRS on Canada.ca',
+                        data: [8, 8],
+                        backgroundColor: ['darkgrey', 'darkgrey'],
+                        borderColor: 'black',
+                        borderWidth: 2
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                return tooltipItem.dataset.label + ": " + tooltipItem.raw;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        stacked: false
+                    },
+                    y: {
+                        beginAtZero: true,
+                        title: {
+                            display: true,
+                            text: 'Count'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th><a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32601#appK">Directive AppK EN</a></th>
+                    <th><a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html">Data Reference Standards - Canada.ca</a></th>
+                    <th><a href="https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32601#appK">Directive AppK FR</a></th>
+                    <th><a href="https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html">Normes référentielles aux données - Canada.ca</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+<tr>
+<td>2024-12-26 09:19:14</td>
+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>
+<td>4</td>
+<td>8</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2024-12-26 09:24:33</td>
+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>
+<td>4</td>
+<td>8</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2024-12-26 09:46:18</td>
+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>
+<td>4</td>
+<td>8</td>
+<td>4</td>
+<td>8</td>
+</tr>
 
-    <nav>
-    <a href="feeds.html" class="btn">ATOM Feeds</a> 
-    <a href="changes.html" class="btn">View Detailed Changes</a>
-    <a href="index.html" class="btn">Home</a>  
-    </nav>
-
-<div id="dashboard-container"></div>
-
-<script>
-fetch("https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html")
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.text();
-  })
-  .then(html => {
-    document.getElementById("dashboard-container").innerHTML = html;
-  })
-  .catch(error => {
-    console.error("Failed to load dashboard:", error);
-  });
-</script>
-
-
-<object data="https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html" style="width:100%">
-    <p>Your browser does not support displaying this content. <a href="https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_chart_dashboard.html">View it here</a>.</p>
-</object>
-
-
-<footer>
+    <tr>
+        <td>2024-12-26 10:43:25</td>
+        <td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>
+        <td>4</td>
+        <td>8</td>
+        <td>4</td>
+        <td>8</td>
+    </tr>
+    
+            </tbody>
+        </table>
+    </body>
+    </html>
+    <footer>
         <p>&copy; GC Reference Data Tracker Community Project. </p>
         <div class="btn-group">
             <a href="https://github.com/PatLittle/GC-Ref-Data-Tracker/issues"><button><i class="fa fa-github fa-2x"></i> Report an Issue</button></a>
@@ -56,3 +129,4 @@ fetch("https://cdn.jsdelivr.net/gh/patlittle/GC-Ref-Data-Tracker@main/docs/bar_c
 
         
     </footer>
+</body></html>
