@@ -35,7 +35,8 @@ jobs:
 
           # Create directive-status.html by combining dashboard and footer
           {
-            echo "<!DOCTYPE html><html><head><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>Directive Status</title></head><body>";
+            echo "<!DOCTYPE html><html><head><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><title>Directive Status</title><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head><body>";
+            echo "<nav><a href="index.html" class="btn">Home</a><a href="feeds.html" class="btn">ATOM Feeds</a><a href="changes.html" class="btn">View Detailed Changes</a></nav>";
             cat "$DASHBOARD_HTML";
             cat "$FOOTER_HTML";
             echo "</body></html>";
