@@ -103,9 +103,11 @@ def append_to_csv(date, status, en_appk, en_canadaca, fr_appk, fr_canadaca):
         print(f"Error appending to CSV: {e}")
 
 
+from bs4 import BeautifulSoup
+
 def generate_bar_chart_widget(markdown_files, reference_pages):
     """
-    Generates the Chart.js widget, updates the CSV file, and creates an HTML table with the data.
+    Generates the Chart.js widget, updates the CSV file, and appends data to the HTML table.
 
     Parameters:
         markdown_files (list): List of Markdown file paths.
@@ -140,6 +142,36 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
 
     # Set chart title dynamically
     chart_title = "✅Directive on Service and Digital: Appendix K updated 🆗" if all_equal else "🚩Directive on Service and Digital: Appendix K not updated 🆖"
+
+    # Create the new table row
+    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    new_row = f"""
+    <tr>
+        <td>{now}</td>
+        <td>{chart_title}</td>
+        <td>{markdown_links[0]}</td>
+        <td>{page_entries[0]}</td>
+        <td>{markdown_links[1]}</td>
+        <td>{page_entries[1]}</td>
+    </tr>
+    """
+
+    # Try to read the existing HTML file and extract the table rows
+    existing_rows = ""
+    html_file_path = 'docs/bar_chart_dashboard.html'
+    try:
+        with open(html_file_path, 'r', encoding='utf-8') as f:
+            soup = BeautifulSoup(f, 'html.parser')
+            table_body = soup.find('tbody')
+            if table_body:
+                existing_rows = table_body.decode_contents()  # Get existing rows
+    except FileNotFoundError:
+        print("No existing HTML file found. Creating a new one.")
+    except Exception as e:
+        print(f"Error reading existing HTML file: {e}")
+
+    # Combine existing rows with the new row
+    updated_rows = existing_rows + new_row
 
     # Generate the Chart.js HTML content
     chart_html = f"""
@@ -197,33 +229,7 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
     </script>
     """
 
-    # Generate the HTML table content
-    table_html = f"""
-    <table border="1" style="width: 80%; margin: auto; border-collapse: collapse;">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Status</th>
-                <th>EN_AppK</th>
-                <th>EN_Canadaca</th>
-                <th>FR_AppK</th>
-                <th>FR_Canadaca</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</td>
-                <td>{chart_title}</td>
-                <td>{markdown_links[0]}</td>
-                <td>{page_entries[0]}</td>
-                <td>{markdown_links[1]}</td>
-                <td>{page_entries[1]}</td>
-            </tr>
-        </tbody>
-    </table>
-    """
-
-    # Combine the chart and table into an HTML file
+    # Generate the updated HTML with the appended table
     full_html = f"""
     <!DOCTYPE html>
     <html>
@@ -232,25 +238,40 @@ def generate_bar_chart_widget(markdown_files, reference_pages):
         <style>
             body {{ font-family: Arial, sans-serif; }}
             .chart-container {{ width: 80%; margin: auto; }}
-            table {{ margin-top: 20px; }}
-            th, td {{ padding: 8px; text-align: center; }}
+            table {{ margin-top: 20px; width: 80%; margin: auto; border-collapse: collapse; }}
+            th, td {{ padding: 8px; text-align: center; border: 1px solid black; }}
         </style>
     </head>
     <body>
         <h1 style="text-align: center;">{chart_title}</h1>
         {chart_html}
-        {table_html}
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>EN_AppK</th>
+                    <th>EN_Canadaca</th>
+                    <th>FR_AppK</th>
+                    <th>FR_Canadaca</th>
+                </tr>
+            </thead>
+            <tbody>
+                {updated_rows}
+            </tbody>
+        </table>
     </body>
     </html>
     """
 
-    with open('docs/bar_chart_dashboard.html', 'w', encoding='utf-8') as f:
+    # Save the updated HTML to the file
+    with open(html_file_path, 'w', encoding='utf-8') as f:
         f.write(full_html)
-    print("Bar chart and table dashboard saved to docs/bar_chart_dashboard.html")
+    print("Bar chart and table dashboard updated in docs/bar_chart_dashboard.html")
 
     # Update the CSV with the current data
-    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     append_to_csv(now, chart_title, markdown_links[0], page_entries[0], markdown_links[1], page_entries[1])
+
 
 
 if __name__ == "__main__":
