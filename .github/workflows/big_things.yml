@@ -37,6 +37,13 @@ jobs:
       with:
         name: repository
         path: ${{ github.workspace }}
+        exclude: |
+          node_modules/**  # Exclude node_modules
+          **/node_modules/**  # Exclude nested node_modules directories
+          .git/**  # Optionally exclude .git directory
+          **/*.log  # Optionally exclude log files
+        if-no-files-found: warn
+
 
   scrape:
     name: Scrape Data
