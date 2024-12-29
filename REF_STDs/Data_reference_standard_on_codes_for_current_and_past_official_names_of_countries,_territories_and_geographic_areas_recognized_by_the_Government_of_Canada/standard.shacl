@@ -1,15 +1,17 @@
-{
-  "@context": "http://www.w3.org/ns/shacl#",
-  "@type": "NodeShape",
-  "targetClass": "http://example.org/Standard",
-  "property": [
-    {
-      "path": "http://example.org/property1",
-      "datatype": "http://www.w3.org/2001/XMLSchema#string"
-    },
-    {
-      "path": "http://example.org/property2",
-      "datatype": "http://www.w3.org/2001/XMLSchema#string"
-    }
-  ]
-}
+@prefix ex: <http://example.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Standard a sh:NodeShape ;
+    sh:property ex:property1,
+        ex:property2 ;
+    sh:targetClass ex:Standard .
+
+ex:property1 a sh:PropertyShape ;
+    sh:datatype xsd:string ;
+    sh:path ex:property1 .
+
+ex:property2 a sh:PropertyShape ;
+    sh:datatype xsd:string ;
+    sh:path ex:property2 .
+
