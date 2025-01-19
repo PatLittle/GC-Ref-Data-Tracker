@@ -1,8 +1,8 @@
 name: Scrape Website
 
 on:
-  schedule:
-    - cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
+ # schedule:
+    #- cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 permissions:
