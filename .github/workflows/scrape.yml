@@ -1,8 +1,8 @@
 name: Scrape Website
 
 on:
- # schedule:
-    #- cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
+  # schedule:
+    # - cron: '0 12,16,21,4 * * *'  # 12 PM, 4 PM, 9 PM, 4 AM UTC
   workflow_dispatch: # Allows manual triggering of the workflow
 
 permissions:
@@ -37,6 +37,39 @@ jobs:
       with:
         node-version: '18'  # Use the version of Node.js you need
 
+    # Install system libraries that Chromium needs in CI runners
+    - name: Install apt dependencies needed by Chromium
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y --no-install-recommends \
+          ca-certificates \
+          fonts-liberation \
+          libasound2 \
+          libatk-bridge2.0-0 \
+          libatk1.0-0 \
+          libc6 \
+          libcairo2 \
+          libcups2 \
+          libdbus-1-3 \
+          libdrm2 \
+          libgbm1 \
+          libgdk-pixbuf2.0-0 \
+          libglib2.0-0 \
+          libgtk-3-0 \
+          libnspr4 \
+          libnss3 \
+          libx11-xcb1 \
+          libxcomposite1 \
+          libxdamage1 \
+          libxrandr2 \
+          libxshmfence1 \
+          libxss1 \
+          xvfb \
+          xdg-utils \
+          wget \
+          unzip
+        sudo rm -rf /var/lib/apt/lists/*
+
     - name: Install Puppeteer
       run: npm install puppeteer node-fetch@2
 
@@ -51,9 +84,9 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the automatically provided GITHUB_TOKEN
       run: |
-        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom REF_STDs/
-        git commit -m "Update scraped data and content"
-        git push
+        git add docs/scraped_table_en.csv docs/scraped_table_fr.csv docs/scraped_content_eng.html docs/scraped_content_fra.html *.atom REF_STDs/ || true
+        git commit -m "Update scraped data and content" || echo "no changes to commit"
+        git push || echo "push failed"
       continue-on-error: true
 
     - name: Check Commit Message
@@ -67,39 +100,64 @@ jobs:
           echo "changed=false" >> $GITHUB_ENV
         fi
 
+    # Start a virtual framebuffer and export DISPLAY for Puppeteer
+    - name: Start Xvfb and set DISPLAY
+      if: env.changed == 'true'
+      run: |
+        echo "DISPLAY=:99" >> $GITHUB_ENV
+        Xvfb :99 -screen 0 1280x1024x24 >/dev/null 2>&1 &
+        sleep 1
+
     - name: Take Screenshot if Changes Detected
       if: env.changed == 'true'
       run: |
         node -e "
         const puppeteer = require('puppeteer');
         (async () => {
-          const browser = await puppeteer.launch();
+          // launch with CI-friendly flags to avoid Chromium sandbox issues
+          const browser = await puppeteer.launch({
+            headless: 'new',
+            args: [
+              '--no-sandbox',
+              '--disable-setuid-sandbox',
+              '--disable-dev-shm-usage',
+              '--disable-accelerated-2d-canvas',
+              '--no-zygote',
+              '--single-process'
+            ]
+          });
           const page = await browser.newPage();
-          await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html');
+          await page.setViewport({ width: 1280, height: 1024 });
+          await page.goto('https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards.html', { waitUntil: 'networkidle2', timeout: 60000 });
           await page.screenshot({ path: 'docs/screenshot_en.png', fullPage: true, captureBeyondViewport: true });
-          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html');
+          await page.goto('https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc.html', { waitUntil: 'networkidle2', timeout: 60000 });
           await page.screenshot({ path: 'docs/screenshot_fr.png', fullPage: true, captureBeyondViewport: true });
           await browser.close();
-        })();
+        })().catch(err => { console.error(err); process.exit(1); });
         "
+      env:
+        # Ensure the DISPLAY is available to Node (set in previous step)
+        DISPLAY: ${{ env.DISPLAY }}
 
     - name: Commit and Push Screenshots
       if: env.changed == 'true'
       run: |
-        git add docs/screenshot_en.png docs/screenshot_fr.png
-        git commit -m "Add updated screenshots for data change detection"
-        git push
+        git add docs/screenshot_en.png docs/screenshot_fr.png || true
+        git commit -m "Add updated screenshots for data change detection" || echo "no screenshot changes to commit"
+        git push || echo "push failed"
       continue-on-error: true
-  
 
     - name: Create Issue Body
       if: env.changed == 'true'
       run: |
         echo "# Data Change Detected" > issue_body.md
-        git log --stat --pretty=fuller HEAD~2..HEAD > issue_body.md
+        git log --stat --pretty=fuller HEAD~2..HEAD >> issue_body.md || true
+        echo "" >> issue_body.md
         echo "The data on the monitored website has changed. The screenshots of the updated pages are attached below." >> issue_body.md
-        echo "![Screenshot EN](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_en.png?raw=true)" >> issue_body.md
-        echo "![Screenshot FR](https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/main/docs/screenshot_fr.png?raw=true)" >> issue_body.md
+        echo "" >> issue_body.md
+        echo "![Screenshot EN](https://github.com/${{ github.repository }}/blob/main/docs/screenshot_en.png?raw=true)" >> issue_body.md
+        echo "" >> issue_body.md
+        echo "![Screenshot FR](https://github.com/${{ github.repository }}/blob/main/docs/screenshot_fr.png?raw=true)" >> issue_body.md
 
     - name: Create Issue if Changes Detected
       if: env.changed == 'true'
@@ -110,7 +168,6 @@ jobs:
         labels: update, screenshot
         assignees: your-github-username
       continue-on-error: true
-  
 
     - name: Run Feed Fetcher
       run: |
@@ -118,22 +175,19 @@ jobs:
         python portal_usage_fetcher.py
       continue-on-error: true
 
-
     - name: Commit and Push Feed Fetcher Result
       run: |
-        git add -A
-        git commit --allow-empty -m "Update fetched feeds"
-        git push
+        git add -A || true
+        git commit --allow-empty -m "Update fetched feeds" || echo "no feed changes"
+        git push || echo "push failed"
       continue-on-error: true
-
 
     - name: Fetch GitHub Commits
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        node fetch_commits.js
-        git add -A
-        git commit --allow-empty -m "Update commit data"
-        git push
+        node fetch_commits.js || true
+        git add -A || true
+        git commit --allow-empty -m "Update commit data" || echo "no commit data changes"
+        git push || echo "push failed"
       continue-on-error: true
-  
