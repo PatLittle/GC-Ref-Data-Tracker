@@ -37,41 +37,56 @@ jobs:
       with:
         node-version: '18'  # Use the version of Node.js you need
 
-    # Install system libraries that Chromium needs in CI runners
-    - name: Install apt dependencies needed by Chromium
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y --no-install-recommends \
-          ca-certificates \
-          fonts-liberation \
-          libasound2 \
-          libatk-bridge2.0-0 \
-          libatk1.0-0 \
-          libc6 \
-          libcairo2 \
-          libcups2 \
-          libdbus-1-3 \
-          libdrm2 \
-          libgbm1 \
-          libgdk-pixbuf2.0-0 \
-          libglib2.0-0 \
-          libgtk-3-0 \
-          libnspr4 \
-          libnss3 \
-          libx11-xcb1 \
-          libxcomposite1 \
-          libxdamage1 \
-          libxrandr2 \
-          libxshmfence1 \
-          libxss1 \
-          xvfb \
-          xdg-utils \
-          wget \
-          unzip
-        sudo rm -rf /var/lib/apt/lists/*
-
     - name: Install Puppeteer
       run: npm install puppeteer node-fetch@2
+
+    # Robust apt install: install packages one-by-one and continue if a package is unavailable
+    - name: Install apt dependencies needed by Chromium
+      run: |
+        set -o pipefail
+        export DEBIAN_FRONTEND=noninteractive
+        echo "Updating apt..."
+        sudo apt-get update -y
+        # Candidate packages (libasound2 may be provided under a different name on newer Ubuntu)
+        packages=(
+          ca-certificates
+          fonts-liberation
+          libasound2t64   # alternate candidate for libasound2 on newer Ubuntu
+          libasound2      # keep as attempt; will be ignored if unavailable
+          libatk-bridge2.0-0
+          libatk1.0-0
+          libc6
+          libcairo2
+          libcups2
+          libdbus-1-3
+          libdrm2
+          libgbm1
+          libgdk-pixbuf2.0-0
+          libglib2.0-0
+          libgtk-3-0
+          libnspr4
+          libnss3
+          libx11-xcb1
+          libxcomposite1
+          libxdamage1
+          libxrandr2
+          libxshmfence1
+          libxss1
+          xvfb
+          xdg-utils
+          wget
+          unzip
+        )
+        echo "Attempting to install required packages one-by-one (non-fatal failures will be ignored)..."
+        for pkg in "${packages[@]}"; do
+          echo "-> Installing: $pkg"
+          # Try to install each package; if it fails, print a warning and continue
+          if ! sudo apt-get install -y --no-install-recommends "$pkg"; then
+            echo "Warning: package $pkg failed to install or is not available on this runner. Continuing..."
+          fi
+        done
+        # Clean apt lists to keep the runner tidy
+        sudo rm -rf /var/lib/apt/lists/*
 
     - name: Run scraper
       run: python scraper.py
@@ -100,7 +115,7 @@ jobs:
           echo "changed=false" >> $GITHUB_ENV
         fi
 
-    # Start a virtual framebuffer and export DISPLAY for Puppeteer
+    # Start a virtual framebuffer and export DISPLAY for Puppeteer (only if we detected changes)
     - name: Start Xvfb and set DISPLAY
       if: env.changed == 'true'
       run: |
@@ -114,7 +129,7 @@ jobs:
         node -e "
         const puppeteer = require('puppeteer');
         (async () => {
-          // launch with CI-friendly flags to avoid Chromium sandbox issues
+          // launch with CI-friendly flags to avoid Chromium sandbox errors
           const browser = await puppeteer.launch({
             headless: 'new',
             args: [
@@ -136,7 +151,6 @@ jobs:
         })().catch(err => { console.error(err); process.exit(1); });
         "
       env:
-        # Ensure the DISPLAY is available to Node (set in previous step)
         DISPLAY: ${{ env.DISPLAY }}
 
     - name: Commit and Push Screenshots
