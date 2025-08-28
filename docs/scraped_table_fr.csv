@@ -1,45 +1,11 @@
-Titre,Description,Date d’entrée en vigueur,Responsables des normes référentielles relatives aux données,Formats lisibles à la machine (disponibles sur le portail du gouvernement ouvert)
-"
-Norme référentielle relative aux données sur les noms officiels, anciens et actuels, des pays, territoires et zones géographiques reconnus par le gouvernement du Canada
-","Cette norme référentielle vise à normaliser la manière dont les noms officiels, anciens et actuels, des pays, territoires et zones géographiques sont décrits dans les jeux de données",2024-01-29,"
-
-Affaires mondiales Canada
-
-","
-CSV | JSON
-"
-"
-Norme référentielle relative aux données sur les provinces et les territoires du Canada
-",Cette norme référentielle visent à normaliser la description des provinces et des territoires canadiens dans les jeux de données.,2023-10-02,"
-
-Statistique Canada
-Ressources naturelles Canada
-
-","
-CSV | JSON
-"
-"
-Norme référentielle relative aux données sur le système de classification des industries
-",Cette norme référentielle vise à normaliser la description des classifications industrielles dans les jeux de données.,2023-12-15,"
-
-Statistique Canada
-
-","
-CSV
-"
-Norme référentielle relative aux données sur le numéro d’entreprise,La présente Norme référentielle relative aux données vise à faire en sorte que les ministères et organismes utilisent le numéro d’entreprise comme identifiant normalisé pour toutes les opérations entre les entreprises et le gouvernement du Canada. ,2024-05-07,"
-Agence du Revenue du Canada
-Innovation, Sciences et Développement économique Canada
-",non disponible
-Norme référentielle relative aux données sur les personnes : genre,Cette norme référentielle relative aux données fournit une liste normalisée de valeurs pour catégoriser les données sur les personnes. La liste reflète les classifications du genre.,2024-09-27,"
-Statistique Canada
-",CSV
-Norme référentielle relative aux données sur les personnes : sexe assigné à la naissance,Cette norme référentielle relative aux données fournit une liste normalisée de valeurs pour catégoriser les données sur les personnes. La liste de valeurs reflète les classifications du sexe assigné à la naissance.,2024-09-27,"
-Statistique Canada
-",CSV
-Norme référentielle relative aux données sur les personnes : architecture des noms ,Cette norme référentielle relative aux données sur l’architecture des noms de personnes vise à faire en sorte que les ministères et organismes du gouvernement du Canada utilisent des champs uniformes pour saisir les noms des personnes.,2024-09-27,"
-Immigration, Réfugiés et Citoyenneté Canada
-",non disponible
-Norme référentielle relative aux données sur le format de la date et de l’heure,Norme référentielle relative aux données sur le format de la date et de l’heure vise à faire en sorte que les ministères et organismes utilisent un format numérique uniforme pour la date et l’heure.  ,2024-09-27,"
-Conseil National de Recherches Canada
-",non disponible
+Title,Description,Effective date,Data reference standard stewards,Machine-readable formats (available on Open Government)
+Architecture des noms,Champs à remplir pour consigner les noms des personnes.,2024-09-27,"Immigration, Réfugiés et Citoyenneté Canada",
+Documents numériques archivistiques,"Fournit les concepts  de métadonnées qui doivent être appliqués à tous les documents d’archives  numériques de sorte qu’ils soient protégés tout au long de leur cycle de vie, y  compris lorsqu’ils sont transférés à Bibliothèque et Archives Canada.",2025-06-23,Bibliothèque et Archives Canada,
+Format de la date et de l’heure,Format à utiliser aux fins de description et d’échange de données sur la date et l’heure.,2024-09-27,Conseil,
+Genre,Liste de catégories et de codes à utiliser aux fins de description et d’échange de données sur le genre.,2024-09-27,Statistique Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126)
+Noms et codes des organisations du gouvernement du Canada,Liste des noms et des codes à utiliser aux fins de description et d’échange de données sur les organisations du gouvernement du Canada.,2025-07-21,Secrétariat du Conseil du Trésor du Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928) | JSON (https://ouvert.canada.ca/data/fr/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928)
+Numéro d’entreprise,Numéro d’entreprise à utiliser dans toutes les opérations entre les entreprises et le gouvernement du Canada.,2024-05-07,"Agence du revenu du Canada, Innovation, Sciences et Développement économique Canada et Conseil national de recherches Canada",
+"Pays, territoires et zones géographiques","Liste des codes à utiliser aux fins de description et d’échange de données sur les pays, les territoires et les zones géographiques reconnus par le gouvernement du Canada.",2024-01-29,Affaires mondiales Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/bdb33e8c-53ef-4bae-9493-35f343191c02) | JSON (https://open.canada.ca/data/fr/datastore/dump/bdb33e8c-53ef-4bae-9493-35f343191c02?format=json)
+Provinces et territoires du Canada,Liste des noms et des codes à utiliser aux fins de description et d’échange de données sur les provinces et les territoires du Canada.,2023-10-02,Statistique Canada et Ressources naturelles Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/4cb827a6-a313-4d97-a66b-26fe23984931) | JSON (https://ouvert.canada.ca/data/fr/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa/resource/86c1f4f2-b5f7-4448-84e7-1a7fc4aac17c)
+Sexe assigné à la naissance,Liste de catégories et de codes à utiliser aux fins de description et d’échange de données sur le sexe assigné à la naissance.,2024-09-27,Statistique Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/9c36431e-d916-498d-9779-0c52ce840293)
+Système de classification des industries,Liste de catégories à utiliser aux fins de description et d’échange de données sur les industries.,2023-12-15,Statistique Canada,CSV (https://ouvert.canada.ca/data/fr/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c/resource/857f8d71-d066-424d-9239-27390d904353)
