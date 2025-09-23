@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom</id>
+  <title>Open Government Portal - Dataset: "Government of Canada Organization Names and Codes"</title>
+  <updated>2025-09-23T19:22:33.868751+00:00</updated>
+  <author>
+    <name>https://open.canada.ca</name>
+  </author>
+  <link href="https://open.canada.ca/data/en/feeds/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom" rel="self"/>
+  <link href="https://open.canada.ca/data/en/api/3/action/package_show?id=57180b36-3428-4a7f-afe3-2161a6b44ec5" rel="enclosure"/>
+  <link href="https://open.canada.ca/data/en/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Recently created or updated resources on Open Government Portal for dataset: Government of Canada Organization Names and Codes</subtitle>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928</id>
+    <title>Organization Information</title>
+    <updated>2025-07-25T15:31:10.218676+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=cb5b5566-f599-4d12-abae-8279a0230928" rel="enclosure"/>
+    <published>2024-05-30T17:22:03.605391+00:00</published>
+  </entry>
+  <entry>
+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/3faaafb4-00e2-4303-947d-ac786b62559f</id>
+    <title>Concordance Data</title>
+    <updated>2025-07-25T15:31:10.218524+00:00</updated>
+    <content/>
+    <link href="https://open.canada.ca/data/en/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/3faaafb4-00e2-4303-947d-ac786b62559f" rel="alternate"/>
+    <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=3faaafb4-00e2-4303-947d-ac786b62559f" rel="enclosure"/>
+    <published>2024-05-30T17:22:03.605386+00:00</published>
+  </entry>
+</feed>
