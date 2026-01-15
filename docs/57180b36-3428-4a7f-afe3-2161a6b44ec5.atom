@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom</id>
   <title>Open Government Portal - Dataset: "Government of Canada Organization Names and Codes"</title>
-  <updated>2025-09-23T19:22:33.868751+00:00</updated>
+  <updated>2026-01-15T21:46:02.732403+00:00</updated>
   <author>
     <name>https://open.canada.ca</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928</id>
     <title>Organization Information</title>
-    <updated>2025-07-25T15:31:10.218676+00:00</updated>
+    <updated>2025-12-17T17:11:34.527567+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/cb5b5566-f599-4d12-abae-8279a0230928" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=cb5b5566-f599-4d12-abae-8279a0230928" rel="enclosure"/>
@@ -23,7 +23,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/3faaafb4-00e2-4303-947d-ac786b62559f</id>
     <title>Concordance Data</title>
-    <updated>2025-07-25T15:31:10.218524+00:00</updated>
+    <updated>2026-01-14T20:21:51.404243+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5/resource/3faaafb4-00e2-4303-947d-ac786b62559f" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=3faaafb4-00e2-4303-947d-ac786b62559f" rel="enclosure"/>
