@@ -1,5 +1,527 @@
 [
   {
+    "sha": "ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+    "node_id": "C_kwDOMrSvVdoAKGRkZmU2ZWU3Njg1YmU2NmViYWM2ZTc4ODAwODA3OGM0ZjAwYzUyYzU",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:56:19Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:56:19Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "8605b914949189d28471ff124773a097db30a966",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/8605b914949189d28471ff124773a097db30a966"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/ddfe6ee7685be66ebac6e788008078c4f00c52c5/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/0cf95cdb5ffcdab096daccbe3540a7b5ce326629"
+      }
+    ],
+    "stats": {
+      "total": 12,
+      "additions": 6,
+      "deletions": 6
+    },
+    "files": [
+      {
+        "sha": "cfc1bc12d5a53f3539303696c4931c1bd6398046",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2026-03-11T04:37:55.785941+00:00</updated>\n+  <updated>2026-03-11T04:56:17.594852+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "602cf85edbe0978709f5e00c722bb68e626feb30",
+        "filename": "docs/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom</id>\n   <title>Open Government Portal - Dataset: \"Government of Canada Organization Names and Codes\"</title>\n-  <updated>2026-03-11T04:37:56.445620+00:00</updated>\n+  <updated>2026-03-11T04:56:17.899471+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "7b0fcdeac6c604fd2f9971c3d645a0f2ec75aa44",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2026-03-11T04:37:55.127351+00:00</updated>\n+  <updated>2026-03-11T04:56:17.291061+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "7f5ce6d5ba8c8040870530cd7b489dcf279f64b4",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2026-03-11T04:37:56.120384+00:00</updated>\n+  <updated>2026-03-11T04:56:17.745965+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "4f57aa25a07f49c5bc2f8379a6475c6f13a99e3a",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2026-03-11T04:37:55.449913+00:00</updated>\n+  <updated>2026-03-11T04:56:17.437244+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "c283e5fb7c27ef1bb0dcc45aba570d03210c9a05",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/ddfe6ee7685be66ebac6e788008078c4f00c52c5/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=ddfe6ee7685be66ebac6e788008078c4f00c52c5",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2026-03-11T04:37:54.800454+00:00</updated>\n+  <updated>2026-03-11T04:56:17.128638+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      }
+    ]
+  },
+  {
+    "sha": "0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+    "node_id": "C_kwDOMrSvVdoAKDBjZjk1Y2RiNWZmY2RhYjA5NmRhY2NiZTM1NDBhN2I1Y2UzMjY2Mjk",
+    "commit": {
+      "author": {
+        "name": "github-actions[bot]",
+        "email": "github-actions[bot]@users.noreply.github.com",
+        "date": "2026-03-11T04:50:39Z"
+      },
+      "committer": {
+        "name": "github-actions[bot]",
+        "email": "github-actions[bot]@users.noreply.github.com",
+        "date": "2026-03-11T04:50:39Z"
+      },
+      "message": "Update usage data",
+      "tree": {
+        "sha": "35e50cbe929f8abecf1b32e9a6dc8b9eb6171bd4",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/35e50cbe929f8abecf1b32e9a6dc8b9eb6171bd4"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/0cf95cdb5ffcdab096daccbe3540a7b5ce326629",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/0cf95cdb5ffcdab096daccbe3540a7b5ce326629/comments",
+    "author": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "github-actions[bot]",
+      "id": 41898282,
+      "node_id": "MDM6Qm90NDE4OTgyODI=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+      "html_url": "https://github.com/apps/github-actions",
+      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "961d2407033f3891790741be102499023873a97f",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/961d2407033f3891790741be102499023873a97f",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/961d2407033f3891790741be102499023873a97f"
+      }
+    ],
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0
+    },
+    "files": []
+  },
+  {
+    "sha": "961d2407033f3891790741be102499023873a97f",
+    "node_id": "C_kwDOMrSvVdoAKDk2MWQyNDA3MDMzZjM4OTE3OTA3NDFiZTEwMjQ5OTAyMzg3M2E5N2Y",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:38:34Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:38:34Z"
+      },
+      "message": "Update commit data",
+      "tree": {
+        "sha": "35e50cbe929f8abecf1b32e9a6dc8b9eb6171bd4",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/35e50cbe929f8abecf1b32e9a6dc8b9eb6171bd4"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/961d2407033f3891790741be102499023873a97f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/961d2407033f3891790741be102499023873a97f",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/961d2407033f3891790741be102499023873a97f",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/961d2407033f3891790741be102499023873a97f/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/909e901be0e37f6825f78e15cc331a8e706f0ffc"
+      }
+    ],
+    "stats": {
+      "total": 7807,
+      "additions": 3591,
+      "deletions": 4216
+    },
+    "files": [
+      {
+        "sha": "d00f29aa9ac007f87a389cf7c6f99bdb96084e9b",
+        "filename": "docs/commits.json",
+        "status": "modified",
+        "additions": 3591,
+        "deletions": 4216,
+        "changes": 7807,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/961d2407033f3891790741be102499023873a97f/docs%2Fcommits.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/961d2407033f3891790741be102499023873a97f/docs%2Fcommits.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcommits.json?ref=961d2407033f3891790741be102499023873a97f"
+      }
+    ]
+  },
+  {
+    "sha": "909e901be0e37f6825f78e15cc331a8e706f0ffc",
+    "node_id": "C_kwDOMrSvVdoAKDkwOWU5MDFiZTBlMzdmNjgyNWY3OGUxNWNjMzMxYThlNzA2ZjBmZmM",
+    "commit": {
+      "author": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:38:00Z"
+      },
+      "committer": {
+        "name": "Your Name",
+        "email": "your-email@example.com",
+        "date": "2026-03-11T04:38:00Z"
+      },
+      "message": "Update fetched feeds",
+      "tree": {
+        "sha": "37721fd4bb7b33628bf9e41a4e6f3cf94d137fe4",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/37721fd4bb7b33628bf9e41a4e6f3cf94d137fe4"
+      },
+      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/909e901be0e37f6825f78e15cc331a8e706f0ffc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/909e901be0e37f6825f78e15cc331a8e706f0ffc",
+    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/909e901be0e37f6825f78e15cc331a8e706f0ffc",
+    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/909e901be0e37f6825f78e15cc331a8e706f0ffc/comments",
+    "author": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "renoschubert",
+      "id": 46114615,
+      "node_id": "MDQ6VXNlcjQ2MTE0NjE1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46114615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renoschubert",
+      "html_url": "https://github.com/renoschubert",
+      "followers_url": "https://api.github.com/users/renoschubert/followers",
+      "following_url": "https://api.github.com/users/renoschubert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renoschubert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renoschubert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renoschubert/subscriptions",
+      "organizations_url": "https://api.github.com/users/renoschubert/orgs",
+      "repos_url": "https://api.github.com/users/renoschubert/repos",
+      "events_url": "https://api.github.com/users/renoschubert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renoschubert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5669360dab4df7ee5a002755398b5e03c06bb3fb",
+        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/5669360dab4df7ee5a002755398b5e03c06bb3fb",
+        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/5669360dab4df7ee5a002755398b5e03c06bb3fb"
+      }
+    ],
+    "stats": {
+      "total": 24,
+      "additions": 12,
+      "deletions": 12
+    },
+    "files": [
+      {
+        "sha": "44bba779c239569d7e4b3b4f57c71aee4d923025",
+        "filename": "docs/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F21ffae40-8e4b-4082-a4f6-3c67f400e126.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/21ffae40-8e4b-4082-a4f6-3c67f400e126.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): gender\"</title>\n-  <updated>2026-01-25T14:03:47.373964+00:00</updated>\n+  <updated>2026-03-11T04:37:55.785941+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "5ab7d05c5fba4ab7ed5e73b2825a683e6de8e179",
+        "filename": "docs/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F57180b36-3428-4a7f-afe3-2161a6b44ec5.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/57180b36-3428-4a7f-afe3-2161a6b44ec5.atom</id>\n   <title>Open Government Portal - Dataset: \"Government of Canada Organization Names and Codes\"</title>\n-  <updated>2026-01-25T14:03:48.032106+00:00</updated>\n+  <updated>2026-03-11T04:37:56.445620+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "a118a906de66862710f8c835391eb089b9f0ceab",
+        "filename": "docs/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F980d598c-73c9-4003-b6e1-78a9a3081b6c.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/980d598c-73c9-4003-b6e1-78a9a3081b6c.atom</id>\n   <title>Open Government Portal - Dataset: \"North American Industry Classification System (NAICS) Canada 2022 Version 1.0\"</title>\n-  <updated>2026-01-25T14:03:46.718407+00:00</updated>\n+  <updated>2026-03-11T04:37:55.127351+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "466c849671bc3972fda254ec44ed27e63f3aebd1",
+        "filename": "docs/9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2F9c36431e-d916-498d-9779-0c52ce840293.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/9c36431e-d916-498d-9779-0c52ce840293.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Person(s): sex assigned at birth\"</title>\n-  <updated>2026-01-25T14:03:47.705819+00:00</updated>\n+  <updated>2026-03-11T04:37:56.120384+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "d12cad391b0db479a65dca51649d171fcff6b302",
+        "filename": "docs/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "status": "modified",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcac6fd9f-594a-4bcd-bf17-10295812d4c5.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>\n   <title>Open Government Portal - Dataset: \"Data Reference Standard on Countries, Territories and Geographic areas \"</title>\n-  <updated>2026-01-25T14:03:47.046663+00:00</updated>\n+  <updated>2026-03-11T04:37:55.449913+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>\n@@ -12,12 +12,12 @@\n   <generator uri=\"https://lkiesow.github.io/python-feedgen\" version=\"0.9.0\">python-feedgen</generator>\n   <subtitle>Recently created or updated resources on Open Government Portal for dataset: Data Reference Standard on Countries, Territories and Geographic areas </subtitle>\n   <entry>\n-    <id>tag:https://open.canada.ca,2014-01-01:/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/bdb33e8c-53ef-4bae-9493-35f343191c02</id>\n+    <id>tag:https://open.canada.ca,2014-01-01:/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/9665b984-b544-4754-84b2-46a0665622e6</id>\n     <title>Data Reference Standard on Countries, Territories and Geographic areas</title>\n-    <updated>2025-09-21T19:10:34.436159+00:00</updated>\n+    <updated>2026-03-09T17:42:46.333259+00:00</updated>\n     <content/>\n-    <link href=\"https://open.canada.ca/data/en/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/bdb33e8c-53ef-4bae-9493-35f343191c02\" rel=\"alternate\"/>\n-    <link href=\"https://open.canada.ca/data/en/api/3/action/resource_show?id=bdb33e8c-53ef-4bae-9493-35f343191c02\" rel=\"enclosure\"/>\n-    <published>2024-05-23T20:11:30.915614+00:00</published>\n+    <link href=\"https://open.canada.ca/data/en/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/9665b984-b544-4754-84b2-46a0665622e6\" rel=\"alternate\"/>\n+    <link href=\"https://open.canada.ca/data/en/api/3/action/resource_show?id=9665b984-b544-4754-84b2-46a0665622e6\" rel=\"enclosure\"/>\n+    <published>2026-03-04T14:52:57.476529+00:00</published>\n   </entry>\n </feed>"
+      },
+      {
+        "sha": "50c60630166631e751e71696caaaf138af30ef07",
+        "filename": "docs/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fcd8fad92-b276-4250-972f-2d6c40ca04fa.atom?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -2,7 +2,7 @@\n <feed xmlns=\"http://www.w3.org/2005/Atom\" xml:lang=\"en\">\n   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cd8fad92-b276-4250-972f-2d6c40ca04fa.atom</id>\n   <title>Open Government Portal - Dataset: \"Data reference standard on Canadian Provinces and Territories\"</title>\n-  <updated>2026-01-25T14:03:46.383804+00:00</updated>\n+  <updated>2026-03-11T04:37:54.800454+00:00</updated>\n   <author>\n     <name>https://open.canada.ca</name>\n   </author>"
+      },
+      {
+        "sha": "1517a58ccbba951f2c7d21049df64832eff321aa",
+        "filename": "docs/filtered_data_ratings.json",
+        "status": "modified",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Ffiltered_data_ratings.json",
+        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/909e901be0e37f6825f78e15cc331a8e706f0ffc/docs%2Ffiltered_data_ratings.json",
+        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffiltered_data_ratings.json?ref=909e901be0e37f6825f78e15cc331a8e706f0ffc",
+        "patch": "@@ -1 +1 @@\n-{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 1275040, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1275041, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1275064, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1275073, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1275212, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1275615, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1280610, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1280711, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1280825, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1281648, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1281859, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1282149, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1282395, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 1282813, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1282820, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1282841, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1282884, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1283159, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1284708, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1284789, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1284930, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 1284932, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1285504, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 1286547, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file\n+{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 1294282, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1294283, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1294306, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1294315, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1294454, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1294857, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1299852, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1299953, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1300067, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 1300890, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1301101, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1301391, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 1301637, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 1302055, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1302062, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1302083, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1302126, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1302401, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1303950, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 1304031, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1304172, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 1304174, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 1304746, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 1305789, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file"
+      }
+    ]
+  },
+  {
     "sha": "5669360dab4df7ee5a002755398b5e03c06bb3fb",
     "node_id": "C_kwDOMrSvVdoAKDU2NjkzNjBkYWI0ZGY3ZWU1YTAwMjc1NTM5OGI1ZTAzYzA2YmIzZmI",
     "commit": {
@@ -10324,458 +10846,6 @@
         "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/24a1d846727de003f1be52e59f51768930980330/docs%2Ffiltered_data_ratings.json",
         "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffiltered_data_ratings.json?ref=24a1d846727de003f1be52e59f51768930980330",
         "patch": "@@ -1 +1 @@\n-{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 287802, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287803, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287826, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287835, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287974, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 288377, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 293372, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 293473, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 293587, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 294410, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 294621, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 294911, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 295157, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 295575, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 295582, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 295603, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 295646, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 295921, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 297470, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 297551, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 297692, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 297694, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 298266, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 299309, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file\n+{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 306605, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 306606, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 306629, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 306638, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 306777, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 307180, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 312175, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 312276, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 312390, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 313213, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 313424, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 313714, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 313960, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 314378, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 314385, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 314406, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 314449, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 314724, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 316273, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 316354, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 316495, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 316497, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 317069, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 318112, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file"
-      }
-    ]
-  },
-  {
-    "sha": "b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-    "node_id": "C_kwDOMrSvVdoAKGI0YzY3NjU4OGVhYmJhZDY0N2RjZjAzOGVhMGJkNGNmNzhjNTBhYmU",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-02T06:34:53Z"
-      },
-      "committer": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-02T06:34:53Z"
-      },
-      "message": "Daily update of Directive on Service and Digital: Appendix K and directive-status.html",
-      "tree": {
-        "sha": "1fdc0a22241f0ea88f091ffbb23a65fc2c4cee60",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/1fdc0a22241f0ea88f091ffbb23a65fc2c4cee60"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/b4c676588eabbad647dcf038ea0bd4cf78c50abe/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/43fad909f9e93e169b66b2aa6b23cd880709c9bb"
-      }
-    ],
-    "stats": {
-      "total": 21,
-      "additions": 19,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "470cd8b290cdb49e2203fb93ae47c29e421ac234",
-        "filename": "docs/bar_chart_dashboard.html",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 1,
-        "changes": 10,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fbar_chart_dashboard.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fbar_chart_dashboard.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fbar_chart_dashboard.html?ref=b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-        "patch": "@@ -3114,10 +3114,18 @@ <h2 style=\"text-align: center;\">🚩Directive on Service and Digital: Appendix K\n <td>0</td>\n <td>4</td>\n <td>0</td>\n+</tr>\n+<tr>\n+<td>2026-01-01 06:34:34</td>\n+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n+<td>4</td>\n+<td>0</td>\n+<td>4</td>\n+<td>0</td>\n </tr>\n \n     <tr>\n-        <td>2026-01-01 06:34:34</td>\n+        <td>2026-01-02 06:34:52</td>\n         <td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n         <td>4</td>\n         <td>0</td>"
-      },
-      {
-        "sha": "f3da0dfccf995555b6dcd4e2b64847db4c39d73f",
-        "filename": "docs/chart_data.csv",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fchart_data.csv",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fchart_data.csv",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchart_data.csv?ref=b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-        "patch": "@@ -387,3 +387,4 @@ date,status,EN_AppK,EN_Canadaca,FR_AppK,FR_Canadaca\n 2025-12-30 06:34:25,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n 2025-12-31 06:34:50,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n 2026-01-01 06:34:34,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n+2026-01-02 06:34:52,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r"
-      },
-      {
-        "sha": "c59538d204a7c86b19a03c35538c39acdadfe814",
-        "filename": "docs/directive-status.html",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 1,
-        "changes": 10,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fdirective-status.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/b4c676588eabbad647dcf038ea0bd4cf78c50abe/docs%2Fdirective-status.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fdirective-status.html?ref=b4c676588eabbad647dcf038ea0bd4cf78c50abe",
-        "patch": "@@ -3117,10 +3117,18 @@ <h2 style=\"text-align: center;\">🚩Directive on Service and Digital: Appendix K\n <td>0</td>\n <td>4</td>\n <td>0</td>\n+</tr>\n+<tr>\n+<td>2026-01-01 06:34:34</td>\n+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n+<td>4</td>\n+<td>0</td>\n+<td>4</td>\n+<td>0</td>\n </tr>\n \n     <tr>\n-        <td>2026-01-01 06:34:34</td>\n+        <td>2026-01-02 06:34:52</td>\n         <td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n         <td>4</td>\n         <td>0</td>"
-      }
-    ]
-  },
-  {
-    "sha": "43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-    "node_id": "C_kwDOMrSvVdoAKDQzZmFkOTA5ZjllOTNlMTY5YjY2YjJhYTZiMjNjZDg4MDcwOWM5YmI",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-01T06:48:43Z"
-      },
-      "committer": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-01T06:48:43Z"
-      },
-      "message": "Update usage data",
-      "tree": {
-        "sha": "9d048757aaf3779a3cfa79cee54e2d849932e2e0",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/9d048757aaf3779a3cfa79cee54e2d849932e2e0"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/43fad909f9e93e169b66b2aa6b23cd880709c9bb/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "6da69a95709d02f5e638a78bc675484024384735",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6da69a95709d02f5e638a78bc675484024384735",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/6da69a95709d02f5e638a78bc675484024384735"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "c795613288fed3d40ca65e2b0413cff7258c9b00",
-        "filename": "docs/filtered_data_ratings.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/43fad909f9e93e169b66b2aa6b23cd880709c9bb/docs%2Ffiltered_data_ratings.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/43fad909f9e93e169b66b2aa6b23cd880709c9bb/docs%2Ffiltered_data_ratings.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffiltered_data_ratings.json?ref=43fad909f9e93e169b66b2aa6b23cd880709c9bb",
-        "patch": "@@ -1 +1 @@\n-{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 269003, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269004, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269027, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269036, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269175, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269578, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 274573, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 274674, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 274788, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 275611, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 275822, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276112, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 276358, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 276776, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276783, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 276804, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276847, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 277122, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 278671, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 278752, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 278893, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 278895, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 279467, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 280510, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file\n+{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 287802, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287803, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287826, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287835, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 287974, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 288377, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 293372, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 293473, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 293587, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 294410, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 294621, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 294911, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 295157, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 295575, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 295582, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 295603, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 295646, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 295921, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 297470, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 297551, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 297692, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 297694, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 298266, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 299309, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file"
-      }
-    ]
-  },
-  {
-    "sha": "6da69a95709d02f5e638a78bc675484024384735",
-    "node_id": "C_kwDOMrSvVdoAKDZkYTY5YTk1NzA5ZDAyZjVlNjM4YTc4YmM2NzU0ODQwMjQzODQ3MzU",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-01T06:34:35Z"
-      },
-      "committer": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2026-01-01T06:34:35Z"
-      },
-      "message": "Daily update of Directive on Service and Digital: Appendix K and directive-status.html",
-      "tree": {
-        "sha": "ec7f8d46c120ad00fa7eb4c95cbc99e78940b19e",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/ec7f8d46c120ad00fa7eb4c95cbc99e78940b19e"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/6da69a95709d02f5e638a78bc675484024384735",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6da69a95709d02f5e638a78bc675484024384735",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/6da69a95709d02f5e638a78bc675484024384735",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/6da69a95709d02f5e638a78bc675484024384735/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "3048140334419335e806dc62ed3646779c33caae",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3048140334419335e806dc62ed3646779c33caae",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/3048140334419335e806dc62ed3646779c33caae"
-      }
-    ],
-    "stats": {
-      "total": 21,
-      "additions": 19,
-      "deletions": 2
-    },
-    "files": [
-      {
-        "sha": "9c3e30eff5d077bd734fcffa388b9e05f2719cfa",
-        "filename": "docs/bar_chart_dashboard.html",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 1,
-        "changes": 10,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/6da69a95709d02f5e638a78bc675484024384735/docs%2Fbar_chart_dashboard.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/6da69a95709d02f5e638a78bc675484024384735/docs%2Fbar_chart_dashboard.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fbar_chart_dashboard.html?ref=6da69a95709d02f5e638a78bc675484024384735",
-        "patch": "@@ -3106,10 +3106,18 @@ <h2 style=\"text-align: center;\">🚩Directive on Service and Digital: Appendix K\n <td>0</td>\n <td>4</td>\n <td>0</td>\n+</tr>\n+<tr>\n+<td>2025-12-31 06:34:50</td>\n+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n+<td>4</td>\n+<td>0</td>\n+<td>4</td>\n+<td>0</td>\n </tr>\n \n     <tr>\n-        <td>2025-12-31 06:34:50</td>\n+        <td>2026-01-01 06:34:34</td>\n         <td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n         <td>4</td>\n         <td>0</td>"
-      },
-      {
-        "sha": "f855750692da2440d513a70b6c81be8c5b6ee915",
-        "filename": "docs/chart_data.csv",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 0,
-        "changes": 1,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/6da69a95709d02f5e638a78bc675484024384735/docs%2Fchart_data.csv",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/6da69a95709d02f5e638a78bc675484024384735/docs%2Fchart_data.csv",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fchart_data.csv?ref=6da69a95709d02f5e638a78bc675484024384735",
-        "patch": "@@ -386,3 +386,4 @@ date,status,EN_AppK,EN_Canadaca,FR_AppK,FR_Canadaca\n 2025-12-29 06:35:58,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n 2025-12-30 06:34:25,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n 2025-12-31 06:34:50,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r\n+2026-01-01 06:34:34,🚩Directive on Service and Digital: Appendix K not updated 🆖,4,0,4,0\r"
-      },
-      {
-        "sha": "ffa1d834b662021cac088dcfcd828af0e4bb386f",
-        "filename": "docs/directive-status.html",
-        "status": "modified",
-        "additions": 9,
-        "deletions": 1,
-        "changes": 10,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/6da69a95709d02f5e638a78bc675484024384735/docs%2Fdirective-status.html",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/6da69a95709d02f5e638a78bc675484024384735/docs%2Fdirective-status.html",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Fdirective-status.html?ref=6da69a95709d02f5e638a78bc675484024384735",
-        "patch": "@@ -3109,10 +3109,18 @@ <h2 style=\"text-align: center;\">🚩Directive on Service and Digital: Appendix K\n <td>0</td>\n <td>4</td>\n <td>0</td>\n+</tr>\n+<tr>\n+<td>2025-12-31 06:34:50</td>\n+<td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n+<td>4</td>\n+<td>0</td>\n+<td>4</td>\n+<td>0</td>\n </tr>\n \n     <tr>\n-        <td>2025-12-31 06:34:50</td>\n+        <td>2026-01-01 06:34:34</td>\n         <td>🚩Directive on Service and Digital: Appendix K not updated 🆖</td>\n         <td>4</td>\n         <td>0</td>"
-      }
-    ]
-  },
-  {
-    "sha": "3048140334419335e806dc62ed3646779c33caae",
-    "node_id": "C_kwDOMrSvVdoAKDMwNDgxNDAzMzQ0MTkzMzVlODA2ZGM2MmVkMzY0Njc3OWMzM2NhYWU",
-    "commit": {
-      "author": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2025-12-31T06:48:05Z"
-      },
-      "committer": {
-        "name": "github-actions[bot]",
-        "email": "github-actions[bot]@users.noreply.github.com",
-        "date": "2025-12-31T06:48:05Z"
-      },
-      "message": "Update usage data",
-      "tree": {
-        "sha": "c3bfc98c6f8910656414d66a8f0a9921b41983e8",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/trees/c3bfc98c6f8910656414d66a8f0a9921b41983e8"
-      },
-      "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/git/commits/3048140334419335e806dc62ed3646779c33caae",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
-    },
-    "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3048140334419335e806dc62ed3646779c33caae",
-    "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/3048140334419335e806dc62ed3646779c33caae",
-    "comments_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/3048140334419335e806dc62ed3646779c33caae/comments",
-    "author": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "committer": {
-      "login": "github-actions[bot]",
-      "id": 41898282,
-      "node_id": "MDM6Qm90NDE4OTgyODI=",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/github-actions%5Bbot%5D",
-      "html_url": "https://github.com/apps/github-actions",
-      "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
-      "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
-      "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
-      "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
-      "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
-      "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
-      "type": "Bot",
-      "user_view_type": "public",
-      "site_admin": false
-    },
-    "parents": [
-      {
-        "sha": "7f2c5c4afd501d76e2a29c50fcfca714e1d8aa71",
-        "url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/commits/7f2c5c4afd501d76e2a29c50fcfca714e1d8aa71",
-        "html_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/commit/7f2c5c4afd501d76e2a29c50fcfca714e1d8aa71"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "additions": 1,
-      "deletions": 1
-    },
-    "files": [
-      {
-        "sha": "5110a4aa0a1cb343c390a770fa277a9214366afe",
-        "filename": "docs/filtered_data_ratings.json",
-        "status": "modified",
-        "additions": 1,
-        "deletions": 1,
-        "changes": 2,
-        "blob_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/blob/3048140334419335e806dc62ed3646779c33caae/docs%2Ffiltered_data_ratings.json",
-        "raw_url": "https://github.com/PatLittle/GC-Ref-Data-Tracker/raw/3048140334419335e806dc62ed3646779c33caae/docs%2Ffiltered_data_ratings.json",
-        "contents_url": "https://api.github.com/repos/PatLittle/GC-Ref-Data-Tracker/contents/docs%2Ffiltered_data_ratings.json?ref=3048140334419335e806dc62ed3646779c33caae",
-        "patch": "@@ -1 +1 @@\n-{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 250212, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 250213, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 250236, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 250245, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 250384, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 250787, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 255782, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 255883, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 255997, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 256820, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 257031, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 257321, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 257567, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 257985, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 257992, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 258013, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 258056, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 258331, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 259880, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 259961, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 260102, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 260104, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 260676, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 261719, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file\n+{\"filters\": {\"uuid\": [\"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"21ffae40-8e4b-4082-a4f6-3c67f400e126\", \"9c36431e-d916-498d-9779-0c52ce840293\", \"57180b36-3428-4a7f-afe3-2161a6b44ec5\"]}, \"include_total\": true, \"limit\": 100, \"records_format\": \"objects\", \"resource_id\": \"8353523a-8e4e-4cd0-a91e-b42abe2e6ee5\", \"total_estimation_threshold\": null, \"records\": [{\"_id\": 269003, \"date\": \"2021-08-11T20:33:52\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269004, \"date\": \"2021-08-11T20:51:07\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269027, \"date\": \"2021-08-12T18:02:45\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269036, \"date\": \"2021-08-13T17:17:38\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269175, \"date\": \"2021-08-27T01:42:35\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 269578, \"date\": \"2021-10-04T13:50:27\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 274573, \"date\": \"2023-03-29T16:53:01\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 274674, \"date\": \"2023-04-10T18:52:16\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 274788, \"date\": \"2023-04-23T12:36:38\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"1\"}, {\"_id\": 275611, \"date\": \"2023-08-15T22:11:14\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 275822, \"date\": \"2023-09-19T18:47:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276112, \"date\": \"2023-10-27T13:42:00\", \"uuid\": \"cd8fad92-b276-4250-972f-2d6c40ca04fa\", \"rating_eval\": \"5\"}, {\"_id\": 276358, \"date\": \"2023-12-04T20:12:54\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"2\"}, {\"_id\": 276776, \"date\": \"2024-01-25T16:22:14\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276783, \"date\": \"2024-01-27T22:22:01\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 276804, \"date\": \"2024-01-30T14:09:28\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 276847, \"date\": \"2024-02-06T20:19:56\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 277122, \"date\": \"2024-03-07T14:58:36\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 278671, \"date\": \"2024-09-20T15:21:22\", \"uuid\": \"cac6fd9f-594a-4bcd-bf17-10295812d4c5\", \"rating_eval\": \"5\"}, {\"_id\": 278752, \"date\": \"2024-10-01T16:36:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 278893, \"date\": \"2024-10-18T15:07:20\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 278895, \"date\": \"2024-10-18T18:14:26\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}, {\"_id\": 279467, \"date\": \"2025-01-21T20:27:37\", \"uuid\": \"57180b36-3428-4a7f-afe3-2161a6b44ec5\", \"rating_eval\": \"5\"}, {\"_id\": 280510, \"date\": \"2025-08-12T14:44:22\", \"uuid\": \"980d598c-73c9-4003-b6e1-78a9a3081b6c\", \"rating_eval\": \"5\"}], \"fields\": [{\"id\": \"_id\", \"type\": \"int\"}, {\"id\": \"date\", \"type\": \"timestamp\", \"info\": {\"label_en\": \"date\", \"label_fr\": \"date\", \"notes_en\": \"Date and time of the rating\", \"notes_fr\": \"Date et heure de la notation\", \"type_override\": \"timestamp\"}}, {\"id\": \"uuid\", \"type\": \"text\", \"info\": {\"label_en\": \"dataset ID\", \"label_fr\": \"ID du jeu de donn\\u00e9es\", \"notes_en\": \"ID of the dataset\\r\\n\\r\\n * The dataset can be found at the URL https://open.canada.ca/data/en/dataset/ `  {ID} `\", \"notes_fr\": \"ID du jeu de donn\\u00e9es\\r\\n\\r\\n * Le jeu de donn\\u00e9es est accessible \\u00e0 l'adresse URL https://ouvert.canada.ca/data/fr/dataset/ `   {ID} `\", \"type_override\": \"\"}}, {\"id\": \"rating_eval\", \"type\": \"text\", \"info\": {\"label_en\": \"rating\", \"label_fr\": \"notation\", \"notes_en\": \"user rating from 1-5\", \"notes_fr\": \"note des utilisateurs de 1 \\u00e0 5\", \"type_override\": \"\"}}], \"_links\": {\"start\": \"/api/action/datastore_search\", \"next\": \"/api/action/datastore_search?offset=100\"}, \"total\": 24, \"total_was_estimated\": false}\n\\ No newline at end of file"
       }
     ]
   }
