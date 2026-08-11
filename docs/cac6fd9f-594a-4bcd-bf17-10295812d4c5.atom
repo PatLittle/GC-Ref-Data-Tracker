@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>tag:https://open.canada.ca,2014-01-01:/feeds/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5.atom</id>
   <title>Open Government Portal - Dataset: "Data Reference Standard on Countries, Territories and Geographic areas "</title>
-  <updated>2026-03-11T04:56:17.437244+00:00</updated>
+  <updated>2026-08-11T05:41:30.890088+00:00</updated>
   <author>
     <name>https://open.canada.ca</name>
   </author>
@@ -14,7 +14,7 @@
   <entry>
     <id>tag:https://open.canada.ca,2014-01-01:/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/9665b984-b544-4754-84b2-46a0665622e6</id>
     <title>Data Reference Standard on Countries, Territories and Geographic areas</title>
-    <updated>2026-03-09T17:42:46.333259+00:00</updated>
+    <updated>2026-08-10T15:31:13.776714+00:00</updated>
     <content/>
     <link href="https://open.canada.ca/data/en/dataset/cac6fd9f-594a-4bcd-bf17-10295812d4c5/resource/9665b984-b544-4754-84b2-46a0665622e6" rel="alternate"/>
     <link href="https://open.canada.ca/data/en/api/3/action/resource_show?id=9665b984-b544-4754-84b2-46a0665622e6" rel="enclosure"/>
